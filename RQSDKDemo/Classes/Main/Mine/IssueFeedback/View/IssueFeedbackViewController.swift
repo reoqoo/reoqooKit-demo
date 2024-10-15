@@ -26,13 +26,13 @@ class IssueFeedbackViewController: BaseViewController {
 
     /// 底部 attributedString
     let emailSendingIntroductionAttributeString: NSMutableAttributedString = {
-        let content = String.localization.localized("AA0412", note: "问题比较紧急?您还可以发邮件反馈") + "\n" + UIApplication.feedbackContractEmail
+        let content = String.localization.localized("AA0412", note: "问题比较紧急?您还可以发邮件反馈") + "\n" + "c-service@reoqoo.com"
         let res = NSMutableAttributedString.init(string: content)
         let paragraphStyle = NSMutableParagraphStyle.init()
         paragraphStyle.alignment = .center
         res.addAttributes([.foregroundColor: R.color.text_000000_38()!, .font: UIFont.systemFont(ofSize: 12), .paragraphStyle: paragraphStyle], range: .init(location: 0, length: content.count))
-        let emailRange = (content as NSString).range(of: UIApplication.feedbackContractEmail)
-        let emailAsURL = URL.init(string: UIApplication.feedbackContractEmail)!
+        let emailRange = (content as NSString).range(of: "c-service@reoqoo.com")
+        let emailAsURL = URL.init(string: "c-service@reoqoo.com")!
         res.addAttributes([.link: emailAsURL], range: emailRange)
         return res
     }()
@@ -134,8 +134,8 @@ extension IssueFeedbackViewController: UITextViewDelegate {
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
         if textView != self.emailSendingIntroductionTextView { return false }
         guard let _ = self.emailSendingIntroductionTextView else { return true }
-        UIPasteboard.general.string = UIApplication.feedbackContractEmail
-        MBProgressHUD.showHUD_DispatchOnMainThread(text: UIApplication.feedbackContractEmail + String.localization.localized("AA0268", note: "复制成功"))
+        UIPasteboard.general.string = "c-service@reoqoo.com"
+        MBProgressHUD.showHUD_DispatchOnMainThread(text: "c-service@reoqoo.com" + String.localization.localized("AA0268", note: "复制成功"))
         return false
     }
 }

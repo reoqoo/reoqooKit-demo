@@ -7,6 +7,7 @@
 
 import Foundation
 import IVBLE
+import CoreBluetooth
 
 extension IVBLENetCfgManager {
     // 对权限 检查 和 获取 进行封装 SwiftCombine

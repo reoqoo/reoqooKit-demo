@@ -13,9 +13,6 @@ extension FamilyViewController2 {
         /// 设备分享请求发布者
         public lazy var deviceShareInviteObservable: RxSwift.PublishSubject<MessageCenter.DeviceShareInviteModel> = .init()
 
-        /// 供 View 监听, 以弹出 首页顶部Banner
-        public let headerBannerSubject: RxSwift.PublishSubject<IVBBSMgr.Banner> = .init()
-
         /// 当分享邀请被处理(接受/拒绝)后, 会触发此发布者
         public let shareInviteHandlingResultObservable: RxSwift.PublishSubject<(String, Bool)> = .init()
 
@@ -30,8 +27,6 @@ extension FamilyViewController2 {
                 case .NOTIFY_USER_MSG_UPDATE:
                     // 刷新邀请消息
                     self?.checkOutInviteMessage()
-                    // 刷新公告消息
-                    self?.fetchNotices()
                 case .NOTIFY_SYS: //消息中心刷新通知
                     if let deviceId = onlineMsg.isGuestDidBind { 
                         // 接受设备分享通知
@@ -43,17 +38,6 @@ extension FamilyViewController2 {
                 default: break
                 }
             }.disposed(by: self.disposeBag)
-        }
-
-        // 展示浮窗/顶部banner
-        func fetchNotices() {
-            let bbsMsgMgr = RQCore.Agent.shared.ivBBSMgr
-            bbsMsgMgr.checkOut { [weak bbsMsgMgr, weak self] suc in
-                if let banner = bbsMsgMgr?.getBannerInfo(of: .home) {
-                    logInfo("展示首页顶部Banner: ", banner.picUrl as Any, banner.url as Any)
-                    self?.headerBannerSubject.onNext(banner)
-                }
-            }
         }
 
         // 获取用户邀请消息

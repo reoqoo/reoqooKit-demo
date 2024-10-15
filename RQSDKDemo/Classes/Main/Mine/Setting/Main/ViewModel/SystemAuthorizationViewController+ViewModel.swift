@@ -8,6 +8,7 @@
 import Foundation
 import CoreLocation
 import CoreBluetooth
+import Photos
 
 extension SystemAuthorizationViewController {
     class ViewModel {

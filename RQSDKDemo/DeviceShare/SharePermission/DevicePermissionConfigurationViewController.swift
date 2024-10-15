@@ -49,16 +49,15 @@ class DevicePermissionConfigurationViewController: BaseViewController {
         self.contentViewController.tableView.backgroundColor = .systemGroupedBackground
         
         let hud = MBProgressHUD.showLoadingHUD_DispatchOnMainThread()
-        DHReoqooApi.getDeviceSharedPermission(self.deviceId) { [weak self] code, des, sharePermission in
-            guard let sharePermission = sharePermission as? DHSharedPermission else { return }
+        RQCore.Agent.shared.getDeviceSharedPermission(deviceId: deviceId) { [weak self] _, _, sharePermission in
             self?.dataSources[0][0].isValid = true
-            self?.dataSources[0][1].isValid = sharePermission.enableSpeakPermission
-            self?.dataSources[0][2].isValid = sharePermission.enablePtzPermission
+            self?.dataSources[0][1].isValid = sharePermission?.enableSpeakPermission ?? false
+            self?.dataSources[0][2].isValid = sharePermission?.enablePtzPermission ?? false
 
-            self?.dataSources[1][0].isValid = sharePermission.enablePlaybackPermission
+            self?.dataSources[1][0].isValid = sharePermission?.enablePlaybackPermission ?? false
 
-            self?.dataSources[2][0].isValid = sharePermission.enableSmartGuardPermission
-            self?.dataSources[2][1].isValid = sharePermission.enableDevConfigPermission
+            self?.dataSources[2][0].isValid = sharePermission?.enableSmartGuardPermission ?? false
+            self?.dataSources[2][1].isValid = sharePermission?.enableDevConfigPermission ?? false
 
             self?.contentViewController.tableView.reloadData()
             hud.hideDispatchOnMainThread(afterDelay: 0)
@@ -72,20 +71,16 @@ extension DevicePermissionConfigurationViewController: SelectSharePermissionTabl
         // 赋值到 dataSources
         self.dataSources[indexPath.section][indexPath.row].isValid.toggle()
         // 组建 DHSharedPermission
-        let permission = DHSharedPermission.init()
-        permission.enableSpeakPermission = self.dataSources[0][1].isValid
-        permission.enablePtzPermission = self.dataSources[0][2].isValid
-        permission.enablePlaybackPermission = self.dataSources[1][0].isValid
-        permission.enableSmartGuardPermission = self.dataSources[2][0].isValid
-        permission.enableDevConfigPermission = self.dataSources[2][1].isValid
+        let permission = RQCore.DeviceSharePermission.init(enableSpeakPermission: self.dataSources[0][1].isValid, enablePtzPermission: self.dataSources[0][2].isValid, enablePlaybackPermission: self.dataSources[1][0].isValid, enableSmartGuardPermission: self.dataSources[2][0].isValid, enableDevConfigPermission: self.dataSources[2][1].isValid)
         // 进入等待状态
         controller.setSwitchState(.wait, atIndexPath: indexPath)
         // 发起修改请求
-        DHReoqooApi.setDeviceSharedPermission(permission, deviceId: deviceId) { [weak self] code, dest, permission in
+
+        RQCore.Agent.shared.setDeviceSharedPermission(sharePermission: permission) { [weak self] code, desc, permission in
             if code != 0 {
                 // 出错了, 复位 isValid 值
                 self?.dataSources[indexPath.section][indexPath.row].isValid.toggle()
-                MBProgressHUD.showHUD_DispatchOnMainThread(text: dest ?? "")
+                MBProgressHUD.showHUD_DispatchOnMainThread(text: desc ?? "")
             }
             controller.tableView.reloadData()
         }

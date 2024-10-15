@@ -58,7 +58,6 @@
 		C4BCA1302CA64FE200621BC7 /* UIApplication+SandboxPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDC2CA64FE000621BC7 /* UIApplication+SandboxPath.swift */; };
 		C4BCA1312CA64FE200621BC7 /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDD2CA64FE000621BC7 /* UserDefaults+Key.swift */; };
 		C4BCA1322CA64FE200621BC7 /* IVLanguageCode+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDE2CA64FE000621BC7 /* IVLanguageCode+.swift */; };
-		C4BCA1332CA64FE200621BC7 /* UIApplication+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDF2CA64FE000621BC7 /* UIApplication+Info.swift */; };
 		C4BCA1342CA64FE200621BC7 /* URL+Static.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE02CA64FE000621BC7 /* URL+Static.swift */; };
 		C4BCA1352CA64FE200621BC7 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE22CA64FE000621BC7 /* NSBundle+Language.m */; };
 		C4BCA1362CA64FE200621BC7 /* Codable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE42CA64FE000621BC7 /* Codable+.swift */; };
@@ -1953,7 +1952,6 @@
 				C4BCA1AA2CA64FE300621BC7 /* AuthorizationStatusTableViewHeader.swift in Sources */,
 				C4BCA1052CA64FE200621BC7 /* R.generated.swift in Sources */,
 				C4BCA1182CA64FE200621BC7 /* ReoqooAlertViewController.swift in Sources */,
-				C4BCA1332CA64FE200621BC7 /* UIApplication+Info.swift in Sources */,
 				C4BCA11B2CA64FE200621BC7 /* PageSheetStyleViewController.swift in Sources */,
 				C4BCA1262CA64FE200621BC7 /* RegionConfirmationViewController.swift in Sources */,
 				C4BCA1C02CA64FE300621BC7 /* DeviceShare+Api.swift in Sources */,

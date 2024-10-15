@@ -194,11 +194,6 @@ class FamilyViewController2: BaseViewController {
             self?.removeInviteBanner(withDeviceId: device_id)
         }.disposed(by: self.disposeBag)
 
-        // 查询到新的公告消息, 显示于首页顶部banner区域
-        self.vm.headerBannerSubject.subscribe { [weak self] bannerItem in
-            self?.showBannerIfNeed(bannerItem)
-        }.disposed(by: self.disposeBag)
-
         // 下拉刷新
         self.mj_header.rx.refreshing.bind { [weak self] _ in
             self?.vm.checkOutInviteMessage()
@@ -285,31 +280,11 @@ extension FamilyViewController2 {
 // 在显示 Banner 的过程中, 只管关注 Banner 实例都是 FamilyViewControllerBanner 类型, 不会关注其本身的实际类型
 // 取得 FamilyViewControllerBanner 实例后, 根据视图容器中当前显示的 banner, 优先级, 将 banner 插入到显示容器
 extension FamilyViewController2 {
-    
-    // 显示公告Banner
-    func showBannerIfNeed(_ bannerItem: IVBBSMgr.Banner) {
-        let banner = self.createBanner(bannerItem)
-        self.insertBanner(banner)
-    }
 
     // 显示设备分享邀请Banner
     func showBannerIfNeed(_ inviteModel: MessageCenter.DeviceShareInviteModel) {
         let banner = self.createBanner(inviteModel)
         self.insertBanner(banner)
-    }
-
-    /// 创建公告banner
-    func createBanner(_ bannerItem: IVBBSMgr.Banner) -> FamilyViewControllerBanner {
-        let banner = NoticeBanner.init(bannerItem: bannerItem)
-        banner.closeBtn.rx.tap.bind { [weak self, weak banner] _ in
-            self?.removeBanner(banner)
-        }.disposed(by: banner.externalDisposeBag)
-
-        banner.didTapObservable.bind { [weak self] url in
-            let vc = WebViewController(url: url)
-            self?.navigationController?.pushViewController(vc, animated: true)
-        }.disposed(by: self.disposeBag)
-        return banner
     }
 
     // 创建分享邀请banner

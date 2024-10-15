@@ -163,7 +163,7 @@ class FirmwareUpgradeTask: Codable {
     private func letDeviceConfirmUpgradeObservable() -> Single<Void> {
         let deviceId = self.deviceId
         let obs = Single<Void>.create { observer in
-            IVDevMgr.shared.searchNewestOtaVersion(of: deviceId) { error in
+            RQCore.Agent.shared.ivDevMgr.searchNewestOtaVersion(of: deviceId) { error in
                 if let error {
                     observer(.failure(error))
                 }else{
@@ -184,7 +184,7 @@ class FirmwareUpgradeTask: Codable {
     private func letDeviceBeginUpgradeObservable() -> Single<Void> {
         let deviceId = self.deviceId
         let obs = Single<Void>.create { observer in
-            IVDevMgr.shared.performUpdate(of: deviceId) { error in
+            RQCore.Agent.shared.ivDevMgr.performUpdate(of: deviceId) { error in
                 if let error {
                     observer(.failure(error))
                 }else{
@@ -205,7 +205,7 @@ class FirmwareUpgradeTask: Codable {
     private func checkVersionObservable() -> Single<String> {
         let deviceId = self.deviceId
         return Single.create { observer in
-            IVDevMgr.shared.getSoftwareVersion(of: deviceId) { swVer, error in
+            RQCore.Agent.shared.ivDevMgr.getSoftwareVersion(of: deviceId) { swVer, error in
                 if let err = error {
                     observer(.failure(err))
                 }else{

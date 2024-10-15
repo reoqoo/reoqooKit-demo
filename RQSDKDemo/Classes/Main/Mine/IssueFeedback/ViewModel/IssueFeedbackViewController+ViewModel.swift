@@ -8,6 +8,7 @@
 import Foundation
 import RQImagePicker
 import SSZipArchive
+import IVDevTools
 
 extension IssueFeedbackViewController {
     class ViewModel {

@@ -67,16 +67,12 @@ extension RQSDKDelegate: RQCore.Delegate {
         case .cloudServices:
             let device = DeviceManager2.fetchDevice(deviceId)
             let vc = VASServiceWebViewController.init(url: StandardConfiguration.shared.vasH5URL, device: device)
-            if let properties = properties {
-                vc.entrySource = properties[DophiGoHiLinkCommon.ReoqooOpenViewData_EntrySourceKey] as? String
-            }
+            vc.statisticsProperties = properties
             navigationVC.pushViewController(vc, animated: true)
         case .simCardServices:
             let device = DeviceManager2.fetchDevice(deviceId)
             let vc = VASServiceWebViewController.init(url: StandardConfiguration.shared.fourGFluxH5URL, device: device)
-            if let param = properties {
-                vc.entrySource = param[DophiGoHiLinkCommon.ReoqooOpenViewData_EntrySourceKey] as? String
-            }
+            vc.statisticsProperties = properties
             navigationVC.pushViewController(vc, animated: true)
         default: break
         }

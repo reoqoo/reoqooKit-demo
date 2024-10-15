@@ -77,7 +77,7 @@ extension MessageCenterSubLevelViewController {
         /// 从服务器获取二级消息模型 发布者
         func requestSecondLevelMessageListObservable(_ tag: MessageCenter.MessageTag, lastId: Int64?, size: Int = 15) -> Single<[MessageCenter.SecondLevelMessageItem]> {
             Single<JSON>.create { observer in
-                IVMessageCenterMgr.share.secondMessageList(tag: tag.rawValue, lastId: lastId, size: size) {
+                RQCore.Agent.shared.ivMsgMgr.secondMessageList(tag: tag.rawValue, lastId: lastId, size: size) {
                     let result = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
                     observer(result)
                 }

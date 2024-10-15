@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import DophiGoHiLink
+import DophiGoHiLinkIV
 
 extension DeviceManager2 {
     // 描述删除操作是从哪里发生的

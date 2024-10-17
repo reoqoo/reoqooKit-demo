@@ -41,7 +41,6 @@ class MessageCenterViewController: BaseViewController {
 
     lazy var scrollableTabBarItems: [ScrollableTabBar.Item] = [
         .init(title: String.localization.localized("AA0604", note: "系统通知"), font: .systemFont(ofSize: 16)),
-        .init(title: String.localization.localized("AA0601", note: "活动福利"), font: .systemFont(ofSize: 16))
     ]
 
     lazy var scrollableTabbar: ScrollableTabBar = .init().then {
@@ -72,12 +71,10 @@ class MessageCenterViewController: BaseViewController {
     }
 
     let systemMessageViewController = SystemMessageViewController.init()
-    let welfareActivityViewController = WelfareActivityViewController.init()
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         self.addChild(self.systemMessageViewController)
-        self.addChild(self.welfareActivityViewController)
     }
     
     required init?(coder: NSCoder) {

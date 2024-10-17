@@ -4747,27 +4747,9 @@ struct _R: Sendable {
     var text_link_4A68A6: RswiftResources.ColorResource { .init(name: "text_link_4A68A6", path: [], bundle: bundle) }
   }
 
-  /// This `_R.image` struct is generated, and contains static references to 133 images.
+  /// This `_R.image` struct is generated, and contains static references to 127 images.
   struct image {
     let bundle: Foundation.Bundle
-
-    /// Image `DeviceAddition.Connect.Failure`.
-    var deviceAdditionConnectFailure: RswiftResources.ImageResource { .init(name: "DeviceAddition.Connect.Failure", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `DeviceAddition.DeviceQRCodeBg`.
-    var deviceAdditionDeviceQRCodeBg: RswiftResources.ImageResource { .init(name: "DeviceAddition.DeviceQRCodeBg", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `DeviceAddition.NoBluetoothAuthorization`.
-    var deviceAdditionNoBluetoothAuthorization: RswiftResources.ImageResource { .init(name: "DeviceAddition.NoBluetoothAuthorization", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `DeviceAddition.WiFiConnectionGuide`.
-    var deviceAdditionWiFiConnectionGuide: RswiftResources.ImageResource { .init(name: "DeviceAddition.WiFiConnectionGuide", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `DeviceAddition.iPhone.sketch`.
-    var deviceAdditionIPhoneSketch: RswiftResources.ImageResource { .init(name: "DeviceAddition.iPhone.sketch", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `DeviceAddition.iPhone.sketch.2`.
-    var deviceAdditionIPhoneSketch2: RswiftResources.ImageResource { .init(name: "DeviceAddition.iPhone.sketch.2", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `app.logo.216`.
     var appLogo216: RswiftResources.ImageResource { .init(name: "app.logo.216", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
@@ -5199,7 +5181,7 @@ struct _R: Sendable {
     }
   }
 
-  /// This `_R.file` struct is generated, and contains static references to 3 resource files.
+  /// This `_R.file` struct is generated, and contains static references to 4 resource files.
   struct file {
     let bundle: Foundation.Bundle
 
@@ -5211,6 +5193,9 @@ struct _R: Sendable {
 
     /// Resource file `family_update.json`.
     var family_updateJson: RswiftResources.FileResource { .init(name: "family_update", pathExtension: "json", bundle: bundle, locale: LocaleReference.none) }
+
+    /// Resource file `receive_call.mp3`.
+    var receive_callMp3: RswiftResources.FileResource { .init(name: "receive_call", pathExtension: "mp3", bundle: bundle, locale: LocaleReference.none) }
   }
 
   /// This `_R.nib` struct is generated, and contains static references to 1 nibs.

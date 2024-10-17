@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C485571A2CBFA7F300FF6835 /* receive_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C48557192CBFA7F300FF6835 /* receive_call.mp3 */; };
 		C4BC98512CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */; };
 		C4BC98522CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C4BC9B352CA5821E00621BC7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BC9B342CA5821E00621BC7 /* VideoToolbox.framework */; };
@@ -133,9 +134,7 @@
 		C4BCA1892CA64FE300621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA07E2CA64FE100621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift */; };
 		C4BCA18A2CA64FE300621BC7 /* MessageCenterSubLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA07F2CA64FE100621BC7 /* MessageCenterSubLevelViewController.swift */; };
 		C4BCA18B2CA64FE300621BC7 /* SystemMessageViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0822CA64FE100621BC7 /* SystemMessageViewController+ViewModel.swift */; };
-		C4BCA18C2CA64FE300621BC7 /* WelfareActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0842CA64FE100621BC7 /* WelfareActivityViewController.swift */; };
 		C4BCA18D2CA64FE300621BC7 /* FirstLevelMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0862CA64FE100621BC7 /* FirstLevelMessageTableViewCell.swift */; };
-		C4BCA18E2CA64FE300621BC7 /* WelfareActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0872CA64FE100621BC7 /* WelfareActivityTableViewCell.swift */; };
 		C4BCA18F2CA64FE300621BC7 /* SystemMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0882CA64FE100621BC7 /* SystemMessageViewController.swift */; };
 		C4BCA1902CA64FE300621BC7 /* SystemMessageViewController+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0892CA64FE100621BC7 /* SystemMessageViewController+Header.swift */; };
 		C4BCA1912CA64FE300621BC7 /* MessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA08A2CA64FE100621BC7 /* MessageCenterViewController.swift */; };
@@ -219,6 +218,7 @@
 		4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RQSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C48557192CBFA7F300FF6835 /* receive_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = receive_call.mp3; sourceTree = "<group>"; };
 		C49974F22CBE02A000C12481 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		C4BC905B2CA43FF700621BC7 /* RQSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BC92C02CA55B2F00621BC7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -357,9 +357,7 @@
 		C4BCA07E2CA64FE100621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageCenterSubLevelViewController+TableViewCell.swift"; sourceTree = "<group>"; };
 		C4BCA07F2CA64FE100621BC7 /* MessageCenterSubLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenterSubLevelViewController.swift; sourceTree = "<group>"; };
 		C4BCA0822CA64FE100621BC7 /* SystemMessageViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SystemMessageViewController+ViewModel.swift"; sourceTree = "<group>"; };
-		C4BCA0842CA64FE100621BC7 /* WelfareActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelfareActivityViewController.swift; sourceTree = "<group>"; };
 		C4BCA0862CA64FE100621BC7 /* FirstLevelMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLevelMessageTableViewCell.swift; sourceTree = "<group>"; };
-		C4BCA0872CA64FE100621BC7 /* WelfareActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelfareActivityTableViewCell.swift; sourceTree = "<group>"; };
 		C4BCA0882CA64FE100621BC7 /* SystemMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemMessageViewController.swift; sourceTree = "<group>"; };
 		C4BCA0892CA64FE100621BC7 /* SystemMessageViewController+Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SystemMessageViewController+Header.swift"; sourceTree = "<group>"; };
 		C4BCA08A2CA64FE100621BC7 /* MessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenterViewController.swift; sourceTree = "<group>"; };
@@ -500,6 +498,7 @@
 				C4BCA0142CA64FE000621BC7 /* family_power_off.json */,
 				C4BCA0262CA64FE100621BC7 /* family_power_on.json */,
 				C4BCA0282CA64FE100621BC7 /* family_update.json */,
+				C48557192CBFA7F300FF6835 /* receive_call.mp3 */,
 				C4BCA0182CA64FE000621BC7 /* import.swift */,
 				C4BCA01C2CA64FE000621BC7 /* Info.plist */,
 				C4BC9F822CA64FDE00621BC7 /* Localization.swift */,
@@ -1236,7 +1235,6 @@
 		C4BCA0832CA64FE100621BC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C4BCA0842CA64FE100621BC7 /* WelfareActivityViewController.swift */,
 				C4BCA0852CA64FE100621BC7 /* Cell */,
 				C4BCA0882CA64FE100621BC7 /* SystemMessageViewController.swift */,
 				C4BCA0892CA64FE100621BC7 /* SystemMessageViewController+Header.swift */,
@@ -1250,7 +1248,6 @@
 			isa = PBXGroup;
 			children = (
 				C4BCA0862CA64FE100621BC7 /* FirstLevelMessageTableViewCell.swift */,
-				C4BCA0872CA64FE100621BC7 /* WelfareActivityTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -1746,6 +1743,7 @@
 				C4BC98062CA55EDE00621BC7 /* Embed Frameworks */,
 				6E4339B96680A752B4BB389B /* [CP] Embed Pods Frameworks */,
 				3C56F52259776345987000E0 /* [CP] Copy Pods Resources */,
+				C48556D62CBF9DF200FF6835 /* R.swift */,
 			);
 			buildRules = (
 			);
@@ -1817,6 +1815,7 @@
 				C4BCA1962CA64FE300621BC7 /* Mine.storyboard in Resources */,
 				C4BCA1532CA64FE300621BC7 /* family_power_off.json in Resources */,
 				C4BCA1812CA64FE300621BC7 /* IssueFeedbackViewController.storyboard in Resources */,
+				C485571A2CBFA7F300FF6835 /* receive_call.mp3 in Resources */,
 				C4BCA1672CA64FE300621BC7 /* LoginViewController.xib in Resources */,
 				C4BCA1A12CA64FE300621BC7 /* UserProfile.storyboard in Resources */,
 				C4BCA15B2CA64FE300621BC7 /* family_power_on.json in Resources */,
@@ -1886,6 +1885,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C48556D62CBF9DF200FF6835 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/RQSDKDemo/R.generated.swift\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1942,7 +1959,6 @@
 				C4BCA1892CA64FE300621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift in Sources */,
 				C4BCA1B32CA64FE300621BC7 /* BasicTabbarController+WrappedNavigationController.swift in Sources */,
 				C4BCA1622CA64FE300621BC7 /* PasswordSettingSucceedViewController.swift in Sources */,
-				C4BCA18C2CA64FE300621BC7 /* WelfareActivityViewController.swift in Sources */,
 				C4BCA17D2CA64FE300621BC7 /* IssueFeedbackViewController+DeviceSelectionViewController.swift in Sources */,
 				C4BCA1402CA64FE200621BC7 /* IVDeviceMgr+Rx.swift in Sources */,
 				C4BCA1642CA64FE300621BC7 /* AccountInputView.swift in Sources */,
@@ -2060,7 +2076,6 @@
 				C4BCA1782CA64FE300621BC7 /* AboutReoqooViewController.swift in Sources */,
 				C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */,
 				C4BCA1AF2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController.swift in Sources */,
-				C4BCA18E2CA64FE300621BC7 /* WelfareActivityTableViewCell.swift in Sources */,
 				C4BCA1BE2CA64FE300621BC7 /* DeviceShareHeaderView.swift in Sources */,
 				C4BCA12D2CA64FE200621BC7 /* UIScrollView+.swift in Sources */,
 				C4BCA1122CA64FE200621BC7 /* RQInsetGroupedTableViewHeader.swift in Sources */,

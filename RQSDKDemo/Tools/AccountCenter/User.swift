@@ -24,7 +24,11 @@ class User: Codable {
     /// 登录/注册接口返回的用户信息, 例如 userid, token 等
     @RxBehavioral var basicInfo: RQCore.LoginInfo
     /// 用户信息 /app/user/infoQuery
-    @RxBehavioral var profileInfo: RQCore.ProfileInfo?
+    @RxBehavioral var profileInfo: RQCore.ProfileInfo? {
+        didSet {
+            RQCore.Agent.shared.updateProfileInfo(self.profileInfo)
+        }
+    }
 
     /// 该用户专属 UserDefaults
     lazy var userDefault: UserDefaults? = .init(suiteName: self.basicInfo.userId)

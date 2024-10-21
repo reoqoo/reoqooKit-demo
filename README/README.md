@@ -52,7 +52,7 @@ Don't forget to replace the `app id` from app store, let it query the correct ve
 
 ### RQCore
 #### Important:
-1. the parameter `superVipId` in `RQCore.Agent`: which account you providing to for apple reviewing, that account's id should be set.
+1. the parameter `superVipId` in `RQCore.Agent.InitialInfo`: which account you providing to for apple reviewing, that account's id should be set.
 
 ### RQDeviceAddition
 ![image4.png](image4.png)

@@ -45,4 +45,15 @@ end
 
 2.  
     #### For now, these frameworks only run on Xcode16.0, not Xcode15.4, not Xcode16.1, just Xcode16.0...compatibility will be improved in the future.
-    
+
+### RQSDKDemo
+![image5.png](image5.png)
+Don't forget to replace the `app id` from app store, let it query the correct version of your App.
+
+### RQCore
+#### Important:
+1. the parameter `superVipId` in `RQCore.Agent`: which account you providing to for apple reviewing, that account's id should be set.
+
+### RQDeviceAddition
+![image4.png](image4.png)
+For `RQDeviceAddition` framework working fine, the Capability in above should be required.

@@ -30,10 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         // RQSDK init
-        let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: IVLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAggrementURL: userAggrementURL, superVipId: nil)
+//        let requestHost = RQCore.RequestHost.init(saasHost: "https://openapi.reoqoo.com", dophiGoPluginHost: "https://openapi-plugin.reoqoo.com", h5Host: "https://trade.reoqoo.com")
+        let requestHost: RQCore.RequestHost = .default
+        let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: IVLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAggrementURL: userAggrementURL, requestHost: requestHost, superVipId: nil)
         RQCore.Agent.shared.initialze(initialInfo: initialInfo, delegate: RQSDKDelegate.shared, launchOptions: launchOptions)
         RQCore.Agent.shared.watermarkImage = UIColor.red.pureImage(size: .init(width: 135, height: 36))
-
+        RQDeviceAddition.Agent.shared.delegate = RQSDKDelegate.shared
+        
         ImagePickerViewController.localizableStringSetter = {
             switch $0 {
             case .camera:
@@ -69,7 +72,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
 
 }
 

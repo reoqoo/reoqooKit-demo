@@ -195,8 +195,9 @@ class MessageCenter {
     /// 共享型发布者
     /// 如遇错误最多重试 5次, 间隔 20秒
     private let checkLatestVersionObservable: Observable<String> = {
-        // 检查是否有新版本 https://itunes.apple.com/lookup?id=6466230911
-        let url = URL(string: "https://itunes.apple.com/lookup?id=6466230911")!
+        // 检查是否有新版本 https://itunes.apple.com/lookup?id=XXXXX
+        // TODO: id=xxxx should be replace with your app id
+        let url = URL(string: "https://itunes.apple.com/lookup?id=XXXXX")!
         let request = URLRequest(url: url)
         let sessionConfig = URLSessionConfiguration.default
         sessionConfig.timeoutIntervalForRequest = 15.0

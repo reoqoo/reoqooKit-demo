@@ -30,7 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         // RQSDK init
-//        let requestHost = RQCore.RequestHost.init(saasHost: "https://openapi.reoqoo.com", dophiGoPluginHost: "https://openapi-plugin.reoqoo.com", h5Host: "https://trade.reoqoo.com")
         let requestHost: RQCore.RequestHost = .default
         let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: IVLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAggrementURL: userAggrementURL, requestHost: requestHost, superVipId: nil)
         RQCore.Agent.shared.initialze(initialInfo: initialInfo, delegate: RQSDKDelegate.shared, launchOptions: launchOptions)

@@ -9,10 +9,8 @@ import UIKit
 import RQImagePicker
 
 let appName = "ipTIME CCTV"
-let appID = "f01cf9635cc84610b83fdd98f446a266"
-//let appID = "00009a327a04385853251b2bb2303dee"
-let appToken = "42aae6e107b243b0248e1c26219c67763084f55312fdc24dab82ab98eb698fbd"
-//let appToken = "03f17fdfd3afb6be5b608094bbfaa33a4aa801a6e58f336433ebb0526b20096a"
+let appID = "xxxxxx"
+let appToken = "xxxxx"
 let privacyPolicyURL = URL.init(string: "https://www.google.com")!
 let userAggrementURL = URL.init(string: "https://www.google.com")!
 
@@ -32,7 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         // RQSDK init
-//        let requestHost = RQCore.RequestHost.init(saasHost: "https://openapi.reoqoo.com", dophiGoPluginHost: "https://openapi-plugin.reoqoo.com", h5Host: "https://trade.reoqoo.com")
         let requestHost: RQCore.RequestHost = .default
         let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: IVLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAggrementURL: userAggrementURL, requestHost: requestHost, superVipId: nil)
         RQCore.Agent.shared.initialze(initialInfo: initialInfo, delegate: RQSDKDelegate.shared, launchOptions: launchOptions)

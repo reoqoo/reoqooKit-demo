@@ -313,8 +313,10 @@ extension QRCodeScanningViewController {
         if case let .success(preconnectDevice) = result {
             logInfo("[DevicesAddition]: 用SN<\(preconnectDevice.sn)>换取设备id<\(preconnectDevice.sn)>")
             let flowItem = DeviceAdditionFlowItem.init(preconnectDevice: preconnectDevice, qrCodeFrom: self.vm.qrCodeFrom)
-            let vc = DeviceAdditionGuideWebViewController.init(flowItem: flowItem)
-            self.navigationController?.pushViewController(vc, animated: true)
+            /// start device addition work flow, and the func will return a NavigationController, present it
+            let workflowVC = RQDeviceAddition.Agent.shared.startDeviceAdditionWorkflow(withWorkflowItem: flowItem)
+            workflowVC.modalPresentationStyle = .fullScreen
+            self.navigationController?.present(workflowVC, animated: true)
         }
         if case let .failure(err) = result {
             logInfo("[DevicesAddition]: 用SN换取设备id失败: \(err)")

@@ -103,3 +103,9 @@ extension RQSDKDelegate: RQCore.Delegate {
 
     func reoqooSDK(_ agent: RQCore.Agent, toStatisticEvent event: String, properties: [String : AnyHashable]) {}
 }
+
+extension RQSDKDelegate: RQDeviceAddition.Delegate {
+    func reoqooDeviceAddition(_ agent: RQDeviceAddition.Agent, didFinishAddDeviceWithId deviceId: String, deviceName: String) {
+        DeviceManager2.shared.addDevice(deviceId: deviceId, deviceName: deviceName, deviceRole: .master, permission: nil, needTiggerPresent: true)
+    }
+}

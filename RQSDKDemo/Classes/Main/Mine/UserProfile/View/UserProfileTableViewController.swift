@@ -138,7 +138,7 @@ class UserProfileTableViewController: BaseTableViewController {
         }
         // 复制 userId
         if indexPath.row == 1 && indexPath.section == 1 {
-            UIPasteboard.general.string = AccountCenter.shared.currentUser?.basicInfo.userId
+            UIPasteboard.general.string = AccountCenter.shared.currentUser?.profileInfo?.showId
             MBProgressHUD.showHUD_DispatchOnMainThread(text: String.localization.localized("AA0268", note: "复制成功"))
         }
         // 修改昵称

@@ -16,6 +16,7 @@ struct _R: Sendable {
   var color: color { .init(bundle: bundle) }
   var image: image { .init(bundle: bundle) }
   var info: info { .init(bundle: bundle) }
+  var entitlements: entitlements { .init() }
   var file: file { .init(bundle: bundle) }
   var nib: nib { .init(bundle: bundle) }
   var storyboard: storyboard { .init(bundle: bundle) }
@@ -5179,6 +5180,12 @@ struct _R: Sendable {
         }
       }
     }
+  }
+
+  /// This `_R.entitlements` struct is generated, and contains static references to 0 properties.
+  struct entitlements {
+    let comAppleDeveloperNetworkingHotspotConfiguration: Bool = true
+    let comAppleDeveloperNetworkingWifiInfo: Bool = true
   }
 
   /// This `_R.file` struct is generated, and contains static references to 4 resource files.

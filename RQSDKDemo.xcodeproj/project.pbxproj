@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C485571A2CBFA7F300FF6835 /* receive_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C48557192CBFA7F300FF6835 /* receive_call.mp3 */; };
+		C4A49C112CC65554005E1663 /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A49C102CC65553005E1663 /* Combine.framework */; };
 		C4BC98512CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */; };
 		C4BC98522CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C4BC9B352CA5821E00621BC7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BC9B342CA5821E00621BC7 /* VideoToolbox.framework */; };
@@ -218,8 +219,10 @@
 		4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RQSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C47BF9812CC1F67500194611 /* RQSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RQSDKDemo.entitlements; sourceTree = "<group>"; };
 		C48557192CBFA7F300FF6835 /* receive_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = receive_call.mp3; sourceTree = "<group>"; };
 		C49974F22CBE02A000C12481 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		C4A49C102CC65553005E1663 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
 		C4BC905B2CA43FF700621BC7 /* RQSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BC92C02CA55B2F00621BC7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4BC9B282CA57FDB00621BC7 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
@@ -454,6 +457,7 @@
 				C4BC9B3C2CA583B200621BC7 /* AudioToolbox.framework in Frameworks */,
 				C4BC9B482CA5877800621BC7 /* libxml2.tbd in Frameworks */,
 				C4BC98512CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Frameworks */,
+				C4A49C112CC65554005E1663 /* Combine.framework in Frameworks */,
 				C4BC9B352CA5821E00621BC7 /* VideoToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +495,7 @@
 		C4BC905D2CA43FF700621BC7 /* RQSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C47BF9812CC1F67500194611 /* RQSDKDemo.entitlements */,
 				C4BCA1CD2CA6501300621BC7 /* Localizable.strings */,
 				C4BC9F892CA64FDF00621BC7 /* Assets.xcassets */,
 				C4BCA02C2CA64FE100621BC7 /* Classes */,
@@ -520,7 +525,6 @@
 				C4BC9FC12CA64FE000621BC7 /* MessageCenter */,
 				C4BC9FC52CA64FE000621BC7 /* RegionSelection */,
 				C4BC9FD02CA64FE000621BC7 /* Extensions */,
-				C4BC9FF02CA64FE000621BC7 /* RQiotVideoDelegate */,
 				C4BC9FF12CA64FE000621BC7 /* FirmwareUpgrade */,
 				C4BC9FF42CA64FE000621BC7 /* DataStruct */,
 				C4BC9FF82CA64FE000621BC7 /* AccountCenter */,
@@ -773,13 +777,6 @@
 				C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */,
 			);
 			path = SwiftCombine;
-			sourceTree = "<group>";
-		};
-		C4BC9FF02CA64FE000621BC7 /* RQiotVideoDelegate */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RQiotVideoDelegate;
 			sourceTree = "<group>";
 		};
 		C4BC9FF12CA64FE000621BC7 /* FirmwareUpgrade */ = {
@@ -1713,6 +1710,7 @@
 		DBB84462C7FED8DE135BA637 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4A49C102CC65553005E1663 /* Combine.framework */,
 				C4D3B77E2CB9095B00D1C0AF /* CoreBluetooth.framework */,
 				C4BC9B392CA5835200621BC7 /* libobjc.A.tbd */,
 				C4BC9B382CA5828D00621BC7 /* libxml2.tbd */,
@@ -2244,6 +2242,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_ENTITLEMENTS = RQSDKDemo/RQSDKDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KB2Q5392XZ;
@@ -2345,6 +2344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_ENTITLEMENTS = RQSDKDemo/RQSDKDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KB2Q5392XZ;

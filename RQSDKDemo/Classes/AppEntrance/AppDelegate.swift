@@ -30,13 +30,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         // RQSDK init
-        let requestHost: RQCore.RequestHost = .default
-        let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: IVLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAggrementURL: userAggrementURL, requestHost: requestHost, superVipId: nil)
+        let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: IVLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAggrementURL: userAggrementURL, requestHost: .default, superVipId: nil)
         RQCore.Agent.shared.initialze(initialInfo: initialInfo, delegate: RQSDKDelegate.shared, launchOptions: launchOptions)
         RQCore.Agent.shared.watermarkImage = UIColor.red.pureImage(size: .init(width: 135, height: 36))
         RQDeviceAddition.Agent.shared.delegate = RQSDKDelegate.shared
         
-        ImagePickerViewController.localizableStringSetter = {
+        RQImagePicker.ImagePickerViewController.localizableStringSetter = {
             switch $0 {
             case .camera:
                 return String.localization.localized("AA0546", note: "相机")

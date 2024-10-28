@@ -29,7 +29,7 @@ target 'RQSDKDemo' do
   pod 'CryptoSwift'
   pod 'EmptyDataSet-Swift'
   pod 'FMDB'
-  pod 'Kingfisher',     '8.0.3'
+  pod 'Kingfisher'
   pod 'QTEventBus'
   pod 'SnapKit'
   pod 'SwiftyJSON'

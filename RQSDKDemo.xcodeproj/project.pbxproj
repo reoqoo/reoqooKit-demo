@@ -219,6 +219,14 @@
 		4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RQSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C42506992CCFB0610052D7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C425069C2CCFB0610052D7CE /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		C425069D2CCFB0610052D7CE /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		C425069E2CCFB0610052D7CE /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		C425069F2CCFB0610052D7CE /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		C42506A02CCFB0610052D7CE /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		C42506A12CCFB0610052D7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C42506A22CCFB0610052D7CE /* README.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = README.png; sourceTree = "<group>"; };
 		C47BF9812CC1F67500194611 /* RQSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RQSDKDemo.entitlements; sourceTree = "<group>"; };
 		C48557192CBFA7F300FF6835 /* receive_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = receive_call.mp3; sourceTree = "<group>"; };
 		C49974F22CBE02A000C12481 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -443,7 +451,6 @@
 		C4BCA1E22CA6504600621BC7 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4BCA1E32CA6504900621BC7 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4BCA1E42CA6504B00621BC7 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C4BFC32B2CCF819F0038764C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4D3B77E2CB9095B00D1C0AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -474,6 +481,37 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C425069A2CCFB0610052D7CE /* 1.0.3 */ = {
+			isa = PBXGroup;
+			children = (
+				C42506992CCFB0610052D7CE /* README.md */,
+			);
+			path = 1.0.3;
+			sourceTree = "<group>";
+		};
+		C425069B2CCFB0610052D7CE /* Update Notes */ = {
+			isa = PBXGroup;
+			children = (
+				C425069A2CCFB0610052D7CE /* 1.0.3 */,
+			);
+			path = "Update Notes";
+			sourceTree = "<group>";
+		};
+		C42506A32CCFB0610052D7CE /* README */ = {
+			isa = PBXGroup;
+			children = (
+				C425069B2CCFB0610052D7CE /* Update Notes */,
+				C425069C2CCFB0610052D7CE /* image.png */,
+				C425069D2CCFB0610052D7CE /* image2.png */,
+				C425069E2CCFB0610052D7CE /* image3.png */,
+				C425069F2CCFB0610052D7CE /* image4.png */,
+				C42506A02CCFB0610052D7CE /* image5.png */,
+				C42506A12CCFB0610052D7CE /* README.md */,
+				C42506A22CCFB0610052D7CE /* README.png */,
+			);
+			path = README;
+			sourceTree = SOURCE_ROOT;
+		};
 		C4BC90522CA43FF700621BC7 = {
 			isa = PBXGroup;
 			children = (
@@ -495,8 +533,8 @@
 		C4BC905D2CA43FF700621BC7 /* RQSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C42506A32CCFB0610052D7CE /* README */,
 				C49974F22CBE02A000C12481 /* README.md */,
-				C4BFC32D2CCF81B90038764C /* Update Notes */,
 				C47BF9812CC1F67500194611 /* RQSDKDemo.entitlements */,
 				C4BCA1CD2CA6501300621BC7 /* Localizable.strings */,
 				C4BC9F892CA64FDF00621BC7 /* Assets.xcassets */,
@@ -1705,22 +1743,6 @@
 				C4BCA0FA2CA64FE200621BC7 /* ShareManagedViewController.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		C4BFC32A2CCF81950038764C /* 1.0.3 */ = {
-			isa = PBXGroup;
-			children = (
-				C4BFC32B2CCF819F0038764C /* README.md */,
-			);
-			path = 1.0.3;
-			sourceTree = "<group>";
-		};
-		C4BFC32D2CCF81B90038764C /* Update Notes */ = {
-			isa = PBXGroup;
-			children = (
-				C4BFC32A2CCF81950038764C /* 1.0.3 */,
-			);
-			path = "Update Notes";
 			sourceTree = "<group>";
 		};
 		DBB84462C7FED8DE135BA637 /* Frameworks */ = {

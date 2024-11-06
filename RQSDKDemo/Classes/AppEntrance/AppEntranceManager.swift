@@ -36,6 +36,8 @@ class AppEntranceManager {
         // 监听手动设置语言事件通知
         NotificationCenter.default.rx.notification(Notification.Name.init(Bundle.didChanngeLanguageNotificaitonName.rawValue)).bind { [weak self] _ in
             self?.changeInterfaceLanguage()
+            /// 告知 RQKit App language 被修改了
+            RQCore.Agent.shared.appLanguageDidChanged(RQLanguageCode.current.nanoCode2)
         }.disposed(by: self.disposeBag)
 
         // 监听账号被注销事件, 弹个 MBPHUD

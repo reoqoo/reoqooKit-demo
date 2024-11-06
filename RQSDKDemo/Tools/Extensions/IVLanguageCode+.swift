@@ -1,18 +1,18 @@
 //
-//  IVLanguageCode+.swift
+//  RQLanguageCode+.swift
 //  RQSDKDemo
 //
 //  Created by xiaojuntao on 8/8/2023.
 //
 
 import Foundation
-import IoTVideo
+import RQCore
 
-extension IVLanguageCode {
+extension RQLanguageCode {
 
-    static var current: IVLanguageCode {
+    static var current: RQLanguageCode {
         // 如果用户指定了当前语言, 就返回当前语言
-        if let assignLanguage = Bundle.assignLanguage(), let res = IVLanguageCode.from(nanoCode2: assignLanguage) {
+        if let assignLanguage = Bundle.assignLanguage(), let res = RQLanguageCode.from(nanoCode2: assignLanguage) {
             return res
         }
 

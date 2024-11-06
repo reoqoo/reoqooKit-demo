@@ -133,15 +133,18 @@ class User: Codable {
             return
         }
         /// 2023/12/25: 由于 StandardConfiguration.shared 在 init 时 会触发此方法调用, 但是 iotVideo 的 host 还没有被设置, 这将导致 获取刷新用户Token接口请求了错误的 host, 所以稍微延后此方法的调用
-        self.refreshTokenObservable().delaySubscription(.milliseconds(200), scheduler: MainScheduler.asyncInstance).observe(on: MainScheduler.asyncInstance).subscribe { [weak self] result in
-            self?.didUpdateAccessTokenSuccess(result.accessToken, expireTime: result.expireTime)
-            // 更新更新时间
-            self?.userDefault?.set(Date().timeIntervalSince1970, forKey: UserDefaults.UserKey.Reoqoo_LatestUpdateAccessTokenTime.rawValue)
-            self?.userDefault?.synchronize()
-            logInfo("[AccountCenter] 刷新 accesstoken 成功")
-        } onFailure: { err in
-            logError("[AccountCenter] 刷新 accesstoken 接口请求失败了")
-        }.disposed(by: self.disposeBag)
+        self.refreshTokenObservable()
+            .delaySubscription(.milliseconds(200), scheduler: MainScheduler.asyncInstance)
+            .observe(on: MainScheduler.asyncInstance)
+            .subscribe { [weak self] result in
+                self?.didUpdateAccessTokenSuccess(result.accessToken, expireTime: result.expireTime)
+                // 更新更新时间
+                self?.userDefault?.set(Date().timeIntervalSince1970, forKey: UserDefaults.UserKey.Reoqoo_LatestUpdateAccessTokenTime.rawValue)
+                self?.userDefault?.synchronize()
+                logInfo("[AccountCenter] 刷新 accesstoken 成功")
+            } onFailure: { err in
+                logError("[AccountCenter] 刷新 accesstoken 接口请求失败了")
+            }.disposed(by: self.disposeBag)
     }
     
     /// 在网路请求 tryRefreshToken 成功后执行
@@ -152,10 +155,6 @@ class User: Codable {
         self.store()
         /// 更新 Agent.shared.loginInfo
         RQCore.Agent.shared.updateAccessToken(accessToken, expireTime: expireTime)
-        // 反注册 IoTVideo
-        RQCore.Agent.shared.iotUnregister()
-        // 注册 IotVideo
-        RQCore.Agent.shared.iotRegister()
     }
 
     /// 更新用户 profile info

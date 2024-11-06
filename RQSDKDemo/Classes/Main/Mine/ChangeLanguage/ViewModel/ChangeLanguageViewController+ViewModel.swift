@@ -11,7 +11,7 @@ extension ChangeLanguageViewController {
 
     enum TableViewCellItem: CustomStringConvertible, Equatable {
         case baseOnSystem
-        case assign(IVLanguageCode)
+        case assign(RQLanguageCode)
 
         var description: String {
             switch self {
@@ -34,7 +34,7 @@ extension ChangeLanguageViewController {
             return false
         }
 
-        static func from(langCode: IVLanguageCode?) -> Self {
+        static func from(langCode: RQLanguageCode?) -> Self {
             guard let langCode = langCode else { return .baseOnSystem }
             return .assign(langCode)
         }
@@ -46,8 +46,8 @@ extension ChangeLanguageViewController {
             guard let assignLang = Bundle.assignLanguage() else {
                 return 0
             }
-            let ivLangCode = IVLanguageCode.from(nanoCode2: assignLang)
-            let item = TableViewCellItem.from(langCode: ivLangCode)
+            let langCode = RQLanguageCode.from(nanoCode2: assignLang)
+            let item = TableViewCellItem.from(langCode: langCode)
             return self.dataSource.firstIndex(where: { item == $0 }) ?? 0
         }()
 

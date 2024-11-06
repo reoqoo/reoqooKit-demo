@@ -68,9 +68,9 @@ extension SystemAuthorizationViewController {
             // 2. 和上面的权限状态获取不一样, 上面的状态查询操作不会触发授权操作, 这个状态获取即触发授权操作
             AppEntranceManager.shared.$applicationState.subscribe(onNext: { [weak self] state in
                 if state != .didBecomeActive { return }
-                IVNetworkHelper.requestLocalNetworkAuthorization { flag in
+                RQCore.LocalNetworkAuthorization().requestAuthorization(completion: { flag in
                     self?.localNetworkAuthorization.isValid = flag
-                }
+                })
             }).disposed(by: self.disposeBag)
         }
     }

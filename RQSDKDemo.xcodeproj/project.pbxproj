@@ -74,8 +74,6 @@
 		C4BCA1402CA64FE200621BC7 /* IVDeviceMgr+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */; };
 		C4BCA1412CA64FE200621BC7 /* FirmwareUpgradeCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF22CA64FE000621BC7 /* FirmwareUpgradeCenter.swift */; };
 		C4BCA1422CA64FE200621BC7 /* FirmUpgradeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */; };
-		C4BCA1432CA64FE200621BC7 /* DoubleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF62CA64FE000621BC7 /* DoubleLinkedList.swift */; };
-		C4BCA1442CA64FE200621BC7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF72CA64FE000621BC7 /* Node.swift */; };
 		C4BCA1452CA64FE200621BC7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF92CA64FE000621BC7 /* User.swift */; };
 		C4BCA1462CA64FE200621BC7 /* AccountCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */; };
 		C4BCA1472CA64FE200621BC7 /* ErrorDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */; };
@@ -304,8 +302,6 @@
 		C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVDeviceMgr+Rx.swift"; sourceTree = "<group>"; };
 		C4BC9FF22CA64FE000621BC7 /* FirmwareUpgradeCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareUpgradeCenter.swift; sourceTree = "<group>"; };
 		C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmUpgradeTask.swift; sourceTree = "<group>"; };
-		C4BC9FF62CA64FE000621BC7 /* DoubleLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleLinkedList.swift; sourceTree = "<group>"; };
-		C4BC9FF72CA64FE000621BC7 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		C4BC9FF92CA64FE000621BC7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCenter.swift; sourceTree = "<group>"; };
 		C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDefine.swift; sourceTree = "<group>"; };
@@ -565,7 +561,6 @@
 				C4BC9FC52CA64FE000621BC7 /* RegionSelection */,
 				C4BC9FD02CA64FE000621BC7 /* Extensions */,
 				C4BC9FF12CA64FE000621BC7 /* FirmwareUpgrade */,
-				C4BC9FF42CA64FE000621BC7 /* DataStruct */,
 				C4BC9FF82CA64FE000621BC7 /* AccountCenter */,
 				C4BC9FFB2CA64FE000621BC7 /* Error */,
 				C4BC9FFE2CA64FE000621BC7 /* RQSDKDelegate */,
@@ -824,23 +819,6 @@
 				C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */,
 			);
 			path = FirmwareUpgrade;
-			sourceTree = "<group>";
-		};
-		C4BC9FF42CA64FE000621BC7 /* DataStruct */ = {
-			isa = PBXGroup;
-			children = (
-				C4BC9FF52CA64FE000621BC7 /* DoubleLinkedList */,
-			);
-			path = DataStruct;
-			sourceTree = "<group>";
-		};
-		C4BC9FF52CA64FE000621BC7 /* DoubleLinkedList */ = {
-			isa = PBXGroup;
-			children = (
-				C4BC9FF62CA64FE000621BC7 /* DoubleLinkedList.swift */,
-				C4BC9FF72CA64FE000621BC7 /* Node.swift */,
-			);
-			path = DoubleLinkedList;
 			sourceTree = "<group>";
 		};
 		C4BC9FF82CA64FE000621BC7 /* AccountCenter */ = {
@@ -1778,8 +1756,8 @@
 				C4BC90592CA43FF700621BC7 /* Resources */,
 				C4BC98062CA55EDE00621BC7 /* Embed Frameworks */,
 				6E4339B96680A752B4BB389B /* [CP] Embed Pods Frameworks */,
-				3C56F52259776345987000E0 /* [CP] Copy Pods Resources */,
 				C48556D62CBF9DF200FF6835 /* R.swift */,
+				8EEE0F43EDE9153933ECB959 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1865,23 +1843,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C56F52259776345987000E0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6E4339B96680A752B4BB389B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1921,6 +1882,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8EEE0F43EDE9153933ECB959 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C48556D62CBF9DF200FF6835 /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1951,7 +1929,6 @@
 				C4BCA19E2CA64FE300621BC7 /* ModifyPasswordViewController.swift in Sources */,
 				C4BCA1B62CA64FE300621BC7 /* ShareDeviceConfirmViewController+ViewModel.swift in Sources */,
 				C4BCA15F2CA64FE300621BC7 /* PasswordInputView.swift in Sources */,
-				C4BCA1432CA64FE200621BC7 /* DoubleLinkedList.swift in Sources */,
 				C4BCA1552CA64FE300621BC7 /* import.swift in Sources */,
 				C4BCA1342CA64FE200621BC7 /* URL+Static.swift in Sources */,
 				C4BCA1202CA64FE200621BC7 /* MessageCenter.swift in Sources */,
@@ -2104,7 +2081,6 @@
 				C4BCA14A2CA64FE200621BC7 /* DeviceManager2.swift in Sources */,
 				C4BCA18B2CA64FE300621BC7 /* SystemMessageViewController+ViewModel.swift in Sources */,
 				C4BCA1702CA64FE300621BC7 /* FamilyHeaderView.swift in Sources */,
-				C4BCA1442CA64FE200621BC7 /* Node.swift in Sources */,
 				C4BCA1682CA64FE300621BC7 /* LoginViewController.swift in Sources */,
 				C4BCA1A82CA64FE300621BC7 /* SystemAuthorizationViewController.swift in Sources */,
 				C4BCA1292CA64FE200621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m in Sources */,

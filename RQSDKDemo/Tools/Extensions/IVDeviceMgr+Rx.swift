@@ -6,13 +6,14 @@
 //
 
 import Foundation
+import RQApi
 
-extension IVDeviceMgr {
+extension RQApi.Api {
 
     /// 获取设备最新版本发布者
     static func queryDeviceNewVersionObservable(deviceId: String, version: String) -> Single<DeviceNewVersionInfoEntity?> {
         Single<JSON>.create { observer in
-            IVDeviceMgr.queryDeviceNewVersionWidthDevieId(deviceId, currentVersion: version, language: nil) {
+            RQApi.Api.checkDeviceNewVersion(deviceId: deviceId, currentVersion: version) {
                 let res = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
                 observer(res)
             }

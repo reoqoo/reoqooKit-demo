@@ -147,7 +147,7 @@ extension IssueFeedbackViewController {
         func uploadLogPublisher() -> AnyPublisher<String, Swift.Error> {
             // 压缩日志
             let startTime = self.issueHappendTime.timeIntervalSince1970
-            let password = (IoTVideo.sharedInstance.accessId ?? "0").md5
+            let password = (AccountCenter.shared.currentUser?.basicInfo.userId ?? "0").md5
             let zipFilePublisher = Future<String, Swift.Error>.init { promise in
                 IVLogger.zipLog(startTime: startTime, endTime: Date().timeIntervalSince1970, logTypes: [.crash, .log], password: password, aes: false) { result in
                     promise(result)
@@ -191,7 +191,7 @@ extension IssueFeedbackViewController {
             let zipDestination: String = URL.feedbackImagesZipDestination.path
             // 先删除
             try? FileManager.default.removeItem(atPath: zipDestination)
-            let zipPassword = (IoTVideo.sharedInstance.accessId ?? "0").md5
+            let zipPassword = (AccountCenter.shared.currentUser?.basicInfo.userId ?? "0").md5
             // 压缩图片发布者
             let zipImagePublisher = Future<String, Swift.Error>.init { promise in
                 if SSZipArchive.createZipFile(atPath: zipDestination, withFilesAtPaths: imagePaths, withPassword: zipPassword) {

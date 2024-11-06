@@ -154,7 +154,7 @@ class DeviceEntity: RealmSwiftObject, Codable, RQCore.Device {
     /// 创建从服务器获取新版本信息发布者
     func checkNewVersionInfoObservable() -> RxSwift.Single<DeviceNewVersionInfoEntity?> {
         guard let version = self.swVersion else { return .just(nil) }
-        return IVDeviceMgr.queryDeviceNewVersionObservable(deviceId: self.deviceId, version: version)
+        return RQApi.Api.queryDeviceNewVersionObservable(deviceId: self.deviceId, version: version)
     }
 
     /// 获取设备图片

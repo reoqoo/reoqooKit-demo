@@ -232,6 +232,6 @@ extension ShareByFace2FaceViewController: UITableViewDelegate, UITableViewDataSo
 // MARK: Helper
 extension ShareByFace2FaceViewController {
     func generateQRCodeFromLink(_ link: String) -> UIImage? {
-        IVQRCodeHelper.createQRCode(with: link, qrSize: .init(width: 290 * 3, height: 290 * 3))
+        UIImage.createQRCodeImageWithContents(link, size: .init(width: 290 * 3, height: 290 * 3))
     }
 }

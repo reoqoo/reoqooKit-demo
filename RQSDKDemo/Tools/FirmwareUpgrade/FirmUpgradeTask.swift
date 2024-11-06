@@ -220,13 +220,16 @@ class FirmwareUpgradeTask: Codable {
     private func catchUpgradeRequestObservableErrorAndDo(_ observable: Single<Void>) -> Single<Void> {
         observable.catch { err in
             // 错误转换
-            if (err as NSError).code == IVASrvErr.dst_error_relation.rawValue || (err as NSError).code == IVTermErr._msg_send_peer_timeout.rawValue {
+            // IVASrvErr.dst_error_relation(8003) || IVTermErr._msg_send_peer_timeout(20001)
+            if (err as NSError).code == 8003 || (err as NSError).code == 20001 {
                 return Single.error(ReoqooError.deviceFirmwareUpgradeError(.networkError))
             }
-            else if (err as NSError).code == IVASrvErr.dst_offline.rawValue {
+            // IVASrvErr.dst_offline(8000)
+            else if (err as NSError).code == 8000 {
                 return Single.error(ReoqooError.deviceFirmwareUpgradeError(.deviceOffline))
             }
-            if (err as NSError).code == IVMessageError.duplicate.rawValue {
+            // IVMessageError.duplicate(21000)
+            if (err as NSError).code == 21000 {
                 return Single.error(ReoqooError.deviceFirmwareUpgradeError(.operationDuplicate))
             }
             // 未知错误, 由下游直接打印

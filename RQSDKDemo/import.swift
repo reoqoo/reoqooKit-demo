@@ -15,7 +15,6 @@
 @_exported import RQWebServices
 @_exported import RQApi
 @_exported import BaseKit
-@_exported import IoTVideo
 
 @_exported import Realm
 @_exported import RealmSwift

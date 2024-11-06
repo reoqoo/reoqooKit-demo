@@ -12,7 +12,7 @@ class RQSDKDelegate {
     private init() {}
 
     /// IoTVideoSDK连接状态，外部可监听该状态变化
-    @RxPublished var linkStatus: IVLinkStatus = .unregistering
+    @RxPublished var linkStatus: RQLinkStatus = .unregistering
 
     /// p2p在线消息内容，外部可监听该状态变化
     @RxPublished var p2pOnlineMsg: RQCore.P2POnlineMsg = .init()
@@ -97,7 +97,7 @@ extension RQSDKDelegate: RQCore.Delegate {
         self.p2pOnlineMsg = msg
     }
 
-    func reoqooSDK(_ agent: RQCore.Agent, iotVideoLinkStatusDidChanged linkStatus: IVLinkStatus) {
+    func reoqooSDK(_ agent: RQCore.Agent, iotVideoLinkStatusDidChanged linkStatus: RQLinkStatus) {
         self.linkStatus = linkStatus
     }
 

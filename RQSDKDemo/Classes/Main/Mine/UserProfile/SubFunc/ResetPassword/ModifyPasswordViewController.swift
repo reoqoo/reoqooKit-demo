@@ -131,10 +131,16 @@ class ModifyPasswordViewController: BaseViewController, ScrollBaseViewAndKeyboar
         if new != confirm {
             return Single.error(ReoqooError.accountError(reason: .confirmPasswordError))
         }
-        // 密码必须为 数字 + 字母 组合
-        if !(new?.isValidPassword ?? true) {
+
+        guard let new = new else {
             return Single.error(ReoqooError.accountError(reason: .passwordFormatError))
         }
+
+        // 密码必须为 数字 + 字母 组合
+        if !new.isValidPassword {
+            return Single.error(ReoqooError.accountError(reason: .passwordFormatError))
+        }
+
         guard let modifyUserInfoObservable = AccountCenter.shared.currentUser?.modifyUserInfoObservable(header: nil, nick: nil, oldPassword: old, newPassword: new) else {
             return Single.error(ReoqooError.generalError(reason: .optionalTypeUnwrapped))
         }

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import IVMessageMgr
 
 /// 对接 消息中心 的工具类
 class MessageCenter {
@@ -216,7 +215,7 @@ class MessageCenter {
     // MARK: 获取福利活动接口
     private func requestWelfareActivityObservable() -> Single<[WelfareActivityItem]> {
         Single<JSON>.create { observer in
-            IVMessageCenterMgr.share.msgCenterNoticeList {
+            RQCore.Agent.shared.ivMsgMgr.msgCenterNoticeList {
                 let result = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
                 observer(result)
             }
@@ -230,7 +229,7 @@ class MessageCenter {
     /// 从服务器获取未读消息数量 发布者, 此数量只包含系统消息数量, 不包含"活动福利"未读消息数量
     private func requestUnreadMessageCountFromServerObservable() -> Single<Int> {
         Single<JSON>.create { observer in
-            IVMessageCenterMgr.share.unreadMessageCount {
+            RQCore.Agent.shared.ivMsgMgr.unreadMessageCount {
                 let result = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
                 observer(result)
             }
@@ -309,7 +308,7 @@ class MessageCenter {
             self.insertFirmwareUpdateMessageRecord2UserDefaults(self.deviceFirmwareMessages, dropNewIfDuplicate: false)
         }
         // 请求服务器, 将 tag 类型的消息标记为已读
-        IVMessageCenterMgr.share.refreshReadedMsg(tag: tag, deviceId: deviceId) { [weak self] _, _ in
+        RQCore.Agent.shared.ivMsgMgr.refreshReadedMsg(tag: tag, deviceId: deviceId) { [weak self] _, _ in
             // 手动触发 "检查未读消息数量"
             self?.manualCheckUnreadMsgCountSwitchObservable.onNext(true)
         }
@@ -323,7 +322,7 @@ class MessageCenter {
         self.numberOfUnreadWelfareActivityMessages = 0
         let ids = listOfActivitys.map({ Int64($0.id) })
         // 将活动福利标记为已读
-        IVMessageCenterMgr.share.updateCenterNoticeStatus(idList: ids) {
+        RQCore.Agent.shared.ivMsgMgr.updateCenterNoticeStatus(idList: ids) {
             let res = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
             if case let .failure(error) = res {
                 logError("将福利活动消息置为已读", error)

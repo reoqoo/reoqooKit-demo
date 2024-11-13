@@ -279,28 +279,17 @@ class DeviceManager2 {
     ///   - needTiggerPresent: 是否需要触发弹出插件
     public func addDevice(deviceId: String, deviceName: String, deviceRole: RQCore.DeviceRole, permission: String? = nil, needTiggerPresent: Bool) {
 
-        // 创建 DeviceEntity 模型
-        let dev = DeviceEntity.init()
-        dev.deviceId = deviceId
-        dev.remarkName = deviceName
-        dev.role = deviceRole
-        dev.saas?.permission = permission
-        // 主动执行一下写入操作, 以影响 self.needShowVasEntrance 的值
-        Self.db_updateDevicesWithContext {
-            $0.add(dev, update: .modified)
-        }
+        // 直接通过 device/list 接口获取设备列表, 然后从列表中找到目标设备后抛出
+        self.requestDevicesObservable().subscribe(on: MainScheduler.asyncInstance).subscribe { [weak self] devs in
+            // 如果 needTiggerPresent 为 true, 触发发布者发布事件
+            if !needTiggerPresent { return }
 
-        // 查 + 写
-        self.requestDevices()
-
-        // 如果 needTiggerPresent 为 true, 触发发布者发布事件
-        if !needTiggerPresent { return }
+            // 找到目标 device, 触发发布者
+            guard let dev = Self.fetchDevice(deviceId) else { return }
+            // 触发新增设备发布者
+            self?.addDeviceOperationResultObservable.onNext(dev)
+        }.disposed(by: self.disposeBag)
         
-        // 触发新增设备发布者
-        // 延后打开插件的操作, 避免 设备列表为空时, 首次添加设备, 插件内 "云服务" 会显示为 "智能看家"
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-            self.addDeviceOperationResultObservable.onNext(dev)
-        }
     }
 
     /// 删除设备: 发起请求 + 逻辑删除

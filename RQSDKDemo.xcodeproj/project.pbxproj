@@ -76,8 +76,6 @@
 		C4BCA1422CA64FE200621BC7 /* FirmUpgradeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */; };
 		C4BCA1452CA64FE200621BC7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF92CA64FE000621BC7 /* User.swift */; };
 		C4BCA1462CA64FE200621BC7 /* AccountCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */; };
-		C4BCA1472CA64FE200621BC7 /* ErrorDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */; };
-		C4BCA1482CA64FE200621BC7 /* ErrorReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFD2CA64FE000621BC7 /* ErrorReason.swift */; };
 		C4BCA1492CA64FE200621BC7 /* RQSDKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFF2CA64FE000621BC7 /* RQSDKDelegate.swift */; };
 		C4BCA14A2CA64FE200621BC7 /* DeviceManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0012CA64FE000621BC7 /* DeviceManager2.swift */; };
 		C4BCA14B2CA64FE200621BC7 /* Device+KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0022CA64FE000621BC7 /* Device+KeyPath.swift */; };
@@ -304,8 +302,6 @@
 		C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmUpgradeTask.swift; sourceTree = "<group>"; };
 		C4BC9FF92CA64FE000621BC7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCenter.swift; sourceTree = "<group>"; };
-		C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDefine.swift; sourceTree = "<group>"; };
-		C4BC9FFD2CA64FE000621BC7 /* ErrorReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorReason.swift; sourceTree = "<group>"; };
 		C4BC9FFF2CA64FE000621BC7 /* RQSDKDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RQSDKDelegate.swift; sourceTree = "<group>"; };
 		C4BCA0012CA64FE000621BC7 /* DeviceManager2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager2.swift; sourceTree = "<group>"; };
 		C4BCA0022CA64FE000621BC7 /* Device+KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Device+KeyPath.swift"; sourceTree = "<group>"; };
@@ -562,7 +558,6 @@
 				C4BC9FD02CA64FE000621BC7 /* Extensions */,
 				C4BC9FF12CA64FE000621BC7 /* FirmwareUpgrade */,
 				C4BC9FF82CA64FE000621BC7 /* AccountCenter */,
-				C4BC9FFB2CA64FE000621BC7 /* Error */,
 				C4BC9FFE2CA64FE000621BC7 /* RQSDKDelegate */,
 				C4BCA0002CA64FE000621BC7 /* DeviceManager2 */,
 				C4BCA0052CA64FE000621BC7 /* Router */,
@@ -828,15 +823,6 @@
 				C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */,
 			);
 			path = AccountCenter;
-			sourceTree = "<group>";
-		};
-		C4BC9FFB2CA64FE000621BC7 /* Error */ = {
-			isa = PBXGroup;
-			children = (
-				C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */,
-				C4BC9FFD2CA64FE000621BC7 /* ErrorReason.swift */,
-			);
-			path = Error;
 			sourceTree = "<group>";
 		};
 		C4BC9FFE2CA64FE000621BC7 /* RQSDKDelegate */ = {
@@ -1316,7 +1302,7 @@
 				C4BCA0972CA64FE100621BC7 /* SelectHeader */,
 				C4BCA0992CA64FE100621BC7 /* CloseAccount */,
 				C4BCA0A12CA64FE100621BC7 /* ResetPassword */,
-				C4BCA0A32CA64FE100621BC7 /* 修改手机或邮箱绑定 */,
+				C4BCA0A32CA64FE100621BC7 /* RebindAccount */,
 			);
 			path = SubFunc;
 			sourceTree = "<group>";
@@ -1365,30 +1351,22 @@
 			path = ResetPassword;
 			sourceTree = "<group>";
 		};
-		C4BCA0A32CA64FE100621BC7 /* 修改手机或邮箱绑定 */ = {
+		C4BCA0A32CA64FE100621BC7 /* RebindAccount */ = {
 			isa = PBXGroup;
 			children = (
 				C4BCA0A42CA64FE100621BC7 /* RebindTipsViewController.swift */,
 				C4BCA0A52CA64FE100621BC7 /* RequestOneTimeCodeForBindingViewController.swift */,
 			);
-			path = "修改手机或邮箱绑定";
+			path = RebindAccount;
 			sourceTree = "<group>";
 		};
 		C4BCA0A62CA64FE100621BC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				C4BCA0A72CA64FE100621BC7 /* UserProfile.storyboard */,
-				C4BCA0A82CA64FE100621BC7 /* New Group */,
 				C4BCA0A92CA64FE100621BC7 /* UserProfileTableViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C4BCA0A82CA64FE100621BC7 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		C4BCA0AA2CA64FE100621BC7 /* Setting */ = {
@@ -1997,7 +1975,6 @@
 				C4BCA19C2CA64FE300621BC7 /* CloseAccountIntroductionViewController.swift in Sources */,
 				C4BCA1802CA64FE300621BC7 /* IssueFeedbackViewController+TableViewSectionHeader.swift in Sources */,
 				C4BCA1242CA64FE200621BC7 /* RegionSelectionViewController+TableViewCell.swift in Sources */,
-				C4BCA1482CA64FE200621BC7 /* ErrorReason.swift in Sources */,
 				C4BCA1712CA64FE300621BC7 /* DevicesViewController+CollectionViewCell.swift in Sources */,
 				C4BCA1C82CA64FE300621BC7 /* ShareToManagedViewController.swift in Sources */,
 				C4BCA13B2CA64FE200621BC7 /* IVNetworkHelper+SwiftCombine.swift in Sources */,
@@ -2005,7 +1982,6 @@
 				C4BCA1762CA64FE300621BC7 /* FamilyViewController+ChildrenCollectionViewCell.swift in Sources */,
 				C4BCA1722CA64FE300621BC7 /* DevicesViewController2.swift in Sources */,
 				C4BCA1612CA64FE300621BC7 /* OneTimeCodeInputViewController+SubViews.swift in Sources */,
-				C4BCA1472CA64FE200621BC7 /* ErrorDefine.swift in Sources */,
 				C4BCA1A62CA64FE300621BC7 /* SettingViewController.swift in Sources */,
 				C4BCA1112CA64FE200621BC7 /* InfiltrateScrollView.swift in Sources */,
 				C4BCA13C2CA64FE200621BC7 /* Timer+Combine.swift in Sources */,

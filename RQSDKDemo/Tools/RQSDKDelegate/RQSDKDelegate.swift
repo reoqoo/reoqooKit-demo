@@ -105,6 +105,11 @@ extension RQSDKDelegate: RQCore.Delegate {
 }
 
 extension RQSDKDelegate: RQDeviceAddition.Delegate {
+    func reoqooDeviceAddition(_ agent: RQDeviceAddition.Agent, didFinishBindDeviceWithId deviceId: String) {
+        // pop from the QRCode scanning view controller
+        AppEntranceManager.shared.tabbarViewController?.navigationController?.popToRootViewController(animated: false)
+    }
+
     func reoqooDeviceAddition(_ agent: RQDeviceAddition.Agent, didFinishAddDeviceWithId deviceId: String, deviceName: String) {
         DeviceManager2.shared.addDevice(deviceId: deviceId, deviceName: deviceName, deviceRole: .master, permission: nil, needTiggerPresent: true)
     }

@@ -39,8 +39,6 @@
 		C4BCA11B2CA64FE200621BC7 /* PageSheetStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB82CA64FE000621BC7 /* PageSheetStyleViewController.swift */; };
 		C4BCA11C2CA64FE200621BC7 /* QRCodeScanningViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FBB2CA64FE000621BC7 /* QRCodeScanningViewController+ViewModel.swift */; };
 		C4BCA11D2CA64FE200621BC7 /* QRCodeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FBD2CA64FE000621BC7 /* QRCodeScanningViewController.swift */; };
-		C4BCA11E2CA64FE200621BC7 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FBF2CA64FE000621BC7 /* ResponseHandler.swift */; };
-		C4BCA11F2CA64FE200621BC7 /* LocalNetworkAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC02CA64FE000621BC7 /* LocalNetworkAuthorization.swift */; };
 		C4BCA1202CA64FE200621BC7 /* MessageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC22CA64FE000621BC7 /* MessageCenter.swift */; };
 		C4BCA1212CA64FE200621BC7 /* MessageCenter+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC42CA64FE000621BC7 /* MessageCenter+Model.swift */; };
 		C4BCA1222CA64FE200621BC7 /* RegionSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC82CA64FE000621BC7 /* RegionSelectionViewModel.swift */; };
@@ -66,7 +64,6 @@
 		C4BCA1372CA64FE200621BC7 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */; };
 		C4BCA1392CA64FE200621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */; };
 		C4BCA13A2CA64FE200621BC7 /* CombineExt+Create.Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */; };
-		C4BCA13B2CA64FE200621BC7 /* IVNetworkHelper+SwiftCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEA2CA64FE000621BC7 /* IVNetworkHelper+SwiftCombine.swift */; };
 		C4BCA13C2CA64FE200621BC7 /* Timer+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */; };
 		C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */; };
 		C4BCA13E2CA64FE200621BC7 /* IVBLENetCfgManager+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */; };
@@ -1935,7 +1932,6 @@
 				C4BCA0FE2CA64FE200621BC7 /* Localization.swift in Sources */,
 				C4BCA1B22CA64FE300621BC7 /* BasicTabbarController+ViewModel.swift in Sources */,
 				C4BCA10E2CA64FE200621BC7 /* InputAccessoryView.swift in Sources */,
-				C4BCA11E2CA64FE200621BC7 /* ResponseHandler.swift in Sources */,
 				C4BCA1172CA64FE200621BC7 /* CameraOutputView.swift in Sources */,
 				C4BCA11C2CA64FE200621BC7 /* QRCodeScanningViewController+ViewModel.swift in Sources */,
 				C4BCA1492CA64FE200621BC7 /* RQSDKDelegate.swift in Sources */,
@@ -1977,7 +1973,6 @@
 				C4BCA1242CA64FE200621BC7 /* RegionSelectionViewController+TableViewCell.swift in Sources */,
 				C4BCA1712CA64FE300621BC7 /* DevicesViewController+CollectionViewCell.swift in Sources */,
 				C4BCA1C82CA64FE300621BC7 /* ShareToManagedViewController.swift in Sources */,
-				C4BCA13B2CA64FE200621BC7 /* IVNetworkHelper+SwiftCombine.swift in Sources */,
 				C4BCA1462CA64FE200621BC7 /* AccountCenter.swift in Sources */,
 				C4BCA1762CA64FE300621BC7 /* FamilyViewController+ChildrenCollectionViewCell.swift in Sources */,
 				C4BCA1722CA64FE300621BC7 /* DevicesViewController2.swift in Sources */,
@@ -2001,7 +1996,6 @@
 				C4BCA1752CA64FE300621BC7 /* FamilyViewControllerChildrenProtocol.swift in Sources */,
 				C4BCA1B92CA64FE300621BC7 /* ShareDevicesListViewController+DeviceTableViewCell.swift in Sources */,
 				C4BCA14E2CA64FE200621BC7 /* Router.swift in Sources */,
-				C4BCA11F2CA64FE200621BC7 /* LocalNetworkAuthorization.swift in Sources */,
 				C4BCA15E2CA64FE300621BC7 /* AgreementView.swift in Sources */,
 				C4BCA1CB2CA64FE300621BC7 /* ShareManagedViewController+DeviceTableViewCell.swift in Sources */,
 				C4BCA11D2CA64FE200621BC7 /* QRCodeScanningViewController.swift in Sources */,

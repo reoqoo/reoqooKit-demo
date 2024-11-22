@@ -217,6 +217,8 @@ class DeviceManager2 {
                 DeviceManager2.db_updateDevicesWithContext { _ in
                     for dev in self.devices {
                         dev.productModule = supportedProductInfo[dev.productId]?.productModule ?? ""
+                        dev.productName = supportedProductInfo[dev.productId]?.productName ?? ""
+                        dev.devExpandType = supportedProductInfo[dev.productId]?.devExpandType ?? 0
                     }
                 }
             }.disposed(by: self.disposeBag)

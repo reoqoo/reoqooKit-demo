@@ -110,9 +110,14 @@ class DeviceEntity: RealmSwiftObject, Codable, RQCore.Device {
 
     /// 产品型号. 在取得 device list 后,  从 StandardConfiguration 中匹配对应的值并赋值到此属性
     @Persisted var productModule: String?
-
     /// 产品名称. 在取得 device list 后,  从 StandardConfiguration 中匹配对应的值并赋值到此属性
     @Persisted var productName: String?
+    /// 设备扩展信息
+    /// 在取得 device list 后,  从 StandardConfiguration 中匹配对应的值并赋值到此属性
+    /// bit0: 是否4G设备
+    /// bit1: 是否双摄
+    /// bit2: 是否具备AI分析能力
+    @Persisted var devExpandType: Int?
 
     /// 新版本信息
     /// 如为 nil, 表示没有新版本

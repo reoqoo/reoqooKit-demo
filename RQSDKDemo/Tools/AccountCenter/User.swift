@@ -51,7 +51,7 @@ class User: Codable {
         let theRealmFileName = "REALM_" + self.basicInfo.userId + ".realm"
         let folder = self.userFolderPath
         let url = URL.init(fileURLWithPath: folder + "/" + theRealmFileName)
-        let configuration: Realm.Configuration = .init(fileURL: url, schemaVersion: 3)
+        let configuration: Realm.Configuration = .init(fileURL: url, schemaVersion: 4)
         return configuration
     }()
 

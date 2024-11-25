@@ -154,7 +154,7 @@ class DeviceEntity: RealmSwiftObject, Codable, RQCore.Device {
 
     /// 不需要在创建时同步到数据库的属性
     /// 例如排序id由本地创建赋值不需同步的, status 和 版本号信息是创建后另外请求的
-    static var keysThatWhenCreateIgnore: [PartialKeyPath<DeviceEntity>] = [\.deviceListSortID, \.liveViewSortID, \.isLiveClose, \.status, \.presentVersion, \.swVersion, \.productModule, \.productName]
+    static var keysThatWhenCreateIgnore: [PartialKeyPath<DeviceEntity>] = [\.deviceListSortID, \.liveViewSortID, \.isLiveClose, \.status, \.presentVersion, \.swVersion, \.productModule, \.productName, \.devExpandType]
 
     /// 创建从服务器获取新版本信息发布者
     func checkNewVersionInfoObservable() -> RxSwift.Single<DeviceNewVersionInfoEntity?> {

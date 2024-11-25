@@ -36,6 +36,7 @@ extension PartialKeyPath where Root == DeviceEntity {
         case \.isSupportCloud: return "isSupportCloud"
         case \.productModule: return "productModule"
         case \.productName: return "productName"
+        case \.devExpandType: return "devExpandType"
         default: fatalError("DeviceEntity+KeyPath 没有匹配的KeyPath")
         }
     }

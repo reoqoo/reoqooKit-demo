@@ -71,6 +71,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    /// 成功取得远程推送token
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let token = deviceToken.map({ String.init(format: "%02.2hhx", $0) }).joined()
+        logInfo("取得远程推送token: ", token)
+        // 同步 APNS token 到服务器
+        AccountCenter.shared.currentUser?.syncAPNSToken(token)
+    }
+
+    /// 获取远程推送token失败
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        logError("获取远程推送token失败: ", error)
+    }
+
 }
 
 extension AppDelegate: UNUserNotificationCenterDelegate {

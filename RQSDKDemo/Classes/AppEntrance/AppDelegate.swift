@@ -53,7 +53,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 return String.localization.localized("AA0611", note: "XXXXXXXX没有相册访问权限, 点击去设置")
             }
         }
-        
+
+        // 固件更新器
+        FirmwareUpgradeCenter.shared.observerDeviceList()
+
         return true
     }
 

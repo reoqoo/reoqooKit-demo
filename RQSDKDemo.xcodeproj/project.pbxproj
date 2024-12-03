@@ -220,6 +220,7 @@
 		C42506A02CCFB0610052D7CE /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
 		C42506A12CCFB0610052D7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C42506A22CCFB0610052D7CE /* README.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = README.png; sourceTree = "<group>"; };
+		C42CF2B72CFEA96F00E63E8C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C47BF9812CC1F67500194611 /* RQSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RQSDKDemo.entitlements; sourceTree = "<group>"; };
 		C48557192CBFA7F300FF6835 /* receive_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = receive_call.mp3; sourceTree = "<group>"; };
 		C49974F22CBE02A000C12481 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -482,6 +483,7 @@
 		C425069B2CCFB0610052D7CE /* Update Notes */ = {
 			isa = PBXGroup;
 			children = (
+				C42CF2B82CFEA96F00E63E8C /* 1.0.5 */,
 				C49F3DB92CE5A9B200DC339D /* 1.0.4 */,
 				C425069A2CCFB0610052D7CE /* 1.0.3 */,
 			);
@@ -502,6 +504,14 @@
 			);
 			path = README;
 			sourceTree = SOURCE_ROOT;
+		};
+		C42CF2B82CFEA96F00E63E8C /* 1.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				C42CF2B72CFEA96F00E63E8C /* README.md */,
+			);
+			path = 1.0.5;
+			sourceTree = "<group>";
 		};
 		C49F3DB92CE5A9B200DC339D /* 1.0.4 */ = {
 			isa = PBXGroup;

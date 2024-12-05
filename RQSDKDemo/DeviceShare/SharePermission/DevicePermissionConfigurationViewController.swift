@@ -75,8 +75,7 @@ extension DevicePermissionConfigurationViewController: SelectSharePermissionTabl
         // 进入等待状态
         controller.setSwitchState(.wait, atIndexPath: indexPath)
         // 发起修改请求
-
-        RQCore.Agent.shared.setDeviceSharedPermission(sharePermission: permission) { [weak self] code, desc, permission in
+        RQCore.Agent.shared.setDeviceSharedPermission(permission, deviceId: deviceId) { [weak self] code, desc, persmission in
             if code != 0 {
                 // 出错了, 复位 isValid 值
                 self?.dataSources[indexPath.section][indexPath.row].isValid.toggle()

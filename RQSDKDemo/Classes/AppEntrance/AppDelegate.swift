@@ -32,9 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // RQSDK init
         let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: RQLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAggrementURL: userAggrementURL, requestHost: .default, superVipId: nil)
         RQCore.Agent.shared.initialze(initialInfo: initialInfo, delegate: RQSDKDelegate.shared, launchOptions: launchOptions)
+        // set watermarkImage, this is an optional parameter
         RQCore.Agent.shared.watermarkImage = UIColor.red.pureImage(size: .init(width: 135, height: 36))
         RQDeviceAddition.Agent.shared.delegate = RQSDKDelegate.shared
-        
+
         RQImagePicker.ImagePickerViewController.localizableStringSetter = {
             switch $0 {
             case .camera:
@@ -56,6 +57,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // 固件更新器
         FirmwareUpgradeCenter.shared.observerDeviceList()
+
+        // Start Observe
+        RQSDKDelegate.shared.startObserve()
 
         return true
     }

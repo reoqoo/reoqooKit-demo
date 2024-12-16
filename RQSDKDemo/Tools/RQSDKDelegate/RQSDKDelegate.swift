@@ -9,7 +9,31 @@ import Foundation
 
 class RQSDKDelegate {
     static let shared: RQSDKDelegate = .init()
+
+    var disposeBag: DisposeBag = .init()
+
     private init() {}
+
+    func startObserve() {
+        // Observe user login / logout
+        AccountCenter.shared.$currentUser.subscribe { user in
+            if let user = user {
+                RQCore.Agent.shared.userDidLogin(loginInfo: user.basicInfo)
+            }else{
+                RQCore.Agent.shared.userDidLogOut()
+            }
+        }.disposed(by: self.disposeBag)
+
+        // 监听设备被删除事件
+        DeviceManager2.shared.devicesHasBeenDeletedOperationResultObservable.subscribe(on: MainScheduler.asyncInstance).bind {
+            guard case let .success(ghosts) = $0 else { return }
+            for ghost in ghosts {
+                // 当设备删除操作从 APP 操作, 就通知插件, 否则不用通知
+                guard ghost.deleteFrom == .app else { continue }
+                RQCore.Agent.shared.deviceHasBeenDeleted(ghost.deviceId, role: ghost.role)
+            }
+        }.disposed(by: self.disposeBag)
+    }
 
     /// IoTVideoSDK连接状态，外部可监听该状态变化
     @RxPublished var linkStatus: RQLinkStatus = .unregistering

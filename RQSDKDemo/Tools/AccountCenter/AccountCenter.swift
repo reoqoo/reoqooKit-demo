@@ -88,7 +88,6 @@ class AccountCenter {
     private func userDidLogin(user: User, isFromLocalData: Bool) {
         user.isLogin = true
         self.currentUser = user
-        RQCore.Agent.shared.userDidLogin(loginInfo: user.basicInfo)
         // 注册远程推送
         UIApplication.shared.registerForRemoteNotifications()
         // 使用户更新 profile info
@@ -123,7 +122,6 @@ class AccountCenter {
 
     /// 用户登出后需要做的后续操作
     private func sweepUserAccessoryInfo() {
-        RQCore.Agent.shared.iotUnregister()
         // 注销APNS推送服务
         UIApplication.shared.unregisterForRemoteNotifications()
         // 用户登出后, 将系统推送列表清除

@@ -66,7 +66,6 @@
 		C4BCA13A2CA64FE200621BC7 /* CombineExt+Create.Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */; };
 		C4BCA13C2CA64FE200621BC7 /* Timer+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */; };
 		C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */; };
-		C4BCA13E2CA64FE200621BC7 /* IVBLENetCfgManager+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */; };
 		C4BCA13F2CA64FE200621BC7 /* ReoqooAlertViewController+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */; };
 		C4BCA1402CA64FE200621BC7 /* IVDeviceMgr+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */; };
 		C4BCA1412CA64FE200621BC7 /* FirmwareUpgradeCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF22CA64FE000621BC7 /* FirmwareUpgradeCenter.swift */; };
@@ -291,10 +290,8 @@
 		C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftCombine+PublishedPropertyWrapper.swift"; sourceTree = "<group>"; };
 		C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CombineExt+Create.Subscriber.swift"; sourceTree = "<group>"; };
-		C4BC9FEA2CA64FE000621BC7 /* IVNetworkHelper+SwiftCombine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVNetworkHelper+SwiftCombine.swift"; sourceTree = "<group>"; };
 		C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+Combine.swift"; sourceTree = "<group>"; };
 		C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Combine.swift"; sourceTree = "<group>"; };
-		C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVBLENetCfgManager+Combine.swift"; sourceTree = "<group>"; };
 		C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReoqooAlertViewController+Common.swift"; sourceTree = "<group>"; };
 		C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVDeviceMgr+Rx.swift"; sourceTree = "<group>"; };
 		C4BC9FF22CA64FE000621BC7 /* FirmwareUpgradeCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareUpgradeCenter.swift; sourceTree = "<group>"; };
@@ -816,10 +813,8 @@
 			children = (
 				C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */,
 				C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */,
-				C4BC9FEA2CA64FE000621BC7 /* IVNetworkHelper+SwiftCombine.swift */,
 				C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */,
 				C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */,
-				C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */,
 			);
 			path = SwiftCombine;
 			sourceTree = "<group>";
@@ -1958,7 +1953,6 @@
 				C4BCA1C22CA64FE300621BC7 /* SelectSharePermissionAlertViewController.swift in Sources */,
 				C4BCA12E2CA64FE200621BC7 /* UIColor+.swift in Sources */,
 				C4BCA1B82CA64FE300621BC7 /* ShareDeviceConfirmViewController+UserTableViewCell.swift in Sources */,
-				C4BCA13E2CA64FE200621BC7 /* IVBLENetCfgManager+Combine.swift in Sources */,
 				C4BCA1C32CA64FE300621BC7 /* DevicePermissionConfigurationViewController.swift in Sources */,
 				C4BCA1362CA64FE200621BC7 /* Codable+.swift in Sources */,
 				C4BCA1732CA64FE300621BC7 /* DevicesViewController2+EmptyDevicesPlaceholder.swift in Sources */,

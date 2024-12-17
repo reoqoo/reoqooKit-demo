@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import IVMessageMgr
 
 extension SystemMessageViewController.ViewModel {
     enum Status {

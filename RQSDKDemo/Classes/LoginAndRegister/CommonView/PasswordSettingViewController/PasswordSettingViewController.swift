@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import IVAccountMgr
 
 extension PasswordSettingViewController {
     enum For {

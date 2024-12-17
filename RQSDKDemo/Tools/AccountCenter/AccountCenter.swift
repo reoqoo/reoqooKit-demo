@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import IVAccountMgr
 import CryptoSwift
 
 class AccountCenter {

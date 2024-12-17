@@ -7,7 +7,6 @@
 
 import Foundation
 import RQImagePicker
-import IVAccountMgr
 
 extension IssueFeedbackViewController {
 

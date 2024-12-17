@@ -24,6 +24,10 @@ extension DevicesViewController2 {
                 self.powerButton.isHidden = device.role != .master
                 self.cloudImageView.isHidden = !device.isSupportCloud
 
+                device.observable(\.role, whenErrorOccur: .master).bind { [weak self] role in
+                    self?.roleButton.isHidden = role == .master
+                }.disposed(by: self.deviceInfoObservableDisposeBag)
+
                 device.observable(\.vss, whenErrorOccur: nil).bind { [weak self] vss in
                     self?.isBuyCloud = vss?.isBuyCloud ?? false
                 }.disposed(by: self.deviceInfoObservableDisposeBag)

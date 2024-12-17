@@ -78,7 +78,7 @@ extension SystemMessageViewController {
         /// 通过接口 "msgcenter/msgtype/list" 获取一级消息
         func requestMessageListObservable() -> Single<[MessageCenter.FirstLevelMessageItem]> {
             return Single<JSON>.create { observer in
-                IVMessageCenterMgr.share.getMessageList {
+                RQCore.Agent.shared.ivMsgMgr.getMessageList {
                     let result = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
                     observer(result)
                 }

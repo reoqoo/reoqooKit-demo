@@ -72,8 +72,8 @@ extension IssueFeedbackViewController {
             return descriptions[self.rawValue]
         }
 
-        var ivType: IVFeedbackFrequency {
-            let arr: [IVFeedbackFrequency] = [.seldom, .onceDay, .manyTimesDay, .alway]
+        var ivType: RQFeedBackFrequency {
+            let arr: [RQFeedBackFrequency] = [.seldom, .onceDay, .manyTimesDay, .alway]
             return arr[self.rawValue]
         }
     }

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import IVAccountMgr
 
 extension UserProfileTableViewController.ViewModel {
 

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import IVAccountMgr
 
 class FindPasswordViewController: BaseViewController {
 

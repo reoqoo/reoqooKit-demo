@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import IVAccountMgr
 
 extension UserSelectHeaderViewController {
     class CollectionViewCell: UICollectionViewCell {

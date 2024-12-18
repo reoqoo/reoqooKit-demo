@@ -16,7 +16,6 @@ target 'RQSDKDemo' do
   pod 'RxSwift'
   # Realm + RxSwift https://github.com/RxSwiftCommunity/RxRealm/issues/207
   pod 'RxRealm', :git => 'https://github.com/jopache/RxRealm.git'
-  pod 'curl'
   pod 'RTRootNavigationController'
   pod 'AFNetworking',   '~> 4.0.1'
   pod 'SDWebImage',     '~> 5.18.2'

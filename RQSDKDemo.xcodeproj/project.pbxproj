@@ -212,6 +212,7 @@
 		6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C413D3802D129E4800431CB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C41D759E2D1416E4002237A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C42506992CCFB0610052D7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C425069C2CCFB0610052D7CE /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		C425069D2CCFB0610052D7CE /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
@@ -476,6 +477,14 @@
 			path = 1.0.6;
 			sourceTree = "<group>";
 		};
+		C41D759F2D1416E4002237A4 /* 1.0.7 */ = {
+			isa = PBXGroup;
+			children = (
+				C41D759E2D1416E4002237A4 /* README.md */,
+			);
+			path = 1.0.7;
+			sourceTree = "<group>";
+		};
 		C425069A2CCFB0610052D7CE /* 1.0.3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -487,6 +496,7 @@
 		C425069B2CCFB0610052D7CE /* Update Notes */ = {
 			isa = PBXGroup;
 			children = (
+				C41D759F2D1416E4002237A4 /* 1.0.7 */,
 				C413D3812D129E4800431CB9 /* 1.0.6 */,
 				C42CF2B82CFEA96F00E63E8C /* 1.0.5 */,
 				C49F3DB92CE5A9B200DC339D /* 1.0.4 */,

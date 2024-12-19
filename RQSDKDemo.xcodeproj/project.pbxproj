@@ -262,8 +262,6 @@
 		C4BC9FB82CA64FE000621BC7 /* PageSheetStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSheetStyleViewController.swift; sourceTree = "<group>"; };
 		C4BC9FBB2CA64FE000621BC7 /* QRCodeScanningViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QRCodeScanningViewController+ViewModel.swift"; sourceTree = "<group>"; };
 		C4BC9FBD2CA64FE000621BC7 /* QRCodeScanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScanningViewController.swift; sourceTree = "<group>"; };
-		C4BC9FBF2CA64FE000621BC7 /* ResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
-		C4BC9FC02CA64FE000621BC7 /* LocalNetworkAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNetworkAuthorization.swift; sourceTree = "<group>"; };
 		C4BC9FC22CA64FE000621BC7 /* MessageCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenter.swift; sourceTree = "<group>"; };
 		C4BC9FC42CA64FE000621BC7 /* MessageCenter+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageCenter+Model.swift"; sourceTree = "<group>"; };
 		C4BC9FC82CA64FE000621BC7 /* RegionSelectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionSelectionViewModel.swift; sourceTree = "<group>"; };
@@ -576,7 +574,6 @@
 			children = (
 				C4BC9F9E2CA64FDF00621BC7 /* UI */,
 				C4BC9FB92CA64FE000621BC7 /* QRCodeScanning */,
-				C4BC9FBE2CA64FE000621BC7 /* Network */,
 				C4BC9FC12CA64FE000621BC7 /* MessageCenter */,
 				C4BC9FC52CA64FE000621BC7 /* RegionSelection */,
 				C4BC9FD02CA64FE000621BC7 /* Extensions */,
@@ -694,15 +691,6 @@
 				C4BC9FBD2CA64FE000621BC7 /* QRCodeScanningViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C4BC9FBE2CA64FE000621BC7 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				C4BC9FBF2CA64FE000621BC7 /* ResponseHandler.swift */,
-				C4BC9FC02CA64FE000621BC7 /* LocalNetworkAuthorization.swift */,
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		C4BC9FC12CA64FE000621BC7 /* MessageCenter */ = {

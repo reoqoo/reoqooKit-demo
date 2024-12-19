@@ -250,6 +250,13 @@ class DeviceVssEntity: RealmSwiftEmbeddedObject, Codable, RQCore.DeviceVss {
     /// 云存服务存储时长（单位天）, 免费云存期间，app可通过该字段控制查看天数，不返回时app默认3天
     @Persisted var storageDuration: Int?
 
+    var isSupport: Bool {
+        guard let support = support else {
+            return false
+        }
+        return support != 0
+    }
+
     var isBuyCloud: Bool {
         /**
          云存开通状态
@@ -286,6 +293,19 @@ class DeviceFourCardEntity: RealmSwiftEmbeddedObject, Codable, RQCore.DeviceFour
     @Persisted var totalFlow: Int64?
     /// 已使用流量（单位MB）
     @Persisted var useFlow: Int64?
+
+    /// 4G流量开通状态
+    var isBuy4G: Bool {
+        guard let fgExpireTime = fgExpireTime else {
+            return false
+        }
+        return fgExpireTime > Int(Date().timeIntervalSince1970)
+    }
+
+    var isSupport: Bool {
+        guard let support = support else { return false }
+        return support != 0
+    }
 }
 
 // MARK: ai相关属性，properties bit5 为1时返回否则不返回

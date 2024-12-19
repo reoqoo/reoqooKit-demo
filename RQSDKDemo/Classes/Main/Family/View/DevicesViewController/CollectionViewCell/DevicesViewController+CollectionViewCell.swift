@@ -9,40 +9,40 @@ import Foundation
 
 extension DevicesViewController2 {
     class DeviceCollectionViewCell: UICollectionViewCell {
-        
+
         public lazy var powerButtonClickedObservable: RxSwift.PublishSubject<(String, Bool)> = .init()
 
         public weak var device: DeviceEntity? {
             didSet {
 
                 self.deviceInfoObservableDisposeBag = .init()
-                
+
                 guard let device = self.device else { return }
 
                 self.roleButton.setTitle(device.role.description, for: .normal)
                 self.roleButton.isHidden = device.role == .master
                 self.powerButton.isHidden = device.role != .master
-                self.cloudImageView.isHidden = !device.isSupportCloud
-
-                device.observable(\.role, whenErrorOccur: .master).bind { [weak self] role in
-                    self?.roleButton.isHidden = role == .master
-                }.disposed(by: self.deviceInfoObservableDisposeBag)
-
-                device.observable(\.vss, whenErrorOccur: nil).bind { [weak self] vss in
-                    self?.isBuyCloud = vss?.isBuyCloud ?? false
-                }.disposed(by: self.deviceInfoObservableDisposeBag)
+                self.cloudImageView.removeFromSuperview()
+                self.fourGImageView.removeFromSuperview()
 
                 device.observable(\.remarkName, whenErrorOccur: "").bind { [weak self] name in
                     self?.nameLabel.text = name
                 }.disposed(by: self.deviceInfoObservableDisposeBag)
 
                 // 监听设备状态 及 设备角色 以控制 UI 显示
-                Observable.combineLatest(device.observable(\.status, whenErrorOccur: .offline), device.observable(\.role, whenErrorOccur: .master), device.observable(\.isSupportCloud, whenErrorOccur: false))
-                    .bind { [weak self] status, role, isSupportCloud in
+                // 监听设备服务的开通情况
+                Observable.combineLatest(device.observable(\.status, whenErrorOccur: .offline), device.observable(\.role, whenErrorOccur: .master), device.observable(\.vss, whenErrorOccur: nil), device.observable(\.fourCard, whenErrorOccur: nil))
+                    .bind { [weak self] status, role, vss, fourCard in
+                        if vss?.isInvalidated == true { return }
+                        if fourCard?.isInvalidated == true { return }
+
+                        let isSupportVss = vss?.isSupport ?? false
+                        let isSupport4GFlux = fourCard?.isSupport ?? false
+
                         self?.statusDotLabel.backgroundColor = status.color
-                        self?.statusLabel.text = status.description + (isSupportCloud ? "  |  " : "")
+                        self?.statusLabel.text = status.description + ((isSupportVss || isSupport4GFlux) ? "  |  " : "")
                         self?.powerButton.setBackgroundImage(status.image, for: .normal)
-                        
+
                         // 如果设备状态是 在线 / 关机 / 在线, 隐藏开关机动画
                         self?.powerButton.isHidden = !(status == .online || status == .offline || status == .shutdown) || role != .master
                         self?.turnOnAnimationView.isHidden = status != .turningOn || role != .master
@@ -55,6 +55,22 @@ extension DevicesViewController2 {
                         if status == .turningOn {
                             self?.turnOnAnimationView.play()
                         }
+
+                        self?.isBuy4GFlux = fourCard?.isBuy4G ?? false
+                        if let support = fourCard?.isSupport, support, let fourGImageView = self?.fourGImageView {
+                            self?.gainIconsStackView.addArrangedSubview(fourGImageView)
+                            self?.fourGImageView.snp.makeConstraints { make in
+                                make.height.equalTo(18)
+                            }
+                        }
+
+                        self?.isBuyCloud = vss?.isBuyCloud ?? false
+                        if let support = vss?.isSupport, support, let cloudImageView = self?.cloudImageView {
+                            self?.gainIconsStackView.addArrangedSubview(cloudImageView)
+                            self?.cloudImageView.snp.makeConstraints { make in
+                                make.height.equalTo(18)
+                            }
+                        }
                     }.disposed(by: self.deviceInfoObservableDisposeBag)
 
                 /// 设备图片显示
@@ -63,7 +79,7 @@ extension DevicesViewController2 {
                         .processor(Kingfisher.ResizingImageProcessor(referenceSize: CGSize(width: 240, height: 240)))
                     ])
                     return obs ?? .error(ReoqooError.generalError(reason: .optionalTypeUnwrapped))
-                }.subscribe(on: MainScheduler.asyncInstance).subscribe().disposed(by: self.disposeBag)
+                }.subscribe(on: MainScheduler.asyncInstance).subscribe().disposed(by: self.deviceInfoObservableDisposeBag)
             }
         }
 
@@ -77,16 +93,14 @@ extension DevicesViewController2 {
         /// 是否已有生效的付费云存
         private var isBuyCloud: Bool = false {
             didSet {
-                self.cloudImageView.image = self.cloudImage
+                self.cloudImageView.image = self.isBuyCloud ? R.image.family_cloud_on() : R.image.family_cloud_off()
             }
         }
 
-        /// 设备云存开通状态图片
-        private var cloudImage: UIImage? {
-            if isBuyCloud {
-                return R.image.family_cloud_on()
-            } else {
-                return R.image.family_cloud_off()
+        /// 是否已有生效的付费流量
+        private var isBuy4GFlux: Bool = false {
+            didSet {
+                self.fourGImageView.image = self.isBuy4GFlux ? R.image.family_4G_on() : R.image.family_4G_off()
             }
         }
 
@@ -122,10 +136,17 @@ extension DevicesViewController2 {
             $0.textColor = R.color.text_000000_60()
         }
 
-        /// 设备云存状态图片组件
-        private lazy var cloudImageView = UIImageView().then {
-            $0.image = self.cloudImage
+        private lazy var gainIconsStackView: UIStackView = .init().then {
+            $0.axis = .horizontal
+            $0.alignment = .center
+            $0.spacing = 6
         }
+
+        /// 设备云存状态图片组件
+        private lazy var cloudImageView = UIImageView()
+
+        /// 设备4G流量开通状态图片
+        private lazy var fourGImageView = UIImageView()
 
         /// 设备开关机按钮组件
         private lazy var powerButton = UIButton(type: .custom).then {
@@ -180,11 +201,10 @@ extension DevicesViewController2 {
                 make.height.equalTo(18)
             }
 
-            self.contentView.addSubview(self.cloudImageView)
-            self.cloudImageView.snp.makeConstraints { make in
-                make.top.equalTo(self.statusLabel)
+            self.contentView.addSubview(self.gainIconsStackView)
+            self.gainIconsStackView.snp.makeConstraints { make in
+                make.centerY.equalTo(self.statusLabel)
                 make.left.equalTo(self.statusLabel.snp.right)
-                make.width.height.equalTo(self.statusLabel.snp.height)
             }
 
             self.contentView.addSubview(self.powerButton)
@@ -216,5 +236,5 @@ extension DevicesViewController2 {
             }.disposed(by: self.disposeBag)
         }
     }
-    
+
 }

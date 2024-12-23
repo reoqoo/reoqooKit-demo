@@ -7,8 +7,8 @@ None
 None
 
 ### RQDeviceAddition
-None
+update Korean strings
 
 ### RQCore
-1. korean strings update
-2. fixed: the QRCode generate by Device's function is not useful 
+update Korean strings
+fixed some bugs  

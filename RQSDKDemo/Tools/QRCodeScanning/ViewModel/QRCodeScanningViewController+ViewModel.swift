@@ -148,7 +148,7 @@ extension QRCodeScanningViewController {
             // 1. 用 sn 换 productid 和 设备id
             self.requestDeviceInfoFromSNObservable(sn: sn).flatMap({ result in
                 // 2.用 productId 匹配设备模板
-                ProductTemplate.allSupportedProductTemplateObservable.map { productId_deviceTemplate_mapping -> (String, ProductTemplate) in
+                ProductTemplate.allSupportedProductTemplateObservable.map { productId_deviceTemplate_mapping -> (String, String, ProductTemplate) in
                     // 尝试从配置表中找对应的设备模板
                     guard let deviceTemplate = productId_deviceTemplate_mapping[result.productId] else {
                         throw ReoqooError.deviceConnectError(reason: .matchableProductTemplateNotFound)
@@ -157,10 +157,10 @@ extension QRCodeScanningViewController {
                     if Bundle.majorVersion.compareAsVersionString(deviceTemplate.iOSMinVersion) == .older {
                         throw ReoqooError.deviceConnectError(reason: .appVersionNotSupport)
                     }
-                    return (result.deviceId, deviceTemplate)
+                    return (result.sn, result.deviceId, deviceTemplate)
                 }
             }).observe(on: MainScheduler.instance).subscribe { [weak self] result in
-                let preconnectDevice = PreconnectDevice.init(sn: sn, deviceId: result.0, template: result.1)
+                let preconnectDevice = PreconnectDevice.init(factor_u: sn, sn: result.0, deviceId: result.1, template: result.2)
                 self?.status = .requestDeviceIdWithResult(.success(preconnectDevice))
             } onFailure: { [weak self] err in
                 self?.status = .requestDeviceIdWithResult(.failure(err))
@@ -191,7 +191,7 @@ extension QRCodeScanningViewController {
 
         // MARK: Observable封装
 
-        typealias DeviceInfoFromSNResult = (productId: String, deviceId: String)
+        typealias DeviceInfoFromSNResult = (productId: String, deviceId: String, sn: String)
         /// 通过 SN 获取设备信息
         func requestDeviceInfoFromSNObservable(sn: String) -> Single<DeviceInfoFromSNResult> {
             Single.create { observer in
@@ -203,7 +203,8 @@ extension QRCodeScanningViewController {
                     if case let .success(json) = res {
                         let productId = json["data"]["productId"].stringValue
                         let deviceId = json["data"]["deviceId"].stringValue
-                        observer(.success((productId, deviceId)))
+                        let sn = json["data"]["sn"].stringValue
+                        observer(.success((productId, deviceId, sn)))
                     }
                 }
                 return Disposables.create()

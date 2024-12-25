@@ -1,0 +1,2453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4BC98512CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */; };
+		C4BC98522CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C4BC9B352CA5821E00621BC7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BC9B342CA5821E00621BC7 /* VideoToolbox.framework */; };
+		C4BC9B3C2CA583B200621BC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BC9B322CA5821800621BC7 /* AudioToolbox.framework */; };
+		C4BC9B472CA586B000621BC7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BC9B302CA5820600621BC7 /* CoreAudio.framework */; };
+		C4BC9B482CA5877800621BC7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BC9B382CA5828D00621BC7 /* libxml2.tbd */; };
+		C4BCA0FE2CA64FE200621BC7 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9F822CA64FDE00621BC7 /* Localization.swift */; };
+		C4BCA1012CA64FE200621BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BC9F892CA64FDF00621BC7 /* Assets.xcassets */; };
+		C4BCA1052CA64FE200621BC7 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9F932CA64FDF00621BC7 /* R.generated.swift */; };
+		C4BCA1092CA64FE200621BC7 /* PopoverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FA12CA64FDF00621BC7 /* PopoverListView.swift */; };
+		C4BCA10A2CA64FE200621BC7 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FA32CA64FDF00621BC7 /* Popover.swift */; };
+		C4BCA10B2CA64FE200621BC7 /* Popoverable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FA42CA64FE000621BC7 /* Popoverable.swift */; };
+		C4BCA10C2CA64FE200621BC7 /* Kingfisher+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FA52CA64FE000621BC7 /* Kingfisher+Placeholder.swift */; };
+		C4BCA10D2CA64FE200621BC7 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FA72CA64FE000621BC7 /* AlignedCollectionViewFlowLayout.swift */; };
+		C4BCA10E2CA64FE200621BC7 /* InputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FA82CA64FE000621BC7 /* InputAccessoryView.swift */; };
+		C4BCA10F2CA64FE200621BC7 /* ScrollableTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FA92CA64FE000621BC7 /* ScrollableTabBar.swift */; };
+		C4BCA1102CA64FE200621BC7 /* RQSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FAA2CA64FE000621BC7 /* RQSwitch.swift */; };
+		C4BCA1112CA64FE200621BC7 /* InfiltrateScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FAB2CA64FE000621BC7 /* InfiltrateScrollView.swift */; };
+		C4BCA1122CA64FE200621BC7 /* RQInsetGroupedTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FAD2CA64FE000621BC7 /* RQInsetGroupedTableViewHeader.swift */; };
+		C4BCA1132CA64FE200621BC7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FAF2CA64FE000621BC7 /* BaseViewController.swift */; };
+		C4BCA1142CA64FE200621BC7 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB02CA64FE000621BC7 /* BaseTableViewController.swift */; };
+		C4BCA1152CA64FE200621BC7 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB12CA64FE000621BC7 /* BaseNavigationController.swift */; };
+		C4BCA1162CA64FE200621BC7 /* ScrollBaseViewAndKeyboardMatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB22CA64FE000621BC7 /* ScrollBaseViewAndKeyboardMatchable.swift */; };
+		C4BCA1172CA64FE200621BC7 /* CameraOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB32CA64FE000621BC7 /* CameraOutputView.swift */; };
+		C4BCA1182CA64FE200621BC7 /* ReoqooAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB52CA64FE000621BC7 /* ReoqooAlertViewController.swift */; };
+		C4BCA1192CA64FE200621BC7 /* ShapeLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB62CA64FE000621BC7 /* ShapeLayerView.swift */; };
+		C4BCA11A2CA64FE200621BC7 /* ReoqooPopupViewProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB72CA64FE000621BC7 /* ReoqooPopupViewProperty.swift */; };
+		C4BCA11B2CA64FE200621BC7 /* PageSheetStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FB82CA64FE000621BC7 /* PageSheetStyleViewController.swift */; };
+		C4BCA11C2CA64FE200621BC7 /* QRCodeScanningViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FBB2CA64FE000621BC7 /* QRCodeScanningViewController+ViewModel.swift */; };
+		C4BCA11D2CA64FE200621BC7 /* QRCodeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FBD2CA64FE000621BC7 /* QRCodeScanningViewController.swift */; };
+		C4BCA11E2CA64FE200621BC7 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FBF2CA64FE000621BC7 /* ResponseHandler.swift */; };
+		C4BCA11F2CA64FE200621BC7 /* LocalNetworkAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC02CA64FE000621BC7 /* LocalNetworkAuthorization.swift */; };
+		C4BCA1202CA64FE200621BC7 /* MessageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC22CA64FE000621BC7 /* MessageCenter.swift */; };
+		C4BCA1212CA64FE200621BC7 /* MessageCenter+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC42CA64FE000621BC7 /* MessageCenter+Model.swift */; };
+		C4BCA1222CA64FE200621BC7 /* RegionSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FC82CA64FE000621BC7 /* RegionSelectionViewModel.swift */; };
+		C4BCA1232CA64FE200621BC7 /* RegionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FCA2CA64FE000621BC7 /* RegionSelectionViewController.swift */; };
+		C4BCA1242CA64FE200621BC7 /* RegionSelectionViewController+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FCC2CA64FE000621BC7 /* RegionSelectionViewController+TableViewCell.swift */; };
+		C4BCA1252CA64FE200621BC7 /* RegionSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FCE2CA64FE000621BC7 /* RegionSelectionButton.swift */; };
+		C4BCA1262CA64FE200621BC7 /* RegionConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FCF2CA64FE000621BC7 /* RegionConfirmationViewController.swift */; };
+		C4BCA1272CA64FE200621BC7 /* Date+StringPresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FD12CA64FE000621BC7 /* Date+StringPresented.swift */; };
+		C4BCA1282CA64FE200621BC7 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FD42CA64FE000621BC7 /* UIButton+Style.swift */; };
+		C4BCA1292CA64FE200621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FD52CA64FE000621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m */; };
+		C4BCA12A2CA64FE200621BC7 /* MBProgressHUD+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FD62CA64FE000621BC7 /* MBProgressHUD+.swift */; };
+		C4BCA12B2CA64FE200621BC7 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FD72CA64FE000621BC7 /* UICollectionView+.swift */; };
+		C4BCA12C2CA64FE200621BC7 /* UIViewController+NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FD82CA64FE000621BC7 /* UIViewController+NavigationBarStyle.swift */; };
+		C4BCA12D2CA64FE200621BC7 /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FD92CA64FE000621BC7 /* UIScrollView+.swift */; };
+		C4BCA12E2CA64FE200621BC7 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDA2CA64FE000621BC7 /* UIColor+.swift */; };
+		C4BCA12F2CA64FE200621BC7 /* Collection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDB2CA64FE000621BC7 /* Collection+.swift */; };
+		C4BCA1302CA64FE200621BC7 /* UIApplication+SandboxPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDC2CA64FE000621BC7 /* UIApplication+SandboxPath.swift */; };
+		C4BCA1312CA64FE200621BC7 /* UserDefaults+Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDD2CA64FE000621BC7 /* UserDefaults+Key.swift */; };
+		C4BCA1322CA64FE200621BC7 /* IVLanguageCode+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDE2CA64FE000621BC7 /* IVLanguageCode+.swift */; };
+		C4BCA1332CA64FE200621BC7 /* UIApplication+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FDF2CA64FE000621BC7 /* UIApplication+Info.swift */; };
+		C4BCA1342CA64FE200621BC7 /* URL+Static.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE02CA64FE000621BC7 /* URL+Static.swift */; };
+		C4BCA1352CA64FE200621BC7 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE22CA64FE000621BC7 /* NSBundle+Language.m */; };
+		C4BCA1362CA64FE200621BC7 /* Codable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE42CA64FE000621BC7 /* Codable+.swift */; };
+		C4BCA1372CA64FE200621BC7 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */; };
+		C4BCA1392CA64FE200621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */; };
+		C4BCA13A2CA64FE200621BC7 /* CombineExt+Create.Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */; };
+		C4BCA13B2CA64FE200621BC7 /* IVNetworkHelper+SwiftCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEA2CA64FE000621BC7 /* IVNetworkHelper+SwiftCombine.swift */; };
+		C4BCA13C2CA64FE200621BC7 /* Timer+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */; };
+		C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */; };
+		C4BCA13E2CA64FE200621BC7 /* IVBLENetCfgManager+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */; };
+		C4BCA13F2CA64FE200621BC7 /* ReoqooAlertViewController+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */; };
+		C4BCA1402CA64FE200621BC7 /* IVDeviceMgr+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */; };
+		C4BCA1412CA64FE200621BC7 /* FirmwareUpgradeCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF22CA64FE000621BC7 /* FirmwareUpgradeCenter.swift */; };
+		C4BCA1422CA64FE200621BC7 /* FirmUpgradeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */; };
+		C4BCA1432CA64FE200621BC7 /* DoubleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF62CA64FE000621BC7 /* DoubleLinkedList.swift */; };
+		C4BCA1442CA64FE200621BC7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF72CA64FE000621BC7 /* Node.swift */; };
+		C4BCA1452CA64FE200621BC7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FF92CA64FE000621BC7 /* User.swift */; };
+		C4BCA1462CA64FE200621BC7 /* AccountCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */; };
+		C4BCA1472CA64FE200621BC7 /* ErrorDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */; };
+		C4BCA1482CA64FE200621BC7 /* ErrorReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFD2CA64FE000621BC7 /* ErrorReason.swift */; };
+		C4BCA1492CA64FE200621BC7 /* RQSDKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FFF2CA64FE000621BC7 /* RQSDKDelegate.swift */; };
+		C4BCA14A2CA64FE200621BC7 /* DeviceManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0012CA64FE000621BC7 /* DeviceManager2.swift */; };
+		C4BCA14B2CA64FE200621BC7 /* Device+KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0022CA64FE000621BC7 /* Device+KeyPath.swift */; };
+		C4BCA14C2CA64FE200621BC7 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0032CA64FE000621BC7 /* Device.swift */; };
+		C4BCA14E2CA64FE200621BC7 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0062CA64FE000621BC7 /* Router.swift */; };
+		C4BCA1532CA64FE300621BC7 /* family_power_off.json in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA0142CA64FE000621BC7 /* family_power_off.json */; };
+		C4BCA1552CA64FE300621BC7 /* import.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0182CA64FE000621BC7 /* import.swift */; };
+		C4BCA15B2CA64FE300621BC7 /* family_power_on.json in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA0262CA64FE100621BC7 /* family_power_on.json */; };
+		C4BCA15C2CA64FE300621BC7 /* family_update.json in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA0282CA64FE100621BC7 /* family_update.json */; };
+		C4BCA15E2CA64FE300621BC7 /* AgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA02F2CA64FE100621BC7 /* AgreementView.swift */; };
+		C4BCA15F2CA64FE300621BC7 /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0302CA64FE100621BC7 /* PasswordInputView.swift */; };
+		C4BCA1602CA64FE300621BC7 /* OneTimeCodeInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0332CA64FE100621BC7 /* OneTimeCodeInputViewController.swift */; };
+		C4BCA1612CA64FE300621BC7 /* OneTimeCodeInputViewController+SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0342CA64FE100621BC7 /* OneTimeCodeInputViewController+SubViews.swift */; };
+		C4BCA1622CA64FE300621BC7 /* PasswordSettingSucceedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0362CA64FE100621BC7 /* PasswordSettingSucceedViewController.swift */; };
+		C4BCA1632CA64FE300621BC7 /* PasswordSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0382CA64FE100621BC7 /* PasswordSettingViewController.swift */; };
+		C4BCA1642CA64FE300621BC7 /* AccountInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0392CA64FE100621BC7 /* AccountInputView.swift */; };
+		C4BCA1652CA64FE300621BC7 /* FindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA03C2CA64FE100621BC7 /* FindPasswordViewController.swift */; };
+		C4BCA1662CA64FE300621BC7 /* RequestOneTimeCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0402CA64FE100621BC7 /* RequestOneTimeCodeViewController.swift */; };
+		C4BCA1672CA64FE300621BC7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA0432CA64FE100621BC7 /* LoginViewController.xib */; };
+		C4BCA1682CA64FE300621BC7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0442CA64FE100621BC7 /* LoginViewController.swift */; };
+		C4BCA1692CA64FE300621BC7 /* KeyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0462CA64FE100621BC7 /* KeyWindow.swift */; };
+		C4BCA16A2CA64FE300621BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA0472CA64FE100621BC7 /* LaunchScreen.storyboard */; };
+		C4BCA16B2CA64FE300621BC7 /* AppentranceManager+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0482CA64FE100621BC7 /* AppentranceManager+Extra.swift */; };
+		C4BCA16C2CA64FE300621BC7 /* AppEntranceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0492CA64FE100621BC7 /* AppEntranceManager.swift */; };
+		C4BCA16D2CA64FE300621BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA04A2CA64FE100621BC7 /* AppDelegate.swift */; };
+		C4BCA16E2CA64FE300621BC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA04B2CA64FE100621BC7 /* SceneDelegate.swift */; };
+		C4BCA16F2CA64FE300621BC7 /* FamilyViewController2+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA04F2CA64FE100621BC7 /* FamilyViewController2+ViewModel.swift */; };
+		C4BCA1702CA64FE300621BC7 /* FamilyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0512CA64FE100621BC7 /* FamilyHeaderView.swift */; };
+		C4BCA1712CA64FE300621BC7 /* DevicesViewController+CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0552CA64FE100621BC7 /* DevicesViewController+CollectionViewCell.swift */; };
+		C4BCA1722CA64FE300621BC7 /* DevicesViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0562CA64FE100621BC7 /* DevicesViewController2.swift */; };
+		C4BCA1732CA64FE300621BC7 /* DevicesViewController2+EmptyDevicesPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0572CA64FE100621BC7 /* DevicesViewController2+EmptyDevicesPlaceholder.swift */; };
+		C4BCA1742CA64FE300621BC7 /* FamilyViewController2+Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0582CA64FE100621BC7 /* FamilyViewController2+Banner.swift */; };
+		C4BCA1752CA64FE300621BC7 /* FamilyViewControllerChildrenProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0592CA64FE100621BC7 /* FamilyViewControllerChildrenProtocol.swift */; };
+		C4BCA1762CA64FE300621BC7 /* FamilyViewController+ChildrenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA05A2CA64FE100621BC7 /* FamilyViewController+ChildrenCollectionViewCell.swift */; };
+		C4BCA1772CA64FE300621BC7 /* FamilyViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA05B2CA64FE100621BC7 /* FamilyViewController2.swift */; };
+		C4BCA1782CA64FE300621BC7 /* AboutReoqooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA05E2CA64FE100621BC7 /* AboutReoqooViewController.swift */; };
+		C4BCA1792CA64FE300621BC7 /* CommonEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0602CA64FE100621BC7 /* CommonEmptyView.swift */; };
+		C4BCA17A2CA64FE300621BC7 /* IssueFeedbackViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0632CA64FE100621BC7 /* IssueFeedbackViewController+ViewModel.swift */; };
+		C4BCA17B2CA64FE300621BC7 /* IssueFeedbackViewController+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0652CA64FE100621BC7 /* IssueFeedbackViewController+Model.swift */; };
+		C4BCA17C2CA64FE300621BC7 /* IssueFeedbackViewController+CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0672CA64FE100621BC7 /* IssueFeedbackViewController+CollectionViewCell.swift */; };
+		C4BCA17D2CA64FE300621BC7 /* IssueFeedbackViewController+DeviceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0692CA64FE100621BC7 /* IssueFeedbackViewController+DeviceSelectionViewController.swift */; };
+		C4BCA17E2CA64FE300621BC7 /* IssueFeedbackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA06A2CA64FE100621BC7 /* IssueFeedbackTableViewController.swift */; };
+		C4BCA17F2CA64FE300621BC7 /* IssueFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA06B2CA64FE100621BC7 /* IssueFeedbackViewController.swift */; };
+		C4BCA1802CA64FE300621BC7 /* IssueFeedbackViewController+TableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA06C2CA64FE100621BC7 /* IssueFeedbackViewController+TableViewSectionHeader.swift */; };
+		C4BCA1812CA64FE300621BC7 /* IssueFeedbackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA06D2CA64FE100621BC7 /* IssueFeedbackViewController.storyboard */; };
+		C4BCA1822CA64FE300621BC7 /* IssueFeedbackViewController+CalendarSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA06F2CA64FE100621BC7 /* IssueFeedbackViewController+CalendarSelectionViewController.swift */; };
+		C4BCA1832CA64FE300621BC7 /* IVCalendarTimeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0712CA64FE100621BC7 /* IVCalendarTimeSelectView.swift */; };
+		C4BCA1842CA64FE300621BC7 /* IVDatePickerViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0722CA64FE100621BC7 /* IVDatePickerViewService.swift */; };
+		C4BCA1852CA64FE300621BC7 /* IVDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0732CA64FE100621BC7 /* IVDatePickerView.swift */; };
+		C4BCA1862CA64FE300621BC7 /* IssueFeedbackViewController+IssueTypeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0752CA64FE100621BC7 /* IssueFeedbackViewController+IssueTypeSelectionViewController.swift */; };
+		C4BCA1872CA64FE300621BC7 /* FeedbackCommitSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0772CA64FE100621BC7 /* FeedbackCommitSuccessViewController.swift */; };
+		C4BCA1882CA64FE300621BC7 /* MessageCenterSubLevelViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA07B2CA64FE100621BC7 /* MessageCenterSubLevelViewController+ViewModel.swift */; };
+		C4BCA1892CA64FE300621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA07E2CA64FE100621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift */; };
+		C4BCA18A2CA64FE300621BC7 /* MessageCenterSubLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA07F2CA64FE100621BC7 /* MessageCenterSubLevelViewController.swift */; };
+		C4BCA18B2CA64FE300621BC7 /* SystemMessageViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0822CA64FE100621BC7 /* SystemMessageViewController+ViewModel.swift */; };
+		C4BCA18C2CA64FE300621BC7 /* WelfareActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0842CA64FE100621BC7 /* WelfareActivityViewController.swift */; };
+		C4BCA18D2CA64FE300621BC7 /* FirstLevelMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0862CA64FE100621BC7 /* FirstLevelMessageTableViewCell.swift */; };
+		C4BCA18E2CA64FE300621BC7 /* WelfareActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0872CA64FE100621BC7 /* WelfareActivityTableViewCell.swift */; };
+		C4BCA18F2CA64FE300621BC7 /* SystemMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0882CA64FE100621BC7 /* SystemMessageViewController.swift */; };
+		C4BCA1902CA64FE300621BC7 /* SystemMessageViewController+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0892CA64FE100621BC7 /* SystemMessageViewController+Header.swift */; };
+		C4BCA1912CA64FE300621BC7 /* MessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA08A2CA64FE100621BC7 /* MessageCenterViewController.swift */; };
+		C4BCA1922CA64FE300621BC7 /* MessageCenterViewController+CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA08B2CA64FE100621BC7 /* MessageCenterViewController+CollectionViewCell.swift */; };
+		C4BCA1932CA64FE300621BC7 /* MineViewController+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA08E2CA64FE100621BC7 /* MineViewController+Model.swift */; };
+		C4BCA1942CA64FE300621BC7 /* MineViewController+ServiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0902CA64FE100621BC7 /* MineViewController+ServiceButton.swift */; };
+		C4BCA1952CA64FE300621BC7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0912CA64FE100621BC7 /* MineViewController.swift */; };
+		C4BCA1962CA64FE300621BC7 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA0922CA64FE100621BC7 /* Mine.storyboard */; };
+		C4BCA1972CA64FE300621BC7 /* UserProfileTableViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0952CA64FE100621BC7 /* UserProfileTableViewController+ViewModel.swift */; };
+		C4BCA1982CA64FE300621BC7 /* UserSelectHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0982CA64FE100621BC7 /* UserSelectHeaderViewController.swift */; };
+		C4BCA1992CA64FE300621BC7 /* CloseAccountFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA09B2CA64FE100621BC7 /* CloseAccountFlowItem.swift */; };
+		C4BCA19A2CA64FE300621BC7 /* CloseAccountReasonSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA09D2CA64FE100621BC7 /* CloseAccountReasonSelectionViewController.swift */; };
+		C4BCA19B2CA64FE300621BC7 /* CloseAccountPasswordInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA09E2CA64FE100621BC7 /* CloseAccountPasswordInputViewController.swift */; };
+		C4BCA19C2CA64FE300621BC7 /* CloseAccountIntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA09F2CA64FE100621BC7 /* CloseAccountIntroductionViewController.swift */; };
+		C4BCA19D2CA64FE300621BC7 /* CloseAccountSucceedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0A02CA64FE100621BC7 /* CloseAccountSucceedViewController.swift */; };
+		C4BCA19E2CA64FE300621BC7 /* ModifyPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0A22CA64FE100621BC7 /* ModifyPasswordViewController.swift */; };
+		C4BCA19F2CA64FE300621BC7 /* RebindTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0A42CA64FE100621BC7 /* RebindTipsViewController.swift */; };
+		C4BCA1A02CA64FE300621BC7 /* RequestOneTimeCodeForBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0A52CA64FE100621BC7 /* RequestOneTimeCodeForBindingViewController.swift */; };
+		C4BCA1A12CA64FE300621BC7 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA0A72CA64FE100621BC7 /* UserProfile.storyboard */; };
+		C4BCA1A22CA64FE300621BC7 /* UserProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0A92CA64FE100621BC7 /* UserProfileTableViewController.swift */; };
+		C4BCA1A32CA64FE300621BC7 /* SystemAuthorizationViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0AD2CA64FE100621BC7 /* SystemAuthorizationViewController+ViewModel.swift */; };
+		C4BCA1A42CA64FE300621BC7 /* APNSSettingViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0AE2CA64FE100621BC7 /* APNSSettingViewController+ViewModel.swift */; };
+		C4BCA1A52CA64FE300621BC7 /* AuthorizationStatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0B02CA64FE100621BC7 /* AuthorizationStatusItem.swift */; };
+		C4BCA1A62CA64FE300621BC7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0B22CA64FE100621BC7 /* SettingViewController.swift */; };
+		C4BCA1A72CA64FE300621BC7 /* APNSSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0B42CA64FE100621BC7 /* APNSSettingViewController.swift */; };
+		C4BCA1A82CA64FE300621BC7 /* SystemAuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0B62CA64FE100621BC7 /* SystemAuthorizationViewController.swift */; };
+		C4BCA1A92CA64FE300621BC7 /* AuthorizationStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0B82CA64FE100621BC7 /* AuthorizationStatusTableViewCell.swift */; };
+		C4BCA1AA2CA64FE300621BC7 /* AuthorizationStatusTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0B92CA64FE200621BC7 /* AuthorizationStatusTableViewHeader.swift */; };
+		C4BCA1AB2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0BC2CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+ViewModel.swift */; };
+		C4BCA1AC2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0BE2CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+Model.swift */; };
+		C4BCA1AD2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0C02CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+TableViewCell.swift */; };
+		C4BCA1AE2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+OtherSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0C12CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+OtherSubviews.swift */; };
+		C4BCA1AF2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0C22CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController.swift */; };
+		C4BCA1B02CA64FE300621BC7 /* ChangeLanguageViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0C52CA64FE200621BC7 /* ChangeLanguageViewController+ViewModel.swift */; };
+		C4BCA1B12CA64FE300621BC7 /* ChangeLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0C72CA64FE200621BC7 /* ChangeLanguageViewController.swift */; };
+		C4BCA1B22CA64FE300621BC7 /* BasicTabbarController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0CA2CA64FE200621BC7 /* BasicTabbarController+ViewModel.swift */; };
+		C4BCA1B32CA64FE300621BC7 /* BasicTabbarController+WrappedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0CC2CA64FE200621BC7 /* BasicTabbarController+WrappedNavigationController.swift */; };
+		C4BCA1B42CA64FE300621BC7 /* BasicTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0CD2CA64FE200621BC7 /* BasicTabbarController.swift */; };
+		C4BCA1B62CA64FE300621BC7 /* ShareDeviceConfirmViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0D42CA64FE200621BC7 /* ShareDeviceConfirmViewController+ViewModel.swift */; };
+		C4BCA1B72CA64FE300621BC7 /* ShareDeviceConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0D72CA64FE200621BC7 /* ShareDeviceConfirmViewController.swift */; };
+		C4BCA1B82CA64FE300621BC7 /* ShareDeviceConfirmViewController+UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0D82CA64FE200621BC7 /* ShareDeviceConfirmViewController+UserTableViewCell.swift */; };
+		C4BCA1B92CA64FE300621BC7 /* ShareDevicesListViewController+DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0DB2CA64FE200621BC7 /* ShareDevicesListViewController+DeviceTableViewCell.swift */; };
+		C4BCA1BA2CA64FE300621BC7 /* ShareDevicesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0DC2CA64FE200621BC7 /* ShareDevicesListViewController.swift */; };
+		C4BCA1BB2CA64FE300621BC7 /* ShareByFace2FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0DF2CA64FE200621BC7 /* ShareByFace2FaceViewController.swift */; };
+		C4BCA1BC2CA64FE300621BC7 /* ShareByFace2FaceViewController+UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0E02CA64FE200621BC7 /* ShareByFace2FaceViewController+UserTableViewCell.swift */; };
+		C4BCA1BD2CA64FE300621BC7 /* DeviceSharePopupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0E22CA64FE200621BC7 /* DeviceSharePopupHelper.swift */; };
+		C4BCA1BE2CA64FE300621BC7 /* DeviceShareHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0E32CA64FE200621BC7 /* DeviceShareHeaderView.swift */; };
+		C4BCA1BF2CA64FE300621BC7 /* DeviceShare+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0E52CA64FE200621BC7 /* DeviceShare+Model.swift */; };
+		C4BCA1C02CA64FE300621BC7 /* DeviceShare+Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0E72CA64FE200621BC7 /* DeviceShare+Api.swift */; };
+		C4BCA1C12CA64FE300621BC7 /* SelectSharePermissionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0E92CA64FE200621BC7 /* SelectSharePermissionTableViewController.swift */; };
+		C4BCA1C22CA64FE300621BC7 /* SelectSharePermissionAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0EA2CA64FE200621BC7 /* SelectSharePermissionAlertViewController.swift */; };
+		C4BCA1C32CA64FE300621BC7 /* DevicePermissionConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0EB2CA64FE200621BC7 /* DevicePermissionConfigurationViewController.swift */; };
+		C4BCA1C42CA64FE300621BC7 /* ShareManagerViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0EE2CA64FE200621BC7 /* ShareManagerViewController+ViewModel.swift */; };
+		C4BCA1C52CA64FE300621BC7 /* ShareFromManagedViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0EF2CA64FE200621BC7 /* ShareFromManagedViewController+ViewModel.swift */; };
+		C4BCA1C62CA64FE300621BC7 /* ShareToManagedViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0F02CA64FE200621BC7 /* ShareToManagedViewController+ViewModel.swift */; };
+		C4BCA1C72CA64FE300621BC7 /* ShareFromManagedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0F32CA64FE200621BC7 /* ShareFromManagedViewController.swift */; };
+		C4BCA1C82CA64FE300621BC7 /* ShareToManagedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0F52CA64FE200621BC7 /* ShareToManagedViewController.swift */; };
+		C4BCA1C92CA64FE300621BC7 /* ShareToManagedViewController+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0F62CA64FE200621BC7 /* ShareToManagedViewController+TableViewCell.swift */; };
+		C4BCA1CA2CA64FE300621BC7 /* ShareManagedViewController+DeviceTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0F82CA64FE200621BC7 /* ShareManagedViewController+DeviceTableViewHeader.swift */; };
+		C4BCA1CB2CA64FE300621BC7 /* ShareManagedViewController+DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0F92CA64FE200621BC7 /* ShareManagedViewController+DeviceTableViewCell.swift */; };
+		C4BCA1CC2CA64FE300621BC7 /* ShareManagedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BCA0FA2CA64FE200621BC7 /* ShareManagedViewController.swift */; };
+		C4BCA1CF2CA6501300621BC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4BCA1CD2CA6501300621BC7 /* Localizable.strings */; };
+		C4D3B77F2CB9095B00D1C0AF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D3B77E2CB9095B00D1C0AF /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4BC98062CA55EDE00621BC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C4BC98522CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RQSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C49974F22CBE02A000C12481 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		C4BC905B2CA43FF700621BC7 /* RQSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BC92C02CA55B2F00621BC7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4BC9B282CA57FDB00621BC7 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		C4BC9B2A2CA57FE200621BC7 /* CoreAudioTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioTypes.framework; path = System/Library/Frameworks/CoreAudioTypes.framework; sourceTree = SDKROOT; };
+		C4BC9B2C2CA5800300621BC7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		C4BC9B302CA5820600621BC7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C4BC9B322CA5821800621BC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C4BC9B342CA5821E00621BC7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		C4BC9B362CA5825900621BC7 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		C4BC9B372CA5828200621BC7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C4BC9B382CA5828D00621BC7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C4BC9B392CA5835200621BC7 /* libobjc.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.A.tbd; path = usr/lib/libobjc.A.tbd; sourceTree = SDKROOT; };
+		C4BC9F822CA64FDE00621BC7 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		C4BC9F892CA64FDF00621BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4BC9F932CA64FDF00621BC7 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		C4BC9FA12CA64FDF00621BC7 /* PopoverListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverListView.swift; sourceTree = "<group>"; };
+		C4BC9FA32CA64FDF00621BC7 /* Popover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
+		C4BC9FA42CA64FE000621BC7 /* Popoverable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Popoverable.swift; sourceTree = "<group>"; };
+		C4BC9FA52CA64FE000621BC7 /* Kingfisher+Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Kingfisher+Placeholder.swift"; sourceTree = "<group>"; };
+		C4BC9FA72CA64FE000621BC7 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		C4BC9FA82CA64FE000621BC7 /* InputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputAccessoryView.swift; sourceTree = "<group>"; };
+		C4BC9FA92CA64FE000621BC7 /* ScrollableTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableTabBar.swift; sourceTree = "<group>"; };
+		C4BC9FAA2CA64FE000621BC7 /* RQSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RQSwitch.swift; sourceTree = "<group>"; };
+		C4BC9FAB2CA64FE000621BC7 /* InfiltrateScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiltrateScrollView.swift; sourceTree = "<group>"; };
+		C4BC9FAD2CA64FE000621BC7 /* RQInsetGroupedTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RQInsetGroupedTableViewHeader.swift; sourceTree = "<group>"; };
+		C4BC9FAF2CA64FE000621BC7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C4BC9FB02CA64FE000621BC7 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		C4BC9FB12CA64FE000621BC7 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C4BC9FB22CA64FE000621BC7 /* ScrollBaseViewAndKeyboardMatchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollBaseViewAndKeyboardMatchable.swift; sourceTree = "<group>"; };
+		C4BC9FB32CA64FE000621BC7 /* CameraOutputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOutputView.swift; sourceTree = "<group>"; };
+		C4BC9FB52CA64FE000621BC7 /* ReoqooAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReoqooAlertViewController.swift; sourceTree = "<group>"; };
+		C4BC9FB62CA64FE000621BC7 /* ShapeLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayerView.swift; sourceTree = "<group>"; };
+		C4BC9FB72CA64FE000621BC7 /* ReoqooPopupViewProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReoqooPopupViewProperty.swift; sourceTree = "<group>"; };
+		C4BC9FB82CA64FE000621BC7 /* PageSheetStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSheetStyleViewController.swift; sourceTree = "<group>"; };
+		C4BC9FBB2CA64FE000621BC7 /* QRCodeScanningViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QRCodeScanningViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BC9FBD2CA64FE000621BC7 /* QRCodeScanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScanningViewController.swift; sourceTree = "<group>"; };
+		C4BC9FBF2CA64FE000621BC7 /* ResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		C4BC9FC02CA64FE000621BC7 /* LocalNetworkAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNetworkAuthorization.swift; sourceTree = "<group>"; };
+		C4BC9FC22CA64FE000621BC7 /* MessageCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenter.swift; sourceTree = "<group>"; };
+		C4BC9FC42CA64FE000621BC7 /* MessageCenter+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageCenter+Model.swift"; sourceTree = "<group>"; };
+		C4BC9FC82CA64FE000621BC7 /* RegionSelectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionSelectionViewModel.swift; sourceTree = "<group>"; };
+		C4BC9FCA2CA64FE000621BC7 /* RegionSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionSelectionViewController.swift; sourceTree = "<group>"; };
+		C4BC9FCC2CA64FE000621BC7 /* RegionSelectionViewController+TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RegionSelectionViewController+TableViewCell.swift"; sourceTree = "<group>"; };
+		C4BC9FCE2CA64FE000621BC7 /* RegionSelectionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionSelectionButton.swift; sourceTree = "<group>"; };
+		C4BC9FCF2CA64FE000621BC7 /* RegionConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionConfirmationViewController.swift; sourceTree = "<group>"; };
+		C4BC9FD12CA64FE000621BC7 /* Date+StringPresented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+StringPresented.swift"; sourceTree = "<group>"; };
+		C4BC9FD32CA64FE000621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTContainerNavigationController+CommonStyleConfiguration.h"; sourceTree = "<group>"; };
+		C4BC9FD42CA64FE000621BC7 /* UIButton+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		C4BC9FD52CA64FE000621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTContainerNavigationController+CommonStyleConfiguration.m"; sourceTree = "<group>"; };
+		C4BC9FD62CA64FE000621BC7 /* MBProgressHUD+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+.swift"; sourceTree = "<group>"; };
+		C4BC9FD72CA64FE000621BC7 /* UICollectionView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		C4BC9FD82CA64FE000621BC7 /* UIViewController+NavigationBarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationBarStyle.swift"; sourceTree = "<group>"; };
+		C4BC9FD92CA64FE000621BC7 /* UIScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
+		C4BC9FDA2CA64FE000621BC7 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		C4BC9FDB2CA64FE000621BC7 /* Collection+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+.swift"; sourceTree = "<group>"; };
+		C4BC9FDC2CA64FE000621BC7 /* UIApplication+SandboxPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+SandboxPath.swift"; sourceTree = "<group>"; };
+		C4BC9FDD2CA64FE000621BC7 /* UserDefaults+Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Key.swift"; sourceTree = "<group>"; };
+		C4BC9FDE2CA64FE000621BC7 /* IVLanguageCode+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVLanguageCode+.swift"; sourceTree = "<group>"; };
+		C4BC9FDF2CA64FE000621BC7 /* UIApplication+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Info.swift"; sourceTree = "<group>"; };
+		C4BC9FE02CA64FE000621BC7 /* URL+Static.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Static.swift"; sourceTree = "<group>"; };
+		C4BC9FE22CA64FE000621BC7 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		C4BC9FE32CA64FE000621BC7 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		C4BC9FE42CA64FE000621BC7 /* Codable+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+.swift"; sourceTree = "<group>"; };
+		C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftCombine+PublishedPropertyWrapper.swift"; sourceTree = "<group>"; };
+		C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CombineExt+Create.Subscriber.swift"; sourceTree = "<group>"; };
+		C4BC9FEA2CA64FE000621BC7 /* IVNetworkHelper+SwiftCombine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVNetworkHelper+SwiftCombine.swift"; sourceTree = "<group>"; };
+		C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+Combine.swift"; sourceTree = "<group>"; };
+		C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Combine.swift"; sourceTree = "<group>"; };
+		C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVBLENetCfgManager+Combine.swift"; sourceTree = "<group>"; };
+		C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReoqooAlertViewController+Common.swift"; sourceTree = "<group>"; };
+		C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVDeviceMgr+Rx.swift"; sourceTree = "<group>"; };
+		C4BC9FF22CA64FE000621BC7 /* FirmwareUpgradeCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareUpgradeCenter.swift; sourceTree = "<group>"; };
+		C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmUpgradeTask.swift; sourceTree = "<group>"; };
+		C4BC9FF62CA64FE000621BC7 /* DoubleLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleLinkedList.swift; sourceTree = "<group>"; };
+		C4BC9FF72CA64FE000621BC7 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		C4BC9FF92CA64FE000621BC7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCenter.swift; sourceTree = "<group>"; };
+		C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDefine.swift; sourceTree = "<group>"; };
+		C4BC9FFD2CA64FE000621BC7 /* ErrorReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorReason.swift; sourceTree = "<group>"; };
+		C4BC9FFF2CA64FE000621BC7 /* RQSDKDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RQSDKDelegate.swift; sourceTree = "<group>"; };
+		C4BCA0012CA64FE000621BC7 /* DeviceManager2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager2.swift; sourceTree = "<group>"; };
+		C4BCA0022CA64FE000621BC7 /* Device+KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Device+KeyPath.swift"; sourceTree = "<group>"; };
+		C4BCA0032CA64FE000621BC7 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		C4BCA0062CA64FE000621BC7 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C4BCA0132CA64FE000621BC7 /* Reoqoo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reoqoo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4BCA0142CA64FE000621BC7 /* family_power_off.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = family_power_off.json; sourceTree = "<group>"; };
+		C4BCA0182CA64FE000621BC7 /* import.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = import.swift; sourceTree = "<group>"; };
+		C4BCA01C2CA64FE000621BC7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BCA0262CA64FE100621BC7 /* family_power_on.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = family_power_on.json; sourceTree = "<group>"; };
+		C4BCA0282CA64FE100621BC7 /* family_update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = family_update.json; sourceTree = "<group>"; };
+		C4BCA02F2CA64FE100621BC7 /* AgreementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreementView.swift; sourceTree = "<group>"; };
+		C4BCA0302CA64FE100621BC7 /* PasswordInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
+		C4BCA0332CA64FE100621BC7 /* OneTimeCodeInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTimeCodeInputViewController.swift; sourceTree = "<group>"; };
+		C4BCA0342CA64FE100621BC7 /* OneTimeCodeInputViewController+SubViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OneTimeCodeInputViewController+SubViews.swift"; sourceTree = "<group>"; };
+		C4BCA0362CA64FE100621BC7 /* PasswordSettingSucceedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordSettingSucceedViewController.swift; sourceTree = "<group>"; };
+		C4BCA0382CA64FE100621BC7 /* PasswordSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordSettingViewController.swift; sourceTree = "<group>"; };
+		C4BCA0392CA64FE100621BC7 /* AccountInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInputView.swift; sourceTree = "<group>"; };
+		C4BCA03C2CA64FE100621BC7 /* FindPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPasswordViewController.swift; sourceTree = "<group>"; };
+		C4BCA0402CA64FE100621BC7 /* RequestOneTimeCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOneTimeCodeViewController.swift; sourceTree = "<group>"; };
+		C4BCA0432CA64FE100621BC7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C4BCA0442CA64FE100621BC7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4BCA0462CA64FE100621BC7 /* KeyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyWindow.swift; sourceTree = "<group>"; };
+		C4BCA0472CA64FE100621BC7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4BCA0482CA64FE100621BC7 /* AppentranceManager+Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppentranceManager+Extra.swift"; sourceTree = "<group>"; };
+		C4BCA0492CA64FE100621BC7 /* AppEntranceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEntranceManager.swift; sourceTree = "<group>"; };
+		C4BCA04A2CA64FE100621BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4BCA04B2CA64FE100621BC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4BCA04F2CA64FE100621BC7 /* FamilyViewController2+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FamilyViewController2+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0512CA64FE100621BC7 /* FamilyHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyHeaderView.swift; sourceTree = "<group>"; };
+		C4BCA0552CA64FE100621BC7 /* DevicesViewController+CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DevicesViewController+CollectionViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0562CA64FE100621BC7 /* DevicesViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewController2.swift; sourceTree = "<group>"; };
+		C4BCA0572CA64FE100621BC7 /* DevicesViewController2+EmptyDevicesPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DevicesViewController2+EmptyDevicesPlaceholder.swift"; sourceTree = "<group>"; };
+		C4BCA0582CA64FE100621BC7 /* FamilyViewController2+Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FamilyViewController2+Banner.swift"; sourceTree = "<group>"; };
+		C4BCA0592CA64FE100621BC7 /* FamilyViewControllerChildrenProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewControllerChildrenProtocol.swift; sourceTree = "<group>"; };
+		C4BCA05A2CA64FE100621BC7 /* FamilyViewController+ChildrenCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FamilyViewController+ChildrenCollectionViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA05B2CA64FE100621BC7 /* FamilyViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyViewController2.swift; sourceTree = "<group>"; };
+		C4BCA05E2CA64FE100621BC7 /* AboutReoqooViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutReoqooViewController.swift; sourceTree = "<group>"; };
+		C4BCA0602CA64FE100621BC7 /* CommonEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonEmptyView.swift; sourceTree = "<group>"; };
+		C4BCA0632CA64FE100621BC7 /* IssueFeedbackViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IssueFeedbackViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0652CA64FE100621BC7 /* IssueFeedbackViewController+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IssueFeedbackViewController+Model.swift"; sourceTree = "<group>"; };
+		C4BCA0672CA64FE100621BC7 /* IssueFeedbackViewController+CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IssueFeedbackViewController+CollectionViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0692CA64FE100621BC7 /* IssueFeedbackViewController+DeviceSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IssueFeedbackViewController+DeviceSelectionViewController.swift"; sourceTree = "<group>"; };
+		C4BCA06A2CA64FE100621BC7 /* IssueFeedbackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueFeedbackTableViewController.swift; sourceTree = "<group>"; };
+		C4BCA06B2CA64FE100621BC7 /* IssueFeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueFeedbackViewController.swift; sourceTree = "<group>"; };
+		C4BCA06C2CA64FE100621BC7 /* IssueFeedbackViewController+TableViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IssueFeedbackViewController+TableViewSectionHeader.swift"; sourceTree = "<group>"; };
+		C4BCA06D2CA64FE100621BC7 /* IssueFeedbackViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IssueFeedbackViewController.storyboard; sourceTree = "<group>"; };
+		C4BCA06F2CA64FE100621BC7 /* IssueFeedbackViewController+CalendarSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IssueFeedbackViewController+CalendarSelectionViewController.swift"; sourceTree = "<group>"; };
+		C4BCA0712CA64FE100621BC7 /* IVCalendarTimeSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVCalendarTimeSelectView.swift; sourceTree = "<group>"; };
+		C4BCA0722CA64FE100621BC7 /* IVDatePickerViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDatePickerViewService.swift; sourceTree = "<group>"; };
+		C4BCA0732CA64FE100621BC7 /* IVDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVDatePickerView.swift; sourceTree = "<group>"; };
+		C4BCA0752CA64FE100621BC7 /* IssueFeedbackViewController+IssueTypeSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IssueFeedbackViewController+IssueTypeSelectionViewController.swift"; sourceTree = "<group>"; };
+		C4BCA0772CA64FE100621BC7 /* FeedbackCommitSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackCommitSuccessViewController.swift; sourceTree = "<group>"; };
+		C4BCA07B2CA64FE100621BC7 /* MessageCenterSubLevelViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageCenterSubLevelViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA07E2CA64FE100621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageCenterSubLevelViewController+TableViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA07F2CA64FE100621BC7 /* MessageCenterSubLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenterSubLevelViewController.swift; sourceTree = "<group>"; };
+		C4BCA0822CA64FE100621BC7 /* SystemMessageViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SystemMessageViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0842CA64FE100621BC7 /* WelfareActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelfareActivityViewController.swift; sourceTree = "<group>"; };
+		C4BCA0862CA64FE100621BC7 /* FirstLevelMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLevelMessageTableViewCell.swift; sourceTree = "<group>"; };
+		C4BCA0872CA64FE100621BC7 /* WelfareActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelfareActivityTableViewCell.swift; sourceTree = "<group>"; };
+		C4BCA0882CA64FE100621BC7 /* SystemMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemMessageViewController.swift; sourceTree = "<group>"; };
+		C4BCA0892CA64FE100621BC7 /* SystemMessageViewController+Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SystemMessageViewController+Header.swift"; sourceTree = "<group>"; };
+		C4BCA08A2CA64FE100621BC7 /* MessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenterViewController.swift; sourceTree = "<group>"; };
+		C4BCA08B2CA64FE100621BC7 /* MessageCenterViewController+CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageCenterViewController+CollectionViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA08E2CA64FE100621BC7 /* MineViewController+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MineViewController+Model.swift"; sourceTree = "<group>"; };
+		C4BCA0902CA64FE100621BC7 /* MineViewController+ServiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MineViewController+ServiceButton.swift"; sourceTree = "<group>"; };
+		C4BCA0912CA64FE100621BC7 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		C4BCA0922CA64FE100621BC7 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		C4BCA0952CA64FE100621BC7 /* UserProfileTableViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserProfileTableViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0982CA64FE100621BC7 /* UserSelectHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSelectHeaderViewController.swift; sourceTree = "<group>"; };
+		C4BCA09B2CA64FE100621BC7 /* CloseAccountFlowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseAccountFlowItem.swift; sourceTree = "<group>"; };
+		C4BCA09D2CA64FE100621BC7 /* CloseAccountReasonSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseAccountReasonSelectionViewController.swift; sourceTree = "<group>"; };
+		C4BCA09E2CA64FE100621BC7 /* CloseAccountPasswordInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseAccountPasswordInputViewController.swift; sourceTree = "<group>"; };
+		C4BCA09F2CA64FE100621BC7 /* CloseAccountIntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseAccountIntroductionViewController.swift; sourceTree = "<group>"; };
+		C4BCA0A02CA64FE100621BC7 /* CloseAccountSucceedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseAccountSucceedViewController.swift; sourceTree = "<group>"; };
+		C4BCA0A22CA64FE100621BC7 /* ModifyPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyPasswordViewController.swift; sourceTree = "<group>"; };
+		C4BCA0A42CA64FE100621BC7 /* RebindTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RebindTipsViewController.swift; sourceTree = "<group>"; };
+		C4BCA0A52CA64FE100621BC7 /* RequestOneTimeCodeForBindingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOneTimeCodeForBindingViewController.swift; sourceTree = "<group>"; };
+		C4BCA0A72CA64FE100621BC7 /* UserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
+		C4BCA0A92CA64FE100621BC7 /* UserProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewController.swift; sourceTree = "<group>"; };
+		C4BCA0AD2CA64FE100621BC7 /* SystemAuthorizationViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SystemAuthorizationViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0AE2CA64FE100621BC7 /* APNSSettingViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APNSSettingViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0B02CA64FE100621BC7 /* AuthorizationStatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationStatusItem.swift; sourceTree = "<group>"; };
+		C4BCA0B22CA64FE100621BC7 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C4BCA0B42CA64FE100621BC7 /* APNSSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APNSSettingViewController.swift; sourceTree = "<group>"; };
+		C4BCA0B62CA64FE100621BC7 /* SystemAuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemAuthorizationViewController.swift; sourceTree = "<group>"; };
+		C4BCA0B82CA64FE100621BC7 /* AuthorizationStatusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationStatusTableViewCell.swift; sourceTree = "<group>"; };
+		C4BCA0B92CA64FE200621BC7 /* AuthorizationStatusTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationStatusTableViewHeader.swift; sourceTree = "<group>"; };
+		C4BCA0BC2CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceFirmwareUpgradeViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0BE2CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceFirmwareUpgradeViewController+Model.swift"; sourceTree = "<group>"; };
+		C4BCA0C02CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceFirmwareUpgradeViewController+TableViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0C12CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+OtherSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceFirmwareUpgradeViewController+OtherSubviews.swift"; sourceTree = "<group>"; };
+		C4BCA0C22CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceFirmwareUpgradeViewController.swift; sourceTree = "<group>"; };
+		C4BCA0C52CA64FE200621BC7 /* ChangeLanguageViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChangeLanguageViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0C72CA64FE200621BC7 /* ChangeLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeLanguageViewController.swift; sourceTree = "<group>"; };
+		C4BCA0CA2CA64FE200621BC7 /* BasicTabbarController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BasicTabbarController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0CC2CA64FE200621BC7 /* BasicTabbarController+WrappedNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BasicTabbarController+WrappedNavigationController.swift"; sourceTree = "<group>"; };
+		C4BCA0CD2CA64FE200621BC7 /* BasicTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTabbarController.swift; sourceTree = "<group>"; };
+		C4BCA0D42CA64FE200621BC7 /* ShareDeviceConfirmViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareDeviceConfirmViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0D72CA64FE200621BC7 /* ShareDeviceConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareDeviceConfirmViewController.swift; sourceTree = "<group>"; };
+		C4BCA0D82CA64FE200621BC7 /* ShareDeviceConfirmViewController+UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareDeviceConfirmViewController+UserTableViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0DB2CA64FE200621BC7 /* ShareDevicesListViewController+DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareDevicesListViewController+DeviceTableViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0DC2CA64FE200621BC7 /* ShareDevicesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareDevicesListViewController.swift; sourceTree = "<group>"; };
+		C4BCA0DF2CA64FE200621BC7 /* ShareByFace2FaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareByFace2FaceViewController.swift; sourceTree = "<group>"; };
+		C4BCA0E02CA64FE200621BC7 /* ShareByFace2FaceViewController+UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareByFace2FaceViewController+UserTableViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0E22CA64FE200621BC7 /* DeviceSharePopupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSharePopupHelper.swift; sourceTree = "<group>"; };
+		C4BCA0E32CA64FE200621BC7 /* DeviceShareHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceShareHeaderView.swift; sourceTree = "<group>"; };
+		C4BCA0E52CA64FE200621BC7 /* DeviceShare+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceShare+Model.swift"; sourceTree = "<group>"; };
+		C4BCA0E72CA64FE200621BC7 /* DeviceShare+Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceShare+Api.swift"; sourceTree = "<group>"; };
+		C4BCA0E92CA64FE200621BC7 /* SelectSharePermissionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSharePermissionTableViewController.swift; sourceTree = "<group>"; };
+		C4BCA0EA2CA64FE200621BC7 /* SelectSharePermissionAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSharePermissionAlertViewController.swift; sourceTree = "<group>"; };
+		C4BCA0EB2CA64FE200621BC7 /* DevicePermissionConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicePermissionConfigurationViewController.swift; sourceTree = "<group>"; };
+		C4BCA0EE2CA64FE200621BC7 /* ShareManagerViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareManagerViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0EF2CA64FE200621BC7 /* ShareFromManagedViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareFromManagedViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0F02CA64FE200621BC7 /* ShareToManagedViewController+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareToManagedViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		C4BCA0F32CA64FE200621BC7 /* ShareFromManagedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareFromManagedViewController.swift; sourceTree = "<group>"; };
+		C4BCA0F52CA64FE200621BC7 /* ShareToManagedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareToManagedViewController.swift; sourceTree = "<group>"; };
+		C4BCA0F62CA64FE200621BC7 /* ShareToManagedViewController+TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareToManagedViewController+TableViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0F82CA64FE200621BC7 /* ShareManagedViewController+DeviceTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareManagedViewController+DeviceTableViewHeader.swift"; sourceTree = "<group>"; };
+		C4BCA0F92CA64FE200621BC7 /* ShareManagedViewController+DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShareManagedViewController+DeviceTableViewCell.swift"; sourceTree = "<group>"; };
+		C4BCA0FA2CA64FE200621BC7 /* ShareManagedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareManagedViewController.swift; sourceTree = "<group>"; };
+		C4BCA1CE2CA6501300621BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D02CA6501A00621BC7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C4BCA1D12CA6501C00621BC7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C4BCA1D22CA6501E00621BC7 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D32CA6502100621BC7 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D42CA6502300621BC7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D52CA6502500621BC7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D62CA6502800621BC7 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D72CA6502A00621BC7 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D82CA6502D00621BC7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1D92CA6502F00621BC7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1DA2CA6503200621BC7 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1DB2CA6503500621BC7 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1DC2CA6503900621BC7 /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1DD2CA6503E00621BC7 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1DE2CA6504000621BC7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1DF2CA6504200621BC7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1E02CA6504300621BC7 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1E12CA6504500621BC7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1E22CA6504600621BC7 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1E32CA6504900621BC7 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4BCA1E42CA6504B00621BC7 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4D3B77E2CB9095B00D1C0AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4BC90582CA43FF700621BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D3B77F2CB9095B00D1C0AF /* CoreBluetooth.framework in Frameworks */,
+				C4BC9B472CA586B000621BC7 /* CoreAudio.framework in Frameworks */,
+				C4BC9B3C2CA583B200621BC7 /* AudioToolbox.framework in Frameworks */,
+				C4BC9B482CA5877800621BC7 /* libxml2.tbd in Frameworks */,
+				C4BC98512CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Frameworks */,
+				C4BC9B352CA5821E00621BC7 /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CC6A46D6193389CED799999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */,
+				B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4BC90522CA43FF700621BC7 = {
+			isa = PBXGroup;
+			children = (
+				C4BC905D2CA43FF700621BC7 /* RQSDKDemo */,
+				C4BC905C2CA43FF700621BC7 /* Products */,
+				9CC6A46D6193389CED799999 /* Pods */,
+				DBB84462C7FED8DE135BA637 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4BC905C2CA43FF700621BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC905B2CA43FF700621BC7 /* RQSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4BC905D2CA43FF700621BC7 /* RQSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA1CD2CA6501300621BC7 /* Localizable.strings */,
+				C4BC9F892CA64FDF00621BC7 /* Assets.xcassets */,
+				C4BCA02C2CA64FE100621BC7 /* Classes */,
+				C4BCA0D12CA64FE200621BC7 /* DeviceShare */,
+				C4BCA0142CA64FE000621BC7 /* family_power_off.json */,
+				C4BCA0262CA64FE100621BC7 /* family_power_on.json */,
+				C4BCA0282CA64FE100621BC7 /* family_update.json */,
+				C4BCA0182CA64FE000621BC7 /* import.swift */,
+				C4BCA01C2CA64FE000621BC7 /* Info.plist */,
+				C4BC9F822CA64FDE00621BC7 /* Localization.swift */,
+				C4BC9F932CA64FDF00621BC7 /* R.generated.swift */,
+				C4BCA0132CA64FE000621BC7 /* Reoqoo-Bridging-Header.h */,
+				C4BC9F9D2CA64FDF00621BC7 /* Tools */,
+				C4BC92C02CA55B2F00621BC7 /* Podfile */,
+				C49974F22CBE02A000C12481 /* README.md */,
+			);
+			path = RQSDKDemo;
+			sourceTree = "<group>";
+		};
+		C4BC9F9D2CA64FDF00621BC7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9F9E2CA64FDF00621BC7 /* UI */,
+				C4BC9FB92CA64FE000621BC7 /* QRCodeScanning */,
+				C4BC9FBE2CA64FE000621BC7 /* Network */,
+				C4BC9FC12CA64FE000621BC7 /* MessageCenter */,
+				C4BC9FC52CA64FE000621BC7 /* RegionSelection */,
+				C4BC9FD02CA64FE000621BC7 /* Extensions */,
+				C4BC9FF02CA64FE000621BC7 /* RQiotVideoDelegate */,
+				C4BC9FF12CA64FE000621BC7 /* FirmwareUpgrade */,
+				C4BC9FF42CA64FE000621BC7 /* DataStruct */,
+				C4BC9FF82CA64FE000621BC7 /* AccountCenter */,
+				C4BC9FFB2CA64FE000621BC7 /* Error */,
+				C4BC9FFE2CA64FE000621BC7 /* RQSDKDelegate */,
+				C4BCA0002CA64FE000621BC7 /* DeviceManager2 */,
+				C4BCA0052CA64FE000621BC7 /* Router */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C4BC9F9E2CA64FDF00621BC7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9F9F2CA64FDF00621BC7 /* Popover Series */,
+				C4BC9FA52CA64FE000621BC7 /* Kingfisher+Placeholder.swift */,
+				C4BC9FA62CA64FE000621BC7 /* CollectionViewLayout */,
+				C4BC9FA82CA64FE000621BC7 /* InputAccessoryView.swift */,
+				C4BC9FA92CA64FE000621BC7 /* ScrollableTabBar.swift */,
+				C4BC9FAA2CA64FE000621BC7 /* RQSwitch.swift */,
+				C4BC9FAB2CA64FE000621BC7 /* InfiltrateScrollView.swift */,
+				C4BC9FAC2CA64FE000621BC7 /* TableViewCommonComponents */,
+				C4BC9FAE2CA64FE000621BC7 /* BaseViewControllerSeries */,
+				C4BC9FB22CA64FE000621BC7 /* ScrollBaseViewAndKeyboardMatchable.swift */,
+				C4BC9FB32CA64FE000621BC7 /* CameraOutputView.swift */,
+				C4BC9FB42CA64FE000621BC7 /* AlertSeries */,
+				C4BC9FB62CA64FE000621BC7 /* ShapeLayerView.swift */,
+				C4BC9FB72CA64FE000621BC7 /* ReoqooPopupViewProperty.swift */,
+				C4BC9FB82CA64FE000621BC7 /* PageSheetStyleViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C4BC9F9F2CA64FDF00621BC7 /* Popover Series */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FA02CA64FDF00621BC7 /* PopupListView */,
+				C4BC9FA22CA64FDF00621BC7 /* Popover */,
+				C4BC9FA42CA64FE000621BC7 /* Popoverable.swift */,
+			);
+			path = "Popover Series";
+			sourceTree = "<group>";
+		};
+		C4BC9FA02CA64FDF00621BC7 /* PopupListView */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FA12CA64FDF00621BC7 /* PopoverListView.swift */,
+			);
+			path = PopupListView;
+			sourceTree = "<group>";
+		};
+		C4BC9FA22CA64FDF00621BC7 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FA32CA64FDF00621BC7 /* Popover.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		C4BC9FA62CA64FE000621BC7 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FA72CA64FE000621BC7 /* AlignedCollectionViewFlowLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		C4BC9FAC2CA64FE000621BC7 /* TableViewCommonComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FAD2CA64FE000621BC7 /* RQInsetGroupedTableViewHeader.swift */,
+			);
+			path = TableViewCommonComponents;
+			sourceTree = "<group>";
+		};
+		C4BC9FAE2CA64FE000621BC7 /* BaseViewControllerSeries */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FAF2CA64FE000621BC7 /* BaseViewController.swift */,
+				C4BC9FB02CA64FE000621BC7 /* BaseTableViewController.swift */,
+				C4BC9FB12CA64FE000621BC7 /* BaseNavigationController.swift */,
+			);
+			path = BaseViewControllerSeries;
+			sourceTree = "<group>";
+		};
+		C4BC9FB42CA64FE000621BC7 /* AlertSeries */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FB52CA64FE000621BC7 /* ReoqooAlertViewController.swift */,
+			);
+			path = AlertSeries;
+			sourceTree = "<group>";
+		};
+		C4BC9FB92CA64FE000621BC7 /* QRCodeScanning */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FBA2CA64FE000621BC7 /* ViewModel */,
+				C4BC9FBC2CA64FE000621BC7 /* View */,
+			);
+			path = QRCodeScanning;
+			sourceTree = "<group>";
+		};
+		C4BC9FBA2CA64FE000621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FBB2CA64FE000621BC7 /* QRCodeScanningViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BC9FBC2CA64FE000621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FBD2CA64FE000621BC7 /* QRCodeScanningViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BC9FBE2CA64FE000621BC7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FBF2CA64FE000621BC7 /* ResponseHandler.swift */,
+				C4BC9FC02CA64FE000621BC7 /* LocalNetworkAuthorization.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C4BC9FC12CA64FE000621BC7 /* MessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FC22CA64FE000621BC7 /* MessageCenter.swift */,
+				C4BC9FC32CA64FE000621BC7 /* Model */,
+			);
+			path = MessageCenter;
+			sourceTree = "<group>";
+		};
+		C4BC9FC32CA64FE000621BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FC42CA64FE000621BC7 /* MessageCenter+Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4BC9FC52CA64FE000621BC7 /* RegionSelection */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FC62CA64FE000621BC7 /* RegionSelection */,
+				C4BC9FCD2CA64FE000621BC7 /* RegionConfirmationViewController */,
+			);
+			path = RegionSelection;
+			sourceTree = "<group>";
+		};
+		C4BC9FC62CA64FE000621BC7 /* RegionSelection */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FC72CA64FE000621BC7 /* VM */,
+				C4BC9FC92CA64FE000621BC7 /* View */,
+			);
+			path = RegionSelection;
+			sourceTree = "<group>";
+		};
+		C4BC9FC72CA64FE000621BC7 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FC82CA64FE000621BC7 /* RegionSelectionViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		C4BC9FC92CA64FE000621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FCA2CA64FE000621BC7 /* RegionSelectionViewController.swift */,
+				C4BC9FCB2CA64FE000621BC7 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BC9FCB2CA64FE000621BC7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FCC2CA64FE000621BC7 /* RegionSelectionViewController+TableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		C4BC9FCD2CA64FE000621BC7 /* RegionConfirmationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FCE2CA64FE000621BC7 /* RegionSelectionButton.swift */,
+				C4BC9FCF2CA64FE000621BC7 /* RegionConfirmationViewController.swift */,
+			);
+			path = RegionConfirmationViewController;
+			sourceTree = "<group>";
+		};
+		C4BC9FD02CA64FE000621BC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FD12CA64FE000621BC7 /* Date+StringPresented.swift */,
+				C4BC9FD22CA64FE000621BC7 /* UI */,
+				C4BC9FDB2CA64FE000621BC7 /* Collection+.swift */,
+				C4BC9FDC2CA64FE000621BC7 /* UIApplication+SandboxPath.swift */,
+				C4BC9FDD2CA64FE000621BC7 /* UserDefaults+Key.swift */,
+				C4BC9FDE2CA64FE000621BC7 /* IVLanguageCode+.swift */,
+				C4BC9FDF2CA64FE000621BC7 /* UIApplication+Info.swift */,
+				C4BC9FE02CA64FE000621BC7 /* URL+Static.swift */,
+				C4BC9FE12CA64FE000621BC7 /* NSBundle+Language */,
+				C4BC9FE42CA64FE000621BC7 /* Codable+.swift */,
+				C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */,
+				C4BC9FE72CA64FE000621BC7 /* SwiftCombine */,
+				C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */,
+				C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4BC9FD22CA64FE000621BC7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FD32CA64FE000621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.h */,
+				C4BC9FD42CA64FE000621BC7 /* UIButton+Style.swift */,
+				C4BC9FD52CA64FE000621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m */,
+				C4BC9FD62CA64FE000621BC7 /* MBProgressHUD+.swift */,
+				C4BC9FD72CA64FE000621BC7 /* UICollectionView+.swift */,
+				C4BC9FD82CA64FE000621BC7 /* UIViewController+NavigationBarStyle.swift */,
+				C4BC9FD92CA64FE000621BC7 /* UIScrollView+.swift */,
+				C4BC9FDA2CA64FE000621BC7 /* UIColor+.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C4BC9FE12CA64FE000621BC7 /* NSBundle+Language */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FE22CA64FE000621BC7 /* NSBundle+Language.m */,
+				C4BC9FE32CA64FE000621BC7 /* NSBundle+Language.h */,
+			);
+			path = "NSBundle+Language";
+			sourceTree = "<group>";
+		};
+		C4BC9FE72CA64FE000621BC7 /* SwiftCombine */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */,
+				C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */,
+				C4BC9FEA2CA64FE000621BC7 /* IVNetworkHelper+SwiftCombine.swift */,
+				C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */,
+				C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */,
+				C4BC9FED2CA64FE000621BC7 /* IVBLENetCfgManager+Combine.swift */,
+			);
+			path = SwiftCombine;
+			sourceTree = "<group>";
+		};
+		C4BC9FF02CA64FE000621BC7 /* RQiotVideoDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RQiotVideoDelegate;
+			sourceTree = "<group>";
+		};
+		C4BC9FF12CA64FE000621BC7 /* FirmwareUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FF22CA64FE000621BC7 /* FirmwareUpgradeCenter.swift */,
+				C4BC9FF32CA64FE000621BC7 /* FirmUpgradeTask.swift */,
+			);
+			path = FirmwareUpgrade;
+			sourceTree = "<group>";
+		};
+		C4BC9FF42CA64FE000621BC7 /* DataStruct */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FF52CA64FE000621BC7 /* DoubleLinkedList */,
+			);
+			path = DataStruct;
+			sourceTree = "<group>";
+		};
+		C4BC9FF52CA64FE000621BC7 /* DoubleLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FF62CA64FE000621BC7 /* DoubleLinkedList.swift */,
+				C4BC9FF72CA64FE000621BC7 /* Node.swift */,
+			);
+			path = DoubleLinkedList;
+			sourceTree = "<group>";
+		};
+		C4BC9FF82CA64FE000621BC7 /* AccountCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FF92CA64FE000621BC7 /* User.swift */,
+				C4BC9FFA2CA64FE000621BC7 /* AccountCenter.swift */,
+			);
+			path = AccountCenter;
+			sourceTree = "<group>";
+		};
+		C4BC9FFB2CA64FE000621BC7 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FFC2CA64FE000621BC7 /* ErrorDefine.swift */,
+				C4BC9FFD2CA64FE000621BC7 /* ErrorReason.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		C4BC9FFE2CA64FE000621BC7 /* RQSDKDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC9FFF2CA64FE000621BC7 /* RQSDKDelegate.swift */,
+			);
+			path = RQSDKDelegate;
+			sourceTree = "<group>";
+		};
+		C4BCA0002CA64FE000621BC7 /* DeviceManager2 */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0012CA64FE000621BC7 /* DeviceManager2.swift */,
+				C4BCA0022CA64FE000621BC7 /* Device+KeyPath.swift */,
+				C4BCA0032CA64FE000621BC7 /* Device.swift */,
+			);
+			path = DeviceManager2;
+			sourceTree = "<group>";
+		};
+		C4BCA0052CA64FE000621BC7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0062CA64FE000621BC7 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C4BCA02C2CA64FE100621BC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA02D2CA64FE100621BC7 /* LoginAndRegister */,
+				C4BCA0452CA64FE100621BC7 /* AppEntrance */,
+				C4BCA04C2CA64FE100621BC7 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C4BCA02D2CA64FE100621BC7 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA02E2CA64FE100621BC7 /* CommonView */,
+				C4BCA03A2CA64FE100621BC7 /* FindPassword */,
+				C4BCA03D2CA64FE100621BC7 /* Register */,
+				C4BCA0412CA64FE100621BC7 /* Login */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		C4BCA02E2CA64FE100621BC7 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA02F2CA64FE100621BC7 /* AgreementView.swift */,
+				C4BCA0302CA64FE100621BC7 /* PasswordInputView.swift */,
+				C4BCA0312CA64FE100621BC7 /* OneTimeCodeInput */,
+				C4BCA0352CA64FE100621BC7 /* PasswordSettingSucceedViewController */,
+				C4BCA0372CA64FE100621BC7 /* PasswordSettingViewController */,
+				C4BCA0392CA64FE100621BC7 /* AccountInputView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		C4BCA0312CA64FE100621BC7 /* OneTimeCodeInput */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0322CA64FE100621BC7 /* View */,
+			);
+			path = OneTimeCodeInput;
+			sourceTree = "<group>";
+		};
+		C4BCA0322CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0332CA64FE100621BC7 /* OneTimeCodeInputViewController.swift */,
+				C4BCA0342CA64FE100621BC7 /* OneTimeCodeInputViewController+SubViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0352CA64FE100621BC7 /* PasswordSettingSucceedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0362CA64FE100621BC7 /* PasswordSettingSucceedViewController.swift */,
+			);
+			path = PasswordSettingSucceedViewController;
+			sourceTree = "<group>";
+		};
+		C4BCA0372CA64FE100621BC7 /* PasswordSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0382CA64FE100621BC7 /* PasswordSettingViewController.swift */,
+			);
+			path = PasswordSettingViewController;
+			sourceTree = "<group>";
+		};
+		C4BCA03A2CA64FE100621BC7 /* FindPassword */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA03B2CA64FE100621BC7 /* View */,
+			);
+			path = FindPassword;
+			sourceTree = "<group>";
+		};
+		C4BCA03B2CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA03C2CA64FE100621BC7 /* FindPasswordViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA03D2CA64FE100621BC7 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA03E2CA64FE100621BC7 /* RequestOneTiemCode */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		C4BCA03E2CA64FE100621BC7 /* RequestOneTiemCode */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA03F2CA64FE100621BC7 /* View */,
+			);
+			path = RequestOneTiemCode;
+			sourceTree = "<group>";
+		};
+		C4BCA03F2CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0402CA64FE100621BC7 /* RequestOneTimeCodeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0412CA64FE100621BC7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0422CA64FE100621BC7 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C4BCA0422CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0432CA64FE100621BC7 /* LoginViewController.xib */,
+				C4BCA0442CA64FE100621BC7 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0452CA64FE100621BC7 /* AppEntrance */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0462CA64FE100621BC7 /* KeyWindow.swift */,
+				C4BCA0472CA64FE100621BC7 /* LaunchScreen.storyboard */,
+				C4BCA0482CA64FE100621BC7 /* AppentranceManager+Extra.swift */,
+				C4BCA0492CA64FE100621BC7 /* AppEntranceManager.swift */,
+				C4BCA04A2CA64FE100621BC7 /* AppDelegate.swift */,
+				C4BCA04B2CA64FE100621BC7 /* SceneDelegate.swift */,
+			);
+			path = AppEntrance;
+			sourceTree = "<group>";
+		};
+		C4BCA04C2CA64FE100621BC7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA04D2CA64FE100621BC7 /* Family */,
+				C4BCA05C2CA64FE100621BC7 /* Mine */,
+				C4BCA0C82CA64FE200621BC7 /* TabbarController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C4BCA04D2CA64FE100621BC7 /* Family */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA04E2CA64FE100621BC7 /* ViewModel */,
+				C4BCA0502CA64FE100621BC7 /* CommonView */,
+				C4BCA0522CA64FE100621BC7 /* View */,
+			);
+			path = Family;
+			sourceTree = "<group>";
+		};
+		C4BCA04E2CA64FE100621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA04F2CA64FE100621BC7 /* FamilyViewController2+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0502CA64FE100621BC7 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0512CA64FE100621BC7 /* FamilyHeaderView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		C4BCA0522CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0532CA64FE100621BC7 /* DevicesViewController */,
+				C4BCA0582CA64FE100621BC7 /* FamilyViewController2+Banner.swift */,
+				C4BCA0592CA64FE100621BC7 /* FamilyViewControllerChildrenProtocol.swift */,
+				C4BCA05A2CA64FE100621BC7 /* FamilyViewController+ChildrenCollectionViewCell.swift */,
+				C4BCA05B2CA64FE100621BC7 /* FamilyViewController2.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0532CA64FE100621BC7 /* DevicesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0542CA64FE100621BC7 /* CollectionViewCell */,
+				C4BCA0562CA64FE100621BC7 /* DevicesViewController2.swift */,
+				C4BCA0572CA64FE100621BC7 /* DevicesViewController2+EmptyDevicesPlaceholder.swift */,
+			);
+			path = DevicesViewController;
+			sourceTree = "<group>";
+		};
+		C4BCA0542CA64FE100621BC7 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0552CA64FE100621BC7 /* DevicesViewController+CollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C4BCA05C2CA64FE100621BC7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA05D2CA64FE100621BC7 /* AboutReoqoo */,
+				C4BCA05F2CA64FE100621BC7 /* CommonView */,
+				C4BCA0612CA64FE100621BC7 /* IssueFeedback */,
+				C4BCA0782CA64FE100621BC7 /* MessageCenter */,
+				C4BCA08C2CA64FE100621BC7 /* TabMine */,
+				C4BCA0932CA64FE100621BC7 /* UserProfile */,
+				C4BCA0AA2CA64FE100621BC7 /* Setting */,
+				C4BCA0BA2CA64FE200621BC7 /* DeviceUpgrade */,
+				C4BCA0C32CA64FE200621BC7 /* ChangeLanguage */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C4BCA05D2CA64FE100621BC7 /* AboutReoqoo */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA05E2CA64FE100621BC7 /* AboutReoqooViewController.swift */,
+			);
+			path = AboutReoqoo;
+			sourceTree = "<group>";
+		};
+		C4BCA05F2CA64FE100621BC7 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0602CA64FE100621BC7 /* CommonEmptyView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		C4BCA0612CA64FE100621BC7 /* IssueFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0622CA64FE100621BC7 /* ViewModel */,
+				C4BCA0642CA64FE100621BC7 /* Model */,
+				C4BCA0662CA64FE100621BC7 /* View */,
+			);
+			path = IssueFeedback;
+			sourceTree = "<group>";
+		};
+		C4BCA0622CA64FE100621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0632CA64FE100621BC7 /* IssueFeedbackViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0642CA64FE100621BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0652CA64FE100621BC7 /* IssueFeedbackViewController+Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4BCA0662CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0672CA64FE100621BC7 /* IssueFeedbackViewController+CollectionViewCell.swift */,
+				C4BCA0682CA64FE100621BC7 /* DeviceSelect */,
+				C4BCA06A2CA64FE100621BC7 /* IssueFeedbackTableViewController.swift */,
+				C4BCA06B2CA64FE100621BC7 /* IssueFeedbackViewController.swift */,
+				C4BCA06C2CA64FE100621BC7 /* IssueFeedbackViewController+TableViewSectionHeader.swift */,
+				C4BCA06D2CA64FE100621BC7 /* IssueFeedbackViewController.storyboard */,
+				C4BCA06E2CA64FE100621BC7 /* DateConfiguration */,
+				C4BCA0742CA64FE100621BC7 /* IssueCategorySelect */,
+				C4BCA0762CA64FE100621BC7 /* CommitSuccess */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0682CA64FE100621BC7 /* DeviceSelect */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0692CA64FE100621BC7 /* IssueFeedbackViewController+DeviceSelectionViewController.swift */,
+			);
+			path = DeviceSelect;
+			sourceTree = "<group>";
+		};
+		C4BCA06E2CA64FE100621BC7 /* DateConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA06F2CA64FE100621BC7 /* IssueFeedbackViewController+CalendarSelectionViewController.swift */,
+				C4BCA0702CA64FE100621BC7 /* Time */,
+			);
+			path = DateConfiguration;
+			sourceTree = "<group>";
+		};
+		C4BCA0702CA64FE100621BC7 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0712CA64FE100621BC7 /* IVCalendarTimeSelectView.swift */,
+				C4BCA0722CA64FE100621BC7 /* IVDatePickerViewService.swift */,
+				C4BCA0732CA64FE100621BC7 /* IVDatePickerView.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		C4BCA0742CA64FE100621BC7 /* IssueCategorySelect */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0752CA64FE100621BC7 /* IssueFeedbackViewController+IssueTypeSelectionViewController.swift */,
+			);
+			path = IssueCategorySelect;
+			sourceTree = "<group>";
+		};
+		C4BCA0762CA64FE100621BC7 /* CommitSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0772CA64FE100621BC7 /* FeedbackCommitSuccessViewController.swift */,
+			);
+			path = CommitSuccess;
+			sourceTree = "<group>";
+		};
+		C4BCA0782CA64FE100621BC7 /* MessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0792CA64FE100621BC7 /* SubLevelMessage */,
+				C4BCA0802CA64FE100621BC7 /* Base */,
+			);
+			path = MessageCenter;
+			sourceTree = "<group>";
+		};
+		C4BCA0792CA64FE100621BC7 /* SubLevelMessage */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA07A2CA64FE100621BC7 /* ViewModel */,
+				C4BCA07C2CA64FE100621BC7 /* View */,
+			);
+			path = SubLevelMessage;
+			sourceTree = "<group>";
+		};
+		C4BCA07A2CA64FE100621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA07B2CA64FE100621BC7 /* MessageCenterSubLevelViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA07C2CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA07D2CA64FE100621BC7 /* Cell */,
+				C4BCA07F2CA64FE100621BC7 /* MessageCenterSubLevelViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA07D2CA64FE100621BC7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA07E2CA64FE100621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C4BCA0802CA64FE100621BC7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0812CA64FE100621BC7 /* ViewModel */,
+				C4BCA0832CA64FE100621BC7 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C4BCA0812CA64FE100621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0822CA64FE100621BC7 /* SystemMessageViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0832CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0842CA64FE100621BC7 /* WelfareActivityViewController.swift */,
+				C4BCA0852CA64FE100621BC7 /* Cell */,
+				C4BCA0882CA64FE100621BC7 /* SystemMessageViewController.swift */,
+				C4BCA0892CA64FE100621BC7 /* SystemMessageViewController+Header.swift */,
+				C4BCA08A2CA64FE100621BC7 /* MessageCenterViewController.swift */,
+				C4BCA08B2CA64FE100621BC7 /* MessageCenterViewController+CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0852CA64FE100621BC7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0862CA64FE100621BC7 /* FirstLevelMessageTableViewCell.swift */,
+				C4BCA0872CA64FE100621BC7 /* WelfareActivityTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C4BCA08C2CA64FE100621BC7 /* TabMine */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA08D2CA64FE100621BC7 /* Model */,
+				C4BCA08F2CA64FE100621BC7 /* View */,
+			);
+			path = TabMine;
+			sourceTree = "<group>";
+		};
+		C4BCA08D2CA64FE100621BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA08E2CA64FE100621BC7 /* MineViewController+Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4BCA08F2CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0902CA64FE100621BC7 /* MineViewController+ServiceButton.swift */,
+				C4BCA0912CA64FE100621BC7 /* MineViewController.swift */,
+				C4BCA0922CA64FE100621BC7 /* Mine.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0932CA64FE100621BC7 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0942CA64FE100621BC7 /* ViewModel */,
+				C4BCA0962CA64FE100621BC7 /* SubFunc */,
+				C4BCA0A62CA64FE100621BC7 /* View */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		C4BCA0942CA64FE100621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0952CA64FE100621BC7 /* UserProfileTableViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0962CA64FE100621BC7 /* SubFunc */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0972CA64FE100621BC7 /* SelectHeader */,
+				C4BCA0992CA64FE100621BC7 /* CloseAccount */,
+				C4BCA0A12CA64FE100621BC7 /* ResetPassword */,
+				C4BCA0A32CA64FE100621BC7 /* 修改手机或邮箱绑定 */,
+			);
+			path = SubFunc;
+			sourceTree = "<group>";
+		};
+		C4BCA0972CA64FE100621BC7 /* SelectHeader */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0982CA64FE100621BC7 /* UserSelectHeaderViewController.swift */,
+			);
+			path = SelectHeader;
+			sourceTree = "<group>";
+		};
+		C4BCA0992CA64FE100621BC7 /* CloseAccount */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA09A2CA64FE100621BC7 /* Model */,
+				C4BCA09C2CA64FE100621BC7 /* ViewController */,
+			);
+			path = CloseAccount;
+			sourceTree = "<group>";
+		};
+		C4BCA09A2CA64FE100621BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA09B2CA64FE100621BC7 /* CloseAccountFlowItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4BCA09C2CA64FE100621BC7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA09D2CA64FE100621BC7 /* CloseAccountReasonSelectionViewController.swift */,
+				C4BCA09E2CA64FE100621BC7 /* CloseAccountPasswordInputViewController.swift */,
+				C4BCA09F2CA64FE100621BC7 /* CloseAccountIntroductionViewController.swift */,
+				C4BCA0A02CA64FE100621BC7 /* CloseAccountSucceedViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C4BCA0A12CA64FE100621BC7 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0A22CA64FE100621BC7 /* ModifyPasswordViewController.swift */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		C4BCA0A32CA64FE100621BC7 /* 修改手机或邮箱绑定 */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0A42CA64FE100621BC7 /* RebindTipsViewController.swift */,
+				C4BCA0A52CA64FE100621BC7 /* RequestOneTimeCodeForBindingViewController.swift */,
+			);
+			path = "修改手机或邮箱绑定";
+			sourceTree = "<group>";
+		};
+		C4BCA0A62CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0A72CA64FE100621BC7 /* UserProfile.storyboard */,
+				C4BCA0A82CA64FE100621BC7 /* New Group */,
+				C4BCA0A92CA64FE100621BC7 /* UserProfileTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0A82CA64FE100621BC7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C4BCA0AA2CA64FE100621BC7 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0AB2CA64FE100621BC7 /* Main */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		C4BCA0AB2CA64FE100621BC7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0AC2CA64FE100621BC7 /* ViewModel */,
+				C4BCA0AF2CA64FE100621BC7 /* Model */,
+				C4BCA0B12CA64FE100621BC7 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C4BCA0AC2CA64FE100621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0AD2CA64FE100621BC7 /* SystemAuthorizationViewController+ViewModel.swift */,
+				C4BCA0AE2CA64FE100621BC7 /* APNSSettingViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0AF2CA64FE100621BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0B02CA64FE100621BC7 /* AuthorizationStatusItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4BCA0B12CA64FE100621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0B22CA64FE100621BC7 /* SettingViewController.swift */,
+				C4BCA0B32CA64FE100621BC7 /* APNSSettingViewController */,
+				C4BCA0B52CA64FE100621BC7 /* SystemAuthorizationViewController */,
+				C4BCA0B72CA64FE100621BC7 /* TableViewComponent */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0B32CA64FE100621BC7 /* APNSSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0B42CA64FE100621BC7 /* APNSSettingViewController.swift */,
+			);
+			path = APNSSettingViewController;
+			sourceTree = "<group>";
+		};
+		C4BCA0B52CA64FE100621BC7 /* SystemAuthorizationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0B62CA64FE100621BC7 /* SystemAuthorizationViewController.swift */,
+			);
+			path = SystemAuthorizationViewController;
+			sourceTree = "<group>";
+		};
+		C4BCA0B72CA64FE100621BC7 /* TableViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0B82CA64FE100621BC7 /* AuthorizationStatusTableViewCell.swift */,
+				C4BCA0B92CA64FE200621BC7 /* AuthorizationStatusTableViewHeader.swift */,
+			);
+			path = TableViewComponent;
+			sourceTree = "<group>";
+		};
+		C4BCA0BA2CA64FE200621BC7 /* DeviceUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0BB2CA64FE200621BC7 /* ViewModel */,
+				C4BCA0BD2CA64FE200621BC7 /* Model */,
+				C4BCA0BF2CA64FE200621BC7 /* View */,
+			);
+			path = DeviceUpgrade;
+			sourceTree = "<group>";
+		};
+		C4BCA0BB2CA64FE200621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0BC2CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0BD2CA64FE200621BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0BE2CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4BCA0BF2CA64FE200621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0C02CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+TableViewCell.swift */,
+				C4BCA0C12CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController+OtherSubviews.swift */,
+				C4BCA0C22CA64FE200621BC7 /* DeviceFirmwareUpgradeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0C32CA64FE200621BC7 /* ChangeLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0C42CA64FE200621BC7 /* ViewModel */,
+				C4BCA0C62CA64FE200621BC7 /* View */,
+			);
+			path = ChangeLanguage;
+			sourceTree = "<group>";
+		};
+		C4BCA0C42CA64FE200621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0C52CA64FE200621BC7 /* ChangeLanguageViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0C62CA64FE200621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0C72CA64FE200621BC7 /* ChangeLanguageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0C82CA64FE200621BC7 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0C92CA64FE200621BC7 /* ViewModel */,
+				C4BCA0CB2CA64FE200621BC7 /* View */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		C4BCA0C92CA64FE200621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0CA2CA64FE200621BC7 /* BasicTabbarController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0CB2CA64FE200621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0CC2CA64FE200621BC7 /* BasicTabbarController+WrappedNavigationController.swift */,
+				C4BCA0CD2CA64FE200621BC7 /* BasicTabbarController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0D12CA64FE200621BC7 /* DeviceShare */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0D22CA64FE200621BC7 /* ShareDevice */,
+				C4BCA0E12CA64FE200621BC7 /* SharePopupHelper */,
+				C4BCA0E42CA64FE200621BC7 /* Model */,
+				C4BCA0E62CA64FE200621BC7 /* Api */,
+				C4BCA0E82CA64FE200621BC7 /* SharePermission */,
+				C4BCA0EC2CA64FE200621BC7 /* ShareManaged */,
+			);
+			path = DeviceShare;
+			sourceTree = "<group>";
+		};
+		C4BCA0D22CA64FE200621BC7 /* ShareDevice */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0D32CA64FE200621BC7 /* ViewModel */,
+				C4BCA0D52CA64FE200621BC7 /* ShareDeviceConfirm */,
+				C4BCA0D92CA64FE200621BC7 /* ShareDevicesList */,
+				C4BCA0DD2CA64FE200621BC7 /* ShareByFace2Face */,
+			);
+			path = ShareDevice;
+			sourceTree = "<group>";
+		};
+		C4BCA0D32CA64FE200621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0D42CA64FE200621BC7 /* ShareDeviceConfirmViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0D52CA64FE200621BC7 /* ShareDeviceConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0D62CA64FE200621BC7 /* View */,
+			);
+			path = ShareDeviceConfirm;
+			sourceTree = "<group>";
+		};
+		C4BCA0D62CA64FE200621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0D72CA64FE200621BC7 /* ShareDeviceConfirmViewController.swift */,
+				C4BCA0D82CA64FE200621BC7 /* ShareDeviceConfirmViewController+UserTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0D92CA64FE200621BC7 /* ShareDevicesList */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0DA2CA64FE200621BC7 /* View */,
+			);
+			path = ShareDevicesList;
+			sourceTree = "<group>";
+		};
+		C4BCA0DA2CA64FE200621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0DB2CA64FE200621BC7 /* ShareDevicesListViewController+DeviceTableViewCell.swift */,
+				C4BCA0DC2CA64FE200621BC7 /* ShareDevicesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0DD2CA64FE200621BC7 /* ShareByFace2Face */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0DE2CA64FE200621BC7 /* View */,
+			);
+			path = ShareByFace2Face;
+			sourceTree = "<group>";
+		};
+		C4BCA0DE2CA64FE200621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0DF2CA64FE200621BC7 /* ShareByFace2FaceViewController.swift */,
+				C4BCA0E02CA64FE200621BC7 /* ShareByFace2FaceViewController+UserTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0E12CA64FE200621BC7 /* SharePopupHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0E22CA64FE200621BC7 /* DeviceSharePopupHelper.swift */,
+				C4BCA0E32CA64FE200621BC7 /* DeviceShareHeaderView.swift */,
+			);
+			path = SharePopupHelper;
+			sourceTree = "<group>";
+		};
+		C4BCA0E42CA64FE200621BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0E52CA64FE200621BC7 /* DeviceShare+Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4BCA0E62CA64FE200621BC7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0E72CA64FE200621BC7 /* DeviceShare+Api.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		C4BCA0E82CA64FE200621BC7 /* SharePermission */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0E92CA64FE200621BC7 /* SelectSharePermissionTableViewController.swift */,
+				C4BCA0EA2CA64FE200621BC7 /* SelectSharePermissionAlertViewController.swift */,
+				C4BCA0EB2CA64FE200621BC7 /* DevicePermissionConfigurationViewController.swift */,
+			);
+			path = SharePermission;
+			sourceTree = "<group>";
+		};
+		C4BCA0EC2CA64FE200621BC7 /* ShareManaged */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0ED2CA64FE200621BC7 /* ViewModel */,
+				C4BCA0F12CA64FE200621BC7 /* View */,
+			);
+			path = ShareManaged;
+			sourceTree = "<group>";
+		};
+		C4BCA0ED2CA64FE200621BC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0EE2CA64FE200621BC7 /* ShareManagerViewController+ViewModel.swift */,
+				C4BCA0EF2CA64FE200621BC7 /* ShareFromManagedViewController+ViewModel.swift */,
+				C4BCA0F02CA64FE200621BC7 /* ShareToManagedViewController+ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4BCA0F12CA64FE200621BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0F22CA64FE200621BC7 /* FromShared */,
+				C4BCA0F42CA64FE200621BC7 /* SharedTo */,
+				C4BCA0F72CA64FE200621BC7 /* Base */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4BCA0F22CA64FE200621BC7 /* FromShared */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0F32CA64FE200621BC7 /* ShareFromManagedViewController.swift */,
+			);
+			path = FromShared;
+			sourceTree = "<group>";
+		};
+		C4BCA0F42CA64FE200621BC7 /* SharedTo */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0F52CA64FE200621BC7 /* ShareToManagedViewController.swift */,
+				C4BCA0F62CA64FE200621BC7 /* ShareToManagedViewController+TableViewCell.swift */,
+			);
+			path = SharedTo;
+			sourceTree = "<group>";
+		};
+		C4BCA0F72CA64FE200621BC7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C4BCA0F82CA64FE200621BC7 /* ShareManagedViewController+DeviceTableViewHeader.swift */,
+				C4BCA0F92CA64FE200621BC7 /* ShareManagedViewController+DeviceTableViewCell.swift */,
+				C4BCA0FA2CA64FE200621BC7 /* ShareManagedViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DBB84462C7FED8DE135BA637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D3B77E2CB9095B00D1C0AF /* CoreBluetooth.framework */,
+				C4BC9B392CA5835200621BC7 /* libobjc.A.tbd */,
+				C4BC9B382CA5828D00621BC7 /* libxml2.tbd */,
+				C4BC9B372CA5828200621BC7 /* libz.tbd */,
+				C4BC9B362CA5825900621BC7 /* libc++abi.tbd */,
+				C4BC9B342CA5821E00621BC7 /* VideoToolbox.framework */,
+				C4BC9B322CA5821800621BC7 /* AudioToolbox.framework */,
+				C4BC9B302CA5820600621BC7 /* CoreAudio.framework */,
+				C4BC9B2C2CA5800300621BC7 /* AudioUnit.framework */,
+				C4BC9B2A2CA57FE200621BC7 /* CoreAudioTypes.framework */,
+				C4BC9B282CA57FDB00621BC7 /* CoreAudioKit.framework */,
+				4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4BC905A2CA43FF700621BC7 /* RQSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BC90742CA43FF900621BC7 /* Build configuration list for PBXNativeTarget "RQSDKDemo" */;
+			buildPhases = (
+				83AAFD5E01DDA490639583D0 /* [CP] Check Pods Manifest.lock */,
+				C4BC90572CA43FF700621BC7 /* Sources */,
+				C4BC90582CA43FF700621BC7 /* Frameworks */,
+				C4BC90592CA43FF700621BC7 /* Resources */,
+				C4BC98062CA55EDE00621BC7 /* Embed Frameworks */,
+				6E4339B96680A752B4BB389B /* [CP] Embed Pods Frameworks */,
+				3C56F52259776345987000E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQSDKDemo;
+			productName = RQSDKDemo;
+			productReference = C4BC905B2CA43FF700621BC7 /* RQSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4BC90532CA43FF700621BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C4BC905A2CA43FF700621BC7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C4BC90562CA43FF700621BC7 /* Build configuration list for PBXProject "RQSDKDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				el,
+				"zh-Hans",
+				ja,
+				fa,
+				es,
+				it,
+				sk,
+				ms,
+				cs,
+				ko,
+				"zh-Hant",
+				tr,
+				pl,
+				vi,
+				ru,
+				fr,
+				id,
+				nl,
+				th,
+				pt,
+			);
+			mainGroup = C4BC90522CA43FF700621BC7;
+			productRefGroup = C4BC905C2CA43FF700621BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4BC905A2CA43FF700621BC7 /* RQSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4BC90592CA43FF700621BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BCA1962CA64FE300621BC7 /* Mine.storyboard in Resources */,
+				C4BCA1532CA64FE300621BC7 /* family_power_off.json in Resources */,
+				C4BCA1812CA64FE300621BC7 /* IssueFeedbackViewController.storyboard in Resources */,
+				C4BCA1672CA64FE300621BC7 /* LoginViewController.xib in Resources */,
+				C4BCA1A12CA64FE300621BC7 /* UserProfile.storyboard in Resources */,
+				C4BCA15B2CA64FE300621BC7 /* family_power_on.json in Resources */,
+				C4BCA1012CA64FE200621BC7 /* Assets.xcassets in Resources */,
+				C4BCA16A2CA64FE300621BC7 /* LaunchScreen.storyboard in Resources */,
+				C4BCA1CF2CA6501300621BC7 /* Localizable.strings in Resources */,
+				C4BCA15C2CA64FE300621BC7 /* family_update.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C56F52259776345987000E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E4339B96680A752B4BB389B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83AAFD5E01DDA490639583D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RQSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4BC90572CA43FF700621BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BCA1C92CA64FE300621BC7 /* ShareToManagedViewController+TableViewCell.swift in Sources */,
+				C4BCA12F2CA64FE200621BC7 /* Collection+.swift in Sources */,
+				C4BCA19E2CA64FE300621BC7 /* ModifyPasswordViewController.swift in Sources */,
+				C4BCA1B62CA64FE300621BC7 /* ShareDeviceConfirmViewController+ViewModel.swift in Sources */,
+				C4BCA15F2CA64FE300621BC7 /* PasswordInputView.swift in Sources */,
+				C4BCA1432CA64FE200621BC7 /* DoubleLinkedList.swift in Sources */,
+				C4BCA1552CA64FE300621BC7 /* import.swift in Sources */,
+				C4BCA1342CA64FE200621BC7 /* URL+Static.swift in Sources */,
+				C4BCA1202CA64FE200621BC7 /* MessageCenter.swift in Sources */,
+				C4BCA17A2CA64FE300621BC7 /* IssueFeedbackViewController+ViewModel.swift in Sources */,
+				C4BCA1132CA64FE200621BC7 /* BaseViewController.swift in Sources */,
+				C4BCA16E2CA64FE300621BC7 /* SceneDelegate.swift in Sources */,
+				C4BCA1652CA64FE300621BC7 /* FindPasswordViewController.swift in Sources */,
+				C4BCA1882CA64FE300621BC7 /* MessageCenterSubLevelViewController+ViewModel.swift in Sources */,
+				C4BCA1872CA64FE300621BC7 /* FeedbackCommitSuccessViewController.swift in Sources */,
+				C4BCA10F2CA64FE200621BC7 /* ScrollableTabBar.swift in Sources */,
+				C4BCA1BC2CA64FE300621BC7 /* ShareByFace2FaceViewController+UserTableViewCell.swift in Sources */,
+				C4BCA13F2CA64FE200621BC7 /* ReoqooAlertViewController+Common.swift in Sources */,
+				C4BCA1BA2CA64FE300621BC7 /* ShareDevicesListViewController.swift in Sources */,
+				C4BCA1352CA64FE200621BC7 /* NSBundle+Language.m in Sources */,
+				C4BCA1C12CA64FE300621BC7 /* SelectSharePermissionTableViewController.swift in Sources */,
+				C4BCA19B2CA64FE300621BC7 /* CloseAccountPasswordInputViewController.swift in Sources */,
+				C4BCA19D2CA64FE300621BC7 /* CloseAccountSucceedViewController.swift in Sources */,
+				C4BCA1A42CA64FE300621BC7 /* APNSSettingViewController+ViewModel.swift in Sources */,
+				C4BCA1AE2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+OtherSubviews.swift in Sources */,
+				C4BCA1092CA64FE200621BC7 /* PopoverListView.swift in Sources */,
+				C4BCA17E2CA64FE300621BC7 /* IssueFeedbackTableViewController.swift in Sources */,
+				C4BCA1302CA64FE200621BC7 /* UIApplication+SandboxPath.swift in Sources */,
+				C4BCA1A22CA64FE300621BC7 /* UserProfileTableViewController.swift in Sources */,
+				C4BCA1C72CA64FE300621BC7 /* ShareFromManagedViewController.swift in Sources */,
+				C4BCA18A2CA64FE300621BC7 /* MessageCenterSubLevelViewController.swift in Sources */,
+				C4BCA0FE2CA64FE200621BC7 /* Localization.swift in Sources */,
+				C4BCA1B22CA64FE300621BC7 /* BasicTabbarController+ViewModel.swift in Sources */,
+				C4BCA10E2CA64FE200621BC7 /* InputAccessoryView.swift in Sources */,
+				C4BCA11E2CA64FE200621BC7 /* ResponseHandler.swift in Sources */,
+				C4BCA1172CA64FE200621BC7 /* CameraOutputView.swift in Sources */,
+				C4BCA11C2CA64FE200621BC7 /* QRCodeScanningViewController+ViewModel.swift in Sources */,
+				C4BCA1492CA64FE200621BC7 /* RQSDKDelegate.swift in Sources */,
+				C4BCA1C22CA64FE300621BC7 /* SelectSharePermissionAlertViewController.swift in Sources */,
+				C4BCA12E2CA64FE200621BC7 /* UIColor+.swift in Sources */,
+				C4BCA1B82CA64FE300621BC7 /* ShareDeviceConfirmViewController+UserTableViewCell.swift in Sources */,
+				C4BCA13E2CA64FE200621BC7 /* IVBLENetCfgManager+Combine.swift in Sources */,
+				C4BCA1C32CA64FE300621BC7 /* DevicePermissionConfigurationViewController.swift in Sources */,
+				C4BCA1362CA64FE200621BC7 /* Codable+.swift in Sources */,
+				C4BCA1732CA64FE300621BC7 /* DevicesViewController2+EmptyDevicesPlaceholder.swift in Sources */,
+				C4BCA14C2CA64FE200621BC7 /* Device.swift in Sources */,
+				C4BCA1892CA64FE300621BC7 /* MessageCenterSubLevelViewController+TableViewCell.swift in Sources */,
+				C4BCA1B32CA64FE300621BC7 /* BasicTabbarController+WrappedNavigationController.swift in Sources */,
+				C4BCA1622CA64FE300621BC7 /* PasswordSettingSucceedViewController.swift in Sources */,
+				C4BCA18C2CA64FE300621BC7 /* WelfareActivityViewController.swift in Sources */,
+				C4BCA17D2CA64FE300621BC7 /* IssueFeedbackViewController+DeviceSelectionViewController.swift in Sources */,
+				C4BCA1402CA64FE200621BC7 /* IVDeviceMgr+Rx.swift in Sources */,
+				C4BCA1642CA64FE300621BC7 /* AccountInputView.swift in Sources */,
+				C4BCA1822CA64FE300621BC7 /* IssueFeedbackViewController+CalendarSelectionViewController.swift in Sources */,
+				C4BCA1102CA64FE200621BC7 /* RQSwitch.swift in Sources */,
+				C4BCA17B2CA64FE300621BC7 /* IssueFeedbackViewController+Model.swift in Sources */,
+				C4BCA1AA2CA64FE300621BC7 /* AuthorizationStatusTableViewHeader.swift in Sources */,
+				C4BCA1052CA64FE200621BC7 /* R.generated.swift in Sources */,
+				C4BCA1182CA64FE200621BC7 /* ReoqooAlertViewController.swift in Sources */,
+				C4BCA1332CA64FE200621BC7 /* UIApplication+Info.swift in Sources */,
+				C4BCA11B2CA64FE200621BC7 /* PageSheetStyleViewController.swift in Sources */,
+				C4BCA1262CA64FE200621BC7 /* RegionConfirmationViewController.swift in Sources */,
+				C4BCA1C02CA64FE300621BC7 /* DeviceShare+Api.swift in Sources */,
+				C4BCA1BB2CA64FE300621BC7 /* ShareByFace2FaceViewController.swift in Sources */,
+				C4BCA16D2CA64FE300621BC7 /* AppDelegate.swift in Sources */,
+				C4BCA1842CA64FE300621BC7 /* IVDatePickerViewService.swift in Sources */,
+				C4BCA1602CA64FE300621BC7 /* OneTimeCodeInputViewController.swift in Sources */,
+				C4BCA16B2CA64FE300621BC7 /* AppentranceManager+Extra.swift in Sources */,
+				C4BCA1AC2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+Model.swift in Sources */,
+				C4BCA19F2CA64FE300621BC7 /* RebindTipsViewController.swift in Sources */,
+				C4BCA1CA2CA64FE300621BC7 /* ShareManagedViewController+DeviceTableViewHeader.swift in Sources */,
+				C4BCA1A72CA64FE300621BC7 /* APNSSettingViewController.swift in Sources */,
+				C4BCA1922CA64FE300621BC7 /* MessageCenterViewController+CollectionViewCell.swift in Sources */,
+				C4BCA19C2CA64FE300621BC7 /* CloseAccountIntroductionViewController.swift in Sources */,
+				C4BCA1802CA64FE300621BC7 /* IssueFeedbackViewController+TableViewSectionHeader.swift in Sources */,
+				C4BCA1242CA64FE200621BC7 /* RegionSelectionViewController+TableViewCell.swift in Sources */,
+				C4BCA1482CA64FE200621BC7 /* ErrorReason.swift in Sources */,
+				C4BCA1712CA64FE300621BC7 /* DevicesViewController+CollectionViewCell.swift in Sources */,
+				C4BCA1C82CA64FE300621BC7 /* ShareToManagedViewController.swift in Sources */,
+				C4BCA13B2CA64FE200621BC7 /* IVNetworkHelper+SwiftCombine.swift in Sources */,
+				C4BCA1462CA64FE200621BC7 /* AccountCenter.swift in Sources */,
+				C4BCA1762CA64FE300621BC7 /* FamilyViewController+ChildrenCollectionViewCell.swift in Sources */,
+				C4BCA1722CA64FE300621BC7 /* DevicesViewController2.swift in Sources */,
+				C4BCA1612CA64FE300621BC7 /* OneTimeCodeInputViewController+SubViews.swift in Sources */,
+				C4BCA1472CA64FE200621BC7 /* ErrorDefine.swift in Sources */,
+				C4BCA1A62CA64FE300621BC7 /* SettingViewController.swift in Sources */,
+				C4BCA1112CA64FE200621BC7 /* InfiltrateScrollView.swift in Sources */,
+				C4BCA13C2CA64FE200621BC7 /* Timer+Combine.swift in Sources */,
+				C4BCA1C52CA64FE300621BC7 /* ShareFromManagedViewController+ViewModel.swift in Sources */,
+				C4BCA1852CA64FE300621BC7 /* IVDatePickerView.swift in Sources */,
+				C4BCA17C2CA64FE300621BC7 /* IssueFeedbackViewController+CollectionViewCell.swift in Sources */,
+				C4BCA17F2CA64FE300621BC7 /* IssueFeedbackViewController.swift in Sources */,
+				C4BCA1312CA64FE200621BC7 /* UserDefaults+Key.swift in Sources */,
+				C4BCA1B42CA64FE300621BC7 /* BasicTabbarController.swift in Sources */,
+				C4BCA12B2CA64FE200621BC7 /* UICollectionView+.swift in Sources */,
+				C4BCA1A02CA64FE300621BC7 /* RequestOneTimeCodeForBindingViewController.swift in Sources */,
+				C4BCA1832CA64FE300621BC7 /* IVCalendarTimeSelectView.swift in Sources */,
+				C4BCA1992CA64FE300621BC7 /* CloseAccountFlowItem.swift in Sources */,
+				C4BCA1212CA64FE200621BC7 /* MessageCenter+Model.swift in Sources */,
+				C4BCA1222CA64FE200621BC7 /* RegionSelectionViewModel.swift in Sources */,
+				C4BCA1792CA64FE300621BC7 /* CommonEmptyView.swift in Sources */,
+				C4BCA1752CA64FE300621BC7 /* FamilyViewControllerChildrenProtocol.swift in Sources */,
+				C4BCA1B92CA64FE300621BC7 /* ShareDevicesListViewController+DeviceTableViewCell.swift in Sources */,
+				C4BCA14E2CA64FE200621BC7 /* Router.swift in Sources */,
+				C4BCA11F2CA64FE200621BC7 /* LocalNetworkAuthorization.swift in Sources */,
+				C4BCA15E2CA64FE300621BC7 /* AgreementView.swift in Sources */,
+				C4BCA1CB2CA64FE300621BC7 /* ShareManagedViewController+DeviceTableViewCell.swift in Sources */,
+				C4BCA11D2CA64FE200621BC7 /* QRCodeScanningViewController.swift in Sources */,
+				C4BCA1372CA64FE200621BC7 /* UIButton+.swift in Sources */,
+				C4BCA1322CA64FE200621BC7 /* IVLanguageCode+.swift in Sources */,
+				C4BCA1662CA64FE300621BC7 /* RequestOneTimeCodeViewController.swift in Sources */,
+				C4BCA1152CA64FE200621BC7 /* BaseNavigationController.swift in Sources */,
+				C4BCA1BF2CA64FE300621BC7 /* DeviceShare+Model.swift in Sources */,
+				C4BCA1B02CA64FE300621BC7 /* ChangeLanguageViewController+ViewModel.swift in Sources */,
+				C4BCA1772CA64FE300621BC7 /* FamilyViewController2.swift in Sources */,
+				C4BCA10C2CA64FE200621BC7 /* Kingfisher+Placeholder.swift in Sources */,
+				C4BCA1272CA64FE200621BC7 /* Date+StringPresented.swift in Sources */,
+				C4BCA1452CA64FE200621BC7 /* User.swift in Sources */,
+				C4BCA12C2CA64FE200621BC7 /* UIViewController+NavigationBarStyle.swift in Sources */,
+				C4BCA1C62CA64FE300621BC7 /* ShareToManagedViewController+ViewModel.swift in Sources */,
+				C4BCA1422CA64FE200621BC7 /* FirmUpgradeTask.swift in Sources */,
+				C4BCA10B2CA64FE200621BC7 /* Popoverable.swift in Sources */,
+				C4BCA18F2CA64FE300621BC7 /* SystemMessageViewController.swift in Sources */,
+				C4BCA1742CA64FE300621BC7 /* FamilyViewController2+Banner.swift in Sources */,
+				C4BCA14B2CA64FE200621BC7 /* Device+KeyPath.swift in Sources */,
+				C4BCA1A52CA64FE300621BC7 /* AuthorizationStatusItem.swift in Sources */,
+				C4BCA1C42CA64FE300621BC7 /* ShareManagerViewController+ViewModel.swift in Sources */,
+				C4BCA16F2CA64FE300621BC7 /* FamilyViewController2+ViewModel.swift in Sources */,
+				C4BCA1392CA64FE200621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift in Sources */,
+				C4BCA1A92CA64FE300621BC7 /* AuthorizationStatusTableViewCell.swift in Sources */,
+				C4BCA11A2CA64FE200621BC7 /* ReoqooPopupViewProperty.swift in Sources */,
+				C4BCA1252CA64FE200621BC7 /* RegionSelectionButton.swift in Sources */,
+				C4BCA1CC2CA64FE300621BC7 /* ShareManagedViewController.swift in Sources */,
+				C4BCA1142CA64FE200621BC7 /* BaseTableViewController.swift in Sources */,
+				C4BCA10D2CA64FE200621BC7 /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				C4BCA1AD2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+TableViewCell.swift in Sources */,
+				C4BCA1692CA64FE300621BC7 /* KeyWindow.swift in Sources */,
+				C4BCA1A32CA64FE300621BC7 /* SystemAuthorizationViewController+ViewModel.swift in Sources */,
+				C4BCA1162CA64FE200621BC7 /* ScrollBaseViewAndKeyboardMatchable.swift in Sources */,
+				C4BCA1412CA64FE200621BC7 /* FirmwareUpgradeCenter.swift in Sources */,
+				C4BCA1282CA64FE200621BC7 /* UIButton+Style.swift in Sources */,
+				C4BCA1952CA64FE300621BC7 /* MineViewController.swift in Sources */,
+				C4BCA1AB2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController+ViewModel.swift in Sources */,
+				C4BCA1982CA64FE300621BC7 /* UserSelectHeaderViewController.swift in Sources */,
+				C4BCA1B72CA64FE300621BC7 /* ShareDeviceConfirmViewController.swift in Sources */,
+				C4BCA1192CA64FE200621BC7 /* ShapeLayerView.swift in Sources */,
+				C4BCA1942CA64FE300621BC7 /* MineViewController+ServiceButton.swift in Sources */,
+				C4BCA1972CA64FE300621BC7 /* UserProfileTableViewController+ViewModel.swift in Sources */,
+				C4BCA1B12CA64FE300621BC7 /* ChangeLanguageViewController.swift in Sources */,
+				C4BCA12A2CA64FE200621BC7 /* MBProgressHUD+.swift in Sources */,
+				C4BCA1BD2CA64FE300621BC7 /* DeviceSharePopupHelper.swift in Sources */,
+				C4BCA18D2CA64FE300621BC7 /* FirstLevelMessageTableViewCell.swift in Sources */,
+				C4BCA1912CA64FE300621BC7 /* MessageCenterViewController.swift in Sources */,
+				C4BCA1932CA64FE300621BC7 /* MineViewController+Model.swift in Sources */,
+				C4BCA1232CA64FE200621BC7 /* RegionSelectionViewController.swift in Sources */,
+				C4BCA19A2CA64FE300621BC7 /* CloseAccountReasonSelectionViewController.swift in Sources */,
+				C4BCA1902CA64FE300621BC7 /* SystemMessageViewController+Header.swift in Sources */,
+				C4BCA14A2CA64FE200621BC7 /* DeviceManager2.swift in Sources */,
+				C4BCA18B2CA64FE300621BC7 /* SystemMessageViewController+ViewModel.swift in Sources */,
+				C4BCA1702CA64FE300621BC7 /* FamilyHeaderView.swift in Sources */,
+				C4BCA1442CA64FE200621BC7 /* Node.swift in Sources */,
+				C4BCA1682CA64FE300621BC7 /* LoginViewController.swift in Sources */,
+				C4BCA1A82CA64FE300621BC7 /* SystemAuthorizationViewController.swift in Sources */,
+				C4BCA1292CA64FE200621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m in Sources */,
+				C4BCA13A2CA64FE200621BC7 /* CombineExt+Create.Subscriber.swift in Sources */,
+				C4BCA1782CA64FE300621BC7 /* AboutReoqooViewController.swift in Sources */,
+				C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */,
+				C4BCA1AF2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController.swift in Sources */,
+				C4BCA18E2CA64FE300621BC7 /* WelfareActivityTableViewCell.swift in Sources */,
+				C4BCA1BE2CA64FE300621BC7 /* DeviceShareHeaderView.swift in Sources */,
+				C4BCA12D2CA64FE200621BC7 /* UIScrollView+.swift in Sources */,
+				C4BCA1122CA64FE200621BC7 /* RQInsetGroupedTableViewHeader.swift in Sources */,
+				C4BCA1632CA64FE300621BC7 /* PasswordSettingViewController.swift in Sources */,
+				C4BCA10A2CA64FE200621BC7 /* Popover.swift in Sources */,
+				C4BCA16C2CA64FE300621BC7 /* AppEntranceManager.swift in Sources */,
+				C4BCA1862CA64FE300621BC7 /* IssueFeedbackViewController+IssueTypeSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4BCA1CD2CA6501300621BC7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BCA1CE2CA6501300621BC7 /* en */,
+				C4BCA1D02CA6501A00621BC7 /* zh-Hans */,
+				C4BCA1D12CA6501C00621BC7 /* zh-Hant */,
+				C4BCA1D22CA6501E00621BC7 /* cs */,
+				C4BCA1D32CA6502100621BC7 /* nl */,
+				C4BCA1D42CA6502300621BC7 /* fr */,
+				C4BCA1D52CA6502500621BC7 /* de */,
+				C4BCA1D62CA6502800621BC7 /* el */,
+				C4BCA1D72CA6502A00621BC7 /* id */,
+				C4BCA1D82CA6502D00621BC7 /* it */,
+				C4BCA1D92CA6502F00621BC7 /* ja */,
+				C4BCA1DA2CA6503200621BC7 /* ko */,
+				C4BCA1DB2CA6503500621BC7 /* ms */,
+				C4BCA1DC2CA6503900621BC7 /* fa */,
+				C4BCA1DD2CA6503E00621BC7 /* pl */,
+				C4BCA1DE2CA6504000621BC7 /* pt */,
+				C4BCA1DF2CA6504200621BC7 /* ru */,
+				C4BCA1E02CA6504300621BC7 /* sk */,
+				C4BCA1E12CA6504500621BC7 /* es */,
+				C4BCA1E22CA6504600621BC7 /* th */,
+				C4BCA1E32CA6504900621BC7 /* tr */,
+				C4BCA1E42CA6504B00621BC7 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4BC90722CA43FF900621BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4BC90732CA43FF900621BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4BC90752CA43FF900621BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KB2Q5392XZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWWaveformRulerView",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVBLE",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevMgr",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVVAS",
+					"$(PROJECT_DIR)/RQKit/Frameworks/xt-GWWebrtc",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQDeviceAddition",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWPlayer",
+					"$(PROJECT_DIR)/RQKit/Frameworks/libgwbase",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQCore",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQWebServices",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVNetwork",
+					"$(PROJECT_DIR)/RQKit/Frameworks/libgwble",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCalendarView",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQImagePicker",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVAccountMgr",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVMessageMgr",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevTools",
+					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLink",
+					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkCommon",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQApi",
+					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkIV",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IoTVideo",
+					"$(PROJECT_DIR)/RQKit/Frameworks/BaseKit",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CombineCocoa/CombineCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CombineExt/CombineExt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/R.swift/RswiftResources.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController/RTRootNavigationController.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm/Realm.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift/RealmSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa/RxCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRealm/RxRealm.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay/RxRelay.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift/RxSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/Realm/Headers\"",
+				);
+				INFOPLIST_FILE = RQSDKDemo/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Reoqoo requires your permission to access the photo library in order to use the QR code scanning feature.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Reoqoo requires your permission to access the Bluetooth in order to access Bluetooth devices.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Reoqoo requires your permission to access the Bluetooth in order to access Bluetooth devices.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Reoqoo requires your permission to access the local network for device connections.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Require location authorization to help smart devices to connect with Wifi during connection process and confirm whether the App enters into ap mode or not( LAN working mode of mobile phone and smart devices) enable or not?";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Require location authorization to help smart devices to connect with Wifi during connection process and confirm whether the App enters into ap mode or not( LAN working mode of mobile phone and smart devices) enable or not?";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Require location authorization to help smart devices to connect with Wifi during connection process and confirm whether the App enters into ap mode or not( LAN working mode of mobile phone and smart devices) enable or not?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To successfully added equipment, you need allow the use of the Location Services for getting Wi-Fi information.Please turn on Location Services.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Reoqoo requires your permission to access the microphone to use the intercom feature.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Reoqoo requires your permission to access the photo library in order to save device QR codes to the system album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Reoqoo requires your permission to access the photo library in order to use the QR code scanning feature.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "In order to recommend better intelligent hardware products to you, we need to obtain your IDFA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/fdk-aac/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/xt-ffmpeg/ffmpeg/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/libp2p/iOS/iotvideo/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/HWH265Dec/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/opencore-amrnb/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/x264/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/faac/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/mp4v2/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gw.RQSDK.RQSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RQSDKDemo/Reoqoo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4BC90762CA43FF900621BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KB2Q5392XZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWWaveformRulerView",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVBLE",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevMgr",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVVAS",
+					"$(PROJECT_DIR)/RQKit/Frameworks/xt-GWWebrtc",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQDeviceAddition",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWPlayer",
+					"$(PROJECT_DIR)/RQKit/Frameworks/libgwbase",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQCore",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQWebServices",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVNetwork",
+					"$(PROJECT_DIR)/RQKit/Frameworks/libgwble",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCalendarView",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQImagePicker",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVAccountMgr",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVMessageMgr",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevTools",
+					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLink",
+					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkCommon",
+					"$(PROJECT_DIR)/RQKit/Frameworks/RQApi",
+					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkIV",
+					"$(PROJECT_DIR)/RQKit/Frameworks/IoTVideo",
+					"$(PROJECT_DIR)/RQKit/Frameworks/BaseKit",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CombineCocoa/CombineCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CombineExt/CombineExt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/R.swift/RswiftResources.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController/RTRootNavigationController.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm/Realm.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift/RealmSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa/RxCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRealm/RxRealm.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay/RxRelay.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift/RxSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/Realm/Headers\"",
+				);
+				INFOPLIST_FILE = RQSDKDemo/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Reoqoo requires your permission to access the photo library in order to use the QR code scanning feature.";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Reoqoo requires your permission to access the Bluetooth in order to access Bluetooth devices.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Reoqoo requires your permission to access the Bluetooth in order to access Bluetooth devices.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Reoqoo requires your permission to access the local network for device connections.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Require location authorization to help smart devices to connect with Wifi during connection process and confirm whether the App enters into ap mode or not( LAN working mode of mobile phone and smart devices) enable or not?";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Require location authorization to help smart devices to connect with Wifi during connection process and confirm whether the App enters into ap mode or not( LAN working mode of mobile phone and smart devices) enable or not?";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Require location authorization to help smart devices to connect with Wifi during connection process and confirm whether the App enters into ap mode or not( LAN working mode of mobile phone and smart devices) enable or not?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To successfully added equipment, you need allow the use of the Location Services for getting Wi-Fi information.Please turn on Location Services.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Reoqoo requires your permission to access the microphone to use the intercom feature.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Reoqoo requires your permission to access the photo library in order to save device QR codes to the system album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Reoqoo requires your permission to access the photo library in order to use the QR code scanning feature.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "In order to recommend better intelligent hardware products to you, we need to obtain your IDFA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/fdk-aac/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/xt-ffmpeg/ffmpeg/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/libp2p/iOS/iotvideo/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/HWH265Dec/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/opencore-amrnb/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/x264/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/faac/lib",
+					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/mp4v2/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gw.RQSDK.RQSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RQSDKDemo/Reoqoo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4BC90562CA43FF700621BC7 /* Build configuration list for PBXProject "RQSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BC90722CA43FF900621BC7 /* Debug */,
+				C4BC90732CA43FF900621BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BC90742CA43FF900621BC7 /* Build configuration list for PBXNativeTarget "RQSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BC90752CA43FF900621BC7 /* Debug */,
+				C4BC90762CA43FF900621BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4BC90532CA43FF700621BC7 /* Project object */;
+}

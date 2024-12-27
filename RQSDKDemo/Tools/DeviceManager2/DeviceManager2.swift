@@ -282,7 +282,7 @@ class DeviceManager2 {
     public func addDevice(deviceId: String, deviceName: String, deviceRole: RQCore.DeviceRole, permission: String? = nil, needTiggerPresent: Bool) {
 
         // 直接通过 device/list 接口获取设备列表, 然后从列表中找到目标设备后抛出
-        self.requestDevicesObservable().subscribe(on: MainScheduler.asyncInstance).subscribe { [weak self] devs in
+        self.requestDevicesObservable().subscribe(on: MainScheduler.asyncInstance).subscribe(onNext: { [weak self] _ in
             // 如果 needTiggerPresent 为 true, 触发发布者发布事件
             if !needTiggerPresent { return }
 
@@ -290,7 +290,7 @@ class DeviceManager2 {
             guard let dev = Self.fetchDevice(deviceId) else { return }
             // 触发新增设备发布者
             self?.addDeviceOperationResultObservable.onNext(dev)
-        }.disposed(by: self.disposeBag)
+        }).disposed(by: self.disposeBag)
         
     }
 

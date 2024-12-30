@@ -12,10 +12,8 @@ class FamilyViewController2: BaseViewController {
     let vm: ViewModel = .init()
 
     lazy var deviceSharePopupHelper: DeviceSharePopupHelper = .init()
-
-    lazy var backgroundImageView = UIImageView().then {
-        $0.image = R.image.family_bg()
-    }
+    
+    lazy var backgroundImageView = UIImageView()
     
     weak var activeChild: FamilyViewControllerChildren?
 

@@ -4748,7 +4748,7 @@ struct _R {
     var text_link_4A68A6: RswiftResources.ColorResource { .init(name: "text_link_4A68A6", path: [], bundle: bundle) }
   }
 
-  /// This `_R.image` struct is generated, and contains static references to 128 images.
+  /// This `_R.image` struct is generated, and contains static references to 126 images.
   struct image {
     let bundle: Foundation.Bundle
 
@@ -4967,12 +4967,6 @@ struct _R {
 
     /// Image `guard.pet`.
     var guardPet: RswiftResources.ImageResource { .init(name: "guard.pet", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `launchScreen.background`.
-    var launchScreenBackground: RswiftResources.ImageResource { .init(name: "launchScreen.background", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `launchScreen.logo`.
-    var launchScreenLogo: RswiftResources.ImageResource { .init(name: "launchScreen.logo", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `messageCenter.clear`.
     var messageCenterClear: RswiftResources.ImageResource { .init(name: "messageCenter.clear", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }

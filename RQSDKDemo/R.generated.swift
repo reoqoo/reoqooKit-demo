@@ -4748,7 +4748,7 @@ struct _R {
     var text_link_4A68A6: RswiftResources.ColorResource { .init(name: "text_link_4A68A6", path: [], bundle: bundle) }
   }
 
-  /// This `_R.image` struct is generated, and contains static references to 126 images.
+  /// This `_R.image` struct is generated, and contains static references to 110 images.
   struct image {
     let bundle: Foundation.Bundle
 
@@ -4919,54 +4919,6 @@ struct _R {
 
     /// Image `family_shutdown`.
     var family_shutdown: RswiftResources.ImageResource { .init(name: "family_shutdown", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.babyCry`.
-    var guardBabyCry: RswiftResources.ImageResource { .init(name: "guard.babyCry", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.deviceNotify`.
-    var guardDeviceNotify: RswiftResources.ImageResource { .init(name: "guard.deviceNotify", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.event.car`.
-    var guardEventCar: RswiftResources.ImageResource { .init(name: "guard.event.car", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.event.changjingliandong`.
-    var guardEventChangjingliandong: RswiftResources.ImageResource { .init(name: "guard.event.changjingliandong", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.event.fire`.
-    var guardEventFire: RswiftResources.ImageResource { .init(name: "guard.event.fire", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.event.human.activity`.
-    var guardEventHumanActivity: RswiftResources.ImageResource { .init(name: "guard.event.human.activity", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.event.move`.
-    var guardEventMove: RswiftResources.ImageResource { .init(name: "guard.event.move", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.face`.
-    var guardFace: RswiftResources.ImageResource { .init(name: "guard.face", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.live.layoutMode.fourGird`.
-    var guardLiveLayoutModeFourGird: RswiftResources.ImageResource { .init(name: "guard.live.layoutMode.fourGird", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.live.layoutMode.single`.
-    var guardLiveLayoutModeSingle: RswiftResources.ImageResource { .init(name: "guard.live.layoutMode.single", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.live.refresh`.
-    var guardLiveRefresh: RswiftResources.ImageResource { .init(name: "guard.live.refresh", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.live.refresh.small`.
-    var guardLiveRefreshSmall: RswiftResources.ImageResource { .init(name: "guard.live.refresh.small", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.more`.
-    var guardMore: RswiftResources.ImageResource { .init(name: "guard.more", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.noneDevicePlaceholder`.
-    var guardNoneDevicePlaceholder: RswiftResources.ImageResource { .init(name: "guard.noneDevicePlaceholder", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.noneEventPlaceholder`.
-    var guardNoneEventPlaceholder: RswiftResources.ImageResource { .init(name: "guard.noneEventPlaceholder", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
-
-    /// Image `guard.pet`.
-    var guardPet: RswiftResources.ImageResource { .init(name: "guard.pet", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
 
     /// Image `messageCenter.clear`.
     var messageCenterClear: RswiftResources.ImageResource { .init(name: "messageCenter.clear", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }

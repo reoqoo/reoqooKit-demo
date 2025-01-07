@@ -63,8 +63,6 @@
 		C4BCA1362CA64FE200621BC7 /* Codable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE42CA64FE000621BC7 /* Codable+.swift */; };
 		C4BCA1372CA64FE200621BC7 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */; };
 		C4BCA1392CA64FE200621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */; };
-		C4BCA13A2CA64FE200621BC7 /* CombineExt+Create.Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */; };
-		C4BCA13C2CA64FE200621BC7 /* Timer+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */; };
 		C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */; };
 		C4BCA13F2CA64FE200621BC7 /* ReoqooAlertViewController+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */; };
 		C4BCA1402CA64FE200621BC7 /* IVDeviceMgr+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */; };
@@ -291,8 +289,6 @@
 		C4BC9FE42CA64FE000621BC7 /* Codable+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+.swift"; sourceTree = "<group>"; };
 		C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftCombine+PublishedPropertyWrapper.swift"; sourceTree = "<group>"; };
-		C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CombineExt+Create.Subscriber.swift"; sourceTree = "<group>"; };
-		C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+Combine.swift"; sourceTree = "<group>"; };
 		C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Combine.swift"; sourceTree = "<group>"; };
 		C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReoqooAlertViewController+Common.swift"; sourceTree = "<group>"; };
 		C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IVDeviceMgr+Rx.swift"; sourceTree = "<group>"; };
@@ -840,8 +836,6 @@
 			isa = PBXGroup;
 			children = (
 				C4BC9FE82CA64FE000621BC7 /* SwiftCombine+PublishedPropertyWrapper.swift */,
-				C4BC9FE92CA64FE000621BC7 /* CombineExt+Create.Subscriber.swift */,
-				C4BC9FEB2CA64FE000621BC7 /* Timer+Combine.swift */,
 				C4BC9FEC2CA64FE000621BC7 /* AVCaptureDevice+Combine.swift */,
 			);
 			path = SwiftCombine;
@@ -2021,7 +2015,6 @@
 				C4BCA1612CA64FE300621BC7 /* OneTimeCodeInputViewController+SubViews.swift in Sources */,
 				C4BCA1A62CA64FE300621BC7 /* SettingViewController.swift in Sources */,
 				C4BCA1112CA64FE200621BC7 /* InfiltrateScrollView.swift in Sources */,
-				C4BCA13C2CA64FE200621BC7 /* Timer+Combine.swift in Sources */,
 				C4BCA1C52CA64FE300621BC7 /* ShareFromManagedViewController+ViewModel.swift in Sources */,
 				C4BCA1852CA64FE300621BC7 /* IVDatePickerView.swift in Sources */,
 				C4BCA17C2CA64FE300621BC7 /* IssueFeedbackViewController+CollectionViewCell.swift in Sources */,
@@ -2096,7 +2089,6 @@
 				C4BCA1682CA64FE300621BC7 /* LoginViewController.swift in Sources */,
 				C4BCA1A82CA64FE300621BC7 /* SystemAuthorizationViewController.swift in Sources */,
 				C4BCA1292CA64FE200621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m in Sources */,
-				C4BCA13A2CA64FE200621BC7 /* CombineExt+Create.Subscriber.swift in Sources */,
 				C4BCA1782CA64FE300621BC7 /* AboutReoqooViewController.swift in Sources */,
 				C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */,
 				C4BCA1AF2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController.swift in Sources */,

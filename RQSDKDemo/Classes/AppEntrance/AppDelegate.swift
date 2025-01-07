@@ -9,6 +9,7 @@ import UIKit
 import RQImagePicker
 
 let appName = "xxxxxxx"
+let appPkgName = "xxxxxxx"
 let appID = "xxxxxx"
 let appToken = "xxxxxx"
 let privacyPolicyURL = URL.init(string: "https://www.google.com")!
@@ -30,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         // RQSDK init
-        let initialInfo = InitialInfo.init(appName: appName, pkgName: Bundle.main.bundleIdentifier!, appID: appID, appToken: appToken, language: RQLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAgreementURL: userAgreementURL, requestHost: .default, superVipId: nil)
+        let initialInfo = InitialInfo.init(appName: appName, pkgName: appPkgName, appID: appID, appToken: appToken, language: RQLanguageCode.current, versionPrefix: "8.1", privacyPolicyURL: privacyPolicyURL, userAgreementURL: userAgreementURL, requestHost: .default, superVipId: nil)
         RQCore.Agent.shared.initialze(initialInfo: initialInfo, delegate: RQSDKDelegate.shared, launchOptions: launchOptions)
         // set watermarkImage, this is an optional parameter
         RQCore.Agent.shared.watermarkImage = UIColor.red.pureImage(size: .init(width: 135, height: 36))

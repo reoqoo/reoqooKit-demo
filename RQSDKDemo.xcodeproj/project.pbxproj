@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41B44682D2D2653007E8032 /* MJRefreshComponent+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B44672D2D2653007E8032 /* MJRefreshComponent+Rx.swift */; };
+		C41B446A2D2D274C007E8032 /* RxSwift+CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B44692D2D274C007E8032 /* RxSwift+CountDown.swift */; };
+		C41B446C2D2D27FA007E8032 /* RxSwift+Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B446B2D2D27FA007E8032 /* RxSwift+Operator.swift */; };
+		C41B446E2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B446D2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift */; };
+		C41B44702D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B446F2D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift */; };
 		C485571A2CBFA7F300FF6835 /* receive_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C48557192CBFA7F300FF6835 /* receive_call.mp3 */; };
 		C4A49C112CC65554005E1663 /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A49C102CC65553005E1663 /* Combine.framework */; };
 		C4BC98512CA569FA00621BC7 /* Pods_RQSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEEA4FB99C10528A2F9A3AB /* Pods_RQSDKDemo.framework */; };
@@ -210,6 +215,11 @@
 		6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C413D3802D129E4800431CB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C41B44672D2D2653007E8032 /* MJRefreshComponent+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MJRefreshComponent+Rx.swift"; sourceTree = "<group>"; };
+		C41B44692D2D274C007E8032 /* RxSwift+CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+CountDown.swift"; sourceTree = "<group>"; };
+		C41B446B2D2D27FA007E8032 /* RxSwift+Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+Operator.swift"; sourceTree = "<group>"; };
+		C41B446D2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+PublishedPropertyWrapper.swift"; sourceTree = "<group>"; };
+		C41B446F2D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UNUserNotificationCenter+Rx.swift"; sourceTree = "<group>"; };
 		C42506992CCFB0610052D7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C425069C2CCFB0610052D7CE /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		C425069D2CCFB0610052D7CE /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
@@ -791,10 +801,15 @@
 		C4BC9FD02CA64FE000621BC7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C41B446F2D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift */,
+				C41B44692D2D274C007E8032 /* RxSwift+CountDown.swift */,
 				C4BC9FD12CA64FE000621BC7 /* Date+StringPresented.swift */,
 				C4BC9FD22CA64FE000621BC7 /* UI */,
 				C4BC9FDB2CA64FE000621BC7 /* Collection+.swift */,
 				C4BC9FDC2CA64FE000621BC7 /* UIApplication+SandboxPath.swift */,
+				C41B44672D2D2653007E8032 /* MJRefreshComponent+Rx.swift */,
+				C41B446D2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift */,
+				C41B446B2D2D27FA007E8032 /* RxSwift+Operator.swift */,
 				C4BC9FDD2CA64FE000621BC7 /* UserDefaults+Key.swift */,
 				C4BC9FDE2CA64FE000621BC7 /* IVLanguageCode+.swift */,
 				C4BC9FE02CA64FE000621BC7 /* URL+Static.swift */,
@@ -1953,6 +1968,7 @@
 				C4BCA10F2CA64FE200621BC7 /* ScrollableTabBar.swift in Sources */,
 				C4BCA1BC2CA64FE300621BC7 /* ShareByFace2FaceViewController+UserTableViewCell.swift in Sources */,
 				C4BCA13F2CA64FE200621BC7 /* ReoqooAlertViewController+Common.swift in Sources */,
+				C41B44702D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift in Sources */,
 				C4BCA1BA2CA64FE300621BC7 /* ShareDevicesListViewController.swift in Sources */,
 				C4BCA1352CA64FE200621BC7 /* NSBundle+Language.m in Sources */,
 				C4BCA1C12CA64FE300621BC7 /* SelectSharePermissionTableViewController.swift in Sources */,
@@ -1990,6 +2006,7 @@
 				C4BCA17B2CA64FE300621BC7 /* IssueFeedbackViewController+Model.swift in Sources */,
 				C4BCA1AA2CA64FE300621BC7 /* AuthorizationStatusTableViewHeader.swift in Sources */,
 				C4BCA1052CA64FE200621BC7 /* R.generated.swift in Sources */,
+				C41B446E2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift in Sources */,
 				C4BCA1182CA64FE200621BC7 /* ReoqooAlertViewController.swift in Sources */,
 				C4BCA11B2CA64FE200621BC7 /* PageSheetStyleViewController.swift in Sources */,
 				C4BCA1262CA64FE200621BC7 /* RegionConfirmationViewController.swift in Sources */,
@@ -2080,6 +2097,7 @@
 				C4BCA18D2CA64FE300621BC7 /* FirstLevelMessageTableViewCell.swift in Sources */,
 				C4BCA1912CA64FE300621BC7 /* MessageCenterViewController.swift in Sources */,
 				C4BCA1932CA64FE300621BC7 /* MineViewController+Model.swift in Sources */,
+				C41B44682D2D2653007E8032 /* MJRefreshComponent+Rx.swift in Sources */,
 				C4BCA1232CA64FE200621BC7 /* RegionSelectionViewController.swift in Sources */,
 				C4BCA19A2CA64FE300621BC7 /* CloseAccountReasonSelectionViewController.swift in Sources */,
 				C4BCA1902CA64FE300621BC7 /* SystemMessageViewController+Header.swift in Sources */,
@@ -2090,6 +2108,7 @@
 				C4BCA1A82CA64FE300621BC7 /* SystemAuthorizationViewController.swift in Sources */,
 				C4BCA1292CA64FE200621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m in Sources */,
 				C4BCA1782CA64FE300621BC7 /* AboutReoqooViewController.swift in Sources */,
+				C41B446A2D2D274C007E8032 /* RxSwift+CountDown.swift in Sources */,
 				C4BCA13D2CA64FE200621BC7 /* AVCaptureDevice+Combine.swift in Sources */,
 				C4BCA1AF2CA64FE300621BC7 /* DeviceFirmwareUpgradeViewController.swift in Sources */,
 				C4BCA1BE2CA64FE300621BC7 /* DeviceShareHeaderView.swift in Sources */,
@@ -2099,6 +2118,7 @@
 				C4BCA10A2CA64FE200621BC7 /* Popover.swift in Sources */,
 				C4BCA16C2CA64FE300621BC7 /* AppEntranceManager.swift in Sources */,
 				C4BCA1862CA64FE300621BC7 /* IssueFeedbackViewController+IssueTypeSelectionViewController.swift in Sources */,
+				C41B446C2D2D27FA007E8032 /* RxSwift+Operator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

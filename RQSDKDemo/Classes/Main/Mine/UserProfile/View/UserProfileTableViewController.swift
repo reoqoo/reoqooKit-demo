@@ -77,8 +77,9 @@ class UserProfileTableViewController: BaseTableViewController {
         // 数据绑定
         AccountCenter.shared.currentUser?.$profileInfo
             .compactMap({ $0?.headUrl })
-            .bind(to: self.headerImageView.kf.rx.image(placeholder: ReoqooImageLoadingPlaceholder()))
-            .disposed(by: self.disposeBag)
+            .subscribe(onNext: { [weak self] url in
+                self?.headerImageView.kf.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder())
+            }).disposed(by: self.disposeBag)
         
         AccountCenter.shared.currentUser?.$profileInfo.bind{ [weak self] userProfile in
             self?.nickNameLabel.text = userProfile?.nick
@@ -134,7 +135,9 @@ class UserProfileTableViewController: BaseTableViewController {
         if indexPath.row == 0 && indexPath.section == 0 {
             let vc = UserSelectHeaderViewController.init()
             self.present(vc, animated: true)
-            vc.$selectedHeaderURL.compactMap({ $0 }).bind(to: self.headerImageView.kf.rx.image(placeholder: R.image.userHeaderDefault())).disposed(by: self.disposeBag)
+            vc.$selectedHeaderURL.compactMap({ $0 }).subscribe(onNext: { [weak self] url in
+                self?.headerImageView.kf.setImage(with: url, placeholder: R.image.userHeaderDefault())
+            }).disposed(by: self.disposeBag)
         }
         // 复制 userId
         if indexPath.row == 1 && indexPath.section == 1 {

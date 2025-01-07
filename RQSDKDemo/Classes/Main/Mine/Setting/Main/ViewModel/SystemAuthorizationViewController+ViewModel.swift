@@ -35,7 +35,7 @@ extension SystemAuthorizationViewController {
             // 定位权限
             var locationAuthorizedStatus: CLAuthorizationStatus = .notDetermined
             if #available(iOS 14.0, *) {
-                locationAuthorizedStatus = CLLocationManager.shared.authorizationStatus
+                locationAuthorizedStatus = CLLocationManager().authorizationStatus
             } else {
                 locationAuthorizedStatus = CLLocationManager.authorizationStatus()
             }

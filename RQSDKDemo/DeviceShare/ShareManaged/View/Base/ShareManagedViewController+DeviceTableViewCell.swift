@@ -20,12 +20,11 @@ extension ShareManagedViewController {
                     return
                 }
                 
-                dev.getImageURLObservable().flatMap { [weak self] url in
-                    let obs = self?.deviceImageView.kf.rx.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
+                dev.getImageURLPublisher().sink(receiveValue: { [weak self] url in
+                    self?.deviceImageView.kf.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
                         .processor(Kingfisher.ResizingImageProcessor(referenceSize: CGSize(width: 200, height: 200)))
                     ])
-                    return obs ?? .error(ReoqooError.generalError(reason: .optionalTypeUnwrapped))
-                }.subscribe(on: MainScheduler.asyncInstance).subscribe().disposed(by: self.disposeBag)
+                }).store(in: &self.anyCancellables)
 
                 self.deviceNameLabel.text = dev.remarkName
             }
@@ -39,6 +38,7 @@ extension ShareManagedViewController {
 
         lazy var indicator: UIImageView = .init(image: R.image.commonArrowRightStyle3()!)
 
+        var anyCancellables: Set<AnyCancellable> = []
         var disposeBag: DisposeBag = .init()
 
         required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }

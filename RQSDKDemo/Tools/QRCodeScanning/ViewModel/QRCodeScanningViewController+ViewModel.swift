@@ -146,9 +146,9 @@ extension QRCodeScanningViewController {
         func requestDeviceInfo(sn: String) {
             let sn = sn.uppercased()
             // 1. 用 sn 换 productid 和 设备id
-            self.requestDeviceInfoFromSNObservable(sn: sn).flatMap({ result in
+            self.requestDeviceInfoFromSNPublisher(sn: sn).flatMap({ result in
                 // 2.用 productId 匹配设备模板
-                ProductTemplate.allSupportedProductTemplateObservable.map { productId_deviceTemplate_mapping -> (String, String, ProductTemplate) in
+                ProductTemplate.allSupportedProductTemplatePublisher.tryMap { productId_deviceTemplate_mapping -> (String, String, ProductTemplate) in
                     // 尝试从配置表中找对应的设备模板
                     guard let deviceTemplate = productId_deviceTemplate_mapping[result.productId] else {
                         throw ReoqooError.deviceConnectError(reason: .matchableProductTemplateNotFound)
@@ -159,12 +159,13 @@ extension QRCodeScanningViewController {
                     }
                     return (result.sn, result.deviceId, deviceTemplate)
                 }
-            }).observe(on: MainScheduler.instance).subscribe { [weak self] result in
+            }).sink(receiveCompletion: { [weak self] completion in
+                guard case let .failure(err) = completion else { return }
+                self?.status = .requestDeviceIdWithResult(.failure(err))
+            }, receiveValue: { [weak self] result in
                 let preconnectDevice = PreconnectDevice.init(factor_u: sn, sn: result.0, deviceId: result.1, template: result.2)
                 self?.status = .requestDeviceIdWithResult(.success(preconnectDevice))
-            } onFailure: { [weak self] err in
-                self?.status = .requestDeviceIdWithResult(.failure(err))
-            }.disposed(by: self.disposeBag)
+            }).store(in: &self.anyCancellables)
         }
 
         // MARK: Vision framework 分析
@@ -193,22 +194,23 @@ extension QRCodeScanningViewController {
 
         typealias DeviceInfoFromSNResult = (productId: String, deviceId: String, sn: String)
         /// 通过 SN 获取设备信息
-        func requestDeviceInfoFromSNObservable(sn: String) -> Single<DeviceInfoFromSNResult> {
-            Single.create { observer in
+        func requestDeviceInfoFromSNPublisher(sn: String) -> AnyPublisher<DeviceInfoFromSNResult, Swift.Error> {
+            Publishers.Create<DeviceInfoFromSNResult, Swift.Error> { subscriber in
                 RQApi.Api.getDevInfoBySN(sn) {
                     let res = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
                     if case let .failure(err) = res {
-                        observer(.failure(err))
+                        subscriber.send(completion: .failure(err))
                     }
                     if case let .success(json) = res {
                         let productId = json["data"]["productId"].stringValue
                         let deviceId = json["data"]["deviceId"].stringValue
                         let sn = json["data"]["sn"].stringValue
-                        observer(.success((productId, deviceId, sn)))
+                        subscriber.send((productId, deviceId, sn))
+                        subscriber.send(completion: .finished)
                     }
                 }
-                return Disposables.create()
-            }
+                return AnyCancellable {}
+            }.eraseToAnyPublisher()
         }
     }
 }

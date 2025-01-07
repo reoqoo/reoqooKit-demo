@@ -74,15 +74,15 @@ extension DevicesViewController2 {
                     }.disposed(by: self.deviceInfoObservableDisposeBag)
 
                 /// 设备图片显示
-                device.getImageURLObservable().flatMap { [weak self] url in
-                    let obs = self?.devImageView.kf.rx.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
+                device.getImageURLPublisher().sink { [weak self] url in
+                    self?.devImageView.kf.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
                         .processor(Kingfisher.ResizingImageProcessor(referenceSize: CGSize(width: 240, height: 240)))
                     ])
-                    return obs ?? .error(ReoqooError.generalError(reason: .optionalTypeUnwrapped))
-                }.subscribe(on: MainScheduler.asyncInstance).subscribe().disposed(by: self.deviceInfoObservableDisposeBag)
+                }.store(in: &self.anyCancellables)
             }
         }
 
+        public var anyCancellables: Set<AnyCancellable> = []
         public var extraDisposeBag: DisposeBag = .init()
         private let disposeBag: DisposeBag = .init()
         private var deviceInfoObservableDisposeBag: DisposeBag = .init()

@@ -91,11 +91,11 @@ class RegionConfirmationViewController: BaseViewController {
 
     @objc func confirmBtnOnClick(sender: UIButton) {
         let selected = RegionInfoProvider.default.selectedRegion
-        RQCore.StandardConfiguration.shared.getSMSSupportedRegionInfosObservable().asObservable()
-            .subscribe { [weak self] supported in
+        RQCore.StandardConfiguration.shared.getSMSSupportedRegionInfosPublisher()
+            .sink(receiveValue: { [weak self] supported in
                 let accountTypes: RequestOneTimeCodeViewController.AccountType = supported.contains(selected) ? [.email, .telephone] : [.email]
                 let vc = RequestOneTimeCodeViewController.init(accountType: accountTypes)
                 self?.navigationController?.pushViewController(vc, animated: true)
-            }.disposed(by: self.disposeBag)
+            }).store(in: &self.anyCancellables)
     }
 }

@@ -80,6 +80,7 @@ class DeviceManager2 {
     public var isContainMasterDevice: Bool { self.devices.filter({ $0.role == .master }).first != nil }
 
     private let disposeBag: DisposeBag = .init()
+    private var anyCancellables: Set<AnyCancellable> = []
 
     /// 查询设备状态 DisposeBag 存储器
     /// 当发起查询设备状态请求时, 会写入 DisposeBag 于此 mapping
@@ -210,9 +211,9 @@ class DeviceManager2 {
 
     /// 型号匹配操作
     private func productModuleMatching() {
-        StandardConfiguration.shared.configurationJsonFetchObservable
-            .observe(on: MainScheduler.asyncInstance)
-            .subscribe { [weak self] (supportedProductInfo: [String : ProductTemplate], sceneNames: [String : [String]]) in
+        StandardConfiguration.shared.configurationJsonFetchPublisher
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] (supportedProductInfo: [String : ProductTemplate], sceneNames: [String : [String]]) in
                 guard let self else { return }
                 DeviceManager2.db_updateDevicesWithContext { _ in
                     for dev in self.devices {
@@ -221,7 +222,7 @@ class DeviceManager2 {
                         dev.devExpandType = supportedProductInfo[dev.productId]?.devExpandType ?? 0
                     }
                 }
-            }.disposed(by: self.disposeBag)
+            }.store(in: &self.anyCancellables)
     }
 
     /// 查询单个设备的状态 (上线/离线, 版本信息)

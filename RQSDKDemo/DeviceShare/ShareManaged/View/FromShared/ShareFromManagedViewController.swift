@@ -79,12 +79,11 @@ class ShareFromManagedViewController: BaseViewController {
 
         let dev = DeviceManager2.fetchDevice(self.deviceId)
         let screen_scale = AppEntranceManager.shared.keyWindow?.screen.scale ?? 1
-        dev?.getImageURLObservable().flatMap { [weak self] url in
-            let obs = self?.deviceImageView.kf.rx.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
+        dev?.getImageURLPublisher().sink(receiveValue: { [weak self] url in
+            self?.deviceImageView.kf.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
                 .processor(Kingfisher.ResizingImageProcessor(referenceSize: CGSize(width: 320 * screen_scale, height: 320 * screen_scale)))
             ])
-            return obs ?? .error(ReoqooError.generalError(reason: .optionalTypeUnwrapped))
-        }.subscribe(on: MainScheduler.asyncInstance).subscribe().disposed(by: self.disposeBag)
+        }).store(in: &self.anyCancellables)
 
         self.deviceNameLabel.text = dev?.remarkName
         self.vm.$ownerInfo.sink { [weak self] info in

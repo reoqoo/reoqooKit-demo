@@ -196,9 +196,9 @@ extension ShareToManagedViewController: UITableViewDelegate, UITableViewDataSour
         if let cell = cell as? DeviceTableViewCell {
             let dev = DeviceManager2.fetchDevice(self.deviceId)
             cell.name = dev?.remarkName
-            dev?.getImageURLObservable().subscribe(onSuccess: { url in
-                cell.imageURL = url
-            }).disposed(by: self.disposeBag)
+            dev?.getImageURLPublisher().sink(receiveValue: { [weak cell] url in
+                cell?.imageURL = url
+            }).store(in: &self.anyCancellables)
         }
         if let cell = cell as? CommonTableViewCell {
             cell.label.text = self.topTableViewItems[indexPath.row].text

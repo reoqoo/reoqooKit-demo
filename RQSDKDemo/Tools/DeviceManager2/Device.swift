@@ -164,19 +164,19 @@ class DeviceEntity: RealmSwiftObject, Codable, RQCore.Device {
 
     /// 获取设备图片
     /// - Returns: observable <URL?>
-    func getImageURLObservable() -> Single<URL?> {
-        return ProductTemplate.getProductImageURL(pid: self.productId).observe(on: MainScheduler.asyncInstance)
+    func getImageURLPublisher() -> AnyPublisher<URL?, Never> {
+        return ProductTemplate.getProductImageURLPublisher(pid: self.productId).receive(on: DispatchQueue.main).eraseToAnyPublisher()
     }
 
     /// 获取设备默认产品名称
     /// - Returns: observable <String?>
-    func getProductNameObservable() -> Single<String?> {
-        return ProductTemplate.getProductName(pid: self.productId)
+    func getProductNamePublisher() -> AnyPublisher<String?, Never> {
+        return ProductTemplate.getProductNamePublisher(pid: self.productId).receive(on: DispatchQueue.main).eraseToAnyPublisher()
     }
 
     /// 获取设备型号
-    func getProductModelObservable() -> Single<String?> {
-        return ProductTemplate.getProductModule(pid: self.productId)
+    func getProductModelObservable() -> AnyPublisher<String?, Never> {
+        return ProductTemplate.getProductModulePublisher(pid: self.productId).receive(on: DispatchQueue.main).eraseToAnyPublisher()
     }
 
     /// 针对 @Persisted 持久化属性, 创建属性变化发布者

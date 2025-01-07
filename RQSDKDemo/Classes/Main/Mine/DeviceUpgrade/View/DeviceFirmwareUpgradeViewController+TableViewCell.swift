@@ -25,7 +25,9 @@ extension DeviceFirmwareUpgradeViewController {
                 // 4段式版本号, 用于展示
                 let newVersion = DeviceNewVersionInfoEntity.convert3ComponentsVersionNumTo4ComponentsVersionNum(versionOf3Components: item.task.targetVersion)
                 self.versionBtn.setTitle(String.localization.localized("AA0343", note: "新版本") + ":" + newVersion, for: .normal)
-                item.device?.getImageURLObservable().compactMap({ $0 }).asObservable().bind(to: self.devImageView.kf.rx.image(placeholder: ReoqooImageLoadingPlaceholder())).disposed(by: self.disposeBag)
+                item.device?.getImageURLPublisher().compactMap({ $0 }).sink(receiveValue: { [weak self] url in
+                    self?.devImageView.kf.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder())
+                }).store(in: &self.anyCancellables)
                 self.newVersionDescriptionLabel.text = item.device?.newVersionInfo?.upgDescs
                 
                 // 是否展开
@@ -195,6 +197,7 @@ extension DeviceFirmwareUpgradeViewController {
         }
 
         private let disposeBag: DisposeBag = .init()
+        private var anyCancellables: Set<AnyCancellable> = []
 
         override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
             super.init(style: style, reuseIdentifier: reuseIdentifier)

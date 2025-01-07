@@ -19,13 +19,12 @@ extension ShareDevicesListViewController {
                     self.deviceNameLabel.text = nil
                     return
                 }
-                
-                dev.getImageURLObservable().flatMap { [weak self] url in
-                    let obs = self?.deviceImageView.kf.rx.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
+
+                dev.getImageURLPublisher().sink { [weak self] url in
+                    self?.deviceImageView.kf.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [
                         .processor(Kingfisher.ResizingImageProcessor(referenceSize: CGSize(width: 200, height: 200)))
                     ])
-                    return obs ?? .error(ReoqooError.generalError(reason: .optionalTypeUnwrapped))
-                }.subscribe(on: MainScheduler.asyncInstance).subscribe().disposed(by: self.disposeBag)
+                }.store(in: &self.anyCancellables)
 
                 self.deviceNameLabel.text = dev.remarkName
             }
@@ -43,6 +42,7 @@ extension ShareDevicesListViewController {
         }
 
         var disposeBag: DisposeBag = .init()
+        var anyCancellables: Set<AnyCancellable> = []
 
         required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
         override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {

@@ -65,6 +65,7 @@ class DeviceShareHeaderView: UIView {
     private var style: DeviceShareHeaderView.Style = .default
 
     private let disposeBag = DisposeBag()
+    private var anyCancellables: Set<AnyCancellable> = []
 
     init(style: DeviceShareHeaderView.Style, frame: CGRect) {
         super.init(frame: frame)
@@ -111,23 +112,16 @@ extension DeviceShareHeaderView {
     /// - Parameter productId: 产品id
     func setImage(productId: String) {
         let screen_scale = AppEntranceManager.shared.keyWindow?.screen.scale ?? 1
-        ProductTemplate.getProductImageURL(pid: productId).observe(on: MainScheduler.asyncInstance).subscribe { [weak self] url in
+        ProductTemplate.getProductImageURLPublisher(pid: productId).receive(on: DispatchQueue.main).sink { [weak self] url in
             self?.imageView.kf.setImage(with: url, placeholder: ReoqooImageLoadingPlaceholder(), options: [.processor(ResizingImageProcessor(referenceSize: .init(width: 320 *  screen_scale, height: 320 * screen_scale)))])
-        } onFailure: { err in
-
-        }.disposed(by: self.disposeBag)
+        }.store(in: &self.anyCancellables)
     }
 
     /// 根据产品设置产品默认名称
     /// - Parameter productId: 产品id
     func setProductName(productId: String) {
-
-        ProductTemplate.getProductName(pid: productId).observe(on: MainScheduler.asyncInstance).subscribe { [weak self] productName in
-
+        ProductTemplate.getProductNamePublisher(pid: productId).receive(on: DispatchQueue.main).sink { [weak self] productName in
             self?.name = productName ?? ""
-
-        } onFailure: { err in
-
-        }.disposed(by: self.disposeBag)
+        }.store(in: &self.anyCancellables)
     }
 }

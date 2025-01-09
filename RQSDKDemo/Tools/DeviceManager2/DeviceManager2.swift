@@ -6,8 +6,6 @@
 //
 
 import Foundation
-import DophiGoHiLink
-import DophiGoHiLinkIV
 
 extension DeviceManager2 {
     // 描述删除操作是从哪里发生的
@@ -636,16 +634,12 @@ extension DeviceManager2 {
     /// 开关设备发布者
     public func turnOnDeviceObservable(_ deviceId: String, on: Bool) -> Single<Void> {
         .create { observer in
-            DHReoqooApi.setCameraOn(on, deviceId: deviceId) { code, msg, resObj in
-                if code == kReoqooApiCodeSuccess {
-                    observer(.success(()))
-                }else{
-                    observer(.failure(NSError.init(domain: "SET_CAMERA_ON_ERROR", code: Int(code))))
-                }
+            RQApi.Api.setDeviceOn(on, deviceId: deviceId) {
+                observer($0)
             }
             return Disposables.create()
         }.do(onSuccess: {
-            // 成功后会在 `ReoqooApi.swift` func postDeviceStatus(_ pluginId: String, deviceId: String, status: DHDeviceStatus) 中对 Device.status 进行修改, 所以这里不管这个状态更新
+            // 成功后会在 `RQSDKDelegate.swift` func reoqooSDKDeviceStatusDidChanged(...) 中对 Device.status 进行修改, 所以这里不管这个状态更新
         }, onSubscribed: {
             Self.db_updateDevicesWithContext { _ in
                 let device = Self.fetchDevice(deviceId)

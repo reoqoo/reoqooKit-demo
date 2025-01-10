@@ -453,7 +453,11 @@ extension DeviceManager2 {
                 guard let exist_dev = db.object(ofType: DeviceEntity.self, forPrimaryKey: dev.deviceId) else { continue }
                 // 如果已存在, 将已存在对象的属性转移到新对象中
                 DeviceEntity.keysThatWhenCreateIgnore.forEach {
-                    dev.setValue(exist_dev.value(forKey: $0.asString), forKey: $0.asString)
+                    var value = exist_dev.value(forKey: $0.asString)
+                    if let newVersionInfo = value as? EmbeddedObjectCopyable {
+                        value = newVersionInfo.copyObj()
+                    }
+                    dev.setValue(value, forKey: $0.asString)
                 }
             }
 

@@ -41,7 +41,13 @@ extension RQCore.DeviceStatus: RealmSwift.PersistableEnum {
 
 extension RQCore.DeviceRole: RealmSwift.PersistableEnum {}
 
-class DeviceNewVersionInfoEntity: RealmSwiftEmbeddedObject, Codable, RQCore.DeviceNewVersionInfo {
+protocol EmbeddedObjectCopyable {
+    /// 复制一个新的, 不属于任何 Realm 管理的
+    func copyObj() -> Self
+}
+
+class DeviceNewVersionInfoEntity: RealmSwiftEmbeddedObject, Codable, RQCore.DeviceNewVersionInfo, EmbeddedObjectCopyable {
+
     // 下载地址
     @Persisted var downUrl: String?
     // 最新版本: 3段式, 用于对比
@@ -50,6 +56,16 @@ class DeviceNewVersionInfoEntity: RealmSwiftEmbeddedObject, Codable, RQCore.Devi
     @Persisted var upgDescs: String?
     // 检查新版本的时间 (这个不是接口给的, 是客户端写的, 写的是查询这个新版本的时间)
     @Persisted var checkedTime: TimeInterval?
+
+    // MARK: EmbeddedObjectCopyable
+    func copyObj() -> Self {
+        let new = DeviceNewVersionInfoEntity.init()
+        new.downUrl = self.downUrl
+        new.version = self.version
+        new.upgDescs = self.upgDescs
+        new.checkedTime = self.checkedTime
+        return new as! Self
+    }
 }
 
 class DeviceEntity: RealmSwiftObject, Codable, RQCore.Device {
@@ -154,7 +170,7 @@ class DeviceEntity: RealmSwiftObject, Codable, RQCore.Device {
 
     /// 不需要在创建时同步到数据库的属性
     /// 例如排序id由本地创建赋值不需同步的, status 和 版本号信息是创建后另外请求的
-    static var keysThatWhenCreateIgnore: [PartialKeyPath<DeviceEntity>] = [\.deviceListSortID, \.liveViewSortID, \.isLiveClose, \.status, \.presentVersion, \.swVersion, \.productModule, \.productName, \.devExpandType]
+    static var keysThatWhenCreateIgnore: [PartialKeyPath<DeviceEntity>] = [\.deviceListSortID, \.liveViewSortID, \.isLiveClose, \.status, \.presentVersion, \.swVersion, \.productModule, \.productName, \.devExpandType, \.newVersionInfo]
 
     /// 创建从服务器获取新版本信息发布者
     func checkNewVersionInfoObservable() -> RxSwift.Single<DeviceNewVersionInfoEntity?> {

@@ -485,6 +485,19 @@
 			path = 1.0.6;
 			sourceTree = "<group>";
 		};
+		C41B44712D3102DB007E8032 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C41B446D2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift */,
+				C41B446F2D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift */,
+				C41B44692D2D274C007E8032 /* RxSwift+CountDown.swift */,
+				C41B44672D2D2653007E8032 /* MJRefreshComponent+Rx.swift */,
+				C41B446B2D2D27FA007E8032 /* RxSwift+Operator.swift */,
+				C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 		C425069A2CCFB0610052D7CE /* 1.0.3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -801,15 +814,11 @@
 		C4BC9FD02CA64FE000621BC7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C41B446F2D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift */,
-				C41B44692D2D274C007E8032 /* RxSwift+CountDown.swift */,
 				C4BC9FD12CA64FE000621BC7 /* Date+StringPresented.swift */,
 				C4BC9FD22CA64FE000621BC7 /* UI */,
 				C4BC9FDB2CA64FE000621BC7 /* Collection+.swift */,
 				C4BC9FDC2CA64FE000621BC7 /* UIApplication+SandboxPath.swift */,
-				C41B44672D2D2653007E8032 /* MJRefreshComponent+Rx.swift */,
-				C41B446D2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift */,
-				C41B446B2D2D27FA007E8032 /* RxSwift+Operator.swift */,
+				C41B44712D3102DB007E8032 /* RxSwift */,
 				C4BC9FDD2CA64FE000621BC7 /* UserDefaults+Key.swift */,
 				C4BC9FDE2CA64FE000621BC7 /* IVLanguageCode+.swift */,
 				C4BC9FE02CA64FE000621BC7 /* URL+Static.swift */,
@@ -818,7 +827,6 @@
 				C4BC9FE52CA64FE000621BC7 /* UIButton+.swift */,
 				C4BC9FE72CA64FE000621BC7 /* SwiftCombine */,
 				C4BC9FEE2CA64FE000621BC7 /* ReoqooAlertViewController+Common.swift */,
-				C4BC9FEF2CA64FE000621BC7 /* IVDeviceMgr+Rx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -827,8 +835,8 @@
 			isa = PBXGroup;
 			children = (
 				C4BC9FD32CA64FE000621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.h */,
-				C4BC9FD42CA64FE000621BC7 /* UIButton+Style.swift */,
 				C4BC9FD52CA64FE000621BC7 /* RTContainerNavigationController+CommonStyleConfiguration.m */,
+				C4BC9FD42CA64FE000621BC7 /* UIButton+Style.swift */,
 				C4BC9FD62CA64FE000621BC7 /* MBProgressHUD+.swift */,
 				C4BC9FD72CA64FE000621BC7 /* UICollectionView+.swift */,
 				C4BC9FD82CA64FE000621BC7 /* UIViewController+NavigationBarStyle.swift */,
@@ -841,8 +849,8 @@
 		C4BC9FE12CA64FE000621BC7 /* NSBundle+Language */ = {
 			isa = PBXGroup;
 			children = (
-				C4BC9FE22CA64FE000621BC7 /* NSBundle+Language.m */,
 				C4BC9FE32CA64FE000621BC7 /* NSBundle+Language.h */,
+				C4BC9FE22CA64FE000621BC7 /* NSBundle+Language.m */,
 			);
 			path = "NSBundle+Language";
 			sourceTree = "<group>";

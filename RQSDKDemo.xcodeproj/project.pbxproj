@@ -447,6 +447,7 @@
 		C4BCA1E22CA6504600621BC7 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4BCA1E32CA6504900621BC7 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4BCA1E42CA6504B00621BC7 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4C1B7B72D37676A00FD2CE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4D3B77E2CB9095B00D1C0AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -509,13 +510,14 @@
 		C425069B2CCFB0610052D7CE /* Update Notes */ = {
 			isa = PBXGroup;
 			children = (
-				C44761212D22A945005317C9 /* 1.0.9 */,
 				C425069A2CCFB0610052D7CE /* 1.0.3 */,
 				C49F3DB92CE5A9B200DC339D /* 1.0.4 */,
 				C42CF2B82CFEA96F00E63E8C /* 1.0.5 */,
 				C413D3812D129E4800431CB9 /* 1.0.6 */,
 				C425A17A2D1977C500197B87 /* 1.0.7 */,
 				C425A17C2D1977C500197B87 /* 1.0.8 */,
+				C4C1B7B62D37675400FD2CE2 /* 1.0.9 */,
+				C44761212D22A945005317C9 /* 1.0.10 */,
 			);
 			path = "Update Notes";
 			sourceTree = "<group>";
@@ -559,12 +561,12 @@
 			path = 1.0.5;
 			sourceTree = "<group>";
 		};
-		C44761212D22A945005317C9 /* 1.0.9 */ = {
+		C44761212D22A945005317C9 /* 1.0.10 */ = {
 			isa = PBXGroup;
 			children = (
 				C44761202D22A945005317C9 /* README.md */,
 			);
-			path = 1.0.9;
+			path = 1.0.10;
 			sourceTree = "<group>";
 		};
 		C49F3DB92CE5A9B200DC339D /* 1.0.4 */ = {
@@ -1756,6 +1758,14 @@
 				C4BCA0FA2CA64FE200621BC7 /* ShareManagedViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		C4C1B7B62D37675400FD2CE2 /* 1.0.9 */ = {
+			isa = PBXGroup;
+			children = (
+				C4C1B7B72D37676A00FD2CE2 /* README.md */,
+			);
+			path = 1.0.9;
 			sourceTree = "<group>";
 		};
 		DBB84462C7FED8DE135BA637 /* Frameworks */ = {

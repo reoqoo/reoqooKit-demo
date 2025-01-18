@@ -68,9 +68,9 @@ extension ShareDeviceConfirmViewController {
 
         /// 请求最近分享的用户信息列表
         func requestRecentlyGuestList() {
-            DeviceShare.requestRecentlyGuestListPublisher().sink { completion in
+            DeviceShare.requestRecentlyGuestListPublisher().sink { [weak self] completion in
                 guard case let .failure(err) = completion else { return }
-                self.status = .didFinishRequestRecentlyGuest(.failure(err))
+                self?.status = .didFinishRequestRecentlyGuest(.failure(err))
             } receiveValue: { [weak self] users in
                 self?.recentlyShareGuests = users
                 self?.status = .didFinishRequestRecentlyGuest(.success(users))
@@ -108,8 +108,8 @@ extension ShareDeviceConfirmViewController {
                 guard case let .failure(err) = completion else { return }
                 let reoqooErr = ReoqooError.generateFromOther(err, seriesOfReason: [ReoqooError.DeviceShareError.self]) ?? err
                 self?.status = .didCheckAccount(.failure(reoqooErr))
-            } receiveValue: { users in
-                self.status = .didCheckAccount(.success(users))
+            } receiveValue: { [weak self] users in
+                self?.status = .didCheckAccount(.success(users))
             }.store(in: &self.anyCancellables)
         }
 

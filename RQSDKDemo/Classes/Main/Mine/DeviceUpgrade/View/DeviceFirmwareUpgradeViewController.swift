@@ -121,7 +121,7 @@ class DeviceFirmwareUpgradeViewController: BaseViewController {
                 let toast = device.remarkName + String.localization.localized("AA0538", note: "升级成功")
                 MBProgressHUD.showHUD_DispatchOnMainThread(text: toast)
             case let .deviceFirmwareUpgradeFailure(device, description):
-                let toast = device.remarkName + description
+                let toast = device.remarkName + String.localization.localized("AA0539", note: "升级失败，请稍后重试")
                 MBProgressHUD.showHUD_DispatchOnMainThread(text: toast)
             case .idle:
                 break

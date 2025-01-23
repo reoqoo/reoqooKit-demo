@@ -215,6 +215,7 @@
 		6D097019E66E3CE1E3E2E10D /* Pods-RQSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D7FFB25AECD097109051F5 /* Pods-RQSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-RQSDKDemo/Pods-RQSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C413D3802D129E4800431CB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C41B3F4E2D421C8C000C707A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C41B44672D2D2653007E8032 /* MJRefreshComponent+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MJRefreshComponent+Rx.swift"; sourceTree = "<group>"; };
 		C41B44692D2D274C007E8032 /* RxSwift+CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+CountDown.swift"; sourceTree = "<group>"; };
 		C41B446B2D2D27FA007E8032 /* RxSwift+Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+Operator.swift"; sourceTree = "<group>"; };
@@ -486,6 +487,14 @@
 			path = 1.0.6;
 			sourceTree = "<group>";
 		};
+		C41B3F4F2D421C8C000C707A /* 1.0.11 */ = {
+			isa = PBXGroup;
+			children = (
+				C41B3F4E2D421C8C000C707A /* README.md */,
+			);
+			path = 1.0.11;
+			sourceTree = "<group>";
+		};
 		C41B44712D3102DB007E8032 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,6 +527,7 @@
 				C425A17C2D1977C500197B87 /* 1.0.8 */,
 				C4C1B7B62D37675400FD2CE2 /* 1.0.9 */,
 				C44761212D22A945005317C9 /* 1.0.10 */,
+				C41B3F4F2D421C8C000C707A /* 1.0.11 */,
 			);
 			path = "Update Notes";
 			sourceTree = "<group>";

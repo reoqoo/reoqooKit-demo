@@ -113,7 +113,7 @@ class SelectSharePermissionTableViewController: BaseTableViewController {
 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: String.init(describing: RQInsetGroupedTableViewHeader.self)) as! RQInsetGroupedTableViewHeader
-        header.text = self.dataSources[section].first?.type.description
+        header.text = self.dataSources[section].first?.serie.description
         return header
     }
 

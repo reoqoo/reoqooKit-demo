@@ -181,13 +181,18 @@ extension DeviceShare {
             case surveillance
             /// 回放
             case playback
-            /// 配置
+            /// 控制
             case configuration
 
             var description: String {
-                [PermissionSerie.surveillance: String.localization.localized("AA0643", note: "设备监控"),
-                 PermissionSerie.surveillance: String.localization.localized("AA0644", note: "设备回放"),
-                 PermissionSerie.surveillance: String.localization.localized("AA0645", note: "设备控制")][self] ?? ""
+                switch self {
+                case .surveillance:
+                    return String.localization.localized("AA0643", note: "设备监控")
+                case .playback:
+                    return String.localization.localized("AA0644", note: "设备回放")
+                case .configuration:
+                    return String.localization.localized("AA0645", note: "设备控制")
+                }
             }
         }
 

@@ -19,7 +19,7 @@ target 'RQSDKDemo' do
   pod 'RTRootNavigationController'
   pod 'AFNetworking',   '~> 4.0.1'
   pod 'SDWebImage',     '~> 5.18.2'
-  pod 'lottie-ios',     '3.4.1'
+  pod 'lottie-ios',     '~> 4.0'
   pod 'SSZipArchive'
   pod 'MJRefresh'
   pod 'CZImagePreviewer'

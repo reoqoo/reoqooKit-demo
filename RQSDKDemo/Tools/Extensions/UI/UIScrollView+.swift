@@ -10,7 +10,7 @@ import MJRefresh
 
 class MJCommonHeader: MJRefreshGifHeader {
 
-    lazy var animationView = AnimationView.init(name: R.file.family_updateJson.name).then {
+    lazy var animationView = LottieAnimationView.init(name: R.file.family_updateJson.name).then {
         $0.loopMode = .loop // 无限动画
         $0.backgroundBehavior = .pauseAndRestore // 后台模式
     }
@@ -49,7 +49,7 @@ class MJCommonHeader: MJRefreshGifHeader {
 
 class MJCommonFooter: MJRefreshAutoFooter {
 
-    let animationView = AnimationView(name: "family_update").then {
+    let animationView = LottieAnimationView(name: "family_update").then {
         $0.loopMode = .loop // 无限动画
         $0.backgroundBehavior = .pauseAndRestore // 后台模式
     }

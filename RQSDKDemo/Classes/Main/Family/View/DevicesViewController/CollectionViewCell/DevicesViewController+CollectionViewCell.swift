@@ -153,9 +153,9 @@ extension DevicesViewController2 {
             $0.backgroundColor = .clear
         }
 
-        private lazy var turnOnAnimationView: Lottie.AnimationView = .init(name: R.file.family_power_onJson.name)
+        private lazy var turnOnAnimationView: LottieAnimationView = .init(name: R.file.family_power_onJson.name)
 
-        private lazy var turnOffAnimationView: Lottie.AnimationView = .init(name: R.file.family_power_offJson.name)
+        private lazy var turnOffAnimationView: LottieAnimationView = .init(name: R.file.family_power_offJson.name)
 
         required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
 

@@ -2313,32 +2313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KB2Q5392XZ;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWWaveformRulerView",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVBLE",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevMgr",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVVAS",
-					"$(PROJECT_DIR)/RQKit/Frameworks/xt-GWWebrtc",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQDeviceAddition",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWPlayer",
-					"$(PROJECT_DIR)/RQKit/Frameworks/libgwbase",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQCore",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQWebServices",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVNetwork",
-					"$(PROJECT_DIR)/RQKit/Frameworks/libgwble",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCalendarView",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQImagePicker",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVAccountMgr",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVMessageMgr",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevTools",
-					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLink",
-					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkCommon",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQApi",
-					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkIV",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IoTVideo",
-					"$(PROJECT_DIR)/RQKit/Frameworks/BaseKit",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2380,21 +2355,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/fdk-aac/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/xt-ffmpeg/ffmpeg/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/libp2p/iOS/iotvideo/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/HWH265Dec/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/opencore-amrnb/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/x264/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/faac/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/mp4v2/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
+					"-ld64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gw.RQSDK.RQSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2417,32 +2383,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KB2Q5392XZ;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWWaveformRulerView",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVBLE",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevMgr",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVVAS",
-					"$(PROJECT_DIR)/RQKit/Frameworks/xt-GWWebrtc",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQDeviceAddition",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWPlayer",
-					"$(PROJECT_DIR)/RQKit/Frameworks/libgwbase",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQCore",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQWebServices",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVNetwork",
-					"$(PROJECT_DIR)/RQKit/Frameworks/libgwble",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCalendarView",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQImagePicker",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVAccountMgr",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVMessageMgr",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IVDevTools",
-					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLink",
-					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkCommon",
-					"$(PROJECT_DIR)/RQKit/Frameworks/RQApi",
-					"$(PROJECT_DIR)/RQKit/Frameworks/DophiGoHiLinkIV",
-					"$(PROJECT_DIR)/RQKit/Frameworks/IoTVideo",
-					"$(PROJECT_DIR)/RQKit/Frameworks/BaseKit",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2484,21 +2425,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/fdk-aac/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/xt-ffmpeg/ffmpeg/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/libp2p/iOS/iotvideo/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/HWH265Dec/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/opencore-amrnb/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/x264/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/faac/lib",
-					"$(PROJECT_DIR)/RQKit/Frameworks/GWCodec/Classes/mp4v2/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
+					"-ld64",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gw.RQSDK.RQSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

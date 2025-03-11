@@ -225,7 +225,7 @@ extension AccountCenter {
 
     // MARK: 注册相关接口
     // 获取邮箱验证码
-    private func getEmailOneTimeCodeRequestObservable(email: String, for forWhat: RQApi.EmailOneTimeCodeFor) -> RxSwift.Single<Void> {
+    private func getEmailOneTimeCodeRequestObservable(email: String, for forWhat: RQApi.OneTimeCodeFor) -> RxSwift.Single<Void> {
         let observable = RxSwift.Single<Void>.create { single in
             RQApi.Api.sendOneTimeCodeTo(email: email, forWhat: forWhat) {
                 let res = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
@@ -249,7 +249,7 @@ extension AccountCenter {
     }
 
     /// 获取手机验证码
-    private func getTelephoneOneTimeCodeRequestObservable(telephone: String, regionCode: String, for: RQApi.TelephoneOneTimeCodeFor) -> RxSwift.Single<Void> {
+    private func getTelephoneOneTimeCodeRequestObservable(telephone: String, regionCode: String, for: RQApi.OneTimeCodeFor) -> RxSwift.Single<Void> {
         let observable = RxSwift.Single<Void>.create { single in
             RQApi.Api.sendOneTimeCodeTo(telephone: telephone, forWhat: `for`, regionCode: regionCode) {
                 let res = ResponseHandler.responseHandling(jsonStr: $0, error: $1)
@@ -275,7 +275,7 @@ extension AccountCenter {
     /// 针对获取验证码的两种渠道 以及 目的(注册), 整合
     func getOneTimeCodeForRegisterRequestObservable(accountType: RQApi.AccountType) -> RxSwift.Single<Void> {
         if case let .email(email) = accountType {
-            return self.getEmailOneTimeCodeRequestObservable(email: email, for: .codeRegisterOrBind)
+            return self.getEmailOneTimeCodeRequestObservable(email: email, for: .registerOrBind)
         }
         if case let .mobile(telephone, mobileArea: regionCode) = accountType {
             return self.getTelephoneOneTimeCodeRequestObservable(telephone: telephone, regionCode: regionCode, for: .registerOrBind)
@@ -384,7 +384,7 @@ extension AccountCenter {
     /// 针对找回密码需求, 请求发送验证码. 整合邮箱和手机号验证码两种方式
     func getVerificationCodeForFindPasswordRequestObservable(accountType: RQApi.AccountType) -> RxSwift.Single<Void> {
         if case let .email(email) = accountType {
-            return self.getEmailOneTimeCodeRequestObservable(email: email, for: .codeFindBackPassword)
+            return self.getEmailOneTimeCodeRequestObservable(email: email, for: .findBackPassword)
         }
         if case let .mobile(telephone, mobileArea: regionCode) = accountType {
             return self.getTelephoneOneTimeCodeRequestObservable(telephone: telephone, regionCode: regionCode, for: .findBackPassword)

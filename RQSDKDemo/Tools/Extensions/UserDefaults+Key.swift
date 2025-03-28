@@ -48,21 +48,6 @@ extension UserDefaults {
 
         /// 记录上次 AccessToken 更新时间 Double
         case Reoqoo_LatestUpdateAccessTokenTime
-
-        /// 固件升级任务持久化
-        /// 存储 某设备的所有升级记录
-        /// - key: `Reoqoo_FirmwareUpgradeTasks
-        /// - value:`[Device.FirmwareUpgradeTask]` (数组) json `<Data> 类型`
-        case Reoqoo_FirmwareUpgradeTasks
-
-        /// 消息中心 APP 新版本消息
-        /// 数据: `[String: MessageCenter.FirstLevelMessageItem]`
-        /// key 为 新版本号, value 为 `MessageCenter.FirstLevelMessageItem`
-        case Reoqoo_NewVersionMessage
-
-        /// 消息中心 固件新版本消息
-        /// 数据 [MessageCenter.FirmwareUpdateMessageRecord]
-        case Reoqoo_NewFirmwareMessage
         
         /// 首次查看看家新手引导数据记录 Data 类型的: [BeginnerGuidance.ShowRecordInfo] 数据
         case Reoqoo_BeginnerGuidanceInfo

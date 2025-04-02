@@ -22,6 +22,6 @@ pod 'reoqooKit', :subspecs => ['Core', 'RQIAPKit']
 // 'Core' is the Default Spec, if you don't need the 'RQIAPKit', just
 pod 'reoqooKit'
 
-Note: If you do not provide the IAP function, please don't install RQIAPKit. Otherwise apple will refuse your App review.
+Note: If you are not planing to provide the IAP function, please don't install RQIAPKit. Otherwise apple will refuse your App review.
 
 '''

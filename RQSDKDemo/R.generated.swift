@@ -10,7 +10,7 @@ import UIKit
 private class BundleFinder {}
 let R = _R(bundle: Bundle(for: BundleFinder.self))
 
-struct _R: Sendable {
+struct _R {
   let bundle: Foundation.Bundle
   var string: string { .init(bundle: bundle, preferredLanguages: nil, locale: nil) }
   var color: color { .init(bundle: bundle) }
@@ -77,4557 +77,4557 @@ struct _R: Sendable {
       ///
       /// Key: AA0001
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0001: RswiftResources.StringResource { .init(key: "AA0001", tableName: "Localizable", source: source, developmentValue: "Hello , XXXXXXXX ！", comment: nil) }
 
       /// en translation: E-mail address/phone number
       ///
       /// Key: AA0002
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0002: RswiftResources.StringResource { .init(key: "AA0002", tableName: "Localizable", source: source, developmentValue: "E-mail address/phone number", comment: nil) }
 
       /// en translation: Password
       ///
       /// Key: AA0003
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0003: RswiftResources.StringResource { .init(key: "AA0003", tableName: "Localizable", source: source, developmentValue: "Password", comment: nil) }
 
       /// en translation: Login
       ///
       /// Key: AA0004
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0004: RswiftResources.StringResource { .init(key: "AA0004", tableName: "Localizable", source: source, developmentValue: "Login", comment: nil) }
 
       /// en translation: Forgot password?
       ///
       /// Key: AA0005
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0005: RswiftResources.StringResource { .init(key: "AA0005", tableName: "Localizable", source: source, developmentValue: "Forgot password?", comment: nil) }
 
       /// en translation: Quick register
       ///
       /// Key: AA0006
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0006: RswiftResources.StringResource { .init(key: "AA0006", tableName: "Localizable", source: source, developmentValue: "Quick register", comment: nil) }
 
       /// en translation: I have read and agree to
       ///
       /// Key: AA0007
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0007: RswiftResources.StringResource { .init(key: "AA0007", tableName: "Localizable", source: source, developmentValue: "I have read and agree to", comment: nil) }
 
       /// en translation: User agreement
       ///
       /// Key: AA0008
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0008: RswiftResources.StringResource { .init(key: "AA0008", tableName: "Localizable", source: source, developmentValue: "User agreement", comment: nil) }
 
       /// en translation: Privacy Policy
       ///
       /// Key: AA0009
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0009: RswiftResources.StringResource { .init(key: "AA0009", tableName: "Localizable", source: source, developmentValue: "Privacy Policy", comment: nil) }
 
       /// en translation: Agree
       ///
       /// Key: AA0010
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0010: RswiftResources.StringResource { .init(key: "AA0010", tableName: "Localizable", source: source, developmentValue: "Agree", comment: nil) }
 
       /// en translation: Disagree
       ///
       /// Key: AA0011
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0011: RswiftResources.StringResource { .init(key: "AA0011", tableName: "Localizable", source: source, developmentValue: "Disagree", comment: nil) }
 
       /// en translation: Incorrect phone or email format
       ///
       /// Key: AA0012
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0012: RswiftResources.StringResource { .init(key: "AA0012", tableName: "Localizable", source: source, developmentValue: "Incorrect phone or email format", comment: nil) }
 
       /// en translation: The account or password is incorrect
       ///
       /// Key: AA0013
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0013: RswiftResources.StringResource { .init(key: "AA0013", tableName: "Localizable", source: source, developmentValue: "The account or password is incorrect", comment: nil) }
 
       /// en translation: Country/Region
       ///
       /// Key: AA0014
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0014: RswiftResources.StringResource { .init(key: "AA0014", tableName: "Localizable", source: source, developmentValue: "Country/Region", comment: nil) }
 
       /// en translation: For your data privacy and security, your device information will only be stored on the server where your account is registered
       ///
       /// Key: AA0015
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0015: RswiftResources.StringResource { .init(key: "AA0015", tableName: "Localizable", source: source, developmentValue: "For your data privacy and security, your device information will only be stored on the server where your account is registered", comment: nil) }
 
       /// en translation: Register
       ///
       /// Key: AA0016
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0016: RswiftResources.StringResource { .init(key: "AA0016", tableName: "Localizable", source: source, developmentValue: "Register", comment: nil) }
 
       /// en translation: Select your location
       ///
       /// Key: AA0017
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0017: RswiftResources.StringResource { .init(key: "AA0017", tableName: "Localizable", source: source, developmentValue: "Select your location", comment: nil) }
 
       /// en translation: Confirm
       ///
       /// Key: AA0018
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0018: RswiftResources.StringResource { .init(key: "AA0018", tableName: "Localizable", source: source, developmentValue: "Confirm", comment: nil) }
 
       /// en translation: Phone number or email
       ///
       /// Key: AA0019
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0019: RswiftResources.StringResource { .init(key: "AA0019", tableName: "Localizable", source: source, developmentValue: "Phone number or email", comment: nil) }
 
       /// en translation: Get verification code
       ///
       /// Key: AA0020
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0020: RswiftResources.StringResource { .init(key: "AA0020", tableName: "Localizable", source: source, developmentValue: "Get verification code", comment: nil) }
 
       /// en translation: E-mail
       ///
       /// Key: AA0021
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0021: RswiftResources.StringResource { .init(key: "AA0021", tableName: "Localizable", source: source, developmentValue: "E-mail", comment: nil) }
 
       /// en translation: Phone number or email
       ///
       /// Key: AA0022
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0022: RswiftResources.StringResource { .init(key: "AA0022", tableName: "Localizable", source: source, developmentValue: "Phone number or email", comment: nil) }
 
       /// en translation: Account existed
       ///
       /// Key: AA0023
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0023: RswiftResources.StringResource { .init(key: "AA0023", tableName: "Localizable", source: source, developmentValue: "Account existed", comment: nil) }
 
       /// en translation: Set password
       ///
       /// Key: AA0024
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0024: RswiftResources.StringResource { .init(key: "AA0024", tableName: "Localizable", source: source, developmentValue: "Set password", comment: nil) }
 
       /// en translation: Password must contain 8-30 characters include digits and letters
       ///
       /// Key: AA0025
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0025: RswiftResources.StringResource { .init(key: "AA0025", tableName: "Localizable", source: source, developmentValue: "Password must contain 8-30 characters include digits and letters", comment: nil) }
 
       /// en translation: Enter again
       ///
       /// Key: AA0026
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0026: RswiftResources.StringResource { .init(key: "AA0026", tableName: "Localizable", source: source, developmentValue: "Enter again", comment: nil) }
 
       /// en translation: Weak password
       ///
       /// Key: AA0027
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0027: RswiftResources.StringResource { .init(key: "AA0027", tableName: "Localizable", source: source, developmentValue: "Weak password", comment: nil) }
 
       /// en translation: Medium
       ///
       /// Key: AA0028
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0028: RswiftResources.StringResource { .init(key: "AA0028", tableName: "Localizable", source: source, developmentValue: "Medium", comment: nil) }
 
       /// en translation: Strong
       ///
       /// Key: AA0029
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0029: RswiftResources.StringResource { .init(key: "AA0029", tableName: "Localizable", source: source, developmentValue: "Strong", comment: nil) }
 
       /// en translation: Passwords are inconsistent
       ///
       /// Key: AA0030
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0030: RswiftResources.StringResource { .init(key: "AA0030", tableName: "Localizable", source: source, developmentValue: "Passwords are inconsistent", comment: nil) }
 
       /// en translation: Retrieve password
       ///
       /// Key: AA0031
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0031: RswiftResources.StringResource { .init(key: "AA0031", tableName: "Localizable", source: source, developmentValue: "Retrieve password", comment: nil) }
 
       /// en translation: Please enter XXXXXXXX account
       ///
       /// Key: AA0032
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0032: RswiftResources.StringResource { .init(key: "AA0032", tableName: "Localizable", source: source, developmentValue: "Please enter XXXXXXXX account", comment: nil) }
 
       /// en translation: Account does not exist
       ///
       /// Key: AA0033
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0033: RswiftResources.StringResource { .init(key: "AA0033", tableName: "Localizable", source: source, developmentValue: "Account does not exist", comment: nil) }
 
       /// en translation: Verification code
       ///
       /// Key: AA0034
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0034: RswiftResources.StringResource { .init(key: "AA0034", tableName: "Localizable", source: source, developmentValue: "Verification code", comment: nil) }
 
       /// en translation: The verification code has been sent to
       ///
       /// Key: AA0035
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0035: RswiftResources.StringResource { .init(key: "AA0035", tableName: "Localizable", source: source, developmentValue: "The verification code has been sent to", comment: nil) }
 
       /// en translation: Re-send
       ///
       /// Key: AA0036
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0036: RswiftResources.StringResource { .init(key: "AA0036", tableName: "Localizable", source: source, developmentValue: "Re-send", comment: nil) }
 
       /// en translation: Changing password succeeded
       ///
       /// Key: AA0037
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0037: RswiftResources.StringResource { .init(key: "AA0037", tableName: "Localizable", source: source, developmentValue: "Changing password succeeded", comment: nil) }
 
       /// en translation: Log in now
       ///
       /// Key: AA0038
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0038: RswiftResources.StringResource { .init(key: "AA0038", tableName: "Localizable", source: source, developmentValue: "Log in now", comment: nil) }
 
       /// en translation: Verification code error
       ///
       /// Key: AA0039
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0039: RswiftResources.StringResource { .init(key: "AA0039", tableName: "Localizable", source: source, developmentValue: "Verification code error", comment: nil) }
 
       /// en translation: Verification code has been sent
       ///
       /// Key: AA0040
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0040: RswiftResources.StringResource { .init(key: "AA0040", tableName: "Localizable", source: source, developmentValue: "Verification code has been sent", comment: nil) }
 
       /// en translation: Home
       ///
       /// Key: AA0041
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0041: RswiftResources.StringResource { .init(key: "AA0041", tableName: "Localizable", source: source, developmentValue: "Home", comment: nil) }
 
       /// en translation: Security
       ///
       /// Key: AA0042
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0042: RswiftResources.StringResource { .init(key: "AA0042", tableName: "Localizable", source: source, developmentValue: "Security", comment: nil) }
 
       /// en translation: Account
       ///
       /// Key: AA0043
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0043: RswiftResources.StringResource { .init(key: "AA0043", tableName: "Localizable", source: source, developmentValue: "Account", comment: nil) }
 
       /// en translation: User agreement
       ///
       /// Key: AA0044
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0044: RswiftResources.StringResource { .init(key: "AA0044", tableName: "Localizable", source: source, developmentValue: "User agreement", comment: nil) }
 
       /// en translation: User agreement and privacy policy
       ///
       /// Key: AA0045
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0045: RswiftResources.StringResource { .init(key: "AA0045", tableName: "Localizable", source: source, developmentValue: "User agreement and privacy policy", comment: nil) }
 
       /// en translation: Welcome to XXXXXXXX! XXXXXXXX is developed and operated by XXXXXXXX IoT Technology Co., Ltd. It's a platform to provide online video and audio.  User Agreement & Privacy Policy will help you get a comprehensive understanding of how we collect, use, store and share your personal information, as well as what rights you enjoy.   In order to provide services such as live video, video playback, favorite subscription, community interaction, etc., we may collect the following types of personal information, including video recording, videos and pictures, device information, operation logs, etc.   You can access/update/delete your information and manage the permissions via "Me" interface on the app.   We will take all practicable steps to safeguard your personal information.  You can get more information via %@ & %@.   If your agree to it, please click "Agree" to get the service.
       ///
       /// Key: AA0046
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0046: RswiftResources.StringResource2<String, String> { .init(key: "AA0046", tableName: "Localizable", source: source, developmentValue: "Welcome to XXXXXXXX! XXXXXXXX is developed and operated by XXXXXXXX IoT Technology Co., Ltd. It's a platform to provide online video and audio.\n User Agreement & Privacy Policy will help you get a comprehensive understanding of how we collect, use, store and share your personal information, as well as what rights you enjoy. \n In order to provide services such as live video, video playback, favorite subscription, community interaction, etc., we may collect the following types of personal information, including video recording, videos and pictures, device information, operation logs, etc. \n You can access/update/delete your information and manage the permissions via \"Me\" interface on the app. \n We will take all practicable steps to safeguard your personal information.\n You can get more information via %@ & %@. \n If your agree to it, please click \"Agree\" to get the service.", comment: nil) }
 
       /// en translation: %@'s home
       ///
       /// Key: AA0047
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0047: RswiftResources.StringResource1<String> { .init(key: "AA0047", tableName: "Localizable", source: source, developmentValue: "%@'s home", comment: nil) }
 
       /// en translation: Device
       ///
       /// Key: AA0048
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0048: RswiftResources.StringResource { .init(key: "AA0048", tableName: "Localizable", source: source, developmentValue: "Device", comment: nil) }
 
       /// en translation: Add device
       ///
       /// Key: AA0049
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0049: RswiftResources.StringResource { .init(key: "AA0049", tableName: "Localizable", source: source, developmentValue: "Add device", comment: nil) }
 
       /// en translation: Device sharing
       ///
       /// Key: AA0050
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0050: RswiftResources.StringResource { .init(key: "AA0050", tableName: "Localizable", source: source, developmentValue: "Device sharing", comment: nil) }
 
       /// en translation: Scan
       ///
       /// Key: AA0051
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0051: RswiftResources.StringResource { .init(key: "AA0051", tableName: "Localizable", source: source, developmentValue: "Scan", comment: nil) }
 
       /// en translation: Create a smart life with new experience.
       ///
       /// Key: AA0052
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0052: RswiftResources.StringResource { .init(key: "AA0052", tableName: "Localizable", source: source, developmentValue: "Create a smart life with new experience.", comment: nil) }
 
       /// en translation: Online
       ///
       /// Key: AA0053
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0053: RswiftResources.StringResource { .init(key: "AA0053", tableName: "Localizable", source: source, developmentValue: "Online", comment: nil) }
 
       /// en translation: Offline
       ///
       /// Key: AA0054
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0054: RswiftResources.StringResource { .init(key: "AA0054", tableName: "Localizable", source: source, developmentValue: "Offline", comment: nil) }
 
       /// en translation: Share
       ///
       /// Key: AA0055
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0055: RswiftResources.StringResource { .init(key: "AA0055", tableName: "Localizable", source: source, developmentValue: "Share", comment: nil) }
 
       /// en translation: Delete device
       ///
       /// Key: AA0056
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0056: RswiftResources.StringResource { .init(key: "AA0056", tableName: "Localizable", source: source, developmentValue: "Delete device", comment: nil) }
 
       /// en translation: Are you sure to delete the device?
       ///
       /// Key: AA0057
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0057: RswiftResources.StringResource { .init(key: "AA0057", tableName: "Localizable", source: source, developmentValue: "Are you sure to delete the device?", comment: nil) }
 
       /// en translation: Confirm
       ///
       /// Key: AA0058
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0058: RswiftResources.StringResource { .init(key: "AA0058", tableName: "Localizable", source: source, developmentValue: "Confirm", comment: nil) }
 
       /// en translation: Cancel
       ///
       /// Key: AA0059
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0059: RswiftResources.StringResource { .init(key: "AA0059", tableName: "Localizable", source: source, developmentValue: "Cancel", comment: nil) }
 
       /// en translation: Are you sure to turn off the device?
       ///
       /// Key: AA0060
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0060: RswiftResources.StringResource { .init(key: "AA0060", tableName: "Localizable", source: source, developmentValue: "Are you sure to turn off the device?", comment: nil) }
 
       /// en translation: Are you sure to turn on the device?
       ///
       /// Key: AA0061
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0061: RswiftResources.StringResource { .init(key: "AA0061", tableName: "Localizable", source: source, developmentValue: "Are you sure to turn on the device?", comment: nil) }
 
       /// en translation: Scan the QR code on the device
       ///
       /// Key: AA0062
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0062: RswiftResources.StringResource { .init(key: "AA0062", tableName: "Localizable", source: source, developmentValue: "Scan the QR code on the device", comment: nil) }
 
       /// en translation: Flashlight
       ///
       /// Key: AA0063
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0063: RswiftResources.StringResource { .init(key: "AA0063", tableName: "Localizable", source: source, developmentValue: "Flashlight", comment: nil) }
 
       /// en translation: Album
       ///
       /// Key: AA0064
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0064: RswiftResources.StringResource { .init(key: "AA0064", tableName: "Localizable", source: source, developmentValue: "Album", comment: nil) }
 
       /// en translation: Allow "XXXXXXXX" to use your Camera?
       ///
       /// Key: AA0065
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0065: RswiftResources.StringResource { .init(key: "AA0065", tableName: "Localizable", source: source, developmentValue: "Allow \"XXXXXXXX\" to use your Camera?", comment: nil) }
 
       /// en translation: Need to scan the QR code to connect and bind the device, is it allowed to open the camera?
       ///
       /// Key: AA0066
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0066: RswiftResources.StringResource { .init(key: "AA0066", tableName: "Localizable", source: source, developmentValue: "Need to scan the QR code to connect and bind the device, is it allowed to open the camera?", comment: nil) }
 
       /// en translation: Reject
       ///
       /// Key: AA0067
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0067: RswiftResources.StringResource { .init(key: "AA0067", tableName: "Localizable", source: source, developmentValue: "Reject", comment: nil) }
 
       /// en translation: No camera authorization, please enable in Settings
       ///
       /// Key: AA0068
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0068: RswiftResources.StringResource { .init(key: "AA0068", tableName: "Localizable", source: source, developmentValue: "No camera authorization, please enable in Settings", comment: nil) }
 
       /// en translation: Allow "XXXXXXXX" to use your location information?
       ///
       /// Key: AA0069
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0069: RswiftResources.StringResource { .init(key: "AA0069", tableName: "Localizable", source: source, developmentValue: "Allow \"XXXXXXXX\" to use your location information?", comment: nil) }
 
       /// en translation: To successfully added equipment, you need allow the use of the Location Services for getting Wi-Fi information.Please turn on Location Services
       ///
       /// Key: AA0070
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0070: RswiftResources.StringResource { .init(key: "AA0070", tableName: "Localizable", source: source, developmentValue: "To successfully added equipment, you need allow the use of the Location Services for getting Wi-Fi information.Please turn on Location Services", comment: nil) }
 
       /// en translation: The positioning permission is disabled. Please enable it in Settings
       ///
       /// Key: AA0071
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0071: RswiftResources.StringResource { .init(key: "AA0071", tableName: "Localizable", source: source, developmentValue: "The positioning permission is disabled. Please enable it in Settings", comment: nil) }
 
       /// en translation: Allow "XXXXXXXX" to use your album information？
       ///
       /// Key: AA0072
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0072: RswiftResources.StringResource { .init(key: "AA0072", tableName: "Localizable", source: source, developmentValue: "Allow \"XXXXXXXX\" to use your album information？", comment: nil) }
 
       /// en translation: Need to view and send the picture, is it allowed to open the album?
       ///
       /// Key: AA0073
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0073: RswiftResources.StringResource { .init(key: "AA0073", tableName: "Localizable", source: source, developmentValue: "Need to view and send the picture, is it allowed to open the album?", comment: nil) }
 
       /// en translation: Allow "XXXXXXXX" to use your Bluetooth information？
       ///
       /// Key: AA0074
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0074: RswiftResources.StringResource { .init(key: "AA0074", tableName: "Localizable", source: source, developmentValue: "Allow \"XXXXXXXX\" to use your Bluetooth information？", comment: nil) }
 
       /// en translation: Bluetooth permission is required to help the smart device connect to Wi-Fi during the adding process. Do you agree to enable it?
       ///
       /// Key: AA0075
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0075: RswiftResources.StringResource { .init(key: "AA0075", tableName: "Localizable", source: source, developmentValue: "Bluetooth permission is required to help the smart device connect to Wi-Fi during the adding process. Do you agree to enable it?", comment: nil) }
 
       /// en translation: The Bluetooth permission is disabled. Please enable it in Settings
       ///
       /// Key: AA0076
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0076: RswiftResources.StringResource { .init(key: "AA0076", tableName: "Localizable", source: source, developmentValue: "The Bluetooth permission is disabled. Please enable it in Settings", comment: nil) }
 
       /// en translation: Have you operated the device according to the above guidelines?
       ///
       /// Key: AA0077
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0077: RswiftResources.StringResource { .init(key: "AA0077", tableName: "Localizable", source: source, developmentValue: "Have you operated the device according to the above guidelines?", comment: nil) }
 
       /// en translation: Connecting device
       ///
       /// Key: AA0078
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0078: RswiftResources.StringResource { .init(key: "AA0078", tableName: "Localizable", source: source, developmentValue: "Connecting device", comment: nil) }
 
       /// en translation: Scanning...
       ///
       /// Key: AA0079
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0079: RswiftResources.StringResource { .init(key: "AA0079", tableName: "Localizable", source: source, developmentValue: "Scanning...", comment: nil) }
 
       /// en translation: Connection in progress...
       ///
       /// Key: AA0080
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0080: RswiftResources.StringResource { .init(key: "AA0080", tableName: "Localizable", source: source, developmentValue: "Connection in progress...", comment: nil) }
 
       /// en translation: Registration in progress...
       ///
       /// Key: AA0081
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0081: RswiftResources.StringResource { .init(key: "AA0081", tableName: "Localizable", source: source, developmentValue: "Registration in progress...", comment: nil) }
 
       /// en translation: Please ensure your cellphone is close to the camera
       ///
       /// Key: AA0082
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0082: RswiftResources.StringResource { .init(key: "AA0082", tableName: "Localizable", source: source, developmentValue: "Please ensure your cellphone is close to the camera", comment: nil) }
 
       /// en translation: Connection error (Error code: %@)
       ///
       /// Key: AA0083
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0083: RswiftResources.StringResource1<String> { .init(key: "AA0083", tableName: "Localizable", source: source, developmentValue: "Connection error (Error code: %@)", comment: nil) }
 
       /// en translation: Please try again after the following operations:
       ///
       /// Key: AA0084
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0084: RswiftResources.StringResource { .init(key: "AA0084", tableName: "Localizable", source: source, developmentValue: "Please try again after the following operations:", comment: nil) }
 
       /// en translation: 1. Long press the reset button to reset the device
       ///
       /// Key: AA0085
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0085: RswiftResources.StringResource { .init(key: "AA0085", tableName: "Localizable", source: source, developmentValue: "1. Long press the reset button to reset the device", comment: nil) }
 
       /// en translation: 2. Check whether the access restriction is enabled on the router
       ///
       /// Key: AA0086
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0086: RswiftResources.StringResource { .init(key: "AA0086", tableName: "Localizable", source: source, developmentValue: "2. Check whether the access restriction is enabled on the router", comment: nil) }
 
       /// en translation: 3. Restart the router
       ///
       /// Key: AA0087
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0087: RswiftResources.StringResource { .init(key: "AA0087", tableName: "Localizable", source: source, developmentValue: "3. Restart the router", comment: nil) }
 
       /// en translation: Retry
       ///
       /// Key: AA0088
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0088: RswiftResources.StringResource { .init(key: "AA0088", tableName: "Localizable", source: source, developmentValue: "Retry", comment: nil) }
 
       /// en translation: Added successfully
       ///
       /// Key: AA0089
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0089: RswiftResources.StringResource { .init(key: "AA0089", tableName: "Localizable", source: source, developmentValue: "Added successfully", comment: nil) }
 
       /// en translation: Name
       ///
       /// Key: AA0090
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0090: RswiftResources.StringResource { .init(key: "AA0090", tableName: "Localizable", source: source, developmentValue: "Name", comment: nil) }
 
       /// en translation: Garage
       ///
       /// Key: AA0091
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0091: RswiftResources.StringResource { .init(key: "AA0091", tableName: "Localizable", source: source, developmentValue: "Garage", comment: nil) }
 
       /// en translation: Warehouse
       ///
       /// Key: AA0092
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0092: RswiftResources.StringResource { .init(key: "AA0092", tableName: "Localizable", source: source, developmentValue: "Warehouse", comment: nil) }
 
       /// en translation: Home Security
       ///
       /// Key: AA0093
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0093: RswiftResources.StringResource { .init(key: "AA0093", tableName: "Localizable", source: source, developmentValue: "Home Security", comment: nil) }
 
       /// en translation: Elderly Care
       ///
       /// Key: AA0094
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0094: RswiftResources.StringResource { .init(key: "AA0094", tableName: "Localizable", source: source, developmentValue: "Elderly Care", comment: nil) }
 
       /// en translation: Baby Room
       ///
       /// Key: AA0095
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0095: RswiftResources.StringResource { .init(key: "AA0095", tableName: "Localizable", source: source, developmentValue: "Baby Room", comment: nil) }
 
       /// en translation: Pets
       ///
       /// Key: AA0096
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0096: RswiftResources.StringResource { .init(key: "AA0096", tableName: "Localizable", source: source, developmentValue: "Pets", comment: nil) }
 
       /// en translation: Shop
       ///
       /// Key: AA0097
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0097: RswiftResources.StringResource { .init(key: "AA0097", tableName: "Localizable", source: source, developmentValue: "Shop", comment: nil) }
 
       /// en translation: Courtyard
       ///
       /// Key: AA0098
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0098: RswiftResources.StringResource { .init(key: "AA0098", tableName: "Localizable", source: source, developmentValue: "Courtyard", comment: nil) }
 
       /// en translation: Other
       ///
       /// Key: AA0099
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0099: RswiftResources.StringResource { .init(key: "AA0099", tableName: "Localizable", source: source, developmentValue: "Other", comment: nil) }
 
       /// en translation: Save the device QR code to the album
       ///
       /// Key: AA0100
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0100: RswiftResources.StringResource { .init(key: "AA0100", tableName: "Localizable", source: source, developmentValue: "Save the device QR code to the album", comment: nil) }
 
       /// en translation: Get started
       ///
       /// Key: AA0101
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0101: RswiftResources.StringResource { .init(key: "AA0101", tableName: "Localizable", source: source, developmentValue: "Get started", comment: nil) }
 
       /// en translation: Change device name
       ///
       /// Key: AA0102
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0102: RswiftResources.StringResource { .init(key: "AA0102", tableName: "Localizable", source: source, developmentValue: "Change device name", comment: nil) }
 
       /// en translation: Settings
       ///
       /// Key: AA0103
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0103: RswiftResources.StringResource { .init(key: "AA0103", tableName: "Localizable", source: source, developmentValue: "Settings", comment: nil) }
 
       /// en translation: Configure Wi-Fi
       ///
       /// Key: AA0104
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0104: RswiftResources.StringResource { .init(key: "AA0104", tableName: "Localizable", source: source, developmentValue: "Configure Wi-Fi", comment: nil) }
 
       /// en translation: The device supports 2.4GHz Wi-Fi
       ///
       /// Key: AA0105
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0105: RswiftResources.StringResource { .init(key: "AA0105", tableName: "Localizable", source: source, developmentValue: "The device supports 2.4GHz Wi-Fi", comment: nil) }
 
       /// en translation: The device supports 2.4GHz and 5GHz Wi-Fi
       ///
       /// Key: AA0106
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0106: RswiftResources.StringResource { .init(key: "AA0106", tableName: "Localizable", source: source, developmentValue: "The device supports 2.4GHz and 5GHz Wi-Fi", comment: nil) }
 
       /// en translation: Network settings
       ///
       /// Key: AA0107
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0107: RswiftResources.StringResource { .init(key: "AA0107", tableName: "Localizable", source: source, developmentValue: "Network settings", comment: nil) }
 
       /// en translation: Please select Wi-Fi for connection
       ///
       /// Key: AA0108
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0108: RswiftResources.StringResource { .init(key: "AA0108", tableName: "Localizable", source: source, developmentValue: "Please select Wi-Fi for connection", comment: nil) }
 
       /// en translation: Wi-Fi password
       ///
       /// Key: AA0109
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0109: RswiftResources.StringResource { .init(key: "AA0109", tableName: "Localizable", source: source, developmentValue: "Wi-Fi password", comment: nil) }
 
       /// en translation: Remember password
       ///
       /// Key: AA0110
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0110: RswiftResources.StringResource { .init(key: "AA0110", tableName: "Localizable", source: source, developmentValue: "Remember password", comment: nil) }
 
       /// en translation: Wrong password
       ///
       /// Key: AA0111
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0111: RswiftResources.StringResource { .init(key: "AA0111", tableName: "Localizable", source: source, developmentValue: "Wrong password", comment: nil) }
 
       /// en translation: The device only supports 2.4GHz Wi-Fi
       ///
       /// Key: AA0112
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0112: RswiftResources.StringResource { .init(key: "AA0112", tableName: "Localizable", source: source, developmentValue: "The device only supports 2.4GHz Wi-Fi", comment: nil) }
 
       /// en translation: The current Wi-Fi may be 5GHz Wi-Fi, while the device only supports 2.4GHz Wi-Fi. Are you sure to continue to use?
       ///
       /// Key: AA0113
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0113: RswiftResources.StringResource { .init(key: "AA0113", tableName: "Localizable", source: source, developmentValue: "The current Wi-Fi may be 5GHz Wi-Fi, while the device only supports 2.4GHz Wi-Fi. Are you sure to continue to use?", comment: nil) }
 
       /// en translation: 1. Check whether the Wi-Fi password is correct
       ///
       /// Key: AA0114
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0114: RswiftResources.StringResource { .init(key: "AA0114", tableName: "Localizable", source: source, developmentValue: "1. Check whether the Wi-Fi password is correct", comment: nil) }
 
       /// en translation: 2. Long press the reset button to reset the device
       ///
       /// Key: AA0115
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0115: RswiftResources.StringResource { .init(key: "AA0115", tableName: "Localizable", source: source, developmentValue: "2. Long press the reset button to reset the device", comment: nil) }
 
       /// en translation: 3. Check whether access restriction is enabled on the router
       ///
       /// Key: AA0116
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0116: RswiftResources.StringResource { .init(key: "AA0116", tableName: "Localizable", source: source, developmentValue: "3. Check whether access restriction is enabled on the router", comment: nil) }
 
       /// en translation: 4. Restart the router
       ///
       /// Key: AA0117
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0117: RswiftResources.StringResource { .init(key: "AA0117", tableName: "Localizable", source: source, developmentValue: "4. Restart the router", comment: nil) }
 
       /// en translation: Automatic connection failed
       ///
       /// Key: AA0118
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0118: RswiftResources.StringResource { .init(key: "AA0118", tableName: "Localizable", source: source, developmentValue: "Automatic connection failed", comment: nil) }
 
       /// en translation: Try again
       ///
       /// Key: AA0119
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0119: RswiftResources.StringResource { .init(key: "AA0119", tableName: "Localizable", source: source, developmentValue: "Try again", comment: nil) }
 
       /// en translation: Manual connection
       ///
       /// Key: AA0120
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0120: RswiftResources.StringResource { .init(key: "AA0120", tableName: "Localizable", source: source, developmentValue: "Manual connection", comment: nil) }
 
       /// en translation: Model:
       ///
       /// Key: AA0121
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0121: RswiftResources.StringResource { .init(key: "AA0121", tableName: "Localizable", source: source, developmentValue: "Model:", comment: nil) }
 
       /// en translation: SN：
       ///
       /// Key: AA0122
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0122: RswiftResources.StringResource { .init(key: "AA0122", tableName: "Localizable", source: source, developmentValue: "SN：", comment: nil) }
 
       /// en translation: Connect device Wi-Fi
       ///
       /// Key: AA0123
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0123: RswiftResources.StringResource { .init(key: "AA0123", tableName: "Localizable", source: source, developmentValue: "Connect device Wi-Fi", comment: nil) }
 
       /// en translation: 1. Connect your phone to the camera hotspot: Wi-Fi starting with "XT-"
       ///
       /// Key: AA0124
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0124: RswiftResources.StringResource { .init(key: "AA0124", tableName: "Localizable", source: source, developmentValue: "1. Connect your phone to the camera hotspot: Wi-Fi starting with \"XT-\"", comment: nil) }
 
       /// en translation: 2. Return to the APP
       ///
       /// Key: AA0125
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0125: RswiftResources.StringResource { .init(key: "AA0125", tableName: "Localizable", source: source, developmentValue: "2. Return to the APP", comment: nil) }
 
       /// en translation: Cannot find "XT-"?
       ///
       /// Key: AA0126
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0126: RswiftResources.StringResource { .init(key: "AA0126", tableName: "Localizable", source: source, developmentValue: "Cannot find \"XT-\"?", comment: nil) }
 
       /// en translation: 1. The device may not support fast networking (hotspot connection).Please follow the device voice prompts to select the connection method.
       ///
       /// Key: AA0127
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0127: RswiftResources.StringResource { .init(key: "AA0127", tableName: "Localizable", source: source, developmentValue: "1. The device may not support fast networking (hotspot connection).Please follow the device voice prompts to select the connection method.", comment: nil) }
 
       /// en translation: 2. The distance between the mobile phone and the device is too far. A suitable distance is within 30 cm.
       ///
       /// Key: AA0128
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0128: RswiftResources.StringResource { .init(key: "AA0128", tableName: "Localizable", source: source, developmentValue: "2. The distance between the mobile phone and the device is too far. A suitable distance is within 30 cm.", comment: nil) }
 
       /// en translation: Connect the Wi-Fi starting with "XT-"
       ///
       /// Key: AA0129
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0129: RswiftResources.StringResource { .init(key: "AA0129", tableName: "Localizable", source: source, developmentValue: "Connect the Wi-Fi starting with \"XT-\"", comment: nil) }
 
       /// en translation: Make sure to complete the adding process by returning to APP after connecting to the Wi-Fi that starts with "XT-".
       ///
       /// Key: AA0130
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0130: RswiftResources.StringResource { .init(key: "AA0130", tableName: "Localizable", source: source, developmentValue: "Make sure to complete the adding process by returning to APP after connecting to the Wi-Fi that starts with \"XT-\".", comment: nil) }
 
       /// en translation: I get it
       ///
       /// Key: AA0131
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0131: RswiftResources.StringResource { .init(key: "AA0131", tableName: "Localizable", source: source, developmentValue: "I get it", comment: nil) }
 
       /// en translation: Scanning
       ///
       /// Key: AA0132
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0132: RswiftResources.StringResource { .init(key: "AA0132", tableName: "Localizable", source: source, developmentValue: "Scanning", comment: nil) }
 
       /// en translation: Confirm the device is waiting to connect,put your cellphone close to the camera
       ///
       /// Key: AA0133
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0133: RswiftResources.StringResource { .init(key: "AA0133", tableName: "Localizable", source: source, developmentValue: "Confirm the device is waiting to connect,put your cellphone close to the camera", comment: nil) }
 
       /// en translation: Connect
       ///
       /// Key: AA0134
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0134: RswiftResources.StringResource { .init(key: "AA0134", tableName: "Localizable", source: source, developmentValue: "Connect", comment: nil) }
 
       /// en translation: No device has been found
       ///
       /// Key: AA0135
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0135: RswiftResources.StringResource { .init(key: "AA0135", tableName: "Localizable", source: source, developmentValue: "No device has been found", comment: nil) }
 
       /// en translation: 1. Make ensure that the camera is connected to power supply
       ///
       /// Key: AA0136
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0136: RswiftResources.StringResource { .init(key: "AA0136", tableName: "Localizable", source: source, developmentValue: "1. Make ensure that the camera is connected to power supply", comment: nil) }
 
       /// en translation: 2. Make sure that the Bluetooth permission is enabled on your mobile phone
       ///
       /// Key: AA0137
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0137: RswiftResources.StringResource { .init(key: "AA0137", tableName: "Localizable", source: source, developmentValue: "2. Make sure that the Bluetooth permission is enabled on your mobile phone", comment: nil) }
 
       /// en translation: 3. Make sure that the phone is close to the camera
       ///
       /// Key: AA0138
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0138: RswiftResources.StringResource { .init(key: "AA0138", tableName: "Localizable", source: source, developmentValue: "3. Make sure that the phone is close to the camera", comment: nil) }
 
       /// en translation: 4. Try again after resetting the camera
       ///
       /// Key: AA0139
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0139: RswiftResources.StringResource { .init(key: "AA0139", tableName: "Localizable", source: source, developmentValue: "4. Try again after resetting the camera", comment: nil) }
 
       /// en translation: No needed device detected?
       ///
       /// Key: AA0140
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0140: RswiftResources.StringResource { .init(key: "AA0140", tableName: "Localizable", source: source, developmentValue: "No needed device detected?", comment: nil) }
 
       /// en translation: 1.Please ensure your cellphone is close to the camera
       ///
       /// Key: AA0141
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0141: RswiftResources.StringResource { .init(key: "AA0141", tableName: "Localizable", source: source, developmentValue: "1.Please ensure your cellphone is close to the camera", comment: nil) }
 
       /// en translation: 2.Try again after resetting the camera
       ///
       /// Key: AA0142
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0142: RswiftResources.StringResource { .init(key: "AA0142", tableName: "Localizable", source: source, developmentValue: "2.Try again after resetting the camera", comment: nil) }
 
       /// en translation: Rescan
       ///
       /// Key: AA0143
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0143: RswiftResources.StringResource { .init(key: "AA0143", tableName: "Localizable", source: source, developmentValue: "Rescan", comment: nil) }
 
       /// en translation: Failed to open the album
       ///
       /// Key: AA0144
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0144: RswiftResources.StringResource { .init(key: "AA0144", tableName: "Localizable", source: source, developmentValue: "Failed to open the album", comment: nil) }
 
       /// en translation: Select the device you want to share
       ///
       /// Key: AA0145
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0145: RswiftResources.StringResource { .init(key: "AA0145", tableName: "Localizable", source: source, developmentValue: "Select the device you want to share", comment: nil) }
 
       /// en translation: %@ visitors can be added at most,please delete some if you want to continue sharing with others.
       ///
       /// Key: AA0146
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0146: RswiftResources.StringResource1<String> { .init(key: "AA0146", tableName: "Localizable", source: source, developmentValue: "%@ visitors can be added at most,please delete some if you want to continue sharing with others.", comment: nil) }
 
       /// en translation: Sharing
       ///
       /// Key: AA0147
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0147: RswiftResources.StringResource { .init(key: "AA0147", tableName: "Localizable", source: source, developmentValue: "Sharing", comment: nil) }
 
       /// en translation: Enter the account that needs to be shared
       ///
       /// Key: AA0148
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0148: RswiftResources.StringResource { .init(key: "AA0148", tableName: "Localizable", source: source, developmentValue: "Enter the account that needs to be shared", comment: nil) }
 
       /// en translation: Please enter XXXXXXXX account
       ///
       /// Key: AA0149
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0149: RswiftResources.StringResource { .init(key: "AA0149", tableName: "Localizable", source: source, developmentValue: "Please enter XXXXXXXX account", comment: nil) }
 
       /// en translation: Recent share
       ///
       /// Key: AA0150
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0150: RswiftResources.StringResource { .init(key: "AA0150", tableName: "Localizable", source: source, developmentValue: "Recent share", comment: nil) }
 
       /// en translation: Face-to-face sharing
       ///
       /// Key: AA0151
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0151: RswiftResources.StringResource { .init(key: "AA0151", tableName: "Localizable", source: source, developmentValue: "Face-to-face sharing", comment: nil) }
 
       /// en translation: Share
       ///
       /// Key: AA0152
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0152: RswiftResources.StringResource { .init(key: "AA0152", tableName: "Localizable", source: source, developmentValue: "Share", comment: nil) }
 
       /// en translation: User name error. Please enter again.
       ///
       /// Key: AA0153
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0153: RswiftResources.StringResource { .init(key: "AA0153", tableName: "Localizable", source: source, developmentValue: "User name error. Please enter again.", comment: nil) }
 
       /// en translation: Are you sure to share the device with %@?
       ///
       /// Key: AA0154
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0154: RswiftResources.StringResource1<String> { .init(key: "AA0154", tableName: "Localizable", source: source, developmentValue: "Are you sure to share the device with %@?", comment: nil) }
 
       /// en translation: Already shared with this friend
       ///
       /// Key: AA0155
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0155: RswiftResources.StringResource { .init(key: "AA0155", tableName: "Localizable", source: source, developmentValue: "Already shared with this friend", comment: nil) }
 
       /// en translation: Sharing succeeded
       ///
       /// Key: AA0156
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0156: RswiftResources.StringResource { .init(key: "AA0156", tableName: "Localizable", source: source, developmentValue: "Sharing succeeded", comment: nil) }
 
       /// en translation: Valid to
       ///
       /// Key: AA0157
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0157: RswiftResources.StringResource { .init(key: "AA0157", tableName: "Localizable", source: source, developmentValue: "Valid to", comment: nil) }
 
       /// en translation: Scan the QR code using the XXXXXXXX APP to share
       ///
       /// Key: AA0158
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0158: RswiftResources.StringResource { .init(key: "AA0158", tableName: "Localizable", source: source, developmentValue: "Scan the QR code using the XXXXXXXX APP to share", comment: nil) }
 
       /// en translation: Friends shared  to
       ///
       /// Key: AA0159
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0159: RswiftResources.StringResource { .init(key: "AA0159", tableName: "Localizable", source: source, developmentValue: "Friends shared  to", comment: nil) }
 
       /// en translation: Failed to get the QR code. Click to refresh
       ///
       /// Key: AA0160
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0160: RswiftResources.StringResource { .init(key: "AA0160", tableName: "Localizable", source: source, developmentValue: "Failed to get the QR code. Click to refresh", comment: nil) }
 
       /// en translation: %@ shared a device with you
       ///
       /// Key: AA0161
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0161: RswiftResources.StringResource1<String> { .init(key: "AA0161", tableName: "Localizable", source: source, developmentValue: "%@ shared a device with you", comment: nil) }
 
       /// en translation: Ignore
       ///
       /// Key: AA0162
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0162: RswiftResources.StringResource { .init(key: "AA0162", tableName: "Localizable", source: source, developmentValue: "Ignore", comment: nil) }
 
       /// en translation: Check
       ///
       /// Key: AA0163
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0163: RswiftResources.StringResource { .init(key: "AA0163", tableName: "Localizable", source: source, developmentValue: "Check", comment: nil) }
 
       /// en translation: Sharing from %@
       ///
       /// Key: AA0164
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0164: RswiftResources.StringResource1<String> { .init(key: "AA0164", tableName: "Localizable", source: source, developmentValue: "Sharing from %@", comment: nil) }
 
       /// en translation: Accept
       ///
       /// Key: AA0165
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0165: RswiftResources.StringResource { .init(key: "AA0165", tableName: "Localizable", source: source, developmentValue: "Accept", comment: nil) }
 
       /// en translation: Check now
       ///
       /// Key: AA0166
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0166: RswiftResources.StringResource { .init(key: "AA0166", tableName: "Localizable", source: source, developmentValue: "Check now", comment: nil) }
 
       /// en translation: Failed to add
       ///
       /// Key: AA0167
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0167: RswiftResources.StringResource { .init(key: "AA0167", tableName: "Localizable", source: source, developmentValue: "Failed to add", comment: nil) }
 
       /// en translation: Invalid share. Ask the host to reshare.
       ///
       /// Key: AA0168
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0168: RswiftResources.StringResource { .init(key: "AA0168", tableName: "Localizable", source: source, developmentValue: "Invalid share. Ask the host to reshare.", comment: nil) }
 
       /// en translation: More than %@ visitors have been added to the device. Please contact the host to delete some visitors first.
       ///
       /// Key: AA0169
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0169: RswiftResources.StringResource1<String> { .init(key: "AA0169", tableName: "Localizable", source: source, developmentValue: "More than %@ visitors have been added to the device. Please contact the host to delete some visitors first.", comment: nil) }
 
       /// en translation: Invalid QR code. Ask the host to regenerate
       ///
       /// Key: AA0170
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0170: RswiftResources.StringResource { .init(key: "AA0170", tableName: "Localizable", source: source, developmentValue: "Invalid QR code. Ask the host to regenerate", comment: nil) }
 
       /// en translation: The QR code has expired. Ask the host to regenerate
       ///
       /// Key: AA0171
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0171: RswiftResources.StringResource { .init(key: "AA0171", tableName: "Localizable", source: source, developmentValue: "The QR code has expired. Ask the host to regenerate", comment: nil) }
 
       /// en translation: Sharing is not supported because you are not in the same area as the host
       ///
       /// Key: AA0172
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0172: RswiftResources.StringResource { .init(key: "AA0172", tableName: "Localizable", source: source, developmentValue: "Sharing is not supported because you are not in the same area as the host", comment: nil) }
 
       /// en translation: Are you sure to delete the device?
       ///
       /// Key: AA0173
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0173: RswiftResources.StringResource { .init(key: "AA0173", tableName: "Localizable", source: source, developmentValue: "Are you sure to delete the device?", comment: nil) }
 
       /// en translation: Removal succeeded
       ///
       /// Key: AA0174
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0174: RswiftResources.StringResource { .init(key: "AA0174", tableName: "Localizable", source: source, developmentValue: "Removal succeeded", comment: nil) }
 
       /// en translation: Failed to delete the device. Please try again later
       ///
       /// Key: AA0175
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0175: RswiftResources.StringResource { .init(key: "AA0175", tableName: "Localizable", source: source, developmentValue: "Failed to delete the device. Please try again later", comment: nil) }
 
       /// en translation: Scan the QR code on the device or the QR code shared by others
       ///
       /// Key: AA0176
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0176: RswiftResources.StringResource { .init(key: "AA0176", tableName: "Localizable", source: source, developmentValue: "Scan the QR code on the device or the QR code shared by others", comment: nil) }
 
       /// en translation: No shared device
       ///
       /// Key: AA0177
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0177: RswiftResources.StringResource { .init(key: "AA0177", tableName: "Localizable", source: source, developmentValue: "No shared device", comment: nil) }
 
       /// en translation: Shared device
       ///
       /// Key: AA0178
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0178: RswiftResources.StringResource { .init(key: "AA0178", tableName: "Localizable", source: source, developmentValue: "Shared device", comment: nil) }
 
       /// en translation: From the shared device
       ///
       /// Key: AA0179
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0179: RswiftResources.StringResource { .init(key: "AA0179", tableName: "Localizable", source: source, developmentValue: "From the shared device", comment: nil) }
 
       /// en translation: My share
       ///
       /// Key: AA0180
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0180: RswiftResources.StringResource { .init(key: "AA0180", tableName: "Localizable", source: source, developmentValue: "My share", comment: nil) }
 
       /// en translation: From sharing
       ///
       /// Key: AA0181
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0181: RswiftResources.StringResource { .init(key: "AA0181", tableName: "Localizable", source: source, developmentValue: "From sharing", comment: nil) }
 
       /// en translation: Remove
       ///
       /// Key: AA0182
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0182: RswiftResources.StringResource { .init(key: "AA0182", tableName: "Localizable", source: source, developmentValue: "Remove", comment: nil) }
 
       /// en translation: Device removal
       ///
       /// Key: AA0183
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0183: RswiftResources.StringResource { .init(key: "AA0183", tableName: "Localizable", source: source, developmentValue: "Device removal", comment: nil) }
 
       /// en translation: Stop sharing
       ///
       /// Key: AA0184
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0184: RswiftResources.StringResource { .init(key: "AA0184", tableName: "Localizable", source: source, developmentValue: "Stop sharing", comment: nil) }
 
       /// en translation: Are you sure to delete this shared friend?
       ///
       /// Key: AA0185
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0185: RswiftResources.StringResource { .init(key: "AA0185", tableName: "Localizable", source: source, developmentValue: "Are you sure to delete this shared friend?", comment: nil) }
 
       /// en translation: Remove successfully
       ///
       /// Key: AA0186
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0186: RswiftResources.StringResource { .init(key: "AA0186", tableName: "Localizable", source: source, developmentValue: "Remove successfully", comment: nil) }
 
       /// en translation: Removal failed. Please try again later
       ///
       /// Key: AA0187
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0187: RswiftResources.StringResource { .init(key: "AA0187", tableName: "Localizable", source: source, developmentValue: "Removal failed. Please try again later", comment: nil) }
 
       /// en translation: Are you sure to stop sharing this device?
       ///
       /// Key: AA0188
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0188: RswiftResources.StringResource { .init(key: "AA0188", tableName: "Localizable", source: source, developmentValue: "Are you sure to stop sharing this device?", comment: nil) }
 
       /// en translation: Stop sharing successfully
       ///
       /// Key: AA0189
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0189: RswiftResources.StringResource { .init(key: "AA0189", tableName: "Localizable", source: source, developmentValue: "Stop sharing successfully", comment: nil) }
 
       /// en translation: Failed to stop sharing. Please try again later
       ///
       /// Key: AA0190
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0190: RswiftResources.StringResource { .init(key: "AA0190", tableName: "Localizable", source: source, developmentValue: "Failed to stop sharing. Please try again later", comment: nil) }
 
       /// en translation: Shared user
       ///
       /// Key: AA0191
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0191: RswiftResources.StringResource { .init(key: "AA0191", tableName: "Localizable", source: source, developmentValue: "Shared user", comment: nil) }
 
       /// en translation: Home Security
       ///
       /// Key: AA0192
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0192: RswiftResources.StringResource { .init(key: "AA0192", tableName: "Localizable", source: source, developmentValue: "Home Security", comment: nil) }
 
       /// en translation: Adding a camera is required to enable smart Home watching.
       ///
       /// Key: AA0193
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0193: RswiftResources.StringResource { .init(key: "AA0193", tableName: "Localizable", source: source, developmentValue: "Adding a camera is required to enable smart Home watching.", comment: nil) }
 
       /// en translation: Add
       ///
       /// Key: AA0194
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0194: RswiftResources.StringResource { .init(key: "AA0194", tableName: "Localizable", source: source, developmentValue: "Add", comment: nil) }
 
       /// en translation: Live
       ///
       /// Key: AA0195
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0195: RswiftResources.StringResource { .init(key: "AA0195", tableName: "Localizable", source: source, developmentValue: "Live", comment: nil) }
 
       /// en translation: View
       ///
       /// Key: AA0196
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0196: RswiftResources.StringResource { .init(key: "AA0196", tableName: "Localizable", source: source, developmentValue: "View", comment: nil) }
 
       /// en translation: Sorting
       ///
       /// Key: AA0197
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0197: RswiftResources.StringResource { .init(key: "AA0197", tableName: "Localizable", source: source, developmentValue: "Sorting", comment: nil) }
 
       /// en translation: Using 3G/4G data traffic may generate traffic charges
       ///
       /// Key: AA0198
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0198: RswiftResources.StringResource { .init(key: "AA0198", tableName: "Localizable", source: source, developmentValue: "Using 3G/4G data traffic may generate traffic charges", comment: nil) }
 
       /// en translation: Picture closed
       ///
       /// Key: AA0199
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0199: RswiftResources.StringResource { .init(key: "AA0199", tableName: "Localizable", source: source, developmentValue: "Picture closed", comment: nil) }
 
       /// en translation: Offline already
       ///
       /// Key: AA0200
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0200: RswiftResources.StringResource { .init(key: "AA0200", tableName: "Localizable", source: source, developmentValue: "Offline already", comment: nil) }
 
       /// en translation: Save successfully
       ///
       /// Key: AA0201
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0201: RswiftResources.StringResource { .init(key: "AA0201", tableName: "Localizable", source: source, developmentValue: "Save successfully", comment: nil) }
 
       /// en translation: Save failed
       ///
       /// Key: AA0202
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0202: RswiftResources.StringResource { .init(key: "AA0202", tableName: "Localizable", source: source, developmentValue: "Save failed", comment: nil) }
 
       /// en translation: Today is peaceful~
       ///
       /// Key: AA0203
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0203: RswiftResources.StringResource { .init(key: "AA0203", tableName: "Localizable", source: source, developmentValue: "Today is peaceful~", comment: nil) }
 
       /// en translation: View more
       ///
       /// Key: AA0204
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0204: RswiftResources.StringResource { .init(key: "AA0204", tableName: "Localizable", source: source, developmentValue: "View more", comment: nil) }
 
       /// en translation: Visibility range adjustment
       ///
       /// Key: AA0205
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0205: RswiftResources.StringResource { .init(key: "AA0205", tableName: "Localizable", source: source, developmentValue: "Visibility range adjustment", comment: nil) }
 
       /// en translation: Time
       ///
       /// Key: AA0206
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0206: RswiftResources.StringResource { .init(key: "AA0206", tableName: "Localizable", source: source, developmentValue: "Time", comment: nil) }
 
       /// en translation: Event
       ///
       /// Key: AA0207
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0207: RswiftResources.StringResource { .init(key: "AA0207", tableName: "Localizable", source: source, developmentValue: "Event", comment: nil) }
 
       /// en translation: All
       ///
       /// Key: AA0208
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0208: RswiftResources.StringResource { .init(key: "AA0208", tableName: "Localizable", source: source, developmentValue: "All", comment: nil) }
 
       /// en translation: Person Detected
       ///
       /// Key: AA0209
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0209: RswiftResources.StringResource { .init(key: "AA0209", tableName: "Localizable", source: source, developmentValue: "Person Detected", comment: nil) }
 
       /// en translation: Motion Detection
       ///
       /// Key: AA0210
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0210: RswiftResources.StringResource { .init(key: "AA0210", tableName: "Localizable", source: source, developmentValue: "Motion Detection", comment: nil) }
 
       /// en translation: Scenario Linkage
       ///
       /// Key: AA0211
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0211: RswiftResources.StringResource { .init(key: "AA0211", tableName: "Localizable", source: source, developmentValue: "Scenario Linkage", comment: nil) }
 
       /// en translation: Vehicle Detection
       ///
       /// Key: AA0212
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0212: RswiftResources.StringResource { .init(key: "AA0212", tableName: "Localizable", source: source, developmentValue: "Vehicle Detection", comment: nil) }
 
       /// en translation: Fire Detection
       ///
       /// Key: AA0213
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0213: RswiftResources.StringResource { .init(key: "AA0213", tableName: "Localizable", source: source, developmentValue: "Fire Detection", comment: nil) }
 
       /// en translation: Device
       ///
       /// Key: AA0214
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0214: RswiftResources.StringResource { .init(key: "AA0214", tableName: "Localizable", source: source, developmentValue: "Device", comment: nil) }
 
       /// en translation: More data is being loaded
       ///
       /// Key: AA0215
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0215: RswiftResources.StringResource { .init(key: "AA0215", tableName: "Localizable", source: source, developmentValue: "More data is being loaded", comment: nil) }
 
       /// en translation: Refreshing
       ///
       /// Key: AA0216
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0216: RswiftResources.StringResource { .init(key: "AA0216", tableName: "Localizable", source: source, developmentValue: "Refreshing", comment: nil) }
 
       /// en translation: Cloud service
       ///
       /// Key: AA0217
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0217: RswiftResources.StringResource { .init(key: "AA0217", tableName: "Localizable", source: source, developmentValue: "Cloud service", comment: nil) }
 
       /// en translation: Album
       ///
       /// Key: AA0218
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0218: RswiftResources.StringResource { .init(key: "AA0218", tableName: "Localizable", source: source, developmentValue: "Album", comment: nil) }
 
       /// en translation: Firmware upgrade
       ///
       /// Key: AA0219
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0219: RswiftResources.StringResource { .init(key: "AA0219", tableName: "Localizable", source: source, developmentValue: "Firmware upgrade", comment: nil) }
 
       /// en translation: Do not disturb setting
       ///
       /// Key: AA0220
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0220: RswiftResources.StringResource { .init(key: "AA0220", tableName: "Localizable", source: source, developmentValue: "Do not disturb setting", comment: nil) }
 
       /// en translation: Language
       ///
       /// Key: AA0221
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0221: RswiftResources.StringResource { .init(key: "AA0221", tableName: "Localizable", source: source, developmentValue: "Language", comment: nil) }
 
       /// en translation: Problem feedback
       ///
       /// Key: AA0222
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0222: RswiftResources.StringResource { .init(key: "AA0222", tableName: "Localizable", source: source, developmentValue: "Problem feedback", comment: nil) }
 
       /// en translation: Help and feedback
       ///
       /// Key: AA0223
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0223: RswiftResources.StringResource { .init(key: "AA0223", tableName: "Localizable", source: source, developmentValue: "Help and feedback", comment: nil) }
 
       /// en translation: About XXXXXXXX
       ///
       /// Key: AA0224
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0224: RswiftResources.StringResource { .init(key: "AA0224", tableName: "Localizable", source: source, developmentValue: "About XXXXXXXX", comment: nil) }
 
       /// en translation: Notification center
       ///
       /// Key: AA0225
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0225: RswiftResources.StringResource { .init(key: "AA0225", tableName: "Localizable", source: source, developmentValue: "Notification center", comment: nil) }
 
       /// en translation: Operation succeeded
       ///
       /// Key: AA0226
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0226: RswiftResources.StringResource { .init(key: "AA0226", tableName: "Localizable", source: source, developmentValue: "Operation succeeded", comment: nil) }
 
       /// en translation: Enable notifications from XXXXXXXX, to get the latest news
       ///
       /// Key: AA0227
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0227: RswiftResources.StringResource { .init(key: "AA0227", tableName: "Localizable", source: source, developmentValue: "Enable notifications from XXXXXXXX, to get the latest news", comment: nil) }
 
       /// en translation: No more messages
       ///
       /// Key: AA0228
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0228: RswiftResources.StringResource { .init(key: "AA0228", tableName: "Localizable", source: source, developmentValue: "No more messages", comment: nil) }
 
       /// en translation: No screenshot or video~
       ///
       /// Key: AA0229
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0229: RswiftResources.StringResource { .init(key: "AA0229", tableName: "Localizable", source: source, developmentValue: "No screenshot or video~", comment: nil) }
 
       /// en translation: Select
       ///
       /// Key: AA0230
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0230: RswiftResources.StringResource { .init(key: "AA0230", tableName: "Localizable", source: source, developmentValue: "Select", comment: nil) }
 
       /// en translation: All devices
       ///
       /// Key: AA0231
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0231: RswiftResources.StringResource { .init(key: "AA0231", tableName: "Localizable", source: source, developmentValue: "All devices", comment: nil) }
 
       /// en translation: Share
       ///
       /// Key: AA0232
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0232: RswiftResources.StringResource { .init(key: "AA0232", tableName: "Localizable", source: source, developmentValue: "Share", comment: nil) }
 
       /// en translation: Delete
       ///
       /// Key: AA0233
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0233: RswiftResources.StringResource { .init(key: "AA0233", tableName: "Localizable", source: source, developmentValue: "Delete", comment: nil) }
 
       /// en translation: Sure to delete?
       ///
       /// Key: AA0234
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0234: RswiftResources.StringResource { .init(key: "AA0234", tableName: "Localizable", source: source, developmentValue: "Sure to delete?", comment: nil) }
 
       /// en translation: Delete failed. Please try again later
       ///
       /// Key: AA0235
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0235: RswiftResources.StringResource { .init(key: "AA0235", tableName: "Localizable", source: source, developmentValue: "Delete failed. Please try again later", comment: nil) }
 
       /// en translation: Select all
       ///
       /// Key: AA0236
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0236: RswiftResources.StringResource { .init(key: "AA0236", tableName: "Localizable", source: source, developmentValue: "Select all", comment: nil) }
 
       /// en translation: %@ item selected
       ///
       /// Key: AA0237
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0237: RswiftResources.StringResource1<String> { .init(key: "AA0237", tableName: "Localizable", source: source, developmentValue: "%@ item selected", comment: nil) }
 
       /// en translation: Are you sure to delete this record?
       ///
       /// Key: AA0238
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0238: RswiftResources.StringResource { .init(key: "AA0238", tableName: "Localizable", source: source, developmentValue: "Are you sure to delete this record?", comment: nil) }
 
       /// en translation: Are you sure to delete %@ records?
       ///
       /// Key: AA0239
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0239: RswiftResources.StringResource1<String> { .init(key: "AA0239", tableName: "Localizable", source: source, developmentValue: "Are you sure to delete %@ records?", comment: nil) }
 
       /// en translation: Confirm to delete the selected content?
       ///
       /// Key: AA0240
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0240: RswiftResources.StringResource { .init(key: "AA0240", tableName: "Localizable", source: source, developmentValue: "Confirm to delete the selected content?", comment: nil) }
 
       /// en translation: Problem category
       ///
       /// Key: AA0241
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0241: RswiftResources.StringResource { .init(key: "AA0241", tableName: "Localizable", source: source, developmentValue: "Problem category", comment: nil) }
 
       /// en translation: Please select problem category
       ///
       /// Key: AA0242
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0242: RswiftResources.StringResource { .init(key: "AA0242", tableName: "Localizable", source: source, developmentValue: "Please select problem category", comment: nil) }
 
       /// en translation: Monitoring abnormalities
       ///
       /// Key: AA0243
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0243: RswiftResources.StringResource { .init(key: "AA0243", tableName: "Localizable", source: source, developmentValue: "Monitoring abnormalities", comment: nil) }
 
       /// en translation: Alarm Function
       ///
       /// Key: AA0244
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0244: RswiftResources.StringResource { .init(key: "AA0244", tableName: "Localizable", source: source, developmentValue: "Alarm Function", comment: nil) }
 
       /// en translation: Video Recording
       ///
       /// Key: AA0245
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0245: RswiftResources.StringResource { .init(key: "AA0245", tableName: "Localizable", source: source, developmentValue: "Video Recording", comment: nil) }
 
       /// en translation: Cloud Video
       ///
       /// Key: AA0246
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0246: RswiftResources.StringResource { .init(key: "AA0246", tableName: "Localizable", source: source, developmentValue: "Cloud Video", comment: nil) }
 
       /// en translation: Cloud service
       ///
       /// Key: AA0247
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0247: RswiftResources.StringResource { .init(key: "AA0247", tableName: "Localizable", source: source, developmentValue: "Cloud service", comment: nil) }
 
       /// en translation: Other problem
       ///
       /// Key: AA0248
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0248: RswiftResources.StringResource { .init(key: "AA0248", tableName: "Localizable", source: source, developmentValue: "Other problem", comment: nil) }
 
       /// en translation: Device classification
       ///
       /// Key: AA0249
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0249: RswiftResources.StringResource { .init(key: "AA0249", tableName: "Localizable", source: source, developmentValue: "Device classification", comment: nil) }
 
       /// en translation: Please select the device
       ///
       /// Key: AA0250
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0250: RswiftResources.StringResource { .init(key: "AA0250", tableName: "Localizable", source: source, developmentValue: "Please select the device", comment: nil) }
 
       /// en translation: Issues and Recommendations
       ///
       /// Key: AA0251
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0251: RswiftResources.StringResource { .init(key: "AA0251", tableName: "Localizable", source: source, developmentValue: "Issues and Recommendations", comment: nil) }
 
       /// en translation: Please describe the comments or questions in detail, thank you for your support.
       ///
       /// Key: AA0252
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0252: RswiftResources.StringResource { .init(key: "AA0252", tableName: "Localizable", source: source, developmentValue: "Please describe the comments or questions in detail, thank you for your support.", comment: nil) }
 
       /// en translation: Share app and device log information to pinpoint issues.
       ///
       /// Key: AA0253
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0253: RswiftResources.StringResource { .init(key: "AA0253", tableName: "Localizable", source: source, developmentValue: "Share app and device log information to pinpoint issues.", comment: nil) }
 
       /// en translation: Occurrence Frequency
       ///
       /// Key: AA0254
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0254: RswiftResources.StringResource { .init(key: "AA0254", tableName: "Localizable", source: source, developmentValue: "Occurrence Frequency", comment: nil) }
 
       /// en translation: Rarely appear
       ///
       /// Key: AA0255
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0255: RswiftResources.StringResource { .init(key: "AA0255", tableName: "Localizable", source: source, developmentValue: "Rarely appear", comment: nil) }
 
       /// en translation: Once a day
       ///
       /// Key: AA0256
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0256: RswiftResources.StringResource { .init(key: "AA0256", tableName: "Localizable", source: source, developmentValue: "Once a day", comment: nil) }
 
       /// en translation: Multiple times a day
       ///
       /// Key: AA0257
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0257: RswiftResources.StringResource { .init(key: "AA0257", tableName: "Localizable", source: source, developmentValue: "Multiple times a day", comment: nil) }
 
       /// en translation: Keep Appearing
       ///
       /// Key: AA0258
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0258: RswiftResources.StringResource { .init(key: "AA0258", tableName: "Localizable", source: source, developmentValue: "Keep Appearing", comment: nil) }
 
       /// en translation: Time of problem
       ///
       /// Key: AA0259
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0259: RswiftResources.StringResource { .init(key: "AA0259", tableName: "Localizable", source: source, developmentValue: "Time of problem", comment: nil) }
 
       /// en translation: Time selecting
       ///
       /// Key: AA0260
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0260: RswiftResources.StringResource { .init(key: "AA0260", tableName: "Localizable", source: source, developmentValue: "Time selecting", comment: nil) }
 
       /// en translation: Contact Information
       ///
       /// Key: AA0261
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0261: RswiftResources.StringResource { .init(key: "AA0261", tableName: "Localizable", source: source, developmentValue: "Contact Information", comment: nil) }
 
       /// en translation: Please enter your contact E-mail address
       ///
       /// Key: AA0262
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0262: RswiftResources.StringResource { .init(key: "AA0262", tableName: "Localizable", source: source, developmentValue: "Please enter your contact E-mail address", comment: nil) }
 
       /// en translation: Submit
       ///
       /// Key: AA0263
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0263: RswiftResources.StringResource { .init(key: "AA0263", tableName: "Localizable", source: source, developmentValue: "Submit", comment: nil) }
 
       /// en translation: Urgent problem?please send e-mail to us
       ///
       /// Key: AA0264
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0264: RswiftResources.StringResource { .init(key: "AA0264", tableName: "Localizable", source: source, developmentValue: "Urgent problem?please send e-mail to us", comment: nil) }
 
       /// en translation: 500 characters supported at most
       ///
       /// Key: AA0265
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0265: RswiftResources.StringResource { .init(key: "AA0265", tableName: "Localizable", source: source, developmentValue: "500 characters supported at most", comment: nil) }
 
       /// en translation: Wrong format of phone number
       ///
       /// Key: AA0266
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0266: RswiftResources.StringResource { .init(key: "AA0266", tableName: "Localizable", source: source, developmentValue: "Wrong format of phone number", comment: nil) }
 
       /// en translation: Email format error
       ///
       /// Key: AA0267
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0267: RswiftResources.StringResource { .init(key: "AA0267", tableName: "Localizable", source: source, developmentValue: "Email format error", comment: nil) }
 
       /// en translation: Copy succeeded
       ///
       /// Key: AA0268
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0268: RswiftResources.StringResource { .init(key: "AA0268", tableName: "Localizable", source: source, developmentValue: "Copy succeeded", comment: nil) }
 
       /// en translation: Submission failed
       ///
       /// Key: AA0269
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0269: RswiftResources.StringResource { .init(key: "AA0269", tableName: "Localizable", source: source, developmentValue: "Submission failed", comment: nil) }
 
       /// en translation: Submitted successfully, thanks very much for your feedback
       ///
       /// Key: AA0270
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0270: RswiftResources.StringResource { .init(key: "AA0270", tableName: "Localizable", source: source, developmentValue: "Submitted successfully, thanks very much for your feedback", comment: nil) }
 
       /// en translation: Off
       ///
       /// Key: AA0271
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0271: RswiftResources.StringResource { .init(key: "AA0271", tableName: "Localizable", source: source, developmentValue: "Off", comment: nil) }
 
       /// en translation: Follow the system language
       ///
       /// Key: AA0272
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0272: RswiftResources.StringResource { .init(key: "AA0272", tableName: "Localizable", source: source, developmentValue: "Follow the system language", comment: nil) }
 
       /// en translation: Save
       ///
       /// Key: AA0273
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0273: RswiftResources.StringResource { .init(key: "AA0273", tableName: "Localizable", source: source, developmentValue: "Save", comment: nil) }
 
       /// en translation: Version update
       ///
       /// Key: AA0274
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0274: RswiftResources.StringResource { .init(key: "AA0274", tableName: "Localizable", source: source, developmentValue: "Version update", comment: nil) }
 
       /// en translation: Account information
       ///
       /// Key: AA0275
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0275: RswiftResources.StringResource { .init(key: "AA0275", tableName: "Localizable", source: source, developmentValue: "Account information", comment: nil) }
 
       /// en translation: Profile photo
       ///
       /// Key: AA0276
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0276: RswiftResources.StringResource { .init(key: "AA0276", tableName: "Localizable", source: source, developmentValue: "Profile photo", comment: nil) }
 
       /// en translation: Name
       ///
       /// Key: AA0277
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0277: RswiftResources.StringResource { .init(key: "AA0277", tableName: "Localizable", source: source, developmentValue: "Name", comment: nil) }
 
       /// en translation: Password
       ///
       /// Key: AA0278
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0278: RswiftResources.StringResource { .init(key: "AA0278", tableName: "Localizable", source: source, developmentValue: "Password", comment: nil) }
 
       /// en translation: Phone
       ///
       /// Key: AA0279
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0279: RswiftResources.StringResource { .init(key: "AA0279", tableName: "Localizable", source: source, developmentValue: "Phone", comment: nil) }
 
       /// en translation: E-mail
       ///
       /// Key: AA0280
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0280: RswiftResources.StringResource { .init(key: "AA0280", tableName: "Localizable", source: source, developmentValue: "E-mail", comment: nil) }
 
       /// en translation: Registered region
       ///
       /// Key: AA0281
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0281: RswiftResources.StringResource { .init(key: "AA0281", tableName: "Localizable", source: source, developmentValue: "Registered region", comment: nil) }
 
       /// en translation: Close the account
       ///
       /// Key: AA0282
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0282: RswiftResources.StringResource { .init(key: "AA0282", tableName: "Localizable", source: source, developmentValue: "Close the account", comment: nil) }
 
       /// en translation: Logout
       ///
       /// Key: AA0283
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0283: RswiftResources.StringResource { .init(key: "AA0283", tableName: "Localizable", source: source, developmentValue: "Logout", comment: nil) }
 
       /// en translation: Profile photo selecting
       ///
       /// Key: AA0284
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0284: RswiftResources.StringResource { .init(key: "AA0284", tableName: "Localizable", source: source, developmentValue: "Profile photo selecting", comment: nil) }
 
       /// en translation: Replace successfully
       ///
       /// Key: AA0285
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0285: RswiftResources.StringResource { .init(key: "AA0285", tableName: "Localizable", source: source, developmentValue: "Replace successfully", comment: nil) }
 
       /// en translation: Please enter your nickname
       ///
       /// Key: AA0286
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0286: RswiftResources.StringResource { .init(key: "AA0286", tableName: "Localizable", source: source, developmentValue: "Please enter your nickname", comment: nil) }
 
       /// en translation: Modified successfully
       ///
       /// Key: AA0287
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0287: RswiftResources.StringResource { .init(key: "AA0287", tableName: "Localizable", source: source, developmentValue: "Modified successfully", comment: nil) }
 
       /// en translation: Nicknames cannot contain special symbols
       ///
       /// Key: AA0288
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0288: RswiftResources.StringResource { .init(key: "AA0288", tableName: "Localizable", source: source, developmentValue: "Nicknames cannot contain special symbols", comment: nil) }
 
       /// en translation: The nickname must be less than 24 characters in length
       ///
       /// Key: AA0289
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0289: RswiftResources.StringResource { .init(key: "AA0289", tableName: "Localizable", source: source, developmentValue: "The nickname must be less than 24 characters in length", comment: nil) }
 
       /// en translation: Nickname configuration failed.
       ///
       /// Key: AA0290
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0290: RswiftResources.StringResource { .init(key: "AA0290", tableName: "Localizable", source: source, developmentValue: "Nickname configuration failed.", comment: nil) }
 
       /// en translation: Enter your old password
       ///
       /// Key: AA0291
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0291: RswiftResources.StringResource { .init(key: "AA0291", tableName: "Localizable", source: source, developmentValue: "Enter your old password", comment: nil) }
 
       /// en translation: Enter a new password
       ///
       /// Key: AA0292
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0292: RswiftResources.StringResource { .init(key: "AA0292", tableName: "Localizable", source: source, developmentValue: "Enter a new password", comment: nil) }
 
       /// en translation: Enter again
       ///
       /// Key: AA0293
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0293: RswiftResources.StringResource { .init(key: "AA0293", tableName: "Localizable", source: source, developmentValue: "Enter again", comment: nil) }
 
       /// en translation: Old password error
       ///
       /// Key: AA0294
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0294: RswiftResources.StringResource { .init(key: "AA0294", tableName: "Localizable", source: source, developmentValue: "Old password error", comment: nil) }
 
       /// en translation: Changing password succeeded. Login again
       ///
       /// Key: AA0295
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0295: RswiftResources.StringResource { .init(key: "AA0295", tableName: "Localizable", source: source, developmentValue: "Changing password succeeded. Login again", comment: nil) }
 
       /// en translation: Unbound
       ///
       /// Key: AA0296
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0296: RswiftResources.StringResource { .init(key: "AA0296", tableName: "Localizable", source: source, developmentValue: "Unbound", comment: nil) }
 
       /// en translation: Bound:
       ///
       /// Key: AA0297
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0297: RswiftResources.StringResource { .init(key: "AA0297", tableName: "Localizable", source: source, developmentValue: "Bound:", comment: nil) }
 
       /// en translation: Change phone
       ///
       /// Key: AA0298
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0298: RswiftResources.StringResource { .init(key: "AA0298", tableName: "Localizable", source: source, developmentValue: "Change phone", comment: nil) }
 
       /// en translation: Phone number
       ///
       /// Key: AA0299
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0299: RswiftResources.StringResource { .init(key: "AA0299", tableName: "Localizable", source: source, developmentValue: "Phone number", comment: nil) }
 
       /// en translation: Verification code
       ///
       /// Key: AA0300
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0300: RswiftResources.StringResource { .init(key: "AA0300", tableName: "Localizable", source: source, developmentValue: "Verification code", comment: nil) }
 
       /// en translation: Your phone number has been used
       ///
       /// Key: AA0301
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0301: RswiftResources.StringResource { .init(key: "AA0301", tableName: "Localizable", source: source, developmentValue: "Your phone number has been used", comment: nil) }
 
       /// en translation: The phone number has been bound successfully
       ///
       /// Key: AA0302
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0302: RswiftResources.StringResource { .init(key: "AA0302", tableName: "Localizable", source: source, developmentValue: "The phone number has been bound successfully", comment: nil) }
 
       /// en translation: The phone number has changed successfully
       ///
       /// Key: AA0303
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0303: RswiftResources.StringResource { .init(key: "AA0303", tableName: "Localizable", source: source, developmentValue: "The phone number has changed successfully", comment: nil) }
 
       /// en translation: Change e-mail
       ///
       /// Key: AA0304
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0304: RswiftResources.StringResource { .init(key: "AA0304", tableName: "Localizable", source: source, developmentValue: "Change e-mail", comment: nil) }
 
       /// en translation: E-mail address
       ///
       /// Key: AA0305
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0305: RswiftResources.StringResource { .init(key: "AA0305", tableName: "Localizable", source: source, developmentValue: "E-mail address", comment: nil) }
 
       /// en translation: Email used
       ///
       /// Key: AA0306
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0306: RswiftResources.StringResource { .init(key: "AA0306", tableName: "Localizable", source: source, developmentValue: "Email used", comment: nil) }
 
       /// en translation: The mailbox has been bound successfully
       ///
       /// Key: AA0307
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0307: RswiftResources.StringResource { .init(key: "AA0307", tableName: "Localizable", source: source, developmentValue: "The mailbox has been bound successfully", comment: nil) }
 
       /// en translation: The mailbox has been changed successfully
       ///
       /// Key: AA0308
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0308: RswiftResources.StringResource { .init(key: "AA0308", tableName: "Localizable", source: source, developmentValue: "The mailbox has been changed successfully", comment: nil) }
 
       /// en translation: Are you sure to log out?
       ///
       /// Key: AA0309
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0309: RswiftResources.StringResource { .init(key: "AA0309", tableName: "Localizable", source: source, developmentValue: "Are you sure to log out?", comment: nil) }
 
       /// en translation: Why close the account?
       ///
       /// Key: AA0310
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0310: RswiftResources.StringResource { .init(key: "AA0310", tableName: "Localizable", source: source, developmentValue: "Why close the account?", comment: nil) }
 
       /// en translation: Device breakdown/not work well
       ///
       /// Key: AA0311
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0311: RswiftResources.StringResource { .init(key: "AA0311", tableName: "Localizable", source: source, developmentValue: "Device breakdown/not work well", comment: nil) }
 
       /// en translation: APP is not working well
       ///
       /// Key: AA0312
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0312: RswiftResources.StringResource { .init(key: "AA0312", tableName: "Localizable", source: source, developmentValue: "APP is not working well", comment: nil) }
 
       /// en translation: Too many advertisements
       ///
       /// Key: AA0313
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0313: RswiftResources.StringResource { .init(key: "AA0313", tableName: "Localizable", source: source, developmentValue: "Too many advertisements", comment: nil) }
 
       /// en translation: Using other similar app
       ///
       /// Key: AA0314
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0314: RswiftResources.StringResource { .init(key: "AA0314", tableName: "Localizable", source: source, developmentValue: "Using other similar app", comment: nil) }
 
       /// en translation: Other reasons
       ///
       /// Key: AA0315
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0315: RswiftResources.StringResource { .init(key: "AA0315", tableName: "Localizable", source: source, developmentValue: "Other reasons", comment: nil) }
 
       /// en translation: Other comments or suggestions
       ///
       /// Key: AA0316
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0316: RswiftResources.StringResource { .init(key: "AA0316", tableName: "Localizable", source: source, developmentValue: "Other comments or suggestions", comment: nil) }
 
       /// en translation: Go on
       ///
       /// Key: AA0317
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0317: RswiftResources.StringResource { .init(key: "AA0317", tableName: "Localizable", source: source, developmentValue: "Go on", comment: nil) }
 
       /// en translation: The following info and records will be cleared up after the account is closed
       ///
       /// Key: AA0318
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0318: RswiftResources.StringResource { .init(key: "AA0318", tableName: "Localizable", source: source, developmentValue: "The following info and records will be cleared up after the account is closed", comment: nil) }
 
       /// en translation: All your personal information and historical information will not be recovered.
       ///
       /// Key: AA0319
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0319: RswiftResources.StringResource { .init(key: "AA0319", tableName: "Localizable", source: source, developmentValue: "All your personal information and historical information will not be recovered.", comment: nil) }
 
       /// en translation: Your downloads and purchase records will be cleared up unrecoverably, and non-refundably.
       ///
       /// Key: AA0320
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0320: RswiftResources.StringResource { .init(key: "AA0320", tableName: "Localizable", source: source, developmentValue: "Your downloads and purchase records will be cleared up unrecoverably, and non-refundably.", comment: nil) }
 
       /// en translation: Any accumulated rank, credits and benefits will be invalid and cannot be recovered.
       ///
       /// Key: AA0321
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0321: RswiftResources.StringResource { .init(key: "AA0321", tableName: "Localizable", source: source, developmentValue: "Any accumulated rank, credits and benefits will be invalid and cannot be recovered.", comment: nil) }
 
       /// en translation: You are no longer able to log in with the bound phone number/E-mail and third party account.
       ///
       /// Key: AA0322
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0322: RswiftResources.StringResource { .init(key: "AA0322", tableName: "Localizable", source: source, developmentValue: "You are no longer able to log in with the bound phone number/E-mail and third party account.", comment: nil) }
 
       /// en translation: All the devices you bind will be unbound. For further use, please register and re-add.
       ///
       /// Key: AA0323
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0323: RswiftResources.StringResource { .init(key: "AA0323", tableName: "Localizable", source: source, developmentValue: "All the devices you bind will be unbound. For further use, please register and re-add.", comment: nil) }
 
       /// en translation: Account Authentication
       ///
       /// Key: AA0324
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0324: RswiftResources.StringResource { .init(key: "AA0324", tableName: "Localizable", source: source, developmentValue: "Account Authentication", comment: nil) }
 
       /// en translation: For account security, please verify the login password first
       ///
       /// Key: AA0325
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0325: RswiftResources.StringResource { .init(key: "AA0325", tableName: "Localizable", source: source, developmentValue: "For account security, please verify the login password first", comment: nil) }
 
       /// en translation: Password
       ///
       /// Key: AA0326
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0326: RswiftResources.StringResource { .init(key: "AA0326", tableName: "Localizable", source: source, developmentValue: "Password", comment: nil) }
 
       /// en translation: If you forget the original password, please log out and then click Forget Password, and reset the password with the verification code
       ///
       /// Key: AA0327
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0327: RswiftResources.StringResource { .init(key: "AA0327", tableName: "Localizable", source: source, developmentValue: "If you forget the original password, please log out and then click Forget Password, and reset the password with the verification code", comment: nil) }
 
       /// en translation: Confirmed to close it？
       ///
       /// Key: AA0328
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0328: RswiftResources.StringResource { .init(key: "AA0328", tableName: "Localizable", source: source, developmentValue: "Confirmed to close it？", comment: nil) }
 
       /// en translation: After closing the account, all information and data will be cleared up
       ///
       /// Key: AA0329
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0329: RswiftResources.StringResource { .init(key: "AA0329", tableName: "Localizable", source: source, developmentValue: "After closing the account, all information and data will be cleared up", comment: nil) }
 
       /// en translation: The account is closed successfully! Thanks for using our product
       ///
       /// Key: AA0330
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0330: RswiftResources.StringResource { .init(key: "AA0330", tableName: "Localizable", source: source, developmentValue: "The account is closed successfully! Thanks for using our product", comment: nil) }
 
       /// en translation: After the account is closed, Kindly note that:
       ///
       /// Key: AA0331
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0331: RswiftResources.StringResource { .init(key: "AA0331", tableName: "Localizable", source: source, developmentValue: "After the account is closed, Kindly note that:", comment: nil) }
 
       /// en translation: You are no longer able to log in with the bound phone number/E-mail and third party account
       ///
       /// Key: AA0332
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0332: RswiftResources.StringResource { .init(key: "AA0332", tableName: "Localizable", source: source, developmentValue: "You are no longer able to log in with the bound phone number/E-mail and third party account", comment: nil) }
 
       /// en translation: All the devices you bind have been unbound. For further use, please register and re-add
       ///
       /// Key: AA0333
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0333: RswiftResources.StringResource { .init(key: "AA0333", tableName: "Localizable", source: source, developmentValue: "All the devices you bind have been unbound. For further use, please register and re-add", comment: nil) }
 
       /// en translation: I get it
       ///
       /// Key: AA0334
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0334: RswiftResources.StringResource { .init(key: "AA0334", tableName: "Localizable", source: source, developmentValue: "I get it", comment: nil) }
 
       /// en translation: Logout failed (Error code: %@)
       ///
       /// Key: AA0335
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0335: RswiftResources.StringResource1<String> { .init(key: "AA0335", tableName: "Localizable", source: source, developmentValue: "Logout failed (Error code: %@)", comment: nil) }
 
       /// en translation: Click here to quickly add a device, share a device or scan
       ///
       /// Key: AA0336
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0336: RswiftResources.StringResource { .init(key: "AA0336", tableName: "Localizable", source: source, developmentValue: "Click here to quickly add a device, share a device or scan", comment: nil) }
 
       /// en translation: Device deleting by Long press the device card. Device sorting by dragging the device card
       ///
       /// Key: AA0337
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0337: RswiftResources.StringResource { .init(key: "AA0337", tableName: "Localizable", source: source, developmentValue: "Device deleting by Long press the device card. Device sorting by dragging the device card", comment: nil) }
 
       /// en translation: Device deleting by Long press the device card. Device sorting by dragging the device card
       ///
       /// Key: AA0338
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0338: RswiftResources.StringResource { .init(key: "AA0338", tableName: "Localizable", source: source, developmentValue: "Device deleting by Long press the device card. Device sorting by dragging the device card", comment: nil) }
 
       /// en translation: Click to edit the card
       ///
       /// Key: AA0339
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0339: RswiftResources.StringResource { .init(key: "AA0339", tableName: "Localizable", source: source, developmentValue: "Click to edit the card", comment: nil) }
 
       /// en translation: The new version is testing...
       ///
       /// Key: AA0340
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0340: RswiftResources.StringResource { .init(key: "AA0340", tableName: "Localizable", source: source, developmentValue: "The new version is testing...", comment: nil) }
 
       /// en translation: Check for updates
       ///
       /// Key: AA0341
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0341: RswiftResources.StringResource { .init(key: "AA0341", tableName: "Localizable", source: source, developmentValue: "Check for updates", comment: nil) }
 
       /// en translation: All devices are in the latest version
       ///
       /// Key: AA0342
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0342: RswiftResources.StringResource { .init(key: "AA0342", tableName: "Localizable", source: source, developmentValue: "All devices are in the latest version", comment: nil) }
 
       /// en translation: New version
       ///
       /// Key: AA0343
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0343: RswiftResources.StringResource { .init(key: "AA0343", tableName: "Localizable", source: source, developmentValue: "New version", comment: nil) }
 
       /// en translation: New version instruction
       ///
       /// Key: AA0344
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0344: RswiftResources.StringResource { .init(key: "AA0344", tableName: "Localizable", source: source, developmentValue: "New version instruction", comment: nil) }
 
       /// en translation: Upgrade
       ///
       /// Key: AA0345
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0345: RswiftResources.StringResource { .init(key: "AA0345", tableName: "Localizable", source: source, developmentValue: "Upgrade", comment: nil) }
 
       /// en translation: Upgrade all
       ///
       /// Key: AA0346
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0346: RswiftResources.StringResource { .init(key: "AA0346", tableName: "Localizable", source: source, developmentValue: "Upgrade all", comment: nil) }
 
       /// en translation: Installing
       ///
       /// Key: AA0347
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0347: RswiftResources.StringResource { .init(key: "AA0347", tableName: "Localizable", source: source, developmentValue: "Installing", comment: nil) }
 
       /// en translation: Failed
       ///
       /// Key: AA0348
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0348: RswiftResources.StringResource { .init(key: "AA0348", tableName: "Localizable", source: source, developmentValue: "Failed", comment: nil) }
 
       /// en translation: Do keep the camera running during the whole upgrade process that lasts about 5 to 10 minutes! Or the camera may be unavailable. (The camera will be offline during the upgrade.)
       ///
       /// Key: AA0349
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0349: RswiftResources.StringResource { .init(key: "AA0349", tableName: "Localizable", source: source, developmentValue: "Do keep the camera running during the whole upgrade process that lasts about 5 to 10 minutes! Or the camera may be unavailable. (The camera will be offline during the upgrade.)", comment: nil) }
 
       /// en translation: The device is upgrading. Please try again later
       ///
       /// Key: AA0350
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0350: RswiftResources.StringResource { .init(key: "AA0350", tableName: "Localizable", source: source, developmentValue: "The device is upgrading. Please try again later", comment: nil) }
 
       /// en translation: %@ upgraded successfully
       ///
       /// Key: AA0351
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0351: RswiftResources.StringResource1<String> { .init(key: "AA0351", tableName: "Localizable", source: source, developmentValue: "%@ upgraded successfully", comment: nil) }
 
       /// en translation: Upgrade again
       ///
       /// Key: AA0352
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0352: RswiftResources.StringResource { .init(key: "AA0352", tableName: "Localizable", source: source, developmentValue: "Upgrade again", comment: nil) }
 
       /// en translation: %@ upgrade failed. Please try again later
       ///
       /// Key: AA0353
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0353: RswiftResources.StringResource1<String> { .init(key: "AA0353", tableName: "Localizable", source: source, developmentValue: "%@ upgrade failed. Please try again later", comment: nil) }
 
       /// en translation: %@ download failed. Please try again later
       ///
       /// Key: AA0354
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0354: RswiftResources.StringResource1<String> { .init(key: "AA0354", tableName: "Localizable", source: source, developmentValue: "%@ download failed. Please try again later", comment: nil) }
 
       /// en translation: %@ upgrade failed. Please try again after restarting the device or inserting the memory card
       ///
       /// Key: AA0355
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0355: RswiftResources.StringResource1<String> { .init(key: "AA0355", tableName: "Localizable", source: source, developmentValue: "%@ upgrade failed. Please try again after restarting the device or inserting the memory card", comment: nil) }
 
       /// en translation: %@ download failed. Please try again after checking the device network
       ///
       /// Key: AA0356
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0356: RswiftResources.StringResource1<String> { .init(key: "AA0356", tableName: "Localizable", source: source, developmentValue: "%@ download failed. Please try again after checking the device network", comment: nil) }
 
       /// en translation: %@ upgrade failed. Please try again after restarting the device
       ///
       /// Key: AA0357
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0357: RswiftResources.StringResource1<String> { .init(key: "AA0357", tableName: "Localizable", source: source, developmentValue: "%@ upgrade failed. Please try again after restarting the device", comment: nil) }
 
       /// en translation: %@ is upgrading...
       ///
       /// Key: AA0358
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0358: RswiftResources.StringResource1<String> { .init(key: "AA0358", tableName: "Localizable", source: source, developmentValue: "%@ is upgrading...", comment: nil) }
 
       /// en translation: Select from multiple accounts detected
       ///
       /// Key: AA0359
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0359: RswiftResources.StringResource { .init(key: "AA0359", tableName: "Localizable", source: source, developmentValue: "Select from multiple accounts detected", comment: nil) }
 
       /// en translation: Scanning QR codes to add devices is not supported due to the low APP version.
       ///
       /// Key: AA0360
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0360: RswiftResources.StringResource { .init(key: "AA0360", tableName: "Localizable", source: source, developmentValue: "Scanning QR codes to add devices is not supported due to the low APP version.", comment: nil) }
 
       /// en translation: Upgrade now
       ///
       /// Key: AA0361
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0361: RswiftResources.StringResource { .init(key: "AA0361", tableName: "Localizable", source: source, developmentValue: "Upgrade now", comment: nil) }
 
       /// en translation: This device has been added
       ///
       /// Key: AA0362
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0362: RswiftResources.StringResource { .init(key: "AA0362", tableName: "Localizable", source: source, developmentValue: "This device has been added", comment: nil) }
 
       /// en translation: Device Calling
       ///
       /// Key: AA0363
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0363: RswiftResources.StringResource { .init(key: "AA0363", tableName: "Localizable", source: source, developmentValue: "Device Calling", comment: nil) }
 
       /// en translation: Face Recognition
       ///
       /// Key: AA0364
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0364: RswiftResources.StringResource { .init(key: "AA0364", tableName: "Localizable", source: source, developmentValue: "Face Recognition", comment: nil) }
 
       /// en translation: Baby Crying
       ///
       /// Key: AA0365
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0365: RswiftResources.StringResource { .init(key: "AA0365", tableName: "Localizable", source: source, developmentValue: "Baby Crying", comment: nil) }
 
       /// en translation: Pet Motion
       ///
       /// Key: AA0366
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0366: RswiftResources.StringResource { .init(key: "AA0366", tableName: "Localizable", source: source, developmentValue: "Pet Motion", comment: nil) }
 
       /// en translation: And
       ///
       /// Key: AA0367
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0367: RswiftResources.StringResource { .init(key: "AA0367", tableName: "Localizable", source: source, developmentValue: "And", comment: nil) }
 
       /// en translation: Privacy Policy
       ///
       /// Key: AA0368
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0368: RswiftResources.StringResource { .init(key: "AA0368", tableName: "Localizable", source: source, developmentValue: "Privacy Policy", comment: nil) }
 
       /// en translation: Phone number or email
       ///
       /// Key: AA0369
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0369: RswiftResources.StringResource { .init(key: "AA0369", tableName: "Localizable", source: source, developmentValue: "Phone number or email", comment: nil) }
 
       /// en translation: Phone number/E-mail
       ///
       /// Key: AA0370
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0370: RswiftResources.StringResource { .init(key: "AA0370", tableName: "Localizable", source: source, developmentValue: "Phone number/E-mail", comment: nil) }
 
       /// en translation: Cloud service is under construction in this region. Please wait in patience~
       ///
       /// Key: AA0371
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0371: RswiftResources.StringResource { .init(key: "AA0371", tableName: "Localizable", source: source, developmentValue: "Cloud service is under construction in this region. Please wait in patience~", comment: nil) }
 
       /// en translation: Account does not exist
       ///
       /// Key: AA0372
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0372: RswiftResources.StringResource { .init(key: "AA0372", tableName: "Localizable", source: source, developmentValue: "Account does not exist", comment: nil) }
 
       /// en translation: Passwords are inconsistent
       ///
       /// Key: AA0373
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0373: RswiftResources.StringResource { .init(key: "AA0373", tableName: "Localizable", source: source, developmentValue: "Passwords are inconsistent", comment: nil) }
 
       /// en translation: Phone number
       ///
       /// Key: AA0374
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0374: RswiftResources.StringResource { .init(key: "AA0374", tableName: "Localizable", source: source, developmentValue: "Phone number", comment: nil) }
 
       /// en translation: Enter your Wi-Fi password
       ///
       /// Key: AA0375
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0375: RswiftResources.StringResource { .init(key: "AA0375", tableName: "Localizable", source: source, developmentValue: "Enter your Wi-Fi password", comment: nil) }
 
       /// en translation: Current network is unavailable. Check your network settings
       ///
       /// Key: AA0376
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0376: RswiftResources.StringResource { .init(key: "AA0376", tableName: "Localizable", source: source, developmentValue: "Current network is unavailable. Check your network settings", comment: nil) }
 
       /// en translation: Next
       ///
       /// Key: AA0377
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0377: RswiftResources.StringResource { .init(key: "AA0377", tableName: "Localizable", source: source, developmentValue: "Next", comment: nil) }
 
       /// en translation: Connection failed
       ///
       /// Key: AA0378
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0378: RswiftResources.StringResource { .init(key: "AA0378", tableName: "Localizable", source: source, developmentValue: "Connection failed", comment: nil) }
 
       /// en translation: Unknown reason
       ///
       /// Key: AA0379
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0379: RswiftResources.StringResource { .init(key: "AA0379", tableName: "Localizable", source: source, developmentValue: "Unknown reason", comment: nil) }
 
       /// en translation: offline already
       ///
       /// Key: AA0380
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0380: RswiftResources.StringResource { .init(key: "AA0380", tableName: "Localizable", source: source, developmentValue: "offline already", comment: nil) }
 
       /// en translation: The network is busy, please try again later
       ///
       /// Key: AA0381
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0381: RswiftResources.StringResource { .init(key: "AA0381", tableName: "Localizable", source: source, developmentValue: "The network is busy, please try again later", comment: nil) }
 
       /// en translation: Your phone number has been used
       ///
       /// Key: AA0382
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0382: RswiftResources.StringResource { .init(key: "AA0382", tableName: "Localizable", source: source, developmentValue: "Your phone number has been used", comment: nil) }
 
       /// en translation: The length of name is out of range
       ///
       /// Key: AA0383
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0383: RswiftResources.StringResource { .init(key: "AA0383", tableName: "Localizable", source: source, developmentValue: "The length of name is out of range", comment: nil) }
 
       /// en translation: The system is in maintenance. Please try again later
       ///
       /// Key: AA0384
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0384: RswiftResources.StringResource { .init(key: "AA0384", tableName: "Localizable", source: source, developmentValue: "The system is in maintenance. Please try again later", comment: nil) }
 
       /// en translation: Verification code timeout
       ///
       /// Key: AA0385
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0385: RswiftResources.StringResource { .init(key: "AA0385", tableName: "Localizable", source: source, developmentValue: "Verification code timeout", comment: nil) }
 
       /// en translation: It has reached the upper limit
       ///
       /// Key: AA0386
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0386: RswiftResources.StringResource { .init(key: "AA0386", tableName: "Localizable", source: source, developmentValue: "It has reached the upper limit", comment: nil) }
 
       /// en translation: This camera has been bundled by other account,please unbundle it firstly before using.
       ///
       /// Key: AA0387
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0387: RswiftResources.StringResource { .init(key: "AA0387", tableName: "Localizable", source: source, developmentValue: "This camera has been bundled by other account,please unbundle it firstly before using.", comment: nil) }
 
       /// en translation: Incorrect phone or email format
       ///
       /// Key: AA0388
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0388: RswiftResources.StringResource { .init(key: "AA0388", tableName: "Localizable", source: source, developmentValue: "Incorrect phone or email format", comment: nil) }
 
       /// en translation: Connection timeout, please check the network
       ///
       /// Key: AA0389
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0389: RswiftResources.StringResource { .init(key: "AA0389", tableName: "Localizable", source: source, developmentValue: "Connection timeout, please check the network", comment: nil) }
 
       /// en translation: Incorrect verification code
       ///
       /// Key: AA0390
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0390: RswiftResources.StringResource { .init(key: "AA0390", tableName: "Localizable", source: source, developmentValue: "Incorrect verification code", comment: nil) }
 
       /// en translation: Sending verification code failed
       ///
       /// Key: AA0391
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0391: RswiftResources.StringResource { .init(key: "AA0391", tableName: "Localizable", source: source, developmentValue: "Sending verification code failed", comment: nil) }
 
       /// en translation: You are already the owner
       ///
       /// Key: AA0392
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0392: RswiftResources.StringResource { .init(key: "AA0392", tableName: "Localizable", source: source, developmentValue: "You are already the owner", comment: nil) }
 
       /// en translation: The quantity of added items has reached the upper limit
       ///
       /// Key: AA0393
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0393: RswiftResources.StringResource { .init(key: "AA0393", tableName: "Localizable", source: source, developmentValue: "The quantity of added items has reached the upper limit", comment: nil) }
 
       /// en translation: The account expires. Please register another account
       ///
       /// Key: AA0394
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0394: RswiftResources.StringResource { .init(key: "AA0394", tableName: "Localizable", source: source, developmentValue: "The account expires. Please register another account", comment: nil) }
 
       /// en translation: Operate too often. Please try again later
       ///
       /// Key: AA0395
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0395: RswiftResources.StringResource { .init(key: "AA0395", tableName: "Localizable", source: source, developmentValue: "Operate too often. Please try again later", comment: nil) }
 
       /// en translation: Password must contain 8-30 characters include digits and letters
       ///
       /// Key: AA0396
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0396: RswiftResources.StringResource { .init(key: "AA0396", tableName: "Localizable", source: source, developmentValue: "Password must contain 8-30 characters include digits and letters", comment: nil) }
 
       /// en translation: Can't get the verification code?
       ///
       /// Key: AA0397
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0397: RswiftResources.StringResource { .init(key: "AA0397", tableName: "Localizable", source: source, developmentValue: "Can't get the verification code?", comment: nil) }
 
       /// en translation: Register by e-mail address
       ///
       /// Key: AA0398
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0398: RswiftResources.StringResource { .init(key: "AA0398", tableName: "Localizable", source: source, developmentValue: "Register by e-mail address", comment: nil) }
 
       /// en translation: Connect
       ///
       /// Key: AA0399
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0399: RswiftResources.StringResource { .init(key: "AA0399", tableName: "Localizable", source: source, developmentValue: "Connect", comment: nil) }
 
       /// en translation: Name
       ///
       /// Key: AA0400
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0400: RswiftResources.StringResource { .init(key: "AA0400", tableName: "Localizable", source: source, developmentValue: "Name", comment: nil) }
 
       /// en translation: Please enter the country code before phone numbers,Eg:+86-1234567
       ///
       /// Key: AA0401
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0401: RswiftResources.StringResource { .init(key: "AA0401", tableName: "Localizable", source: source, developmentValue: "Please enter the country code before phone numbers,Eg:+86-1234567", comment: nil) }
 
       /// en translation: More
       ///
       /// Key: AA0402
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0402: RswiftResources.StringResource { .init(key: "AA0402", tableName: "Localizable", source: source, developmentValue: "More", comment: nil) }
 
       /// en translation: Enable
       ///
       /// Key: AA0403
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0403: RswiftResources.StringResource { .init(key: "AA0403", tableName: "Localizable", source: source, developmentValue: "Enable", comment: nil) }
 
       /// en translation: No playback available for the time being.
       ///
       /// Key: AA0404
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0404: RswiftResources.StringResource { .init(key: "AA0404", tableName: "Localizable", source: source, developmentValue: "No playback available for the time being.", comment: nil) }
 
       /// en translation: You are about to succeed,please wait patiently
       ///
       /// Key: AA0405
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0405: RswiftResources.StringResource { .init(key: "AA0405", tableName: "Localizable", source: source, developmentValue: "You are about to succeed,please wait patiently", comment: nil) }
 
       /// en translation: Invalid device ID
       ///
       /// Key: AA0406
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0406: RswiftResources.StringResource { .init(key: "AA0406", tableName: "Localizable", source: source, developmentValue: "Invalid device ID", comment: nil) }
 
       /// en translation: Wi-Fi not connected
       ///
       /// Key: AA0407
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0407: RswiftResources.StringResource { .init(key: "AA0407", tableName: "Localizable", source: source, developmentValue: "Wi-Fi not connected", comment: nil) }
 
       /// en translation: 《Privacy Policy》
       ///
       /// Key: AA0408
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0408: RswiftResources.StringResource { .init(key: "AA0408", tableName: "Localizable", source: source, developmentValue: "《Privacy Policy》", comment: nil) }
 
       /// en translation: Wrong format of phone number
       ///
       /// Key: AA0409
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0409: RswiftResources.StringResource { .init(key: "AA0409", tableName: "Localizable", source: source, developmentValue: "Wrong format of phone number", comment: nil) }
 
       /// en translation: Enter  password
       ///
       /// Key: AA0410
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0410: RswiftResources.StringResource { .init(key: "AA0410", tableName: "Localizable", source: source, developmentValue: "Enter  password", comment: nil) }
 
       /// en translation: Urgent problem?please send e-mail to us.
       ///
       /// Key: AA0412
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0412: RswiftResources.StringResource { .init(key: "AA0412", tableName: "Localizable", source: source, developmentValue: "Urgent problem?please send e-mail to us.", comment: nil) }
 
       /// en translation: Contact:
       ///
       /// Key: AA0413
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0413: RswiftResources.StringResource { .init(key: "AA0413", tableName: "Localizable", source: source, developmentValue: "Contact:", comment: nil) }
 
       /// en translation: Start time
       ///
       /// Key: AA0414
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0414: RswiftResources.StringResource { .init(key: "AA0414", tableName: "Localizable", source: source, developmentValue: "Start time", comment: nil) }
 
       /// en translation: Fail to submit,please try again later.
       ///
       /// Key: AA0415
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0415: RswiftResources.StringResource { .init(key: "AA0415", tableName: "Localizable", source: source, developmentValue: "Fail to submit,please try again later.", comment: nil) }
 
       /// en translation: Today
       ///
       /// Key: AA0416
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0416: RswiftResources.StringResource { .init(key: "AA0416", tableName: "Localizable", source: source, developmentValue: "Today", comment: nil) }
 
       /// en translation: Yesterday
       ///
       /// Key: AA0417
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0417: RswiftResources.StringResource { .init(key: "AA0417", tableName: "Localizable", source: source, developmentValue: "Yesterday", comment: nil) }
 
       /// en translation: Done
       ///
       /// Key: AA0418
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0418: RswiftResources.StringResource { .init(key: "AA0418", tableName: "Localizable", source: source, developmentValue: "Done", comment: nil) }
 
       /// en translation: Step 1
       ///
       /// Key: AA0419
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0419: RswiftResources.StringResource { .init(key: "AA0419", tableName: "Localizable", source: source, developmentValue: "Step 1", comment: nil) }
 
       /// en translation: Power on the camera or insert battery
       ///
       /// Key: AA0420
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0420: RswiftResources.StringResource { .init(key: "AA0420", tableName: "Localizable", source: source, developmentValue: "Power on the camera or insert battery", comment: nil) }
 
       /// en translation: Step 2
       ///
       /// Key: AA0421
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0421: RswiftResources.StringResource { .init(key: "AA0421", tableName: "Localizable", source: source, developmentValue: "Step 2", comment: nil) }
 
       /// en translation: Waiting for the camera to connect and make du-du sound
       ///
       /// Key: AA0422
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0422: RswiftResources.StringResource { .init(key: "AA0422", tableName: "Localizable", source: source, developmentValue: "Waiting for the camera to connect and make du-du sound", comment: nil) }
 
       /// en translation: Power on the camera or insert battery
       ///
       /// Key: AA0423
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0423: RswiftResources.StringResource { .init(key: "AA0423", tableName: "Localizable", source: source, developmentValue: "Power on the camera or insert battery", comment: nil) }
 
       /// en translation: Step 1. Turn on the device
       ///
       /// Key: AA0424
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0424: RswiftResources.StringResource { .init(key: "AA0424", tableName: "Localizable", source: source, developmentValue: "Step 1. Turn on the device", comment: nil) }
 
       /// en translation: With no response, please long press Reset on the camera
       ///
       /// Key: AA0425
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0425: RswiftResources.StringResource { .init(key: "AA0425", tableName: "Localizable", source: source, developmentValue: "With no response, please long press Reset on the camera", comment: nil) }
 
       /// en translation: Connect the camera to a LAN port of the router by cable, and connect your mobile phone to the same router Wi-Fi
       ///
       /// Key: AA0426
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0426: RswiftResources.StringResource { .init(key: "AA0426", tableName: "Localizable", source: source, developmentValue: "Connect the camera to a LAN port of the router by cable, and connect your mobile phone to the same router Wi-Fi", comment: nil) }
 
       /// en translation: Beginner's Tutorial
       ///
       /// Key: AA0427
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0427: RswiftResources.StringResource { .init(key: "AA0427", tableName: "Localizable", source: source, developmentValue: "Beginner's Tutorial", comment: nil) }
 
       /// en translation: Fail to load
       ///
       /// Key: AA0428
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0428: RswiftResources.StringResource { .init(key: "AA0428", tableName: "Localizable", source: source, developmentValue: "Fail to load", comment: nil) }
 
       /// en translation: select device
       ///
       /// Key: AA0429
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0429: RswiftResources.StringResource { .init(key: "AA0429", tableName: "Localizable", source: source, developmentValue: "select device", comment: nil) }
 
       /// en translation: Please describe the comments or questions in detail, thank you for your support
       ///
       /// Key: AA0430
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0430: RswiftResources.StringResource { .init(key: "AA0430", tableName: "Localizable", source: source, developmentValue: "Please describe the comments or questions in detail, thank you for your support", comment: nil) }
 
       /// en translation: Share app and device log information to pinpoint issues
       ///
       /// Key: AA0431
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0431: RswiftResources.StringResource { .init(key: "AA0431", tableName: "Localizable", source: source, developmentValue: "Share app and device log information to pinpoint issues", comment: nil) }
 
       /// en translation: Selecting a date
       ///
       /// Key: AA0432
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0432: RswiftResources.StringResource { .init(key: "AA0432", tableName: "Localizable", source: source, developmentValue: "Selecting a date", comment: nil) }
 
       /// en translation: Please enter your contact E-mail address.
       ///
       /// Key: AA0433
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0433: RswiftResources.StringResource { .init(key: "AA0433", tableName: "Localizable", source: source, developmentValue: "Please enter your contact E-mail address.", comment: nil) }
 
       /// en translation: User Feedback
       ///
       /// Key: AA0434
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0434: RswiftResources.StringResource { .init(key: "AA0434", tableName: "Localizable", source: source, developmentValue: "User Feedback", comment: nil) }
 
       /// en translation: Hour
       ///
       /// Key: AA0435
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0435: RswiftResources.StringResource { .init(key: "AA0435", tableName: "Localizable", source: source, developmentValue: "Hour", comment: nil) }
 
       /// en translation: Minute
       ///
       /// Key: AA0436
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0436: RswiftResources.StringResource { .init(key: "AA0436", tableName: "Localizable", source: source, developmentValue: "Minute", comment: nil) }
 
       /// en translation: Cancel live broadcasting
       ///
       /// Key: AA0437
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0437: RswiftResources.StringResource { .init(key: "AA0437", tableName: "Localizable", source: source, developmentValue: "Cancel live broadcasting", comment: nil) }
 
       /// en translation: Enable Bluetooth on your cellphone to add a device quickly
       ///
       /// Key: AA0438
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0438: RswiftResources.StringResource { .init(key: "AA0438", tableName: "Localizable", source: source, developmentValue: "Enable Bluetooth on your cellphone to add a device quickly", comment: nil) }
 
       /// en translation: Please allow new connection in Settings
       ///
       /// Key: AA0439
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0439: RswiftResources.StringResource { .init(key: "AA0439", tableName: "Localizable", source: source, developmentValue: "Please allow new connection in Settings", comment: nil) }
 
       /// en translation: Wi-Fi connection timeout
       ///
       /// Key: AA0440
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0440: RswiftResources.StringResource { .init(key: "AA0440", tableName: "Localizable", source: source, developmentValue: "Wi-Fi connection timeout", comment: nil) }
 
       /// en translation: Add again
       ///
       /// Key: AA0441
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0441: RswiftResources.StringResource { .init(key: "AA0441", tableName: "Localizable", source: source, developmentValue: "Add again", comment: nil) }
 
       /// en translation: Cannot get Wi-Fi list without GPS enabled, please set it now.
       ///
       /// Key: AA0442
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0442: RswiftResources.StringResource { .init(key: "AA0442", tableName: "Localizable", source: source, developmentValue: "Cannot get Wi-Fi list without GPS enabled, please set it now.", comment: nil) }
 
       /// en translation: You have selected 5GWi-Fi, please confirm whether the device supports 5G frequency band. If it is not supported, the addition will fail. Continue to add?
       ///
       /// Key: AA0443
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0443: RswiftResources.StringResource { .init(key: "AA0443", tableName: "Localizable", source: source, developmentValue: "You have selected 5GWi-Fi, please confirm whether the device supports 5G frequency band. If it is not supported, the addition will fail. Continue to add?", comment: nil) }
 
       /// en translation: Keep adding
       ///
       /// Key: AA0444
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0444: RswiftResources.StringResource { .init(key: "AA0444", tableName: "Localizable", source: source, developmentValue: "Keep adding", comment: nil) }
 
       /// en translation: Back
       ///
       /// Key: AA0445
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0445: RswiftResources.StringResource { .init(key: "AA0445", tableName: "Localizable", source: source, developmentValue: "Back", comment: nil) }
 
       /// en translation: failed to delete
       ///
       /// Key: AA0446
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0446: RswiftResources.StringResource { .init(key: "AA0446", tableName: "Localizable", source: source, developmentValue: "failed to delete", comment: nil) }
 
       /// en translation: XXXXXXXX
       ///
       /// Key: AA0447
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0447: RswiftResources.StringResource { .init(key: "AA0447", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX", comment: nil) }
 
       /// en translation: Done(%@/%@)
       ///
       /// Key: AA0448
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0448: RswiftResources.StringResource2<String, String> { .init(key: "AA0448", tableName: "Localizable", source: source, developmentValue: "Done(%@/%@)", comment: nil) }
 
       /// en translation: Camera
       ///
       /// Key: AA0449
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0449: RswiftResources.StringResource { .init(key: "AA0449", tableName: "Localizable", source: source, developmentValue: "Camera", comment: nil) }
 
       /// en translation: Preview
       ///
       /// Key: AA0450
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0450: RswiftResources.StringResource { .init(key: "AA0450", tableName: "Localizable", source: source, developmentValue: "Preview", comment: nil) }
 
       /// en translation: Preview(%@)
       ///
       /// Key: AA0451
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0451: RswiftResources.StringResource1<String> { .init(key: "AA0451", tableName: "Localizable", source: source, developmentValue: "Preview(%@)", comment: nil) }
 
       /// en translation: Only select up to %@ images
       ///
       /// Key: AA0452
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0452: RswiftResources.StringResource1<String> { .init(key: "AA0452", tableName: "Localizable", source: source, developmentValue: "Only select up to %@ images", comment: nil) }
 
       /// en translation: Camera Film
       ///
       /// Key: AA0453
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0453: RswiftResources.StringResource { .init(key: "AA0453", tableName: "Localizable", source: source, developmentValue: "Camera Film", comment: nil) }
 
       /// en translation: don't select device
       ///
       /// Key: AA0454
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0454: RswiftResources.StringResource { .init(key: "AA0454", tableName: "Localizable", source: source, developmentValue: "don't select device", comment: nil) }
 
       /// en translation: Please enter issues and recommendations
       ///
       /// Key: AA0455
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0455: RswiftResources.StringResource { .init(key: "AA0455", tableName: "Localizable", source: source, developmentValue: "Please enter issues and recommendations", comment: nil) }
 
       /// en translation: Cloud Package
       ///
       /// Key: AA0456
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0456: RswiftResources.StringResource { .init(key: "AA0456", tableName: "Localizable", source: source, developmentValue: "Cloud Package", comment: nil) }
 
       /// en translation: M
       ///
       /// Key: AA0457
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0457: RswiftResources.StringResource { .init(key: "AA0457", tableName: "Localizable", source: source, developmentValue: "M", comment: nil) }
 
       /// en translation: T
       ///
       /// Key: AA0458
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0458: RswiftResources.StringResource { .init(key: "AA0458", tableName: "Localizable", source: source, developmentValue: "T", comment: nil) }
 
       /// en translation: W
       ///
       /// Key: AA0459
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0459: RswiftResources.StringResource { .init(key: "AA0459", tableName: "Localizable", source: source, developmentValue: "W", comment: nil) }
 
       /// en translation: T
       ///
       /// Key: AA0460
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0460: RswiftResources.StringResource { .init(key: "AA0460", tableName: "Localizable", source: source, developmentValue: "T", comment: nil) }
 
       /// en translation: F
       ///
       /// Key: AA0461
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0461: RswiftResources.StringResource { .init(key: "AA0461", tableName: "Localizable", source: source, developmentValue: "F", comment: nil) }
 
       /// en translation: S
       ///
       /// Key: AA0462
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0462: RswiftResources.StringResource { .init(key: "AA0462", tableName: "Localizable", source: source, developmentValue: "S", comment: nil) }
 
       /// en translation: S
       ///
       /// Key: AA0463
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0463: RswiftResources.StringResource { .init(key: "AA0463", tableName: "Localizable", source: source, developmentValue: "S", comment: nil) }
 
       /// en translation: No device
       ///
       /// Key: AA0464
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0464: RswiftResources.StringResource { .init(key: "AA0464", tableName: "Localizable", source: source, developmentValue: "No device", comment: nil) }
 
       /// en translation: Device Alerts
       ///
       /// Key: AA0465
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0465: RswiftResources.StringResource { .init(key: "AA0465", tableName: "Localizable", source: source, developmentValue: "Device Alerts", comment: nil) }
 
       /// en translation: [%@] has been offline for over 30 minutes. Please inspect the device.
       ///
       /// Key: AA0466
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0466: RswiftResources.StringResource1<String> { .init(key: "AA0466", tableName: "Localizable", source: source, developmentValue: "[%@] has been offline for over 30 minutes. Please inspect the device.", comment: nil) }
 
       /// en translation: Abnormal battery power is detected, please make sure the device has been plugged into the power adapter. To prevent the power from being exhausted too soon, it has been automatically switched to power saving mode.
       ///
       /// Key: AA0467
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0467: RswiftResources.StringResource { .init(key: "AA0467", tableName: "Localizable", source: source, developmentValue: "Abnormal battery power is detected, please make sure the device has been plugged into the power adapter. To prevent the power from being exhausted too soon, it has been automatically switched to power saving mode.", comment: nil) }
 
       /// en translation: It is detected that you have plugged in the power adapter, you may switch to non-sleep mode.
       ///
       /// Key: AA0468
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0468: RswiftResources.StringResource { .init(key: "AA0468", tableName: "Localizable", source: source, developmentValue: "It is detected that you have plugged in the power adapter, you may switch to non-sleep mode.", comment: nil) }
 
       /// en translation: This user is already a visitor of this device
       ///
       /// Key: AA0469
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0469: RswiftResources.StringResource { .init(key: "AA0469", tableName: "Localizable", source: source, developmentValue: "This user is already a visitor of this device", comment: nil) }
 
       /// en translation: Operation Video
       ///
       /// Key: AA0470
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0470: RswiftResources.StringResource { .init(key: "AA0470", tableName: "Localizable", source: source, developmentValue: "Operation Video", comment: nil) }
 
       /// en translation: or
       ///
       /// Key: AA0471
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0471: RswiftResources.StringResource { .init(key: "AA0471", tableName: "Localizable", source: source, developmentValue: "or", comment: nil) }
 
       /// en translation: Add Guidelines
       ///
       /// Key: AA0472
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0472: RswiftResources.StringResource { .init(key: "AA0472", tableName: "Localizable", source: source, developmentValue: "Add Guidelines", comment: nil) }
 
       /// en translation: Please try the following and try again:   1.Make ensure that the camera is connected to power supply; 2. Make sure that the Bluetooth permission is enabled on your mobile phone;  3. Make sure that the phone is close to the camera;  4. Try again after resetting the camera.
       ///
       /// Key: AA0473
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0473: RswiftResources.StringResource { .init(key: "AA0473", tableName: "Localizable", source: source, developmentValue: "Please try the following and try again:  \n1.Make ensure that the camera is connected to power supply;\n2. Make sure that the Bluetooth permission is enabled on your mobile phone; \n3. Make sure that the phone is close to the camera; \n4. Try again after resetting the camera.", comment: nil) }
 
       /// en translation: SESSION expired
       ///
       /// Key: AA0474
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0474: RswiftResources.StringResource { .init(key: "AA0474", tableName: "Localizable", source: source, developmentValue: "SESSION expired", comment: nil) }
 
       /// en translation: Unknown error
       ///
       /// Key: AA0475
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0475: RswiftResources.StringResource { .init(key: "AA0475", tableName: "Localizable", source: source, developmentValue: "Unknown error", comment: nil) }
 
       /// en translation: Device binding in progress
       ///
       /// Key: AA0476
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0476: RswiftResources.StringResource { .init(key: "AA0476", tableName: "Localizable", source: source, developmentValue: "Device binding in progress", comment: nil) }
 
       /// en translation: Please try the following and try again:   1.Check whether the Wi-Fi password is correct; 2. Long press the reset button to reset the device;  3. Check whether access restriction is enabled on the router;  4. Restart the router.
       ///
       /// Key: AA0477
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0477: RswiftResources.StringResource { .init(key: "AA0477", tableName: "Localizable", source: source, developmentValue: "Please try the following and try again:  \n1.Check whether the Wi-Fi password is correct;\n2. Long press the reset button to reset the device; \n3. Check whether access restriction is enabled on the router; \n4. Restart the router.", comment: nil) }
 
       /// en translation: Unsupported QR code
       ///
       /// Key: AA0478
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0478: RswiftResources.StringResource { .init(key: "AA0478", tableName: "Localizable", source: source, developmentValue: "Unsupported QR code", comment: nil) }
 
       /// en translation: The device supports 5GHz Wi-Fi
       ///
       /// Key: AA0479
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0479: RswiftResources.StringResource { .init(key: "AA0479", tableName: "Localizable", source: source, developmentValue: "The device supports 5GHz Wi-Fi", comment: nil) }
 
       /// en translation: 1.The camera may not support quick network connection (hotspot connection). Please follow the device's voice prompts to select the connection method.  2.The distance between the phone and the device is too far. A distance within 30 centimeters is more appropriate.
       ///
       /// Key: AA0480
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0480: RswiftResources.StringResource { .init(key: "AA0480", tableName: "Localizable", source: source, developmentValue: "1.The camera may not support quick network connection (hotspot connection). Please follow the device's voice prompts to select the connection method. \n2.The distance between the phone and the device is too far. A distance within 30 centimeters is more appropriate.", comment: nil) }
 
       /// en translation: Email
       ///
       /// Key: AA0481
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0481: RswiftResources.StringResource { .init(key: "AA0481", tableName: "Localizable", source: source, developmentValue: "Email", comment: nil) }
 
       /// en translation: The device name cannot be empty
       ///
       /// Key: AA0482
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0482: RswiftResources.StringResource { .init(key: "AA0482", tableName: "Localizable", source: source, developmentValue: "The device name cannot be empty", comment: nil) }
 
       /// en translation: (Error code: %@)
       ///
       /// Key: AA0483
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0483: RswiftResources.StringResource1<String> { .init(key: "AA0483", tableName: "Localizable", source: source, developmentValue: "(Error code: %@)", comment: nil) }
 
       /// en translation: The device name scene is empty
       ///
       /// Key: AA0484
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0484: RswiftResources.StringResource { .init(key: "AA0484", tableName: "Localizable", source: source, developmentValue: "The device name scene is empty", comment: nil) }
 
       /// en translation: Distribution network failed, please add again
       ///
       /// Key: AA0485
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0485: RswiftResources.StringResource { .init(key: "AA0485", tableName: "Localizable", source: source, developmentValue: "Distribution network failed, please add again", comment: nil) }
 
       /// en translation: Confirm departure
       ///
       /// Key: AA0486
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0486: RswiftResources.StringResource { .init(key: "AA0486", tableName: "Localizable", source: source, developmentValue: "Confirm departure", comment: nil) }
 
       /// en translation: Region
       ///
       /// Key: AA0487
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0487: RswiftResources.StringResource { .init(key: "AA0487", tableName: "Localizable", source: source, developmentValue: "Region", comment: nil) }
 
       /// en translation: Failed to log out. Please try again
       ///
       /// Key: AA0488
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0488: RswiftResources.StringResource { .init(key: "AA0488", tableName: "Localizable", source: source, developmentValue: "Failed to log out. Please try again", comment: nil) }
 
       /// en translation: Nickname cannot be empty
       ///
       /// Key: AA0489
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0489: RswiftResources.StringResource { .init(key: "AA0489", tableName: "Localizable", source: source, developmentValue: "Nickname cannot be empty", comment: nil) }
 
       /// en translation: Phone number cannot be empty
       ///
       /// Key: AA0490
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0490: RswiftResources.StringResource { .init(key: "AA0490", tableName: "Localizable", source: source, developmentValue: "Phone number cannot be empty", comment: nil) }
 
       /// en translation: Email cannot be empty
       ///
       /// Key: AA0491
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0491: RswiftResources.StringResource { .init(key: "AA0491", tableName: "Localizable", source: source, developmentValue: "Email cannot be empty", comment: nil) }
 
       /// en translation: • All your personal information and historical information will not be recovered.   • Your downloads and purchase records will be cleared up unrecoverably, and non-refundably.   • Any accumulated rank, credits and benefits will be invalid and cannot be recovered.   • You are no longer able to log in with the bound phone number/E-mail and third party account.   • All the devices you bind will be unbound. For further use, please register and re-add.
       ///
       /// Key: AA0492
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0492: RswiftResources.StringResource { .init(key: "AA0492", tableName: "Localizable", source: source, developmentValue: "• All your personal information and historical information will not be recovered. \n\n• Your downloads and purchase records will be cleared up unrecoverably, and non-refundably. \n\n• Any accumulated rank, credits and benefits will be invalid and cannot be recovered. \n\n• You are no longer able to log in with the bound phone number/E-mail and third party account. \n\n• All the devices you bind will be unbound. For further use, please register and re-add.", comment: nil) }
 
       /// en translation: • You are no longer able to log in with the bound phone number/E-mail and third party account.   • All the devices you bind will be unbound. For further use, please register and re-add.
       ///
       /// Key: AA0493
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0493: RswiftResources.StringResource { .init(key: "AA0493", tableName: "Localizable", source: source, developmentValue: "• You are no longer able to log in with the bound phone number/E-mail and third party account. \n\n• All the devices you bind will be unbound. For further use, please register and re-add.", comment: nil) }
 
       /// en translation: Failed to modify avatar
       ///
       /// Key: AA0494
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0494: RswiftResources.StringResource { .init(key: "AA0494", tableName: "Localizable", source: source, developmentValue: "Failed to modify avatar", comment: nil) }
 
       /// en translation: APP Update
       ///
       /// Key: AA0495
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0495: RswiftResources.StringResource { .init(key: "AA0495", tableName: "Localizable", source: source, developmentValue: "APP Update", comment: nil) }
 
       /// en translation: %@ is launched. View updates>>
       ///
       /// Key: AA0496
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0496: RswiftResources.StringResource1<String> { .init(key: "AA0496", tableName: "Localizable", source: source, developmentValue: "%@ is launched. View updates>>", comment: nil) }
 
       /// en translation: 【%@】Upgrade reminder:%@ is launched. View updates>>
       ///
       /// Key: AA0497
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0497: RswiftResources.StringResource2<String, String> { .init(key: "AA0497", tableName: "Localizable", source: source, developmentValue: "【%@】Upgrade reminder:%@ is launched. View updates>>", comment: nil) }
 
       /// en translation: Operation Video
       ///
       /// Key: AA0498
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0498: RswiftResources.StringResource { .init(key: "AA0498", tableName: "Localizable", source: source, developmentValue: "Operation Video", comment: nil) }
 
       /// en translation: The APP version is too low to be compatible with this new device.
       ///
       /// Key: AA0499
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0499: RswiftResources.StringResource { .init(key: "AA0499", tableName: "Localizable", source: source, developmentValue: "The APP version is too low to be compatible with this new device.", comment: nil) }
 
       /// en translation: You can get more information.   If your agree to it, please click "Agree" to get the service.
       ///
       /// Key: AA0500
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0500: RswiftResources.StringResource1<String> { .init(key: "AA0500", tableName: "Localizable", source: source, developmentValue: "You can get more information. \n If your agree to it, please click \"Agree\" to get the service.", comment: nil) }
 
       /// en translation: Scenario
       ///
       /// Key: AA0501
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0501: RswiftResources.StringResource { .init(key: "AA0501", tableName: "Localizable", source: source, developmentValue: "Scenario", comment: nil) }
 
       /// en translation: Turn off
       ///
       /// Key: AA0502
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0502: RswiftResources.StringResource { .init(key: "AA0502", tableName: "Localizable", source: source, developmentValue: "Turn off", comment: nil) }
 
       /// en translation: Expand
       ///
       /// Key: AA0503
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0503: RswiftResources.StringResource { .init(key: "AA0503", tableName: "Localizable", source: source, developmentValue: "Expand", comment: nil) }
 
       /// en translation: Pack up
       ///
       /// Key: AA0504
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0504: RswiftResources.StringResource { .init(key: "AA0504", tableName: "Localizable", source: source, developmentValue: "Pack up", comment: nil) }
 
       /// en translation: Error code: %@
       ///
       /// Key: AA0505
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0505: RswiftResources.StringResource1<String> { .init(key: "AA0505", tableName: "Localizable", source: source, developmentValue: "Error code: %@", comment: nil) }
 
       /// en translation: SN: %@
       ///
       /// Key: AA0506
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0506: RswiftResources.StringResource1<String> { .init(key: "AA0506", tableName: "Localizable", source: source, developmentValue: "SN: %@", comment: nil) }
 
       /// en translation: Model: %@
       ///
       /// Key: AA0507
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0507: RswiftResources.StringResource1<String> { .init(key: "AA0507", tableName: "Localizable", source: source, developmentValue: "Model: %@", comment: nil) }
 
       /// en translation: tips: The QR code is the unique identification code of the device. Please keep it properly!
       ///
       /// Key: AA0508
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0508: RswiftResources.StringResource { .init(key: "AA0508", tableName: "Localizable", source: source, developmentValue: "tips: The QR code is the unique identification code of the device. Please keep it properly!", comment: nil) }
 
       /// en translation: Device QR code
       ///
       /// Key: AA0509
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0509: RswiftResources.StringResource { .init(key: "AA0509", tableName: "Localizable", source: source, developmentValue: "Device QR code", comment: nil) }
 
       /// en translation: Successfully stopped sharing
       ///
       /// Key: AA0510
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0510: RswiftResources.StringResource { .init(key: "AA0510", tableName: "Localizable", source: source, developmentValue: "Successfully stopped sharing", comment: nil) }
 
       /// en translation: Stop sharing failed
       ///
       /// Key: AA0511
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0511: RswiftResources.StringResource { .init(key: "AA0511", tableName: "Localizable", source: source, developmentValue: "Stop sharing failed", comment: nil) }
 
       /// en translation: Suspected flame
       ///
       /// Key: AA0512
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0512: RswiftResources.StringResource { .init(key: "AA0512", tableName: "Localizable", source: source, developmentValue: "Suspected flame", comment: nil) }
 
       /// en translation: Failed to obtain the ID of the lock
       ///
       /// Key: AA0513
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0513: RswiftResources.StringResource { .init(key: "AA0513", tableName: "Localizable", source: source, developmentValue: "Failed to obtain the ID of the lock", comment: nil) }
 
       /// en translation: The QR code you scanned has expired
       ///
       /// Key: AA0514
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0514: RswiftResources.StringResource { .init(key: "AA0514", tableName: "Localizable", source: source, developmentValue: "The QR code you scanned has expired", comment: nil) }
 
       /// en translation: Up to 10 visitors per device
       ///
       /// Key: AA0515
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0515: RswiftResources.StringResource { .init(key: "AA0515", tableName: "Localizable", source: source, developmentValue: "Up to 10 visitors per device", comment: nil) }
 
       /// en translation: Wrong password
       ///
       /// Key: AA0516
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0516: RswiftResources.StringResource { .init(key: "AA0516", tableName: "Localizable", source: source, developmentValue: "Wrong password", comment: nil) }
 
       /// en translation: Incorrect APP information (AppID, AppToken, package name, etc.)
       ///
       /// Key: AA0517
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0517: RswiftResources.StringResource { .init(key: "AA0517", tableName: "Localizable", source: source, developmentValue: "Incorrect APP information (AppID, AppToken, package name, etc.)", comment: nil) }
 
       /// en translation: Third party account token timeout
       ///
       /// Key: AA0518
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0518: RswiftResources.StringResource { .init(key: "AA0518", tableName: "Localizable", source: source, developmentValue: "Third party account token timeout", comment: nil) }
 
       /// en translation: The third-party account already exists
       ///
       /// Key: AA0519
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0519: RswiftResources.StringResource { .init(key: "AA0519", tableName: "Localizable", source: source, developmentValue: "The third-party account already exists", comment: nil) }
 
       /// en translation: The third-party account does not exist
       ///
       /// Key: AA0520
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0520: RswiftResources.StringResource { .init(key: "AA0520", tableName: "Localizable", source: source, developmentValue: "The third-party account does not exist", comment: nil) }
 
       /// en translation: Incorrect phone verification code
       ///
       /// Key: AA0521
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0521: RswiftResources.StringResource { .init(key: "AA0521", tableName: "Localizable", source: source, developmentValue: "Incorrect phone verification code", comment: nil) }
 
       /// en translation: Account has been cancelled
       ///
       /// Key: AA0522
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0522: RswiftResources.StringResource { .init(key: "AA0522", tableName: "Localizable", source: source, developmentValue: "Account has been cancelled", comment: nil) }
 
       /// en translation: Country code does not support sending mobile text messages
       ///
       /// Key: AA0523
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0523: RswiftResources.StringResource { .init(key: "AA0523", tableName: "Localizable", source: source, developmentValue: "Country code does not support sending mobile text messages", comment: nil) }
 
       /// en translation: The phone number has been used
       ///
       /// Key: AA0524
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0524: RswiftResources.StringResource { .init(key: "AA0524", tableName: "Localizable", source: source, developmentValue: "The phone number has been used", comment: nil) }
 
       /// en translation: The email is already in use
       ///
       /// Key: AA0525
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0525: RswiftResources.StringResource { .init(key: "AA0525", tableName: "Localizable", source: source, developmentValue: "The email is already in use", comment: nil) }
 
       /// en translation: Incorrect email verification code
       ///
       /// Key: AA0526
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0526: RswiftResources.StringResource { .init(key: "AA0526", tableName: "Localizable", source: source, developmentValue: "Incorrect email verification code", comment: nil) }
 
       /// en translation: Must have owner permission to operate
       ///
       /// Key: AA0527
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0527: RswiftResources.StringResource { .init(key: "AA0527", tableName: "Localizable", source: source, developmentValue: "Must have owner permission to operate", comment: nil) }
 
       /// en translation: Already the device owner
       ///
       /// Key: AA0528
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0528: RswiftResources.StringResource { .init(key: "AA0528", tableName: "Localizable", source: source, developmentValue: "Already the device owner", comment: nil) }
 
       /// en translation: Visitor already exists
       ///
       /// Key: AA0529
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0529: RswiftResources.StringResource { .init(key: "AA0529", tableName: "Localizable", source: source, developmentValue: "Visitor already exists", comment: nil) }
 
       /// en translation: Visitor does not exist
       ///
       /// Key: AA0530
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0530: RswiftResources.StringResource { .init(key: "AA0530", tableName: "Localizable", source: source, developmentValue: "Visitor does not exist", comment: nil) }
 
       /// en translation: Only the device owner can share/modify; The current device already has the owner, and modifying the guest as the owner permission is not allowed
       ///
       /// Key: AA0531
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0531: RswiftResources.StringResource { .init(key: "AA0531", tableName: "Localizable", source: source, developmentValue: "Only the device owner can share/modify; The current device already has the owner, and modifying the guest as the owner permission is not allowed", comment: nil) }
 
       /// en translation: Operation failed
       ///
       /// Key: AA0532
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0532: RswiftResources.StringResource { .init(key: "AA0532", tableName: "Localizable", source: source, developmentValue: "Operation failed", comment: nil) }
 
       /// en translation: Sharing failed
       ///
       /// Key: AA0533
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0533: RswiftResources.StringResource { .init(key: "AA0533", tableName: "Localizable", source: source, developmentValue: "Sharing failed", comment: nil) }
 
       /// en translation: Owner
       ///
       /// Key: AA0534
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0534: RswiftResources.StringResource { .init(key: "AA0534", tableName: "Localizable", source: source, developmentValue: "Owner", comment: nil) }
 
       /// en translation: Error code:
       ///
       /// Key: AA0535
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0535: RswiftResources.StringResource { .init(key: "AA0535", tableName: "Localizable", source: source, developmentValue: "Error code:", comment: nil) }
 
       /// en translation: Model:
       ///
       /// Key: AA0536
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, de, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, de, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0536: RswiftResources.StringResource { .init(key: "AA0536", tableName: "Localizable", source: source, developmentValue: "Model:", comment: nil) }
 
       /// en translation: Version
       ///
       /// Key: AA0537
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0537: RswiftResources.StringResource { .init(key: "AA0537", tableName: "Localizable", source: source, developmentValue: "Version", comment: nil) }
 
       /// en translation: Upgraded successfully
       ///
       /// Key: AA0538
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0538: RswiftResources.StringResource { .init(key: "AA0538", tableName: "Localizable", source: source, developmentValue: "Upgraded successfully", comment: nil) }
 
       /// en translation: Upgrade failed. Please try again later
       ///
       /// Key: AA0539
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0539: RswiftResources.StringResource { .init(key: "AA0539", tableName: "Localizable", source: source, developmentValue: "Upgrade failed. Please try again later", comment: nil) }
 
       /// en translation: Download failed. Please try again later
       ///
       /// Key: AA0540
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0540: RswiftResources.StringResource { .init(key: "AA0540", tableName: "Localizable", source: source, developmentValue: "Download failed. Please try again later", comment: nil) }
 
       /// en translation: Upgrade failed. Please try again after restarting the device or inserting the memory card
       ///
       /// Key: AA0541
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0541: RswiftResources.StringResource { .init(key: "AA0541", tableName: "Localizable", source: source, developmentValue: "Upgrade failed. Please try again after restarting the device or inserting the memory card", comment: nil) }
 
       /// en translation: Download failed. Please try again after checking the device network
       ///
       /// Key: AA0542
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0542: RswiftResources.StringResource { .init(key: "AA0542", tableName: "Localizable", source: source, developmentValue: "Download failed. Please try again after checking the device network", comment: nil) }
 
       /// en translation: Upgrade failed. Please try again after restarting the device
       ///
       /// Key: AA0543
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0543: RswiftResources.StringResource { .init(key: "AA0543", tableName: "Localizable", source: source, developmentValue: "Upgrade failed. Please try again after restarting the device", comment: nil) }
 
       /// en translation: Upgrading...
       ///
       /// Key: AA0544
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0544: RswiftResources.StringResource { .init(key: "AA0544", tableName: "Localizable", source: source, developmentValue: "Upgrading...", comment: nil) }
 
       /// en translation: I have read and agree to《User agreement》and《Privacy Policy》
       ///
       /// Key: AA0545
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0545: RswiftResources.StringResource { .init(key: "AA0545", tableName: "Localizable", source: source, developmentValue: "I have read and agree to《User agreement》and《Privacy Policy》", comment: nil) }
 
       /// en translation: Camera
       ///
       /// Key: AA0546
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0546: RswiftResources.StringResource { .init(key: "AA0546", tableName: "Localizable", source: source, developmentValue: "Camera", comment: nil) }
 
       /// en translation: Photo
       ///
       /// Key: AA0547
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0547: RswiftResources.StringResource { .init(key: "AA0547", tableName: "Localizable", source: source, developmentValue: "Photo", comment: nil) }
 
       /// en translation: Video
       ///
       /// Key: AA0548
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0548: RswiftResources.StringResource { .init(key: "AA0548", tableName: "Localizable", source: source, developmentValue: "Video", comment: nil) }
 
       /// en translation: XXXXXXXX requires your permission to access the photo library in order to use the QR code scanning feature.
       ///
       /// Key: AA0549
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0549: RswiftResources.StringResource { .init(key: "AA0549", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX requires your permission to access the photo library in order to use the QR code scanning feature.", comment: nil) }
 
       /// en translation: XXXXXXXX requires your permission to access the photo library in order to save device QR codes to the system album
       ///
       /// Key: AA0550
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0550: RswiftResources.StringResource { .init(key: "AA0550", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX requires your permission to access the photo library in order to save device QR codes to the system album", comment: nil) }
 
       /// en translation: XXXXXXXX requires your permission to access the camera to use the QR code scanning feature
       ///
       /// Key: AA0551
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0551: RswiftResources.StringResource { .init(key: "AA0551", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX requires your permission to access the camera to use the QR code scanning feature", comment: nil) }
 
       /// en translation: XXXXXXXX requires  your permission to access the Bluetooth in order to access Bluetooth devices
       ///
       /// Key: AA0552
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0552: RswiftResources.StringResource { .init(key: "AA0552", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX requires  your permission to access the Bluetooth in order to access Bluetooth devices", comment: nil) }
 
       /// en translation: XXXXXXXX requires your permission to access the microphone to use the intercom feature
       ///
       /// Key: AA0553
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0553: RswiftResources.StringResource { .init(key: "AA0553", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX requires your permission to access the microphone to use the intercom feature", comment: nil) }
 
       /// en translation: XXXXXXXX requires your permission to access the local network for device connections
       ///
       /// Key: AA0554
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0554: RswiftResources.StringResource { .init(key: "AA0554", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX requires your permission to access the local network for device connections", comment: nil) }
 
       /// en translation: XXXXXXXX requires you to grant permission for push notifications in order to receive device push notifications
       ///
       /// Key: AA0555
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0555: RswiftResources.StringResource { .init(key: "AA0555", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX requires you to grant permission for push notifications in order to receive device push notifications", comment: nil) }
 
       /// en translation: Device ID:
       ///
       /// Key: AA0556
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0556: RswiftResources.StringResource { .init(key: "AA0556", tableName: "Localizable", source: source, developmentValue: "Device ID:", comment: nil) }
 
       /// en translation: You do not have local network device access permission. Please enable it in the settings
       ///
       /// Key: AA0557
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0557: RswiftResources.StringResource { .init(key: "AA0557", tableName: "Localizable", source: source, developmentValue: "You do not have local network device access permission. Please enable it in the settings", comment: nil) }
 
       /// en translation: Failed to create device QR code
       ///
       /// Key: AA0558
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0558: RswiftResources.StringResource { .init(key: "AA0558", tableName: "Localizable", source: source, developmentValue: "Failed to create device QR code", comment: nil) }
 
       /// en translation: Invalid QR code
       ///
       /// Key: AA0559
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0559: RswiftResources.StringResource { .init(key: "AA0559", tableName: "Localizable", source: source, developmentValue: "Invalid QR code", comment: nil) }
 
       /// en translation: The old QR code has expired
       ///
       /// Key: AA0560
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0560: RswiftResources.StringResource { .init(key: "AA0560", tableName: "Localizable", source: source, developmentValue: "The old QR code has expired", comment: nil) }
 
       /// en translation: Are you sure to delete the device?
       ///
       /// Key: AA0561
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0561: RswiftResources.StringResource { .init(key: "AA0561", tableName: "Localizable", source: source, developmentValue: "Are you sure to delete the device?", comment: nil) }
 
       /// en translation: Please enter the correct phone number or email
       ///
       /// Key: AA0562
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0562: RswiftResources.StringResource { .init(key: "AA0562", tableName: "Localizable", source: source, developmentValue: "Please enter the correct phone number or email", comment: nil) }
 
       /// en translation: You have unbound the device
       ///
       /// Key: AA0563
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0563: RswiftResources.StringResource { .init(key: "AA0563", tableName: "Localizable", source: source, developmentValue: "You have unbound the device", comment: nil) }
 
       /// en translation: Wrong format of phone/email
       ///
       /// Key: AA0564
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0564: RswiftResources.StringResource { .init(key: "AA0564", tableName: "Localizable", source: source, developmentValue: "Wrong format of phone/email", comment: nil) }
 
       /// en translation: The share has expired
       ///
       /// Key: AA0565
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0565: RswiftResources.StringResource { .init(key: "AA0565", tableName: "Localizable", source: source, developmentValue: "The share has expired", comment: nil) }
 
       /// en translation: The target account is unavailable
       ///
       /// Key: AA0566
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0566: RswiftResources.StringResource { .init(key: "AA0566", tableName: "Localizable", source: source, developmentValue: "The target account is unavailable", comment: nil) }
 
       /// en translation: The target account does not exist
       ///
       /// Key: AA0567
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0567: RswiftResources.StringResource { .init(key: "AA0567", tableName: "Localizable", source: source, developmentValue: "The target account does not exist", comment: nil) }
 
       /// en translation: Welcome to XXXXXXXX! XXXXXXXX is developed and operated by XXXXXXXX IoT Technology Co., Ltd. It's a platform to provide online video and audio.  User Agreement & Privacy Policy will help you get a comprehensive understanding of how we collect, use, store and share your personal information, as well as what rights you enjoy.   In order to provide services such as live video, video playback, favorite subscription, community interaction, etc., we may collect the following types of personal information, including video recording, videos and pictures, device information, operation logs, etc.   You can access/update/delete your information and manage the permissions via "Me" interface on the app.   We will take all practicable steps to safeguard your personal information.  You can get more information via%@&%@.   If your agree to it, please click "Agree" to get the service.
       ///
       /// Key: AA0568
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0568: RswiftResources.StringResource2<String, String> { .init(key: "AA0568", tableName: "Localizable", source: source, developmentValue: "Welcome to XXXXXXXX! XXXXXXXX is developed and operated by XXXXXXXX IoT Technology Co., Ltd. It's a platform to provide online video and audio.\n User Agreement & Privacy Policy will help you get a comprehensive understanding of how we collect, use, store and share your personal information, as well as what rights you enjoy. \n In order to provide services such as live video, video playback, favorite subscription, community interaction, etc., we may collect the following types of personal information, including video recording, videos and pictures, device information, operation logs, etc. \n You can access/update/delete your information and manage the permissions via \"Me\" interface on the app. \n We will take all practicable steps to safeguard your personal information.\n You can get more information via%@&%@. \n If your agree to it, please click \"Agree\" to get the service.", comment: nil) }
 
       /// en translation: 《Privacy Policy》
       ///
       /// Key: AA0569
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0569: RswiftResources.StringResource { .init(key: "AA0569", tableName: "Localizable", source: source, developmentValue: "《Privacy Policy》", comment: nil) }
 
       /// en translation: 《User agreement》
       ///
       /// Key: AA0570
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0570: RswiftResources.StringResource { .init(key: "AA0570", tableName: "Localizable", source: source, developmentValue: "《User agreement》", comment: nil) }
 
       /// en translation: Enjoy your real cool life
       ///
       /// Key: AA0571
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0571: RswiftResources.StringResource { .init(key: "AA0571", tableName: "Localizable", source: source, developmentValue: "Enjoy your real cool life", comment: nil) }
 
       /// en translation: Cloud services are being upgraded, please stay tuned
       ///
       /// Key: AA0572
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0572: RswiftResources.StringResource { .init(key: "AA0572", tableName: "Localizable", source: source, developmentValue: "Cloud services are being upgraded, please stay tuned", comment: nil) }
 
       /// en translation: Network error
       ///
       /// Key: AA0573
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0573: RswiftResources.StringResource { .init(key: "AA0573", tableName: "Localizable", source: source, developmentValue: "Network error", comment: nil) }
 
       /// en translation: I have read and agree to%@and%@
       ///
       /// Key: AA0574
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0574: RswiftResources.StringResource2<String, String> { .init(key: "AA0574", tableName: "Localizable", source: source, developmentValue: "I have read and agree to%@and%@", comment: nil) }
 
       /// en translation: Old and new passwords match
       ///
       /// Key: AA0575
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0575: RswiftResources.StringResource { .init(key: "AA0575", tableName: "Localizable", source: source, developmentValue: "Old and new passwords match", comment: nil) }
 
       /// en translation: Please try the following and try again:   1. Make sure that the phone is close to the camera;  2. Try again after resetting the camera. 3. Please reset Bluetooth in your phone's system.
       ///
       /// Key: AA0576
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0576: RswiftResources.StringResource { .init(key: "AA0576", tableName: "Localizable", source: source, developmentValue: "Please try the following and try again:  \n1. Make sure that the phone is close to the camera; \n2. Try again after resetting the camera.\n3. Please reset Bluetooth in your phone's system.", comment: nil) }
 
       /// en translation: Please input the right email address
       ///
       /// Key: AA0577
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0577: RswiftResources.StringResource { .init(key: "AA0577", tableName: "Localizable", source: source, developmentValue: "Please input the right email address", comment: nil) }
 
       /// en translation: Please enter the account and password
       ///
       /// Key: AA0578
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0578: RswiftResources.StringResource { .init(key: "AA0578", tableName: "Localizable", source: source, developmentValue: "Please enter the account and password", comment: nil) }
 
       /// en translation: Enter a password
       ///
       /// Key: AA0579
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, nl, fr, de, el, id, it, ja, ko, ms, fa, pl, pt, ru, sk, es, th, tr, vi
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
       var aa0579: RswiftResources.StringResource { .init(key: "AA0579", tableName: "Localizable", source: source, developmentValue: "Enter a password", comment: nil) }
 
       /// en translation: Bind a phone
       ///
       /// Key: AA0580
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0580: RswiftResources.StringResource { .init(key: "AA0580", tableName: "Localizable", source: source, developmentValue: "Bind a phone", comment: nil) }
 
       /// en translation: Bind an email
       ///
       /// Key: AA0581
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0581: RswiftResources.StringResource { .init(key: "AA0581", tableName: "Localizable", source: source, developmentValue: "Bind an email", comment: nil) }
 
       /// en translation: Detected %@
       ///
       /// Key: AA0582
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0582: RswiftResources.StringResource1<String> { .init(key: "AA0582", tableName: "Localizable", source: source, developmentValue: "Detected %@", comment: nil) }
 
       /// en translation: Sound detected %@
       ///
       /// Key: AA0583
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0583: RswiftResources.StringResource1<String> { .init(key: "AA0583", tableName: "Localizable", source: source, developmentValue: "Sound detected %@", comment: nil) }
 
       /// en translation: Execute %@
       ///
       /// Key: AA0584
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0584: RswiftResources.StringResource1<String> { .init(key: "AA0584", tableName: "Localizable", source: source, developmentValue: "Execute %@", comment: nil) }
 
       /// en translation: Stranger
       ///
       /// Key: AA0585
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0585: RswiftResources.StringResource { .init(key: "AA0585", tableName: "Localizable", source: source, developmentValue: "Stranger", comment: nil) }
 
       /// en translation: The call is requested to connect with you...
       ///
       /// Key: AA0586
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0586: RswiftResources.StringResource { .init(key: "AA0586", tableName: "Localizable", source: source, developmentValue: "The call is requested to connect with you...", comment: nil) }
 
       /// en translation: Answer
       ///
       /// Key: AA0587
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0587: RswiftResources.StringResource { .init(key: "AA0587", tableName: "Localizable", source: source, developmentValue: "Answer", comment: nil) }
 
       /// en translation: Hangup
       ///
       /// Key: AA0588
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0588: RswiftResources.StringResource { .init(key: "AA0588", tableName: "Localizable", source: source, developmentValue: "Hangup", comment: nil) }
 
       /// en translation: 呼叫已取消
       ///
       /// Key: AA0589
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0589: RswiftResources.StringResource { .init(key: "AA0589", tableName: "Localizable", source: source, developmentValue: "呼叫已取消", comment: nil) }
 
       /// en translation: Connection failed. Please exit and try again
       ///
       /// Key: AA0590
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0590: RswiftResources.StringResource { .init(key: "AA0590", tableName: "Localizable", source: source, developmentValue: "Connection failed. Please exit and try again", comment: nil) }
 
       /// en translation: Viewing is not supported because there are 3 people viewing the video. Please exit and try again
       ///
       /// Key: AA0591
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0591: RswiftResources.StringResource { .init(key: "AA0591", tableName: "Localizable", source: source, developmentValue: "Viewing is not supported because there are 3 people viewing the video. Please exit and try again", comment: nil) }
 
       /// en translation: Video saved to the album
       ///
       /// Key: AA0592
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0592: RswiftResources.StringResource { .init(key: "AA0592", tableName: "Localizable", source: source, developmentValue: "Video saved to the album", comment: nil) }
 
       /// en translation: Sound
       ///
       /// Key: AA0593
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0593: RswiftResources.StringResource { .init(key: "AA0593", tableName: "Localizable", source: source, developmentValue: "Sound", comment: nil) }
 
       /// en translation: Mute
       ///
       /// Key: AA0594
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0594: RswiftResources.StringResource { .init(key: "AA0594", tableName: "Localizable", source: source, developmentValue: "Mute", comment: nil) }
 
       /// en translation: Record
       ///
       /// Key: AA0595
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0595: RswiftResources.StringResource { .init(key: "AA0595", tableName: "Localizable", source: source, developmentValue: "Record", comment: nil) }
 
       /// en translation: Account ID
       ///
       /// Key: AA0596
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0596: RswiftResources.StringResource { .init(key: "AA0596", tableName: "Localizable", source: source, developmentValue: "Account ID", comment: nil) }
 
       /// en translation: Copy succeeded
       ///
       /// Key: AA0597
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0597: RswiftResources.StringResource { .init(key: "AA0597", tableName: "Localizable", source: source, developmentValue: "Copy succeeded", comment: nil) }
 
       /// en translation: The device has powered off
       ///
       /// Key: AA0598
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0598: RswiftResources.StringResource { .init(key: "AA0598", tableName: "Localizable", source: source, developmentValue: "The device has powered off", comment: nil) }
 
       /// en translation: Feedback number
       ///
       /// Key: AA0599
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0599: RswiftResources.StringResource { .init(key: "AA0599", tableName: "Localizable", source: source, developmentValue: "Feedback number", comment: nil) }
 
       /// en translation: Multiple events
       ///
       /// Key: AA0600
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0600: RswiftResources.StringResource { .init(key: "AA0600", tableName: "Localizable", source: source, developmentValue: "Multiple events", comment: nil) }
 
       /// en translation: Gifts
       ///
       /// Key: AA0601
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0601: RswiftResources.StringResource { .init(key: "AA0601", tableName: "Localizable", source: source, developmentValue: "Gifts", comment: nil) }
 
       /// en translation: Expire by
       ///
       /// Key: AA0602
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0602: RswiftResources.StringResource { .init(key: "AA0602", tableName: "Localizable", source: source, developmentValue: "Expire by", comment: nil) }
 
       /// en translation: End~
       ///
       /// Key: AA0603
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0603: RswiftResources.StringResource { .init(key: "AA0603", tableName: "Localizable", source: source, developmentValue: "End~", comment: nil) }
 
       /// en translation: System Notification
       ///
       /// Key: AA0604
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0604: RswiftResources.StringResource { .init(key: "AA0604", tableName: "Localizable", source: source, developmentValue: "System Notification", comment: nil) }
 
       /// en translation: Help and feedback
       ///
       /// Key: AA0605
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0605: RswiftResources.StringResource { .init(key: "AA0605", tableName: "Localizable", source: source, developmentValue: "Help and feedback", comment: nil) }
 
       /// en translation: Share APP/device logs
       ///
       /// Key: AA0606
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0606: RswiftResources.StringResource { .init(key: "AA0606", tableName: "Localizable", source: source, developmentValue: "Share APP/device logs", comment: nil) }
 
       /// en translation: For targeting the problems
       ///
       /// Key: AA0607
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0607: RswiftResources.StringResource { .init(key: "AA0607", tableName: "Localizable", source: source, developmentValue: "For targeting the problems", comment: nil) }
 
       /// en translation: At least 10 characters
       ///
       /// Key: AA0608
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0608: RswiftResources.StringResource { .init(key: "AA0608", tableName: "Localizable", source: source, developmentValue: "At least 10 characters", comment: nil) }
 
       /// en translation: Visit more
       ///
       /// Key: AA0609
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0609: RswiftResources.StringResource { .init(key: "AA0609", tableName: "Localizable", source: source, developmentValue: "Visit more", comment: nil) }
 
       /// en translation: XXXXXXXX cannot store and retrieve all the pictures. Please allow it to store and retrieve 'All Pictures'. Click to set
       ///
       /// Key: AA0610
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0610: RswiftResources.StringResource { .init(key: "AA0610", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX cannot store and retrieve all the pictures. Please allow it to store and retrieve 'All Pictures'. Click to set", comment: nil) }
 
       /// en translation: XXXXXXXX has no access to the album. Click to set
       ///
       /// Key: AA0611
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0611: RswiftResources.StringResource { .init(key: "AA0611", tableName: "Localizable", source: source, developmentValue: "XXXXXXXX has no access to the album. Click to set", comment: nil) }
 
       /// en translation: Please detail your suggestions or problems
       ///
       /// Key: AA0612
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0612: RswiftResources.StringResource { .init(key: "AA0612", tableName: "Localizable", source: source, developmentValue: "Please detail your suggestions or problems", comment: nil) }
 
       /// en translation: Push notification settings
       ///
       /// Key: AA0613
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0613: RswiftResources.StringResource { .init(key: "AA0613", tableName: "Localizable", source: source, developmentValue: "Push notification settings", comment: nil) }
 
       /// en translation: System access settings
       ///
       /// Key: AA0614
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0614: RswiftResources.StringResource { .init(key: "AA0614", tableName: "Localizable", source: source, developmentValue: "System access settings", comment: nil) }
 
       /// en translation: Push notifications
       ///
       /// Key: AA0615
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0615: RswiftResources.StringResource { .init(key: "AA0615", tableName: "Localizable", source: source, developmentValue: "Push notifications", comment: nil) }
 
       /// en translation: Enable it to timely receive the latest messages from XXXXXXXX APP
       ///
       /// Key: AA0616
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0616: RswiftResources.StringResource { .init(key: "AA0616", tableName: "Localizable", source: source, developmentValue: "Enable it to timely receive the latest messages from XXXXXXXX APP", comment: nil) }
 
       /// en translation: Grant permission
       ///
       /// Key: AA0617
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0617: RswiftResources.StringResource { .init(key: "AA0617", tableName: "Localizable", source: source, developmentValue: "Grant permission", comment: nil) }
 
       /// en translation: Enabled
       ///
       /// Key: AA0618
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0618: RswiftResources.StringResource { .init(key: "AA0618", tableName: "Localizable", source: source, developmentValue: "Enabled", comment: nil) }
 
       /// en translation: Location
       ///
       /// Key: AA0619
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0619: RswiftResources.StringResource { .init(key: "AA0619", tableName: "Localizable", source: source, developmentValue: "Location", comment: nil) }
 
       /// en translation: Enable it to help the device connect to Wi-Fi when being added
       ///
       /// Key: AA0620
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0620: RswiftResources.StringResource { .init(key: "AA0620", tableName: "Localizable", source: source, developmentValue: "Enable it to help the device connect to Wi-Fi when being added", comment: nil) }
 
       /// en translation: Bluetooth
       ///
       /// Key: AA0621
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0621: RswiftResources.StringResource { .init(key: "AA0621", tableName: "Localizable", source: source, developmentValue: "Bluetooth", comment: nil) }
 
       /// en translation: Storage
       ///
       /// Key: AA0622
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0622: RswiftResources.StringResource { .init(key: "AA0622", tableName: "Localizable", source: source, developmentValue: "Storage", comment: nil) }
 
       /// en translation: Enable it to help save video screenshots and recordings
       ///
       /// Key: AA0623
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0623: RswiftResources.StringResource { .init(key: "AA0623", tableName: "Localizable", source: source, developmentValue: "Enable it to help save video screenshots and recordings", comment: nil) }
 
       /// en translation: Allow running in the background
       ///
       /// Key: AA0624
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0624: RswiftResources.StringResource { .init(key: "AA0624", tableName: "Localizable", source: source, developmentValue: "Allow running in the background", comment: nil) }
 
       /// en translation: We recommend you enable it to timely receive alerts when the app is running in the background
       ///
       /// Key: AA0625
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0625: RswiftResources.StringResource { .init(key: "AA0625", tableName: "Localizable", source: source, developmentValue: "We recommend you enable it to timely receive alerts when the app is running in the background", comment: nil) }
 
       /// en translation: Enable it to add a device by scanning
       ///
       /// Key: AA0626
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0626: RswiftResources.StringResource { .init(key: "AA0626", tableName: "Localizable", source: source, developmentValue: "Enable it to add a device by scanning", comment: nil) }
 
       /// en translation: Microphone
       ///
       /// Key: AA0627
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0627: RswiftResources.StringResource { .init(key: "AA0627", tableName: "Localizable", source: source, developmentValue: "Microphone", comment: nil) }
 
       /// en translation: Enable it to use the device as a voice intercom and customize voice
       ///
       /// Key: AA0628
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0628: RswiftResources.StringResource { .init(key: "AA0628", tableName: "Localizable", source: source, developmentValue: "Enable it to use the device as a voice intercom and customize voice", comment: nil) }
 
       /// en translation: Floating window
       ///
       /// Key: AA0629
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0629: RswiftResources.StringResource { .init(key: "AA0629", tableName: "Localizable", source: source, developmentValue: "Floating window", comment: nil) }
 
       /// en translation: Enable it to use mini-window video playback and floating nursing alarm
       ///
       /// Key: AA0630
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0630: RswiftResources.StringResource { .init(key: "AA0630", tableName: "Localizable", source: source, developmentValue: "Enable it to use mini-window video playback and floating nursing alarm", comment: nil) }
 
       /// en translation: Backend pop-up
       ///
       /// Key: AA0631
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0631: RswiftResources.StringResource { .init(key: "AA0631", tableName: "Localizable", source: source, developmentValue: "Backend pop-up", comment: nil) }
 
       /// en translation: Enable it to timely receive nursing alarm notifications
       ///
       /// Key: AA0632
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0632: RswiftResources.StringResource { .init(key: "AA0632", tableName: "Localizable", source: source, developmentValue: "Enable it to timely receive nursing alarm notifications", comment: nil) }
 
       /// en translation: To enhance your experience, XXXXXXXX will request the following permissions in specific scenarios
       ///
       /// Key: AA0633
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0633: RswiftResources.StringResource { .init(key: "AA0633", tableName: "Localizable", source: source, developmentValue: "To enhance your experience, XXXXXXXX will request the following permissions in specific scenarios", comment: nil) }
 
       /// en translation: Authorized
       ///
       /// Key: AA0634
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0634: RswiftResources.StringResource { .init(key: "AA0634", tableName: "Localizable", source: source, developmentValue: "Authorized", comment: nil) }
 
       /// en translation: Unauthorized
       ///
       /// Key: AA0635
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0635: RswiftResources.StringResource { .init(key: "AA0635", tableName: "Localizable", source: source, developmentValue: "Unauthorized", comment: nil) }
 
       /// en translation: Local network
       ///
       /// Key: AA0636
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0636: RswiftResources.StringResource { .init(key: "AA0636", tableName: "Localizable", source: source, developmentValue: "Local network", comment: nil) }
 
       /// en translation: Real-time monitoring
       ///
       /// Key: AA0637
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0637: RswiftResources.StringResource { .init(key: "AA0637", tableName: "Localizable", source: source, developmentValue: "Real-time monitoring", comment: nil) }
 
       /// en translation: Talkback
       ///
       /// Key: AA0638
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0638: RswiftResources.StringResource { .init(key: "AA0638", tableName: "Localizable", source: source, developmentValue: "Talkback", comment: nil) }
 
       /// en translation: PTZ
       ///
       /// Key: AA0639
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0639: RswiftResources.StringResource { .init(key: "AA0639", tableName: "Localizable", source: source, developmentValue: "PTZ", comment: nil) }
 
       /// en translation: Playback
       ///
       /// Key: AA0640
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0640: RswiftResources.StringResource { .init(key: "AA0640", tableName: "Localizable", source: source, developmentValue: "Playback", comment: nil) }
 
       /// en translation: Device configuration
       ///
       /// Key: AA0642
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0642: RswiftResources.StringResource { .init(key: "AA0642", tableName: "Localizable", source: source, developmentValue: "Device configuration", comment: nil) }
 
       /// en translation: Device monitoring
       ///
       /// Key: AA0643
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0643: RswiftResources.StringResource { .init(key: "AA0643", tableName: "Localizable", source: source, developmentValue: "Device monitoring", comment: nil) }
 
       /// en translation: Device playback
       ///
       /// Key: AA0644
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0644: RswiftResources.StringResource { .init(key: "AA0644", tableName: "Localizable", source: source, developmentValue: "Device playback", comment: nil) }
 
       /// en translation: Device control
       ///
       /// Key: AA0645
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0645: RswiftResources.StringResource { .init(key: "AA0645", tableName: "Localizable", source: source, developmentValue: "Device control", comment: nil) }
 
       /// en translation: Device permissions
       ///
       /// Key: AA0647
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0647: RswiftResources.StringResource { .init(key: "AA0647", tableName: "Localizable", source: source, developmentValue: "Device permissions", comment: nil) }
 
       /// en translation: Add a shared friend
       ///
       /// Key: AA0648
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0648: RswiftResources.StringResource { .init(key: "AA0648", tableName: "Localizable", source: source, developmentValue: "Add a shared friend", comment: nil) }
 
       /// en translation: Remove all
       ///
       /// Key: AA0649
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0649: RswiftResources.StringResource { .init(key: "AA0649", tableName: "Localizable", source: source, developmentValue: "Remove all", comment: nil) }
 
       /// en translation: Are you sure you want to remove all?
       ///
       /// Key: AA0650
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0650: RswiftResources.StringResource { .init(key: "AA0650", tableName: "Localizable", source: source, developmentValue: "Are you sure you want to remove all?", comment: nil) }
 
       /// en translation: Premium Services
       ///
       /// Key: AA0651
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0651: RswiftResources.StringResource { .init(key: "AA0651", tableName: "Localizable", source: source, developmentValue: "Premium Services", comment: nil) }
 
       /// en translation: Data
       ///
       /// Key: AA0652
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0652: RswiftResources.StringResource { .init(key: "AA0652", tableName: "Localizable", source: source, developmentValue: "Data", comment: nil) }
 
       /// en translation: My Orders
       ///
       /// Key: AA0653
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0653: RswiftResources.StringResource { .init(key: "AA0653", tableName: "Localizable", source: source, developmentValue: "My Orders", comment: nil) }
 
       /// en translation: My Coupons
       ///
       /// Key: AA0654
       ///
-      /// Locales: en, zh-Hans, zh-Hant, cs, id, ja, ko, ms, fa, sk, th, vi
+      /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0654: RswiftResources.StringResource { .init(key: "AA0654", tableName: "Localizable", source: source, developmentValue: "My Coupons", comment: nil) }
     }
   }

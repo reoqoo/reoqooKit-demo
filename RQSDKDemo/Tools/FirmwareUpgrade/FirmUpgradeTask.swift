@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RQCore
 
 extension FirmwareUpgradeTask {
     /// 对固件升级任务的状态描述

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RQCore
 
 /// 对接 消息中心 的工具类
 class MessageCenter {

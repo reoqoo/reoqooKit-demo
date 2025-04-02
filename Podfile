@@ -35,7 +35,7 @@ target 'RQSDKDemo' do
   pod 'Popover', '1.3.0'
   pod 'Then', '3.0.0'
 
-  pod 'reoqooKit'
+  pod 'reoqooKit', :subspecs => ['Core', 'RQIAPKit']
 
 end
 
@@ -45,7 +45,7 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       # 编译最低版本 13.0
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
     end
   end
 end

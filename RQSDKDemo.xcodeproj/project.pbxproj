@@ -221,6 +221,7 @@
 		C41B446B2D2D27FA007E8032 /* RxSwift+Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+Operator.swift"; sourceTree = "<group>"; };
 		C41B446D2D2D2817007E8032 /* RxSwift+PublishedPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+PublishedPropertyWrapper.swift"; sourceTree = "<group>"; };
 		C41B446F2D2D2BCF007E8032 /* UNUserNotificationCenter+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UNUserNotificationCenter+Rx.swift"; sourceTree = "<group>"; };
+		C424570C2D9CEBBD007E3DEF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C42506992CCFB0610052D7CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C425069C2CCFB0610052D7CE /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		C425069D2CCFB0610052D7CE /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
@@ -509,6 +510,14 @@
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
+		C424570D2D9CEBBD007E3DEF /* 1.0.13 */ = {
+			isa = PBXGroup;
+			children = (
+				C424570C2D9CEBBD007E3DEF /* README.md */,
+			);
+			path = 1.0.13;
+			sourceTree = "<group>";
+		};
 		C425069A2CCFB0610052D7CE /* 1.0.3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,6 +539,7 @@
 				C44761212D22A945005317C9 /* 1.0.10 */,
 				C41B3F4F2D421C8C000C707A /* 1.0.11 */,
 				C4F043C42D6F3A0F006DCB03 /* 1.0.12 */,
+				C424570D2D9CEBBD007E3DEF /* 1.0.13 */,
 			);
 			path = "Update Notes";
 			sourceTree = "<group>";

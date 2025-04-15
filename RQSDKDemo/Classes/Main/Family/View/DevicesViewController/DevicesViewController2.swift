@@ -73,7 +73,13 @@ class DevicesViewController2: BaseViewController {
             self?.navigationController?.pushViewController(vc, animated: true)
         }.disposed(by: self.disposeBag)
     }
-    
+
+    /// 屏幕发生旋转
+    override func viewWillTransition(to size: CGSize, with coordinator: any UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        // 使 CollectionView 重置布局, 否则会出现从多路同屏退出后 collectionViewCell size 不正确的问题
+        self.collectionView.collectionViewLayout.invalidateLayout()
+    }
 }
 
 // MARK: FamilyViewControllerChildren

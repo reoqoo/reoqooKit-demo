@@ -35,6 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         RQCore.Agent.shared.initialze(initialInfo: initialInfo, delegate: RQSDKDelegate.shared, launchOptions: launchOptions)
         // set watermarkImage, this is an optional parameter
         RQCore.Agent.shared.watermarkImage = UIColor.red.pureImage(size: .init(width: 135, height: 36))
+        RQCore.Agent.shared.apperanceConfiguration = .init(themeColor: R.color.brand()!, themeColorHighlight: R.color.brandHighlighted()!, themeColorDisable: R.color.brandDisable()!)
         RQDeviceAddition.Agent.shared.delegate = RQSDKDelegate.shared
 
         RQImagePicker.ImagePickerViewController.localizableStringSetter = {

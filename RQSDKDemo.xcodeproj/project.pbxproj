@@ -234,6 +234,7 @@
 		C425A17B2D1977C500197B87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C42CF2B72CFEA96F00E63E8C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C436E2C32DAE731600EC5CF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C436E2C52DAFCAAD00EC5CF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C44761202D22A945005317C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C47BF9812CC1F67500194611 /* RQSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RQSDKDemo.entitlements; sourceTree = "<group>"; };
 		C48557192CBFA7F300FF6835 /* receive_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = receive_call.mp3; sourceTree = "<group>"; };
@@ -542,6 +543,7 @@
 				C4F043C42D6F3A0F006DCB03 /* 1.0.12 */,
 				C424570D2D9CEBBD007E3DEF /* 1.0.13 */,
 				C436E2C42DAE731600EC5CF6 /* 1.0.14 */,
+				C436E2C62DAFCAAD00EC5CF6 /* 1.0.15 */,
 			);
 			path = "Update Notes";
 			sourceTree = "<group>";
@@ -591,6 +593,14 @@
 				C436E2C32DAE731600EC5CF6 /* README.md */,
 			);
 			path = 1.0.14;
+			sourceTree = "<group>";
+		};
+		C436E2C62DAFCAAD00EC5CF6 /* 1.0.15 */ = {
+			isa = PBXGroup;
+			children = (
+				C436E2C52DAFCAAD00EC5CF6 /* README.md */,
+			);
+			path = 1.0.15;
 			sourceTree = "<group>";
 		};
 		C44761212D22A945005317C9 /* 1.0.10 */ = {

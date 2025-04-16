@@ -318,3 +318,5 @@
 "AA0573" = "Erreur de réseau";
 "AA0577" = "Veuillez entrer le bon email";
 "AA0579" = "Veuillez entrer le mot de passe";
+"AA0655" = "La surveillance en temps réel ne peut être désactivée";
+"AA0656" = "Hors ligne, mise à jour indispo";

@@ -318,3 +318,5 @@
 "AA0573" = "Error de red";
 "AA0577" = "Ingrese el correo electrónico correcto";
 "AA0579" = "Introduzca la contraseña";
+"AA0655" = "La monitorización en tiempo real no se puede desactivar";
+"AA0656" = "Fuera de línea, no disponible";

@@ -120,8 +120,12 @@ class DeviceFirmwareUpgradeViewController: BaseViewController {
             case let .deviceFirmwareUpgradeSuccess(device):
                 let toast = device.remarkName + String.localization.localized("AA0538", note: "升级成功")
                 MBProgressHUD.showHUD_DispatchOnMainThread(text: toast)
-            case let .deviceFirmwareUpgradeFailure(device, description):
-                let toast = device.remarkName + String.localization.localized("AA0539", note: "升级失败，请稍后重试")
+            case let .deviceFirmwareUpgradeFailure(device, code, description):
+                var toast = device.remarkName + String.localization.localized("AA0539", note: "升级失败，请稍后重试")
+                // 设备离线错误
+                if code == RQCore.ReoqooError.DeviceFirmwareUpgradeErrorReason.deviceOffline.code {
+                    toast = device.remarkName + String.localization.localized("AA0656", note: "已离线，暂时无法升级")
+                }
                 MBProgressHUD.showHUD_DispatchOnMainThread(text: toast)
             case .idle:
                 break

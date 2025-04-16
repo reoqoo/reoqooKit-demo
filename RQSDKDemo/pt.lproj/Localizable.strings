@@ -318,3 +318,5 @@
 "AA0573" = "Rede desconectada";
 "AA0577" = "Insira um endereço de e-mail correto";
 "AA0579" = "Digite uma senha";
+"AA0655" = "Monitoramento em tempo real não pode ser desligado";
+"AA0656" = "Offline, atualização indisponível";

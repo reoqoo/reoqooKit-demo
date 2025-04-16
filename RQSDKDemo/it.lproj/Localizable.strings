@@ -318,3 +318,5 @@
 "AA0573" = "Anomalia di rete";
 "AA0577" = "Si prega di inserire la email corretta";
 "AA0579" = "Si prega di inserire la password";
+"AA0655" = "Il monitoraggio in tempo reale non può essere disattivato";
+"AA0656" = "Offline, aggiornamento non disponibile";

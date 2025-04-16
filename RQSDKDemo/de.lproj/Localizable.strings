@@ -319,3 +319,5 @@
 "AA0573" = "Netzfehler";
 "AA0577" = "Bitte richtige E-Mail-Adresse eintippen";
 "AA0579" = "Geben Sie bitten das Passwort ein";
+"AA0655" = "Echtzeitüberwachung kann nicht ausgeschaltet werden";
+"AA0656" = "Offline, Update nicht möglich";

@@ -318,3 +318,5 @@
 "AA0573" = "Błąd sieci";
 "AA0577" = "Wprowadź prawidłowy email";
 "AA0579" = "Podaj hasło";
+"AA0655" = "Nie można wyłączyć monitoringu w czasie rzeczywistym";
+"AA0656" = "Offline, aktualizacja niedostępna";

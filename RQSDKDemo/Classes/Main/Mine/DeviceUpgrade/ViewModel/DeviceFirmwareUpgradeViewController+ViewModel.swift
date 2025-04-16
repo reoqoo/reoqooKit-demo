@@ -19,7 +19,7 @@ extension DeviceFirmwareUpgradeViewController {
             // 设备更新成功了
             case deviceFirmwareUpgradeSuccess(DeviceEntity)
             // 设备更新失败
-            case deviceFirmwareUpgradeFailure(device: DeviceEntity, description: String)
+            case deviceFirmwareUpgradeFailure(device: DeviceEntity, code: Int, description: String)
         }
 
         enum Event {
@@ -47,9 +47,9 @@ extension DeviceFirmwareUpgradeViewController {
                     case .success:
                         guard let device = DeviceManager2.fetchDevice(deviceId) else { return }
                         self?.status = .deviceFirmwareUpgradeSuccess(device)
-                    case let .failure(_, description, _):
+                    case let .failure(code, description, _):
                         guard let device = DeviceManager2.fetchDevice(deviceId) else { return }
-                        self?.status = .deviceFirmwareUpgradeFailure(device: device, description: description)
+                        self?.status = .deviceFirmwareUpgradeFailure(device: device, code: code, description: description)
                     default:
                         break
                     }
@@ -106,6 +106,12 @@ extension DeviceFirmwareUpgradeViewController {
         // MARK: 设备升级
         /// 升级设备
         func updateDeviceWithTask(_ task: FirmwareUpgradeTask) {
+            // 检查设备在线状态, 不在线就提示不在线
+            if let dev = DeviceManager2.fetchDevice(task.deviceId), dev.status != .online {
+                let errReason = RQCore.ReoqooError.DeviceFirmwareUpgradeErrorReason.deviceOffline
+                self.status = .deviceFirmwareUpgradeFailure(device: dev, code: errReason.code, description: errReason.description)
+                return
+            }
             // 让设备开始升级 (步骤1)
             task.letDeviceConfirmUpgrade()
             self.status = .deviceDidStartUpgrade(deviceId: task.deviceId)

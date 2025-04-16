@@ -69,7 +69,7 @@ struct _R {
     }
 
 
-    /// This `_R.string.localizable` struct is generated, and contains static references to 651 localization keys.
+    /// This `_R.string.localizable` struct is generated, and contains static references to 653 localization keys.
     struct localizable {
       let source: RswiftResources.StringResource.Source
 
@@ -4629,6 +4629,20 @@ struct _R {
       ///
       /// Locales: cs, en, fa, id, ja, ko, ms, sk, th, vi, zh-Hans, zh-Hant
       var aa0654: RswiftResources.StringResource { .init(key: "AA0654", tableName: "Localizable", source: source, developmentValue: "My Coupons", comment: nil) }
+
+      /// en translation: Real-time monitoring cannot be turned off
+      ///
+      /// Key: AA0655
+      ///
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
+      var aa0655: RswiftResources.StringResource { .init(key: "AA0655", tableName: "Localizable", source: source, developmentValue: "Real-time monitoring cannot be turned off", comment: nil) }
+
+      /// en translation: Offline, upgrade unavailable
+      ///
+      /// Key: AA0656
+      ///
+      /// Locales: cs, de, el, en, es, fa, fr, id, it, ja, ko, ms, nl, pl, pt, ru, sk, th, tr, vi, zh-Hans, zh-Hant
+      var aa0656: RswiftResources.StringResource { .init(key: "AA0656", tableName: "Localizable", source: source, developmentValue: "Offline, upgrade unavailable", comment: nil) }
     }
   }
 

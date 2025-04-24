@@ -239,6 +239,7 @@
 		C44761202D22A945005317C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C47BF9812CC1F67500194611 /* RQSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RQSDKDemo.entitlements; sourceTree = "<group>"; };
 		C48557192CBFA7F300FF6835 /* receive_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = receive_call.mp3; sourceTree = "<group>"; };
+		C4906D3C2DBA18B2008B9374 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C49974F22CBE02A000C12481 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		C49F3DB82CE5A9B200DC339D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4A49C102CC65553005E1663 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
@@ -554,6 +555,7 @@
 				C436E2C42DAE731600EC5CF6 /* 1.0.14 */,
 				C436E2C62DAFCAAD00EC5CF6 /* 1.0.15 */,
 				C40E09D32DB5F2F700748AC3 /* 1.0.18 */,
+				C4906D3D2DBA18B2008B9374 /* 1.0.19 */,
 			);
 			path = "Update Notes";
 			sourceTree = "<group>";
@@ -619,6 +621,14 @@
 				C44761202D22A945005317C9 /* README.md */,
 			);
 			path = 1.0.10;
+			sourceTree = "<group>";
+		};
+		C4906D3D2DBA18B2008B9374 /* 1.0.19 */ = {
+			isa = PBXGroup;
+			children = (
+				C4906D3C2DBA18B2008B9374 /* README.md */,
+			);
+			path = 1.0.19;
 			sourceTree = "<group>";
 		};
 		C49F3DB92CE5A9B200DC339D /* 1.0.4 */ = {

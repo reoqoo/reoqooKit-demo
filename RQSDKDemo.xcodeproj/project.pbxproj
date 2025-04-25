@@ -454,6 +454,7 @@
 		C4BCA1E32CA6504900621BC7 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4BCA1E42CA6504B00621BC7 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4C1B7B72D37676A00FD2CE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C4D389712DBB743100A94096 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4D3B77E2CB9095B00D1C0AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		C4F043C32D6F3A0F006DCB03 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -556,6 +557,7 @@
 				C436E2C62DAFCAAD00EC5CF6 /* 1.0.15 */,
 				C40E09D32DB5F2F700748AC3 /* 1.0.18 */,
 				C4906D3D2DBA18B2008B9374 /* 1.0.19 */,
+				C4D389722DBB743100A94096 /* 1.0.20 */,
 			);
 			path = "Update Notes";
 			sourceTree = "<group>";
@@ -1828,6 +1830,14 @@
 				C4C1B7B72D37676A00FD2CE2 /* README.md */,
 			);
 			path = 1.0.9;
+			sourceTree = "<group>";
+		};
+		C4D389722DBB743100A94096 /* 1.0.20 */ = {
+			isa = PBXGroup;
+			children = (
+				C4D389712DBB743100A94096 /* README.md */,
+			);
+			path = 1.0.20;
 			sourceTree = "<group>";
 		};
 		C4F043C42D6F3A0F006DCB03 /* 1.0.12 */ = {

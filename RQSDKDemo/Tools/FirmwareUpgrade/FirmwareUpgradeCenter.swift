@@ -30,7 +30,9 @@ class FirmwareUpgradeCenter {
     private let disposeBag: DisposeBag = .init()
 
     private init() {
-        UIApplication.rx.didEnterBackground.bind { [weak self] _ in
+        UIApplication.rx.didEnterBackground
+            .throttle(.milliseconds(500), scheduler: MainScheduler.asyncInstance)
+            .bind { [weak self] _ in
             // 从 self.tasks 中筛选出已经被干掉的设备的任务对应的设备id
 //            let deviceIds = DeviceManager2.shared.devices.map({ $0.deviceId })
 //            let targetDeviceIds = self?.tasks.reduce(into: [String](), { partialResult, task in
@@ -50,7 +52,10 @@ class FirmwareUpgradeCenter {
         AccountCenter.shared.$currentUser.subscribe(on: MainScheduler.asyncInstance).bind { [weak self] user in
             if let _ = user {
                 // user 非 nil, 赋值 self.tasks
-                self?.tasks = FirmwareUpgradeTask.allTaskRecords()
+                let tasks = FirmwareUpgradeTask.allTaskRecords()
+                // 20250428: https://www.tapd.cn/tapd_fe/54248762/bug/detail/1154248762001047239
+                // 规避偶现插入无效任务的问题
+                self?.tasks = tasks.filter({ !$0.deviceId.isEmpty })
             }else{
                 // 当 User 为 nil, 表示 user 登出
                 self?.tasks = []
